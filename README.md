@@ -1,2 +1,2 @@
-# our_notebook
+# ournote
 student to student social media
