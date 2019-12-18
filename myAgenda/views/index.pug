@@ -1,0 +1,21 @@
+extends layout
+
+block content
+    h1 Agenda de eventos
+    table(border="1")
+        tr
+            th Titulo
+            th Data
+            th Local
+            th Descrição
+            th Participantes
+        each e in lista
+            tr
+                td= e.data
+                td= e.titulo
+                td= e.local
+                td= e.desc
+                td
+                    ul
+                        each p in e.participantes
+                            li= p
