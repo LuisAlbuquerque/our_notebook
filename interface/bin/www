@@ -5,15 +5,14 @@
  */
 
 var app = require('../app');
-var debug = require('debug')('myagenda:server');
+var debug = require('debug')('interface:server');
 var http = require('http');
 
 /**
  * Get port from environment and store in Express.
  */
 
-var myPort = '5004';
-var port = normalizePort(process.env.PORT || myPort);
+var port = normalizePort(process.env.PORT || '3000');
 app.set('port', port);
 
 /**
@@ -83,5 +82,9 @@ function onError(error) {
  */
 
 function onListening() {
-    console.log("À escuta na porta " + myPort);
+  var addr = server.address();
+  var bind = typeof addr === 'string'
+    ? 'pipe ' + addr
+    : 'port ' + addr.port;
+  debug('Listening on ' + bind);
 }
