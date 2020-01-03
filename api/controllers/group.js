@@ -1,6 +1,6 @@
-var Group = require('../models/grops');
+var Group = require('../models/groups');
 
-const Group = module.exports;
+const Groups = module.exports;
 
 Groups.list_groups = () => {
     return Group
@@ -15,45 +15,46 @@ Groups.names = () => {
 }
 
 Groups.group_id = id => {
+    console.log("group_id : " + id)
     return Group
-        .find({_id: id})
+        .find({path : id})
         .exec();
 }
 
 Groups.page = id => {
     return Group
-        .find({_id: id},{page : 1})
+        .find({path : id},{page : 1})
         .exec();
 }
 
 Groups.read_perm = id => {
     return Group
-        .find({_id: id},{read_perm : 1})
+        .find({path : id},{read_perm : 1})
         .exec();
 }
 
 Groups.write_perm = id => {
     return Group
-        .find({_id: id},{write_perm : 1})
+        .find({path : id},{write_perm : 1})
         .exec();
 }
 
 Groups.sub_groups = id => {
     return Group
-        .find({_id: id},{sub_groups : 1})
+        .find({path : id},{sub_groups : 1})
         .exec();
 }
 
 
 
-var sub_tree_list = groups => return ((groups.lenght >0)
+var sub_tree_list = groups => ((groups.lenght >0)
                                             ?groups.map(sub_tree)
                                             :[]
                                         );
 
-var sub_tree = id => return { id : sub_tree_list(Groups.sub_groups(id))}
+var sub_tree = path => { path : sub_tree_list(Groups.sub_groups(path))}
 
-Groups.tree = id => return sub_tree_list (id):
+Groups.tree = id => sub_tree_list (id);
 
 /*
     

@@ -1,7 +1,7 @@
 var express = require('express');
 var router  = express.Router();
-var Users   = require('../controllers/users');
-var Groups  = require('../controllers/groups');
+var Users   = require('../controllers/user');
+var Groups  = require('../controllers/group');
 
 //TODO : Login
 router.post('/login', (req, res) => {
@@ -10,19 +10,18 @@ router.post('/login', (req, res) => {
             .catch(erro => res.status(500).jsonp(erro))
 });
 
+
 router.get('/', (req, res) => {
     Users.favourite(req.query.user)
             .then(dados => res.jsonp(dados))
             .catch(erro => res.status(500).jsonp(erro))
 });
 
-router.get('/:url_page', (req, res) => {
-    let path = (req.params.url_page).split("/");
-    Users.favourite(req.query.user)
-            .then(dados => res.jsonp(dados))
+router.get('/:path', (req, res) => {
+    Groups.group_id("/" + req.params.path)
+            .then(dados => res.jsonp(dados[0]))
             .catch(erro => res.status(500).jsonp(erro))
 });
-
 
 
 module.exports = router;

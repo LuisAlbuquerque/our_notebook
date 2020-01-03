@@ -3,7 +3,7 @@ var mongoose = require('mongoose');
 
 var userSchema = new mongoose.Schema({
     name: String,
-    email: { 
+    email : { //id
              type: String,
              unique: true,
              lowercase: true,
@@ -14,7 +14,7 @@ var userSchema = new mongoose.Schema({
             select: false,
             required: true 
             },
-    favourite: [ ],
+    favourite: [ String ],
   });
 
 collection = "user";

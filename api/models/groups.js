@@ -6,6 +6,9 @@ var card_Schema = new mongoose.Schema({
     value : String
 });
 
+var PATH  = new mongoose.Schema( String );
+var EMAIL = new mongoose.Schema( String );
+
 /*
 var cards_Schema = new mongoose.Schema([ 
     card_Schema
@@ -13,16 +16,20 @@ var cards_Schema = new mongoose.Schema([
 */
 
 var groupSchema = new mongoose.Schema({
-    id_creator: ObjectId,
+    path : { //id
+            type :String, 
+            unique: true,
+            required: true
+        },
+    id_creator: EMAIL,
     name: { 
              type: String,
-             unique: true,
              required: true 
            },
-    sub_groups : [ ObjectId ],
-    read_perm: [ ObjectId ],
-    write_perm: [ ObjectId ],
-    page: [ card_Schema ],
+    sub_groups : [ PATH ],
+    read_perm  : [ PATH ],
+    write_perm : [ PATH ],
+    page       : [ card_Schema ],
   });
 
 var groupsSchema = new mongoose.Schema([ groupSchema ]);
