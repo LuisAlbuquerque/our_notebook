@@ -2,7 +2,7 @@
 
 [
     {
-        id
+        id_user
         name
         email
         password (encripted?)
@@ -15,24 +15,21 @@
 
 [
     {
-        id_creator
-        id
+        id_user
+        id_group
         name
+        sub_group:
+            [ id_group ]
         read_perm:
-            [ id ]
+            [ id_user ]
         write_perm:
-            [ id ]
+            [ id_user ]
         page:
         [
-            cards_Shema
+            {
+                key: String
+                value: String
+            }
         ]
-    }
-]
-
-# card\_Schema
-[
-    {
-        key: String
-        value: String
     }
 ]
