@@ -1,6 +1,6 @@
 var User = require('../models/users');
 
-const User = module.exports;
+const Users = module.exports;
 
 Users.lista_user = () => {
     return User
@@ -10,13 +10,13 @@ Users.lista_user = () => {
 
 Users.user_id = id => {
     return User
-        .find({_id: id})
+        .find({email : id})
         .exec();
 }
 
-Users.favourite_id = id => {
+Users.favourite_id = id=> {
     return User
-        .find({_id: id},{favourite : 1})
+        .find({email: id},{favourite : 1})
         .exec();
 }
 
