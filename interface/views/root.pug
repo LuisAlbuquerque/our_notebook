@@ -1,5 +1,15 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+    table
+        tr
+            th
+                ul
+                    li 
+                        a(href="/root/"+path.replace(/\/[^\/]*$/,'')) ..
+                    li 
+                        a(href="/root/"+path+"/group1") group1
+                    li 
+                        a(href="/root/"+path+"/group2") group2
+            th
+                p blabla

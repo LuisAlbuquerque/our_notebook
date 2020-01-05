@@ -1,15 +1,11 @@
 var express = require('express');
 var router = express.Router();
 
-parse_url = character => str => {
-    
-}
-    
+router.get('/*', function(req, res, next) {
+    let path = req.params['0'].replace(/\/+$/, '');
+    let path_list = path.split("/");
 
-
-router.get('/root/:path', function(req, res, next) {
-    let path = parse('/', req.params.path);
-    res.send('respond with a resource');
+    res.render('root', {path: path});
 });
 
 module.exports = router;
