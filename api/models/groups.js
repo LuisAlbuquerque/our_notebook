@@ -1,13 +1,14 @@
 var mongoose = require('mongoose');
 
-
-var card_Schema = new mongoose.Schema({ 
-    key: String,
-    value : String
+// only the first functions
+var card_Schema = new mongoose.Schema({
+    p: String,
+    img: String,
+    pdf: String,
 });
 
-var PATH  = new mongoose.Schema( String );
-var EMAIL = new mongoose.Schema( String );
+var PATH  = String;
+var EMAIL = String;
 
 /*
 var cards_Schema = new mongoose.Schema([ 
@@ -27,8 +28,8 @@ var groupSchema = new mongoose.Schema({
              required: true 
            },
     sub_groups : [ PATH ],
-    read_perm  : [ PATH ], //EMAIL?
-    write_perm : [ PATH ], //EMAIL?
+    read_perm  : [ EMAIL ],
+    write_perm : [ EMAIL ],
     page       : [ card_Schema ],
   });
 

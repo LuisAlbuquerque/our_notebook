@@ -1,11 +1,19 @@
 [
     {
+        "path" : "/",
+        "id_creator" : "admin",
+        "name" : "root",
+        "sub_groups" : [ "grupoArtur" ],
+        "write_perm" : [ "admin" ],
+        "page" : []
+    },
+    {
         "path" : "/grupoArtur",
         "id_creator" : "artur@mail.com",
         "name" : "grupoArtur",
         "sub_groups" : [],
         "read_perm" : ["artur@mail.com"],
         "write_perm" : ["artur@mail.com"],
-        "page" : []
+        "page" : [{"p":"Hello World!!"}]
     }
 ]

@@ -3,13 +3,23 @@ extends layout
 block content
     table
         tr
-            th
+            td
                 ul
                     li 
                         a(href="/root"+path.replace(/\/[^\/]*$/,'')) ..
-                    li 
-                        a(href="/root"+path+"/group1") group1
-                    li 
-                        a(href="/root"+path+"/group2") group2
-            th
-                p blabla
+                    each sub_group in group.sub_groups
+                        li 
+                            a(href="/root"+path+"/" + sub_group)= sub_group
+            td
+                each card in group.page
+                    case Object.keys(card)[0]
+                        when 'p'
+                            p= card.p
+                        when 'h1'
+                            h1= card.h1
+                        when 'img'
+                            img(src="http://localhost:3000/"+card.img)= card.img
+                        default
+                            p better luck next time
+    hr
+    a(href="/") Voltar
