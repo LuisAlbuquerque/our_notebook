@@ -10,18 +10,16 @@ router.post('/login', (req, res) => {
             .catch(erro => res.status(500).jsonp(erro))
 });
 
-
-router.get('/', (req, res) => {
-    Users.favourite(req.query.user)
-            .then(dados => res.jsonp(dados))
-            .catch(erro => res.status(500).jsonp(erro))
+router.get('/*', (req, res) => {
+    let path = req.params['0'].replace(/\/+$/, '');
+    if(path)
+        Users.favourite(req.query.user)
+                .then(dados => res.jsonp(dados))
+                .catch(erro => res.status(500).jsonp(erro));
+    else
+        Groups.group_id("/" + path)
+                .then(dados => res.jsonp(dados[0]))
+                .catch(erro => res.status(500).jsonp(erro));
 });
-
-router.get('/:path', (req, res) => {
-    Groups.group_id("/" + req.params.path)
-            .then(dados => res.jsonp(dados[0]))
-            .catch(erro => res.status(500).jsonp(erro))
-});
-
 
 module.exports = router;

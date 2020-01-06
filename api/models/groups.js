@@ -27,12 +27,10 @@ var groupSchema = new mongoose.Schema({
              required: true 
            },
     sub_groups : [ PATH ],
-    read_perm  : [ PATH ],
-    write_perm : [ PATH ],
+    read_perm  : [ PATH ], //EMAIL?
+    write_perm : [ PATH ], //EMAIL?
     page       : [ card_Schema ],
   });
 
-var groupsSchema = new mongoose.Schema([ groupSchema ]);
-
 collection = "group";
-module.exports = mongoose.model(collection,groupsSchema);
+module.exports = mongoose.model(collection,groupSchema);

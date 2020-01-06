@@ -1,0 +1,10 @@
+[
+    {
+        "name": "Artur",
+        "email": "artur@mail.com",
+        "password": "password",
+        "favourite": [
+            "grupoArtur"
+        ]
+    }
+]

@@ -2,9 +2,8 @@
 
 [
     {
-        id_user
         name
-        email
+        email (id)
         password (encripted?)
         favourite:
             [ id_group ]

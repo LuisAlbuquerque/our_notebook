@@ -5,7 +5,7 @@ router.get('/*', function(req, res, next) {
     let path = req.params['0'].replace(/\/+$/, '');
     let path_list = path.split("/");
 
-    res.render('root', {path: path});
+    res.render('root', {path: path?"/"+path:path});
 });
 
 module.exports = router;
