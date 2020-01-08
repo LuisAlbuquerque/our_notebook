@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="pt" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Informática – Wikipédia, a enciclopédia livre</title>
+<script>document.documentElement.className="client-js";RLCONF={"wgBreakFrames":!1,"wgSeparatorTransformTable":[",\t."," \t,"],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","janeiro","fevereiro","março","abril","maio","junho","julho","agosto","setembro","outubro","novembro","dezembro"],"wgMonthNamesShort":["","jan.","fev.","mar.","abr.","mai.","jun.","jul.","ago.","set.","out.","nov.","dez."],"wgRequestId":"XhWwJQpAMFAAAIZvBcEAAAEY","wgCSPNonce":!1,"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":!1,"wgNamespaceNumber":0,"wgPageName":"Informática","wgTitle":"Informática","wgCurRevisionId":56680137,"wgRevisionId":56680137,"wgArticleId":1027,"wgIsArticle":!0,"wgIsRedirect":!1,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["!Páginas que usam referências com parâmetros obsoletas","!CS1 inglês-fontes em língua (en)","!Artigos com áudio","Ciência da computação"],"wgPageContentLanguage":"pt",
+"wgPageContentModel":"wikitext","wgRelevantPageName":"Informática","wgRelevantArticleId":1027,"wgIsProbablyEditable":!1,"wgRelevantPageIsProbablyEditable":!1,"wgRestrictionEdit":["autoconfirmed"],"wgRestrictionMove":["autoconfirmed"],"wgMediaViewerOnClick":!0,"wgMediaViewerEnabledByDefault":!0,"wgPopupsReferencePreviews":!1,"wgPopupsConflictsWithNavPopupGadget":!1,"wgVisualEditor":{"pageLanguageCode":"pt","pageLanguageDir":"ltr","pageVariantFallbacks":"pt"},"wgMFDisplayWikibaseDescriptions":{"search":!0,"nearby":!0,"watchlist":!0,"tagline":!0},"wgWMESchemaEditAttemptStepOversample":!1,"wgULSCurrentAutonym":"português","wgNoticeProject":"wikipedia","wgWikibaseItemId":"Q179310","wgCentralAuthMobileDomain":!1,"wgEditSubmitButtonLabelPublish":!0,"wgSiteNoticeId":"2.28"};RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading",
+"user.tokens":"loading","ext.cite.styles":"ready","ext.tmh.thumbnail.styles":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.toc.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","ext.dismissableSiteNotice.styles":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready"};RLPAGEMODULES=["ext.cite.ux-enhancements","mw.MediaWikiPlayer.loader","mw.PopUpMediaTransform","mw.TMHGalleryHook.js","site","mediawiki.page.startup","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","ext.gadget.Topicon","ext.gadget.Metacaixa","ext.gadget.TitleRewrite","ext.gadget.ElementosOcultaveis","ext.gadget.FeedbackHighlight","ext.gadget.ReferenceTooltips","ext.gadget.NewVillagePump","ext.gadget.wikibugs","ext.gadget.charinsert","ext.gadget.requestForAdminship","ext.gadget.EnhancedSearch","ext.gadget.WikiMiniAtlas",
+"ext.gadget.PagesForDeletion","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.uls.compactlinks","ext.uls.interface","ext.cx.eventlogging.campaigns","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js","ext.dismissableSiteNotice"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@jqysj",function($,jQuery,require,module){/*@nomin*/mw.user.options.set({"variant":"pt"});
+});mw.loader.implement("user.tokens@tffin",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});});</script>
+<link rel="stylesheet" href="/w/load.php?lang=pt&amp;modules=ext.cite.styles%7Cext.dismissableSiteNotice.styles%7Cext.tmh.thumbnail.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.skinning.interface%7Cmediawiki.toc.styles%7Cskins.vector.styles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector"/>
+<script async="" src="/w/load.php?lang=pt&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/w/load.php?lang=pt&amp;modules=site.styles&amp;only=styles&amp;skin=vector"/>
+<meta name="generator" content="MediaWiki 1.35.0-wmf.11"/>
+<meta name="referrer" content="origin"/>
+<meta name="referrer" content="origin-when-crossorigin"/>
+<meta name="referrer" content="origin-when-cross-origin"/>
+<link rel="alternate" href="android-app://org.wikipedia/http/pt.m.wikipedia.org/wiki/Inform%C3%A1tica"/>
+<link rel="apple-touch-icon" href="/static/apple-touch/wikipedia.png"/>
+<link rel="shortcut icon" href="/static/favicon/wikipedia.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipédia (pt)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//pt.wikipedia.org/w/api.php?action=rsd"/>
+<link rel="license" href="//creativecommons.org/licenses/by-sa/3.0/"/>
+<link rel="canonical" href="https://pt.wikipedia.org/wiki/Inform%C3%A1tica"/>
+<link rel="dns-prefetch" href="//login.wikimedia.org"/>
+<link rel="dns-prefetch" href="//meta.wikimedia.org" />
+<!--[if lt IE 9]><script src="/w/resources/lib/html5shiv/html5shiv.js"></script><![endif]-->
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-Informática rootpage-Informática skin-vector action-view">
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+<div id="content" class="mw-body" role="main">
+	<a id="top"></a>
+	<div id="siteNotice" class="mw-body-content"><!-- CentralNotice --><div id="mw-dismissablenotice-anonplace"></div><script>(function(){var node=document.getElementById("mw-dismissablenotice-anonplace");if(node){node.outerHTML="\u003Cdiv class=\"mw-dismissable-notice\"\u003E\u003Cdiv class=\"mw-dismissable-notice-close\"\u003E[\u003Ca tabindex=\"0\" role=\"button\"\u003Eocultar\u003C/a\u003E]\u003C/div\u003E\u003Cdiv class=\"mw-dismissable-notice-body\"\u003E\u003Cdiv id=\"localNotice\" lang=\"pt\" dir=\"ltr\"\u003E\u003C/div\u003E\u003C/div\u003E\u003C/div\u003E";}}());</script></div>
+	<div class="mw-indicators mw-body-content">
+<div id="mw-indicator-spoken-icon" class="mw-indicator"><a href="/wiki/Ficheiro:Inform%C3%A1tica_-_NArrada.ogg" title="Esta é uma versão em áudio do artigo. Clique aqui para ouvi-lo."><img alt="Esta é uma versão em áudio do artigo. Clique aqui para ouvi-lo." src="//upload.wikimedia.org/wikipedia/commons/thumb/4/47/Sound-icon.svg/20px-Sound-icon.svg.png" decoding="async" width="20" height="15" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/47/Sound-icon.svg/30px-Sound-icon.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/47/Sound-icon.svg/40px-Sound-icon.svg.png 2x" data-file-width="128" data-file-height="96" /></a></div>
+</div>
+
+	<h1 id="firstHeading" class="firstHeading" lang="pt">Informática</h1>
+	
+	<div id="bodyContent" class="mw-body-content">
+		<div id="siteSub" class="noprint">Origem: Wikip&eacute;dia, a enciclop&eacute;dia livre.</div>
+		<div id="contentSub"></div>
+		
+		
+		
+		<div id="jump-to-nav"></div>
+		<a class="mw-jump-link" href="#mw-head">Saltar para a navega&ccedil;&atilde;o</a>
+		<a class="mw-jump-link" href="#p-search">Saltar para a pesquisa</a>
+		<div id="mw-content-text" lang="pt" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><p><b>Informática</b> é um termo usado para descrever o conjunto das <a href="/wiki/Ci%C3%AAncia" title="Ciência">ciências</a> relacionadas à coleta, <a href="/wiki/Armazenamento" title="Armazenamento">armazenamento</a>, transmissão e processamento de informações em meios <a href="/wiki/Digital" class="mw-redirect" title="Digital">digitais</a>, estando incluídas neste grupo: a <a href="/wiki/Ci%C3%AAncia_da_computa%C3%A7%C3%A3o" title="Ciência da computação">ciência da computação</a>, os <a href="/wiki/Sistemas_de_informa%C3%A7%C3%A3o" class="mw-redirect" title="Sistemas de informação">sistemas de informação</a>, a <a href="/wiki/Teoria_da_informa%C3%A7%C3%A3o" title="Teoria da informação">teoria da informação</a>, o <a href="/wiki/C%C3%A1lculo" title="Cálculo">processo de cálculo</a>, a <a href="/wiki/An%C3%A1lise_num%C3%A9rica" title="Análise numérica">análise numérica</a> e os métodos teóricos da representação dos conhecimentos e da modelagem dos problemas. Mas também a informática pode ser entendida como ciência que estuda o conjunto de informações e conhecimentos por meios digitais.
+</p><p>O termo informática, sendo dicionarizado com o mesmo significado amplo nos dois lados do <a href="/wiki/Atl%C3%A2ntico" class="mw-redirect" title="Atlântico">Atlântico</a>, assume em <a href="/wiki/Portugal" title="Portugal">Portugal</a> o sentido <a href="/wiki/Sin%C3%B4nimo" title="Sinônimo">sinônimo</a> da <a href="/wiki/Ci%C3%AAncia_da_computa%C3%A7%C3%A3o" title="Ciência da computação">ciência da computação</a>, enquanto que no <a href="/wiki/Brasil" title="Brasil">Brasil</a> é habitualmente usado para rever especificamente o processo de tratamento da informação por meio de <a href="/wiki/M%C3%A1quina" title="Máquina">máquinas</a> eletrônicas definidas como <a href="/wiki/Computador" title="Computador">computadores</a>.
+</p><p>O estudo da informação começou na <a href="/wiki/Matem%C3%A1tica" title="Matemática">matemática</a> quando nomes como <a href="/wiki/Alan_Turing" title="Alan Turing">Alan Turing</a>, <a href="/wiki/Kurt_G%C3%B6del" title="Kurt Gödel">Kurt Gödel</a> e <a href="/wiki/Alonzo_Church" title="Alonzo Church">Alonzo Church</a>, começaram a estudar que tipos de problemas poderiam ser resolvidos, ou computados, por elementos humanos que seguissem uma série de instruções simples, independente do tempo requerido para isso. A motivação por trás destas pesquisas era o avanço durante a <a href="/wiki/Revolu%C3%A7%C3%A3o_industrial" class="mw-redirect" title="Revolução industrial">revolução industrial</a> e da promessa que máquinas poderiam futuramente conseguir resolver os mesmos problemas de forma mais rápida e mais eficaz. Do mesmo jeito que as indústrias manuseiam matéria-prima para transformá-la em um produto final, os <a href="/wiki/Algoritmo" title="Algoritmo">algoritmos</a> foram desenhados para que um dia uma máquina pudesse tratar informações.
+</p>
+<div id="toc" class="toc"><input type="checkbox" role="button" id="toctogglecheckbox" class="toctogglecheckbox" style="display:none" /><div class="toctitle" lang="pt" dir="ltr"><h2>Índice</h2><span class="toctogglespan"><label class="toctogglelabel" for="toctogglecheckbox"></label></span></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Etimologia"><span class="tocnumber">1</span> <span class="toctext">Etimologia</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Origem_e_concepção"><span class="tocnumber">2</span> <span class="toctext">Origem e concepção</span></a></li>
+<li class="toclevel-1"><a href="#Referências"><span class="tocnumber">3</span> <span class="toctext">Referências</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Ver_também"><span class="tocnumber">4</span> <span class="toctext">Ver também</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#Bibliografia"><span class="tocnumber">5</span> <span class="toctext">Bibliografia</span></a></li>
+</ul>
+</div>
+
+<h2><span class="mw-headline" id="Etimologia">Etimologia</span></h2>
+<p>A palavra surge, em meados do <a href="/wiki/S%C3%A9culo_XX" title="Século XX">século XX</a>, da junção de, duas outras palavras, processamento da informação por meios automáticos analógicos ou digitais (quer sejam <a href="/wiki/Bin%C3%A1rios" class="mw-redirect mw-disambig" title="Binários">binários</a> ou não, como "qubit" ou bit quântico). O meio mais comum da utilização de informática são os <a href="/wiki/Computadores" class="mw-redirect" title="Computadores">computadores</a> que tratam informações de maneira automática.
+</p><p>A <i>informática</i> é a disciplina que lida com o tratamento racional e sistemático da <i><a href="/wiki/Informa%C3%A7%C3%A3o" title="Informação">informação</a></i> por meios automáticos e eletrônicos. Representa o tratamento automático da informação. Constitui o emprego da ciência da informação através do computador. Embora não se deva confundir <i>informática</i> com computadores, na verdade ela existe por que estes existem.<sup id="cite_ref-1" class="reference"><a href="#cite_note-1"><span>[</span>1<span>]</span></a></sup>
+</p>
+<h2><span id="Origem_e_concep.C3.A7.C3.A3o"></span><span class="mw-headline" id="Origem_e_concepção">Origem e concepção</span></h2>
+<p>Em <a href="/wiki/1956" title="1956">1956</a>, o cientista da computação alemão <a href="/wiki/Karl_Steinbuch" title="Karl Steinbuch">Karl Steinbuch</a> publicou o periódico <i>Informatik: Automatische Informationsverarbeitung</i> ("Informática: processamento automático de informação"),<sup id="cite_ref-2" class="reference"><a href="#cite_note-2"><span>[</span>2<span>]</span></a></sup> a palavra se estabeleceu como o termo alemão para a ciência da computação, uma disciplina progenitora para o campo mais vasto da informática.<sup id="cite_ref-3" class="reference"><a href="#cite_note-3"><span>[</span>3<span>]</span></a></sup>
+</p><p>Em <a href="/wiki/1966" title="1966">1966</a>, o pesquisador russo <a href="/wiki/Alexander_Ivanovich_Mikhailov" title="Alexander Ivanovich Mikhailov">Alexander Mikhailov</a>, junto com colaboradores, chegou a utilizar o conceito "Informatika" relacionado a uma disciplina que estuda, organiza e dissemina a informação científica (ligada a <a href="/wiki/Ci%C3%AAncia_da_Informa%C3%A7%C3%A3o" class="mw-redirect" title="Ciência da Informação">Ciência da Informação</a>). Entretanto, essa definição ficou restrita à antiga <a href="/wiki/Uni%C3%A3o_Sovi%C3%A9tica" title="União Soviética">União Soviética</a> e aos países do <a href="/wiki/Bloco_do_Leste" class="mw-redirect" title="Bloco do Leste">Bloco comunista</a>.<sup id="cite_ref-4" class="reference"><a href="#cite_note-4"><span>[</span>4<span>]</span></a></sup><sup id="cite_ref-5" class="reference"><a href="#cite_note-5"><span>[</span>5<span>]</span></a></sup>
+</p>
+<h2 style="cursor: help;" title="Esta seção foi configurada para não ser editável diretamente. Edite a página toda ou a seção anterior em vez disso."><span id="Refer.C3.AAncias"></span><span class="mw-headline" id="Referências">Referências</span></h2>
+<div class="reflist references-small" style=""><div class="mw-references-wrap"><ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><a href="#cite_ref-1">↑</a></span> <span class="reference-text"><cite class="citation book">Chiavenato, Idalberto (2001). «Conceito de informática». <a rel="nofollow" class="external text" href="http://books.google.com.br/books?id=z4DtNAgG7xwC&amp;pg=PA256&amp;dq=Conceito+de+Inform%C3%A1tica&amp;hl=pt-BR&amp;sa=X&amp;ei=2GRoUqipIMSFkQfphoHAAQ&amp;ved=0CDYQ6AEwAQ#v=onepage&amp;q=Conceito%20de%20Inform%C3%A1tica&amp;f=false"><i>Teoria Geral da Administração, Volume 2</i></a>. [S.l.]: Elsevier Brasil. p.&#160;256. 538&#160;páginas. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="/wiki/Especial:Fontes_de_livros/853520850X" title="Especial:Fontes de livros/853520850X">853520850X</a><span class="reference-accessdate">. Consultado em 23 de outubro de 2013</span></cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpt.wikipedia.org%3AInform%C3%A1tica&amp;rft.atitle=Conceito+de+inform%C3%A1tica&amp;rft.aufirst=Idalberto&amp;rft.aulast=Chiavenato&amp;rft.btitle=Teoria+Geral+da+Administra%C3%A7%C3%A3o%2C+Volume+2&amp;rft.date=2001&amp;rft.genre=bookitem&amp;rft.isbn=853520850X&amp;rft.pages=256&amp;rft.pub=Elsevier+Brasil&amp;rft_id=http%3A%2F%2Fbooks.google.com.br%2Fbooks%3Fid%3Dz4DtNAgG7xwC%26pg%3DPA256%26dq%3DConceito%2Bde%2BInform%25C3%25A1tica%26hl%3Dpt-BR%26sa%3DX%26ei%3D2GRoUqipIMSFkQfphoHAAQ%26ved%3D0CDYQ6AEwAQ%23v%3Donepage%26q%3DConceito%2520de%2520Inform%25C3%25A1tica%26f%3Dfalse&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span>
+</li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><a href="#cite_ref-2">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://citeseer.ist.psu.edu/cache/papers/cs2/334/http:zSzzSzhelios.informatik.uni-kl.dezSzeuology.pdf/unknown.pdf">Karl Steinbuch Eulogy</a> - <a href="/wiki/Bernard_Widrow" title="Bernard Widrow">Bernard Widrow</a>, <a href="/w/index.php?title=Reiner_Hartenstein&amp;action=edit&amp;redlink=1" class="new" title="Reiner Hartenstein (página não existe)">Reiner Hartenstein</a>, Robert Hecht-Nielsen</span>
+</li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><a href="#cite_ref-3">↑</a></span> <span class="reference-text"><cite class="citation book">Gammack, John G.; Hobbs, Valerie; Pigott, Diarmuid (2011). <a rel="nofollow" class="external text" href="http://books.google.com.br/books?id=MOIW12eOvJsC&amp;pg=PA20&amp;dq=Informatik:+Automatische+Informationsverarbeitung&amp;hl=pt-BR&amp;sa=X&amp;ei=01poUp4aktb0BKavgcgD&amp;ved=0CC8Q6AEwAA#v=onepage&amp;q=Informatik%3A%20Automatische%20Informationsverarbeitung&amp;f=false"><i>The Book of Informatics</i></a> (em inglês) revisada ed. [S.l.]: Cengage Learning. p.&#160;20. 548&#160;páginas. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="/wiki/Especial:Fontes_de_livros/0170216004" title="Especial:Fontes de livros/0170216004">0170216004</a><span class="reference-accessdate">. Consultado em 23 de outubro de 2013</span></cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpt.wikipedia.org%3AInform%C3%A1tica&amp;rft.aufirst=John+G.&amp;rft.aulast=Gammack&amp;rft.btitle=The+Book+of+Informatics&amp;rft.date=2011&amp;rft.edition=revisada&amp;rft.genre=book&amp;rft.isbn=0170216004&amp;rft.pages=20&amp;rft.pub=Cengage+Learning&amp;rft_id=http%3A%2F%2Fbooks.google.com.br%2Fbooks%3Fid%3DMOIW12eOvJsC%26pg%3DPA20%26dq%3DInformatik%3A%2BAutomatische%2BInformationsverarbeitung%26hl%3Dpt-BR%26sa%3DX%26ei%3D01poUp4aktb0BKavgcgD%26ved%3D0CC8Q6AEwAA%23v%3Donepage%26q%3DInformatik%253A%2520Automatische%2520Informationsverarbeitung%26f%3Dfalse&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span> <span style="display:none;font-size:100%" class="error citation-comment">A referência emprega parâmetros obsoletos <code style="color:inherit; border:inherit; padding:inherit;">&#124;coautor=</code> (<a href="/wiki/Ajuda:Erros_nas_refer%C3%AAncias#deprecated_params" title="Ajuda:Erros nas referências">ajuda</a>)</span></span>
+</li>
+<li id="cite_note-4"><span class="mw-cite-backlink"><a href="#cite_ref-4">↑</a></span> <span class="reference-text">Federação Internacional de Informação e Documentação. <i>F.I.D. News Bulletin, Volumes 17-21</i>. 1967</span>
+</li>
+<li id="cite_note-5"><span class="mw-cite-backlink"><a href="#cite_ref-5">↑</a></span> <span class="reference-text"><cite class="citation book">Benedicto, Silva (1974). <i>Da documentação à formática: exposições e debates</i>. [S.l.]: Fundação Getúlio Vargas, Instituto de Documentação, Serviço do Publicações. p.&#160;12</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpt.wikipedia.org%3AInform%C3%A1tica&amp;rft.aufirst=Silva&amp;rft.aulast=Benedicto&amp;rft.btitle=Da+documenta%C3%A7%C3%A3o+%C3%A0+form%C3%A1tica%3A+exposi%C3%A7%C3%B5es+e+debates&amp;rft.date=1974&amp;rft.genre=book&amp;rft.pages=12&amp;rft.pub=Funda%C3%A7%C3%A3o+Get%C3%BAlio+Vargas%2C+Instituto+de+Documenta%C3%A7%C3%A3o%2C+Servi%C3%A7o+do+Publica%C3%A7%C3%B5es&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span>
+</li>
+</ol></div></div>
+<h2><span id="Ver_tamb.C3.A9m"></span><span class="mw-headline" id="Ver_também">Ver também</span></h2>
+<div id="section_SpokenWikipedia" class="noprint" style="clear: right; border: solid #aaa 1px; margin: 0 0 1em 1em; font-size: 90%; background: #f9f9f9; width: 235px; padding: 2px; spacing: 2px; text-align: center; float: right;">
+<div style="text-align: center"><b>Ouça o artigo</b> (<a href="/wiki/Ficheiro:Inform%C3%A1tica_-_NArrada.ogg" title="Ficheiro:Informática - NArrada.ogg">info</a>) <br />
+<div class="center"><div class="floatnone"><div class="mediaContainer" style="width:100px"><audio id="mwe_player_0" controls="" preload="none" style="width:100px" class="kskin" data-durationhint="401.50722916667" data-startoffset="0" data-mwtitle="Informática_-_NArrada.ogg" data-mwprovider="wikimediacommons"><source src="//upload.wikimedia.org/wikipedia/commons/a/a9/Inform%C3%A1tica_-_NArrada.ogg" type="audio/ogg; codecs=&quot;vorbis&quot;" data-title="Ficheiro Ogg original (105&#160;kb/s)" data-shorttitle="Fonte Ogg" data-width="0" data-height="0" data-bandwidth="105295" /><source src="//upload.wikimedia.org/wikipedia/commons/transcoded/a/a9/Inform%C3%A1tica_-_NArrada.ogg/Inform%C3%A1tica_-_NArrada.ogg.mp3" type="audio/mpeg" data-title="MP3" data-shorttitle="MP3" data-transcodekey="mp3" data-width="0" data-height="0" data-bandwidth="160472" /></audio></div></div></div></div>
+<div style="float: left; margin-left: 5px;"><div class="floatnone"><a href="/wiki/Ficheiro:Sound-icon.svg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/47/Sound-icon.svg/45px-Sound-icon.svg.png" decoding="async" width="45" height="34" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/47/Sound-icon.svg/68px-Sound-icon.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/47/Sound-icon.svg/90px-Sound-icon.svg.png 2x" data-file-width="128" data-file-height="96" /></a></div></div>
+<div style="font-size: xx-small; line-height: 1.6em; margin-left: 54px; text-align: left;">Este áudio foi criado a partir da revisão datada de 03/12/2012 e pode não refletir mudanças posteriores ao artigo (<a href="/wiki/Ajuda:Guia_de_consulta_e_reprodu%C3%A7%C3%A3o/Reproduzindo_Ogg" title="Ajuda:Guia de consulta e reprodução/Reproduzindo Ogg">ajuda com  áudio</a>).</div><br />
+<div style="text-align: center; clear: both"><b><a href="/wiki/Wikip%C3%A9dia:Projetos/Wikip%C3%A9dia_aud%C3%ADvel" title="Wikipédia:Projetos/Wikipédia audível">Mais artigos audíveis</a></b></div>
+</div>
+<ul><li><a href="/wiki/An%C3%A1lise_de_sistemas" title="Análise de sistemas">Análise de sistemas</a></li>
+<li><a href="/wiki/Computa%C3%A7%C3%A3o" title="Computação">Computação</a></li>
+<li><a href="/wiki/Teoria_da_computa%C3%A7%C3%A3o" title="Teoria da computação">Teoria da computação</a></li>
+<li><a href="/wiki/Hist%C3%B3ria_da_computa%C3%A7%C3%A3o" title="História da computação">História da computação</a></li>
+<li><a href="/wiki/Tecnologia_da_informa%C3%A7%C3%A3o" title="Tecnologia da informação">Tecnologia da informação</a></li>
+<li><a href="/wiki/Tecnologias_da_informa%C3%A7%C3%A3o_e_comunica%C3%A7%C3%A3o" title="Tecnologias da informação e comunicação">Tecnologias da informação e comunicação</a></li>
+<li><a href="/wiki/Engenharia_Inform%C3%A1tica" title="Engenharia Informática">Engenharia Informática</a></li>
+<li><a href="/wiki/Engenharia_de_computa%C3%A7%C3%A3o" title="Engenharia de computação">Engenharia de computação</a></li></ul>
+<h2><span class="mw-headline" id="Bibliografia">Bibliografia</span></h2>
+<ul><li>Informática no Brasil, A Opção Política É Nossa, Autor: Maria Lúcia Salgueiro dos Santos, Editora da UFSC/MEC.</li></ul>
+<div role="navigation" class="navbox" aria-labelledby="Produção_econômica" style="padding:3px"><table class="nowraplinks hlist collapsible expanded navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th scope="col" class="navbox-title" colspan="3"><div class="plainlinks hlist navbar mini"><ul><li class="nv-ver"><a href="/wiki/Predefini%C3%A7%C3%A3o:Produ%C3%A7%C3%A3o_econ%C3%B4mica" title="Predefinição:Produção econômica"><abbr title="Ver esta predefinição" style=";;background:none transparent;border:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none; padding:0;">v</abbr></a></li><li class="nv-discutir"><a href="/w/index.php?title=Predefini%C3%A7%C3%A3o_Discuss%C3%A3o:Produ%C3%A7%C3%A3o_econ%C3%B4mica&amp;action=edit&amp;redlink=1" class="new" title="Predefinição Discussão:Produção econômica (página não existe)"><abbr title="Discutir esta predefinição" style=";;background:none transparent;border:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none; padding:0;">d</abbr></a></li><li class="nv-editar"><a class="external text" href="https://pt.wikipedia.org/w/index.php?title=Predefini%C3%A7%C3%A3o:Produ%C3%A7%C3%A3o_econ%C3%B4mica&amp;action=edit"><abbr title="Editar esta predefinição" style=";;background:none transparent;border:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none; padding:0;">e</abbr></a></li></ul></div><div id="Produção_econômica" style="font-size:114%;margin:0 4em"><a href="/wiki/Produ%C3%A7%C3%A3o" title="Produção">Produção econômica</a></div></th></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="/wiki/Agente_econ%C3%B3mico" title="Agente económico">Agentes econômicos</a></th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/Empresa" title="Empresa">Empresa</a></li>
+<li><a href="/wiki/Institui%C3%A7%C3%A3o_financeira" title="Instituição financeira">Instituição financeira</a></li>
+<li><a href="/wiki/Administra%C3%A7%C3%A3o_p%C3%BAblica" title="Administração pública">Administração pública</a></li>
+<li><a href="/wiki/Com%C3%A9rcio_internacional" title="Comércio internacional">Comércio internacional</a></li></ul>
+</div></td><td class="navbox-image" rowspan="7" style="width:1px;padding:0px 0px 0px 2px"><div><a href="/wiki/Ficheiro:Robocrane_Project.jpg" class="image"><img alt="Robocrane Project.jpg" src="//upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Robocrane_Project.jpg/140px-Robocrane_Project.jpg" decoding="async" width="140" height="138" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Robocrane_Project.jpg/210px-Robocrane_Project.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Robocrane_Project.jpg/280px-Robocrane_Project.jpg 2x" data-file-width="360" data-file-height="354" /></a></div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="/wiki/Fatores_de_produ%C3%A7%C3%A3o" title="Fatores de produção">Fatores de produção</a></th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><b><a href="/wiki/Terra_(economia)" title="Terra (economia)">Terra</a></b>
+<ul><li><a href="/wiki/Estoque" title="Estoque">Estoques</a></li>
+<li><a href="/wiki/Mat%C3%A9ria-prima" title="Matéria-prima">Matéria-prima</a></li></ul></li>
+<li><b><a href="/wiki/Capital_(economia)" title="Capital (economia)">Capital</a></b>
+<ul><li><a href="/wiki/Investimento" title="Investimento">Investimentos</a></li>
+<li><a href="/wiki/Propriedade_intelectual" title="Propriedade intelectual">Propriedade intelectual</a></li></ul></li>
+<li><b><a href="/wiki/Trabalho_(economia)" title="Trabalho (economia)">Trabalho</a></b>
+<ul><li><a href="/wiki/Capital_humano" title="Capital humano">Capital humano</a></li>
+<li><a href="/wiki/Capital_intelectual" title="Capital intelectual">Capital intelectual</a></li></ul></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="/wiki/Renda" title="Renda">Remuneração dos Fatores</a></th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/Loca%C3%A7%C3%A3o" title="Locação">Locação</a></li>
+<li><a href="/wiki/Sal%C3%A1rio" title="Salário">Salário</a></li>
+<li><a href="/wiki/Juro" title="Juro">Juro</a></li>
+<li><a href="/wiki/Lucro" title="Lucro">Lucro</a></li>
+<li><i><a href="/wiki/Royalty" title="Royalty">Royalty</a></i></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="/wiki/Setor_econ%C3%B3mico" title="Setor económico">Setores econômicos</a></th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em"><table class="navbox nowraplinks" style="background:transparent; font-size:100%; padding:0; border:none; margin:-3px; text-align:left;">
+<tbody><tr>
+<th style="background:#e6e6ff; text-align:right;"><a href="/wiki/Setor_prim%C3%A1rio" title="Setor primário">Setor primário</a></th>
+<td class="" style="" colspan="1">
+<ul><li><a href="/wiki/Agricultura" title="Agricultura">Agricultura</a></li>
+<li><a href="/wiki/Pecu%C3%A1ria" title="Pecuária">Pecuária</a></li>
+<li><a href="/wiki/Extrativismo" title="Extrativismo">Extrativismo</a></li>
+<li><a href="/wiki/Ca%C3%A7a" title="Caça">Caça</a></li>
+<li><a href="/wiki/Pesca" title="Pesca">Pesca</a></li>
+<li><a href="/wiki/Minera%C3%A7%C3%A3o" title="Mineração">Mineração</a></li></ul></td>
+</tr>
+
+<tr>
+<th style="background:#e6e6ff;white-space:nowrap;text-align:right;"><a href="/wiki/Setor_secund%C3%A1rio" title="Setor secundário">Setor secundário</a></th>
+<td class="" style="" colspan="1">
+<ul><li><a href="/wiki/Constru%C3%A7%C3%A3o" title="Construção">Construção Civil</a></li>
+<li><a href="/wiki/Ind%C3%BAstria" title="Indústria">Indústria</a>
+<ul><li><a href="/wiki/Ind%C3%BAstria_aeroespacial" title="Indústria aeroespacial">Aeroespacial</a></li>
+<li><a href="/wiki/Ind%C3%BAstria_aeron%C3%A1utica" title="Indústria aeronáutica">Aeronaves</a></li>
+<li><a href="/wiki/Ind%C3%BAstria_alimentar" title="Indústria alimentar">Alimentos</a></li>
+<li><a href="/wiki/Ind%C3%BAstria_automobil%C3%ADstica" title="Indústria automobilística">Automóveis</a></li>
+<li><a href="/wiki/Matriz_energ%C3%A9tica" title="Matriz energética">Energética</a></li>
+<li><a href="/wiki/Constru%C3%A7%C3%A3o_naval" title="Construção naval">Naval</a></li>
+<li><a href="/wiki/Inova%C3%A7%C3%A3o_tecnol%C3%B3gica" title="Inovação tecnológica">Tecnologia</a></li></ul></li></ul></td>
+</tr> <tr>
+<th style="background:#e6e6ff;white-space:nowrap;text-align:right;"><a href="/wiki/Setor_terci%C3%A1rio" title="Setor terciário">Setor terciário</a></th>
+<td class="" style="" colspan="1">
+<ul><li><a href="/wiki/Com%C3%A9rcio" title="Comércio">Comércio</a>
+<ul><li><a href="/wiki/Com%C3%A9rcio_eletr%C3%B4nico" title="Comércio eletrônico">Eletrônico</a></li>
+<li><a href="/wiki/Camel%C3%B4" title="Camelô">Informal</a></li>
+<li><a href="/wiki/Tr%C3%A1fico" title="Tráfico">Ilegal</a></li>
+<li><a href="/wiki/Com%C3%A9rcio_internacional" title="Comércio internacional">Internacional</a></li>
+<li><a href="/wiki/Varejo" title="Varejo">Varejista</a></li></ul></li>
+<li><a href="/wiki/Servi%C3%A7o_(economia)" title="Serviço (economia)">Serviços</a></li>
+<li><a href="/wiki/Transporte" title="Transporte">Transporte</a></li></ul></td>
+</tr>      </tbody></table></div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Tipos de <a href="/wiki/Bem_(economia)" title="Bem (economia)">bens</a></th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em"><table class="navbox nowraplinks" style="background:transparent; font-size:100%; padding:0; border:none; margin:-3px; text-align:left;">
+<tbody><tr>
+<th style="background:#e6e6ff; text-align:right;">Quanto à raridade</th>
+<td class="" style="" colspan="1">
+<ul><li><a href="/wiki/Bem_livre" title="Bem livre">Bem livre</a></li>
+<li><a href="/wiki/Bem_econ%C3%B4mico" title="Bem econômico">Bem econômico</a></li></ul></td>
+</tr>
+
+ <tr>
+<th style="background:#e6e6ff;white-space:nowrap;text-align:right;">Quanto à <a href="/wiki/Utilidade_(economia)" title="Utilidade (economia)">utilidade</a></th>
+<td class="" style="" colspan="1">
+<ul><li><a href="/wiki/Bem_de_consumo" title="Bem de consumo">Bem de consumo</a></li>
+<li><a href="/wiki/Bens_de_produ%C3%A7%C3%A3o" title="Bens de produção">Bem de produção</a></li>
+<li><a href="/wiki/Bens_de_produ%C3%A7%C3%A3o" title="Bens de produção">Bens de produção</a></li>
+<li><a href="/wiki/Bem_dur%C3%A1vel" title="Bem durável">Bem durável</a></li>
+<li><a href="/wiki/Bem_intermedi%C3%A1rio" title="Bem intermediário">Bem intermediário</a></li></ul></td>
+</tr> <tr>
+<th style="background:#e6e6ff;white-space:nowrap;text-align:right;">Quanto à <a href="/wiki/Demanda" title="Demanda">demanda</a></th>
+<td class="" style="" colspan="1">
+<ul><li>(<a href="/wiki/Bem_normal" title="Bem normal">Bem normal</a> / <a href="/wiki/Bem_inferior" title="Bem inferior">Bem inferior</a>)</li>
+<li>(<a href="/wiki/Bem_de_Giffen" title="Bem de Giffen">Bem de Giffen</a> / <a href="/wiki/Bem_de_Veblen" title="Bem de Veblen">Bem de Veblen</a>)</li>
+<li>(<a href="/w/index.php?title=Bem_de_consumo_saciado&amp;action=edit&amp;redlink=1" class="new" title="Bem de consumo saciado (página não existe)">Bem de consumo saciado</a> / <a href="/wiki/Bens_de_consumo_de_intermedi%C3%A1rio" class="mw-redirect" title="Bens de consumo de intermediário">Bens de consumo de intermediário</a>)</li>
+<li><a href="/wiki/Bem_substituto" title="Bem substituto">Bem substituto</a></li>
+<li><a href="/wiki/Bem_complementar" title="Bem complementar">Bem complementar</a></li>
+<li><a href="/wiki/Bem_independente" title="Bem independente">Bem independente</a></li></ul></td>
+</tr> <tr>
+<th style="background:#e6e6ff;white-space:nowrap;text-align:right;">Quanto ao caráter</th>
+<td class="" style="" colspan="1">
+<ul><li><a href="/wiki/Bem_p%C3%BAblico" title="Bem público">Bem público</a>
+<ul><li><a href="/wiki/Bem_p%C3%BAblico_puro" title="Bem público puro">Bem público puro</a> / <a href="/wiki/Bem_p%C3%BAblico_global" title="Bem público global">Bem público global</a></li></ul></li>
+<li>(<a href="/wiki/Bem_econ%C3%B4mico" title="Bem econômico">Bens privados</a>)</li></ul></td>
+</tr> <tr>
+<th style="background:#e6e6ff;white-space:nowrap;text-align:right;">Outros bens</th>
+<td class="" style="" colspan="1">
+<ul><li><a href="/wiki/Bem_(direito)" title="Bem (direito)">Bem (direito)</a></li>
+<li><a href="/wiki/Bem_remanufaturado" title="Bem remanufaturado">Bem remanufaturado</a></li>
+<li><a href="/wiki/Bens_e_servi%C3%A7os" title="Bens e serviços">Bens e serviços</a></li></ul></td>
+</tr>   </tbody></table></div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Tipos de <a href="/wiki/Servi%C3%A7o_(economia)" title="Serviço (economia)">serviços</a></th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/Atacado" title="Atacado">Atacado</a></li>
+<li><a href="/wiki/Varejo" title="Varejo">Varejo</a></li>
+<li><a href="/wiki/Combust%C3%ADvel" title="Combustível">Combustíveis</a></li>
+<li><a href="/wiki/Cooperativismo" title="Cooperativismo">Cooperativismo</a></li>
+<li><a href="/wiki/Correio" title="Correio">Correios</a></li>
+<li><a href="/wiki/Educa%C3%A7%C3%A3o" title="Educação">Educação</a></li>
+<li><a class="mw-selflink selflink">Informática</a></li>
+<li><a href="/wiki/Intermedia%C3%A7%C3%A3o_financeira" title="Intermediação financeira">Intermediação financeira</a></li>
+<li><a href="/wiki/Pesquisa_e_desenvolvimento" title="Pesquisa e desenvolvimento">Pesquisa e desenvolvimento</a></li>
+<li><a href="/wiki/Previd%C3%AAncia_privada" class="mw-redirect" title="Previdência privada">Previdência privada</a></li>
+<li><a href="/wiki/Seguro" title="Seguro">Seguros</a></li>
+<li><a href="/wiki/Servi%C3%A7o_(economia)" title="Serviço (economia)">Serviço</a></li>
+<li><a href="/wiki/Telecomunica%C3%A7%C3%B5es" title="Telecomunicações">Telecomunicações</a></li>
+<li><a href="/wiki/Transporte" title="Transporte">Transporte</a>
+<ul><li><a href="/wiki/Avia%C3%A7%C3%A3o" title="Aviação">Transporte aéreo</a></li>
+<li><a href="/wiki/Hidrovia" title="Hidrovia">Transporte aquaviário</a></li></ul></li>
+<li><a href="/wiki/Servi%C3%A7o_p%C3%BAblico" title="Serviço público">Serviços Públicos</a>
+<ul><li>(<a href="/wiki/Administra%C3%A7%C3%A3o_p%C3%BAblica" title="Administração pública">Administração pública</a>, <a href="/wiki/For%C3%A7as_armadas" title="Forças armadas">defesa</a> e <a href="/wiki/Seguridade_social" title="Seguridade social">seguridade social</a>)</li>
+<li>(<a href="/wiki/Res%C3%ADduo_s%C3%B3lido" title="Resíduo sólido">Resíduo sólido</a> e <a href="/wiki/%C3%81guas_residuais" title="Águas residuais">esgoto</a>)</li>
+<li>(<a href="/wiki/Sa%C3%BAde" title="Saúde">Saúde</a> e <a href="/wiki/Servi%C3%A7o_social" title="Serviço social">serviços sociais</a>)</li>
+<li>(<a href="/wiki/Lazer" title="Lazer">Atividades recreativas</a>, <a href="/wiki/Cultura" title="Cultura">culturais</a> e <a href="/wiki/Desporto" title="Desporto">desportivas</a>)</li></ul></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Outros conceitos</th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/Concorr%C3%AAncia_(economia)" title="Concorrência (economia)">Concorrência</a></li>
+<li><a href="/wiki/Concorr%C3%AAncia_perfeita" title="Concorrência perfeita">Concorrência perfeita</a></li>
+<li><a href="/wiki/Consultoria" title="Consultoria">Consultoria</a></li>
+<li><a href="/wiki/Custo_de_oportunidade" title="Custo de oportunidade">Custo de oportunidade</a></li>
+<li><a href="/wiki/Economia_de_escala" title="Economia de escala">Economia de escala</a></li>
+<li><a href="/wiki/Economia_de_mercado" title="Economia de mercado">Economia de mercado</a></li>
+<li><a href="/wiki/Economia_empresarial" title="Economia empresarial">Economia empresarial</a></li>
+<li><a href="/wiki/Economia_informal" title="Economia informal">Economia informal</a></li>
+<li><a href="/wiki/Economia_urbana" title="Economia urbana">Economia urbana</a></li>
+<li>(<a href="/wiki/Efic%C3%A1cia" title="Eficácia">Eficácia</a>/<a href="/wiki/Efici%C3%AAncia" title="Eficiência">Eficiência</a>/<a href="/wiki/Efetividade" title="Efetividade">Efetividade</a>)</li>
+<li><a href="/wiki/Efici%C3%AAncia_de_Pareto" title="Eficiência de Pareto">Eficiência de Pareto</a></li>
+<li><a href="/wiki/Empreendedorismo" title="Empreendedorismo">Empreendedorismo</a></li>
+<li><a href="/wiki/Empresa" title="Empresa">Empresa</a></li>
+<li><a href="/wiki/Empres%C3%A1rio" title="Empresário">Empresário</a></li>
+<li><a href="/wiki/Exclusibilidade_(economia)" title="Exclusibilidade (economia)">Exclusibilidade</a></li>
+<li><a href="/wiki/Fronteira_de_possibilidades_de_produ%C3%A7%C3%A3o" title="Fronteira de possibilidades de produção">Fronteira de possibilidades de produção</a></li>
+<li><a href="/wiki/Hip%C3%B3tese_do_mercado_eficiente" title="Hipótese do mercado eficiente">Hipótese do mercado eficiente</a></li>
+<li><a href="/wiki/Liberdade_econ%C3%B4mica" title="Liberdade econômica">Liberdade econômica</a></li>
+<li><a href="/wiki/Neg%C3%B3cio" title="Negócio">Negócio</a></li>
+<li><a href="/wiki/Plano_de_neg%C3%B3cios" title="Plano de negócios">Plano de negócios</a></li>
+<li><a href="/wiki/Rivalidade_(economia)" title="Rivalidade (economia)">Rivalidade</a></li>
+<li><a href="/wiki/Startup" title="Startup">Startup</a></li>
+<li><a href="/wiki/Teoria_do_equil%C3%ADbrio_geral" title="Teoria do equilíbrio geral">Teoria do equilíbrio geral</a></li>
+<li><a href="/wiki/Transpar%C3%AAncia_no_mercado" title="Transparência no mercado">Transparência no mercado</a></li></ul>
+</div></td></tr><tr><td class="navbox-abovebelow" colspan="3" style="font-weight:bold;"><div>
+<ul><li><a href="/wiki/Ficheiro:Commons-logo.svg" class="image" title="Commons"><img alt="Commons" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/16px-Commons-logo.svg.png" decoding="async" width="16" height="22" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/24px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/32px-Commons-logo.svg.png 2x" data-file-width="1024" data-file-height="1376" /></a> <a href="https://commons.wikimedia.org/wiki/Category:Production" class="extiw" title="commons:Category:Production">Commons</a></li>
+<li><a href="/wiki/Ficheiro:Symbol_question.svg" class="image"><img alt="Symbol question.svg" src="//upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Symbol_question.svg/16px-Symbol_question.svg.png" decoding="async" width="16" height="16" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Symbol_question.svg/24px-Symbol_question.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Symbol_question.svg/32px-Symbol_question.svg.png 2x" data-file-width="180" data-file-height="185" /></a> <a href="/wiki/Categoria:Teorias_e_modelos_econ%C3%B4micos" title="Categoria:Teorias e modelos econômicos">Categoria</a></li>
+<li><a href="/wiki/Ficheiro:Portal.svg" class="image" title="Portal"><img alt="Portal" src="//upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Portal.svg/16px-Portal.svg.png" decoding="async" width="16" height="14" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Portal.svg/24px-Portal.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Portal.svg/32px-Portal.svg.png 2x" data-file-width="36" data-file-height="32" /></a> <a href="/wiki/Portal:Neg%C3%B3cios_e_economia" title="Portal:Negócios e economia">Portal</a></li></ul>
+</div></td></tr></tbody></table></div>
+<ul class="noprint" style="border-top: solid silver 1px; border-bottom:1px solid silver; padding:3px; background-color: #F9F9F9; text-align: center; margin-top:10px; margin-left: 0; clear: both;"><li style="display: inline;"><span style="white-space: nowrap; margin: auto 1.5em"><span style="margin-right: 0.5em"><a href="/wiki/Ficheiro:ThreeCoins.svg" title="Portal de economia e negócios"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/2/29/ThreeCoins.svg/25px-ThreeCoins.svg.png" decoding="async" width="25" height="14" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/2/29/ThreeCoins.svg/38px-ThreeCoins.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/2/29/ThreeCoins.svg/50px-ThreeCoins.svg.png 2x" data-file-width="350" data-file-height="200" /></a></span> <span style="font-weight:bold"><a href="/wiki/Portal:Economia_e_neg%C3%B3cios" class="mw-redirect" title="Portal:Economia e negócios">Portal de economia e negócios</a></span></span></li>         </ul>
+<!-- 
+NewPP limit report
+Parsed by mw1266
+Cached time: 20191219174624
+Cache expiry: 2592000
+Dynamic content: false
+Complications: []
+CPU time usage: 0.308 seconds
+Real time usage: 0.435 seconds
+Preprocessor visited node count: 1499/1000000
+Preprocessor generated node count: 0/1500000
+Post‐expand include size: 41903/2097152 bytes
+Template argument size: 3347/2097152 bytes
+Highest expansion depth: 9/40
+Expensive parser function count: 0/500
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 5855/5000000 bytes
+Number of Wikibase entities loaded: 0/400
+Lua time usage: 0.099/10.000 seconds
+Lua memory usage: 2.16 MB/50 MB
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  308.813      1 -total
+ 47.26%  145.948      1 Predefinição:Referências
+ 40.51%  125.103      3 Predefinição:Citar_livro
+ 24.92%   76.963      1 Predefinição:Wikipedia_audível
+ 22.67%   70.019      1 Predefinição:Top_icon
+ 18.24%   56.322      1 Predefinição:Produção_Econômica
+ 17.56%   54.221      1 Predefinição:Category_handler
+ 16.12%   49.780      1 Predefinição:Navbox
+  9.44%   29.137      1 Predefinição:Portal3
+  8.11%   25.054      1 Predefinição:Portal3/Portais
+-->
+
+<!-- Saved in parser cache with key ptwiki:pcache:idhash:1027-0!canonical and timestamp 20191219174624 and revision id 56680137
+ -->
+</div><noscript><img src="//pt.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript></div>
+		
+		<div class="printfooter">Obtida de "<a dir="ltr" href="https://pt.wikipedia.org/w/index.php?title=Informática&amp;oldid=56680137">https://pt.wikipedia.org/w/index.php?title=Informática&amp;oldid=56680137</a>"</div>
+		
+		<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Especial:Categorias" title="Especial:Categorias">Categoria</a>: <ul><li><a href="/wiki/Categoria:Ci%C3%AAncia_da_computa%C3%A7%C3%A3o" title="Categoria:Ciência da computação">Ciência da computação</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Categorias ocultas: <ul><li><a href="/wiki/Categoria:!P%C3%A1ginas_que_usam_refer%C3%AAncias_com_par%C3%A2metros_obsoletas" title="Categoria:!Páginas que usam referências com parâmetros obsoletas">!Páginas que usam referências com parâmetros obsoletas</a></li><li><a href="/wiki/Categoria:!CS1_ingl%C3%AAs-fontes_em_l%C3%ADngua_(en)" title="Categoria:!CS1 inglês-fontes em língua (en)">!CS1 inglês-fontes em língua (en)</a></li><li><a href="/wiki/Categoria:!Artigos_com_%C3%A1udio" title="Categoria:!Artigos com áudio">!Artigos com áudio</a></li></ul></div></div>
+		<div class="visualClear"></div>
+		
+	</div>
+</div>
+<div id='mw-data-after-content'>
+	<div class="read-more-container"></div>
+</div>
+
+
+		<div id="mw-navigation">
+			<h2>Menu de navegação</h2>
+			<div id="mw-head">
+						<div id="p-personal" role="navigation" aria-labelledby="p-personal-label">
+			<h3 id="p-personal-label">Ferramentas pessoais</h3>
+			<ul>
+				<li id="pt-anonuserpage">Não autenticado</li><li id="pt-anontalk"><a href="/wiki/Especial:Minha_discuss%C3%A3o" title="Discussão sobre edições feitas a partir deste endereço IP [n]" accesskey="n">Discussão</a></li><li id="pt-anoncontribs"><a href="/wiki/Especial:Minhas_contribui%C3%A7%C3%B5es" title="Uma lista de edições feitas a partir deste endereço IP [y]" accesskey="y">Contribuições</a></li><li id="pt-createaccount"><a href="/w/index.php?title=Especial:Criar_conta&amp;returnto=Inform%C3%A1tica" title="É encorajado a criar uma conta e iniciar sessão; no entanto, não é obrigatório">Criar uma conta</a></li><li id="pt-login"><a href="/w/index.php?title=Especial:Entrar&amp;returnto=Inform%C3%A1tica" title="Aconselhamos-lhe a criar uma conta na Wikipédia, embora tal não seja obrigatório. [o]" accesskey="o">Entrar</a></li>			</ul>
+		</div>
+						<div id="left-navigation">
+					
+<div id="p-namespaces" role="navigation" class="vectorTabs " aria-labelledby="p-namespaces-label">
+	<h3 id="p-namespaces-label">Espa&ccedil;os nominais</h3>
+	<ul >
+		<li id="ca-nstab-main" class="selected"><a href="/wiki/Inform%C3%A1tica" title="Ver a página de conteúdo [c]" accesskey="c">Artigo</a></li><li id="ca-talk"><a href="/wiki/Discuss%C3%A3o:Inform%C3%A1tica" rel="discussion" title="Discussão sobre o conteúdo da página [t]" accesskey="t">Discussão</a></li>
+	</ul>
+</div>
+		<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+						<input type="checkbox" class="vectorMenuCheckbox" aria-labelledby="p-variants-label" />
+			<h3 id="p-variants-label">
+				<span>Variantes</span>
+			</h3>
+			<ul class="menu">
+							</ul>
+		</div>
+						</div>
+				<div id="right-navigation">
+					
+<div id="p-views" role="navigation" class="vectorTabs " aria-labelledby="p-views-label">
+	<h3 id="p-views-label">Vistas</h3>
+	<ul >
+		<li id="ca-view" class="collapsible selected"><a href="/wiki/Inform%C3%A1tica">Ler</a></li><li id="ca-viewsource" class="collapsible"><a href="/w/index.php?title=Inform%C3%A1tica&amp;action=edit" title="Esta página está protegida.&#10;Só pode ver o conteúdo. [e]" accesskey="e">Ver código-fonte</a></li><li id="ca-history" class="collapsible"><a href="/w/index.php?title=Inform%C3%A1tica&amp;action=history" title="Edições anteriores desta página. [h]" accesskey="h">Ver histórico</a></li>
+	</ul>
+</div>
+		<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+			<input type="checkbox" class="vectorMenuCheckbox" aria-labelledby="p-cactions-label" />
+			<h3 id="p-cactions-label"><span>Mais</span></h3>
+			<ul class="menu">
+							</ul>
+		</div>
+		
+<div id="p-search" role="search">
+	<h3 >
+		<label for="searchInput">Busca</label>
+	</h3>
+	<form action="/w/index.php" id="searchform">
+		<div id="simpleSearch">
+			<input type="search" name="search" placeholder="Pesquisar na Wikipédia" title="Pesquisar na Wikipédia [f]" accesskey="f" id="searchInput"/>
+			<input type="hidden" value="Especial:Pesquisar" name="title"/>
+			
+			<input type="submit" name="fulltext" value="Pesquisar" title="Procurar páginas que contêm este texto" id="mw-searchButton" class="searchButton mw-fallbackSearchButton"/>
+			<input type="submit" name="go" value="Ir" title="Ir para uma página com este nome exacto, caso exista" id="searchButton" class="searchButton"/>
+		</div>
+	</form>
+</div>
+				</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/wiki/Wikip%C3%A9dia:P%C3%A1gina_principal" title="Visitar a página principal"></a></div>
+						<div class="portal" role="navigation" id="p-navigation" aria-labelledby="p-navigation-label">
+			<h3 id="p-navigation-label">Navegação</h3>
+			<div class="body">
+								<ul>
+					<li id="n-mainpage-description"><a href="/wiki/Wikip%C3%A9dia:P%C3%A1gina_principal" title="Visitar a página principal [z]" accesskey="z">Página principal</a></li><li id="n-featuredcontent"><a href="/wiki/Portal:Conte%C3%BAdo_destacado">Conteúdo destacado</a></li><li id="n-currentevents"><a href="/wiki/Portal:Eventos_atuais" title="Informação temática sobre eventos atuais">Eventos atuais</a></li><li id="n-villagepump"><a href="/wiki/Wikip%C3%A9dia:Esplanada">Esplanada</a></li><li id="n-randompage"><a href="/wiki/Especial:Aleat%C3%B3ria" title="Carregar página aleatória [x]" accesskey="x">Página aleatória</a></li><li id="n-portals"><a href="/wiki/Portal:%C3%8Dndice">Portais</a></li><li id="n-bug_in_article"><a href="/wiki/Wikip%C3%A9dia:Informe_um_erro">Informar um erro</a></li><li id="n-shoplink"><a href="//shop.wikimedia.org" title="Visite a loja da Wikipédia">Loja da Wikipédia</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-interaction" aria-labelledby="p-interaction-label">
+			<h3 id="p-interaction-label">Colaboração</h3>
+			<div class="body">
+								<ul>
+					<li id="n-welcome"><a href="/wiki/Wikip%C3%A9dia:Boas-vindas">Boas-vindas</a></li><li id="n-help"><a href="/wiki/Ajuda:P%C3%A1gina_principal" title="Um local reservado para auxílio.">Ajuda</a></li><li id="n-testpage"><a href="/wiki/Wikip%C3%A9dia:P%C3%A1gina_de_testes">Página de testes</a></li><li id="n-portal"><a href="/wiki/Wikip%C3%A9dia:Portal_comunit%C3%A1rio" title="Sobre o projeto">Portal comunitário</a></li><li id="n-recentchanges"><a href="/wiki/Especial:Mudan%C3%A7as_recentes" title="Uma lista de mudanças recentes nesta wiki [r]" accesskey="r">Mudanças recentes</a></li><li id="n-maintenance"><a href="/wiki/Wikip%C3%A9dia:Manuten%C3%A7%C3%A3o">Manutenção</a></li><li id="n-createpage"><a href="/wiki/Ajuda:Guia_de_edi%C3%A7%C3%A3o/Como_come%C3%A7ar_uma_p%C3%A1gina">Criar página</a></li><li id="n-newpages-description"><a href="/wiki/Especial:P%C3%A1ginas_novas">Páginas novas</a></li><li id="n-contact-description"><a href="/wiki/Wikip%C3%A9dia:Contato">Contato</a></li><li id="n-sitesupport"><a href="//donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=20120521SB001&amp;uselang=pt" title="Ajude-nos">Donativos</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-wikibase-otherprojects" aria-labelledby="p-wikibase-otherprojects-label">
+			<h3 id="p-wikibase-otherprojects-label">Noutros projetos</h3>
+			<div class="body">
+								<ul>
+					<li class="wb-otherproject-link wb-otherproject-commons"><a href="https://commons.wikimedia.org/wiki/Category:Computing" hreflang="en">Wikimedia Commons</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-coll-print_export" aria-labelledby="p-coll-print_export-label">
+			<h3 id="p-coll-print_export-label">Imprimir/exportar</h3>
+			<div class="body">
+								<ul>
+					<li id="coll-create_a_book"><a href="/w/index.php?title=Especial:Livro&amp;bookcmd=book_creator&amp;referer=Inform%C3%A1tica">Criar um livro</a></li><li id="coll-download-as-rl"><a href="/w/index.php?title=Especial:ElectronPdf&amp;page=Inform%C3%A1tica&amp;action=show-download-screen">Descarregar como PDF</a></li><li id="t-print"><a href="/w/index.php?title=Inform%C3%A1tica&amp;printable=yes" title="Versão para impressão desta página [p]" accesskey="p">Versão para impressão</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-tb" aria-labelledby="p-tb-label">
+			<h3 id="p-tb-label">Ferramentas</h3>
+			<div class="body">
+								<ul>
+					<li id="t-whatlinkshere"><a href="/wiki/Especial:P%C3%A1ginas_afluentes/Inform%C3%A1tica" title="Lista de todas as páginas que contêm hiperligações para esta [j]" accesskey="j">Páginas afluentes</a></li><li id="t-recentchangeslinked"><a href="/wiki/Especial:Altera%C3%A7%C3%B5es_relacionadas/Inform%C3%A1tica" rel="nofollow" title="Mudanças recentes nas páginas para as quais esta contém hiperligações [k]" accesskey="k">Alterações relacionadas</a></li><li id="t-upload"><a href="/wiki/Wikipedia:Carregar_ficheiro" title="Carregar ficheiros [u]" accesskey="u">Carregar ficheiro</a></li><li id="t-specialpages"><a href="/wiki/Especial:P%C3%A1ginas_especiais" title="Lista de páginas especiais [q]" accesskey="q">Páginas especiais</a></li><li id="t-permalink"><a href="/w/index.php?title=Inform%C3%A1tica&amp;oldid=56680137" title="Hiperligação permanente para esta revisão da página">Hiperligação permanente</a></li><li id="t-info"><a href="/w/index.php?title=Inform%C3%A1tica&amp;action=info" title="Mais informações sobre esta página">Informações da página</a></li><li id="t-wikibase"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q179310" title="Hiperligação para o elemento do repositório de dados [g]" accesskey="g">Elemento Wikidata</a></li><li id="t-cite"><a href="/w/index.php?title=Especial:Citar&amp;page=Inform%C3%A1tica&amp;id=56680137" title="Informação sobre como citar esta página">Citar esta página</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-lang" aria-labelledby="p-lang-label">
+			<h3 id="p-lang-label">Noutras línguas</h3>
+			<div class="body">
+								<ul>
+					<li class="interlanguage-link interwiki-ar"><a href="https://ar.wikipedia.org/wiki/%D8%AD%D9%88%D8%B3%D8%A8%D8%A9" title="حوسبة — árabe" lang="ar" hreflang="ar" class="interlanguage-link-target">العربية</a></li><li class="interlanguage-link interwiki-bg"><a href="https://bg.wikipedia.org/wiki/%D0%98%D0%B7%D1%87%D0%B8%D1%81%D0%BB%D0%B8%D1%82%D0%B5%D0%BB%D0%BD%D0%B0_%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA%D0%B0" title="Изчислителна техника — búlgaro" lang="bg" hreflang="bg" class="interlanguage-link-target">Български</a></li><li class="interlanguage-link interwiki-bn"><a href="https://bn.wikipedia.org/wiki/%E0%A6%95%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A6%BF%E0%A6%89%E0%A6%9F%E0%A6%BF%E0%A6%82" title="কম্পিউটিং — bengalês" lang="bn" hreflang="bn" class="interlanguage-link-target">বাংলা</a></li><li class="interlanguage-link interwiki-ca"><a href="https://ca.wikipedia.org/wiki/Inform%C3%A0tica" title="Informàtica — catalão" lang="ca" hreflang="ca" class="interlanguage-link-target">Català</a></li><li class="interlanguage-link interwiki-cs"><a href="https://cs.wikipedia.org/wiki/V%C3%BDpo%C4%8Detn%C3%AD_technika" title="Výpočetní technika — checo" lang="cs" hreflang="cs" class="interlanguage-link-target">Čeština</a></li><li class="interlanguage-link interwiki-cy"><a href="https://cy.wikipedia.org/wiki/Cyfrifiadura" title="Cyfrifiadura — galês" lang="cy" hreflang="cy" class="interlanguage-link-target">Cymraeg</a></li><li class="interlanguage-link interwiki-da"><a href="https://da.wikipedia.org/wiki/Databehandling" title="Databehandling — dinamarquês" lang="da" hreflang="da" class="interlanguage-link-target">Dansk</a></li><li class="interlanguage-link interwiki-de"><a href="https://de.wikipedia.org/wiki/Computing" title="Computing — alemão" lang="de" hreflang="de" class="interlanguage-link-target">Deutsch</a></li><li class="interlanguage-link interwiki-en"><a href="https://en.wikipedia.org/wiki/Computing" title="Computing — inglês" lang="en" hreflang="en" class="interlanguage-link-target">English</a></li><li class="interlanguage-link interwiki-eo"><a href="https://eo.wikipedia.org/wiki/Komputado" title="Komputado — esperanto" lang="eo" hreflang="eo" class="interlanguage-link-target">Esperanto</a></li><li class="interlanguage-link interwiki-es"><a href="https://es.wikipedia.org/wiki/Inform%C3%A1tica" title="Informática — espanhol" lang="es" hreflang="es" class="interlanguage-link-target">Español</a></li><li class="interlanguage-link interwiki-fa"><a href="https://fa.wikipedia.org/wiki/%D8%B1%D8%A7%DB%8C%D8%A7%D9%86%D8%B4" title="رایانش — persa" lang="fa" hreflang="fa" class="interlanguage-link-target">فارسی</a></li><li class="interlanguage-link interwiki-gd"><a href="https://gd.wikipedia.org/wiki/Coimpiutaireachd" title="Coimpiutaireachd — gaélico escocês" lang="gd" hreflang="gd" class="interlanguage-link-target">Gàidhlig</a></li><li class="interlanguage-link interwiki-gl"><a href="https://gl.wikipedia.org/wiki/Inform%C3%A1tica" title="Informática — galego" lang="gl" hreflang="gl" class="interlanguage-link-target">Galego</a></li><li class="interlanguage-link interwiki-he"><a href="https://he.wikipedia.org/wiki/%D7%9E%D7%97%D7%A9%D7%95%D7%91" title="מחשוב — hebraico" lang="he" hreflang="he" class="interlanguage-link-target">עברית</a></li><li class="interlanguage-link interwiki-hi"><a href="https://hi.wikipedia.org/wiki/%E0%A4%85%E0%A4%AD%E0%A4%BF%E0%A4%95%E0%A4%B2%E0%A4%A8" title="अभिकलन — hindi" lang="hi" hreflang="hi" class="interlanguage-link-target">हिन्दी</a></li><li class="interlanguage-link interwiki-hu"><a href="https://hu.wikipedia.org/wiki/Sz%C3%A1m%C3%ADt%C3%A1stechnika" title="Számítástechnika — húngaro" lang="hu" hreflang="hu" class="interlanguage-link-target">Magyar</a></li><li class="interlanguage-link interwiki-id"><a href="https://id.wikipedia.org/wiki/Komputasi_(teknologi_informasi)" title="Komputasi (teknologi informasi) — indonésio" lang="id" hreflang="id" class="interlanguage-link-target">Bahasa Indonesia</a></li><li class="interlanguage-link interwiki-it"><a href="https://it.wikipedia.org/wiki/Calcolo_(informatica)" title="Calcolo (informatica) — italiano" lang="it" hreflang="it" class="interlanguage-link-target">Italiano</a></li><li class="interlanguage-link interwiki-ja"><a href="https://ja.wikipedia.org/wiki/%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0" title="コンピューティング — japonês" lang="ja" hreflang="ja" class="interlanguage-link-target">日本語</a></li><li class="interlanguage-link interwiki-jv"><a href="https://jv.wikipedia.org/wiki/Komputasi" title="Komputasi — javanês" lang="jv" hreflang="jv" class="interlanguage-link-target">Jawa</a></li><li class="interlanguage-link interwiki-ka"><a href="https://ka.wikipedia.org/wiki/%E1%83%99%E1%83%9D%E1%83%9B%E1%83%9E%E1%83%98%E1%83%A3%E1%83%A2%E1%83%94%E1%83%A0%E1%83%A3%E1%83%9A%E1%83%98_%E1%83%A2%E1%83%94%E1%83%A5%E1%83%9C%E1%83%9D%E1%83%9A%E1%83%9D%E1%83%92%E1%83%98%E1%83%90" title="კომპიუტერული ტექნოლოგია — georgiano" lang="ka" hreflang="ka" class="interlanguage-link-target">ქართული</a></li><li class="interlanguage-link interwiki-ko"><a href="https://ko.wikipedia.org/wiki/%EC%BB%B4%ED%93%A8%ED%8C%85" title="컴퓨팅 — coreano" lang="ko" hreflang="ko" class="interlanguage-link-target">한국어</a></li><li class="interlanguage-link interwiki-la"><a href="https://la.wikipedia.org/wiki/Computatio" title="Computatio — latim" lang="la" hreflang="la" class="interlanguage-link-target">Latina</a></li><li class="interlanguage-link interwiki-lv"><a href="https://lv.wikipedia.org/wiki/Datorika" title="Datorika — letão" lang="lv" hreflang="lv" class="interlanguage-link-target">Latviešu</a></li><li class="interlanguage-link interwiki-map-bms"><a href="https://map-bms.wikipedia.org/wiki/Informatika" title="Informatika — Basa Banyumasan" lang="jv-x-bms" hreflang="jv-x-bms" class="interlanguage-link-target">Basa Banyumasan</a></li><li class="interlanguage-link interwiki-ml"><a href="https://ml.wikipedia.org/wiki/%E0%B4%95%E0%B4%AE%E0%B5%8D%E0%B4%AA%E0%B5%8D%E0%B4%AF%E0%B5%82%E0%B4%9F%E0%B5%8D%E0%B4%9F%E0%B4%BF%E0%B4%99%E0%B5%8D%E0%B4%99%E0%B5%8D%E2%80%8C" title="കമ്പ്യൂട്ടിങ്ങ്‌ — malaiala" lang="ml" hreflang="ml" class="interlanguage-link-target">മലയാളം</a></li><li class="interlanguage-link interwiki-ms"><a href="https://ms.wikipedia.org/wiki/Pengkomputan" title="Pengkomputan — malaio" lang="ms" hreflang="ms" class="interlanguage-link-target">Bahasa Melayu</a></li><li class="interlanguage-link interwiki-mwl"><a href="https://mwl.wikipedia.org/wiki/Anform%C3%A1tica" title="Anformática — mirandês" lang="mwl" hreflang="mwl" class="interlanguage-link-target">Mirandés</a></li><li class="interlanguage-link interwiki-nah"><a href="https://nah.wikipedia.org/wiki/Ch%C4%ABuhp%C5%8Dhualhuaztiliztli" title="Chīuhpōhualhuaztiliztli — Nāhuatl" lang="nah" hreflang="nah" class="interlanguage-link-target">Nāhuatl</a></li><li class="interlanguage-link interwiki-ne"><a href="https://ne.wikipedia.org/wiki/%E0%A4%97%E0%A4%A3%E0%A4%A8" title="गणन — nepalês" lang="ne" hreflang="ne" class="interlanguage-link-target">नेपाली</a></li><li class="interlanguage-link interwiki-nov"><a href="https://nov.wikipedia.org/wiki/Informatike" title="Informatike — Novial" lang="nov" hreflang="nov" class="interlanguage-link-target">Novial</a></li><li class="interlanguage-link interwiki-pl"><a href="https://pl.wikipedia.org/wiki/Komputerologia" title="Komputerologia — polaco" lang="pl" hreflang="pl" class="interlanguage-link-target">Polski</a></li><li class="interlanguage-link interwiki-ru"><a href="https://ru.wikipedia.org/wiki/%D0%92%D1%8B%D1%87%D0%B8%D1%81%D0%BB%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA%D0%B0" title="Вычислительная техника — russo" lang="ru" hreflang="ru" class="interlanguage-link-target">Русский</a></li><li class="interlanguage-link interwiki-sco"><a href="https://sco.wikipedia.org/wiki/Computin" title="Computin — scots" lang="sco" hreflang="sco" class="interlanguage-link-target">Scots</a></li><li class="interlanguage-link interwiki-sh"><a href="https://sh.wikipedia.org/wiki/Ra%C4%8Dunanje" title="Računanje — servo-croata" lang="sh" hreflang="sh" class="interlanguage-link-target">Srpskohrvatski / српскохрватски</a></li><li class="interlanguage-link interwiki-si"><a href="https://si.wikipedia.org/wiki/%E0%B6%B4%E0%B6%BB%E0%B7%92%E0%B6%9C%E0%B6%AB%E0%B6%B1%E0%B6%BA" title="පරිගණනය — cingalês" lang="si" hreflang="si" class="interlanguage-link-target">සිංහල</a></li><li class="interlanguage-link interwiki-sk"><a href="https://sk.wikipedia.org/wiki/V%C3%BDpo%C4%8Dtov%C3%A1_technika" title="Výpočtová technika — eslovaco" lang="sk" hreflang="sk" class="interlanguage-link-target">Slovenčina</a></li><li class="interlanguage-link interwiki-sr"><a href="https://sr.wikipedia.org/wiki/%D0%A0%D0%B0%D1%87%D1%83%D0%BD%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%BE" title="Рачунарство — sérvio" lang="sr" hreflang="sr" class="interlanguage-link-target">Српски / srpski</a></li><li class="interlanguage-link interwiki-ta"><a href="https://ta.wikipedia.org/wiki/%E0%AE%95%E0%AE%A3%E0%AE%BF%E0%AE%A4%E0%AF%8D%E0%AE%A4%E0%AE%B2%E0%AF%8D_(%E0%AE%95%E0%AE%A3%E0%AE%BF%E0%AE%A9%E0%AE%BF)" title="கணித்தல் (கணினி) — tâmil" lang="ta" hreflang="ta" class="interlanguage-link-target">தமிழ்</a></li><li class="interlanguage-link interwiki-tg"><a href="https://tg.wikipedia.org/wiki/%D0%A0%D0%BE%D1%91%D0%BD%D0%B8%D1%88" title="Роёниш — tajique" lang="tg" hreflang="tg" class="interlanguage-link-target">Тоҷикӣ</a></li><li class="interlanguage-link interwiki-th"><a href="https://th.wikipedia.org/wiki/%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%84%E0%B8%AD%E0%B8%A1%E0%B8%9E%E0%B8%B4%E0%B8%A7%E0%B9%80%E0%B8%95%E0%B8%AD%E0%B8%A3%E0%B9%8C" title="การคอมพิวเตอร์ — tailandês" lang="th" hreflang="th" class="interlanguage-link-target">ไทย</a></li><li class="interlanguage-link interwiki-tl"><a href="https://tl.wikipedia.org/wiki/Pagkukuwenta" title="Pagkukuwenta — tagalo" lang="tl" hreflang="tl" class="interlanguage-link-target">Tagalog</a></li><li class="interlanguage-link interwiki-uk"><a href="https://uk.wikipedia.org/wiki/%D0%9A%D0%BE%D0%BC%D0%BF%27%D1%8E%D1%82%D0%B8%D0%BD%D0%B3" title="Комп&#039;ютинг — ucraniano" lang="uk" hreflang="uk" class="interlanguage-link-target">Українська</a></li><li class="interlanguage-link interwiki-ur"><a href="https://ur.wikipedia.org/wiki/%DA%A9%D9%85%D9%BE%DB%8C%D9%88%D9%B9%D9%86%DA%AF" title="کمپیوٹنگ — urdu" lang="ur" hreflang="ur" class="interlanguage-link-target">اردو</a></li><li class="interlanguage-link interwiki-vec"><a href="https://vec.wikipedia.org/wiki/Enform%C3%A0dega" title="Enformàdega — Venetian" lang="vec" hreflang="vec" class="interlanguage-link-target">Vèneto</a></li><li class="interlanguage-link interwiki-vi"><a href="https://vi.wikipedia.org/wiki/%C4%90i%E1%BB%87n_to%C3%A1n" title="Điện toán — vietnamita" lang="vi" hreflang="vi" class="interlanguage-link-target">Tiếng Việt</a></li><li class="interlanguage-link interwiki-wuu"><a href="https://wuu.wikipedia.org/wiki/%E8%AE%A1%E7%AE%97_(%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6)" title="计算 (计算机科学) — wu" lang="wuu" hreflang="wuu" class="interlanguage-link-target">吴语</a></li><li class="interlanguage-link interwiki-yi"><a href="https://yi.wikipedia.org/wiki/%D7%A7%D7%90%D7%9E%D7%A4%D7%99%D7%95%D7%98%D7%A2%D7%A8%D7%99%D7%99" title="קאמפיוטעריי — iídiche" lang="yi" hreflang="yi" class="interlanguage-link-target">ייִדיש</a></li><li class="interlanguage-link interwiki-yo"><a href="https://yo.wikipedia.org/wiki/%C3%8C%E1%B9%A3i%E1%B9%A3%E1%BA%B9%CC%81_k%E1%BB%8D%CC%80mp%C3%BAt%C3%A0" title="Ìṣiṣẹ́ kọ̀mpútà — ioruba" lang="yo" hreflang="yo" class="interlanguage-link-target">Yorùbá</a></li><li class="interlanguage-link interwiki-zh"><a href="https://zh.wikipedia.org/wiki/%E8%AE%A1%E7%AE%97_(%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6)" title="计算 (计算机科学) — chinês" lang="zh" hreflang="zh" class="interlanguage-link-target">中文</a></li><li class="interlanguage-link interwiki-zh-min-nan"><a href="https://zh-min-nan.wikipedia.org/wiki/Computing" title="Computing — Chinese (Min Nan)" lang="nan" hreflang="nan" class="interlanguage-link-target">Bân-lâm-gú</a></li>				</ul>
+				<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q179310#sitelinks-wikipedia" title="Editar hiperligações interlínguas" class="wbc-editpage">Editar hiperligações</a></span></div>			</div>
+		</div>
+				</div>
+		</div>
+				<div id="footer" role="contentinfo">
+						<ul id="footer-info">
+								<li id="footer-info-lastmod"> Esta página foi editada pela última vez às 12h26min de 9 de novembro de 2019.</li>
+								<li id="footer-info-copyright">Este texto é disponibilizado nos termos da licença <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.pt">Atribuição-CompartilhaIgual 3.0 Não Adaptada (CC BY-SA 3.0) da Creative Commons</a>;
+pode estar sujeito a condições adicionais.
+Para mais detalhes, consulte as <a href="https://foundation.wikimedia.org/wiki/Condições_de_Uso">condições de utilização</a>.</li>
+							</ul>
+						<ul id="footer-places">
+								<li id="footer-places-privacy"><a href="https://meta.wikimedia.org/wiki/Privacy_policy/pt-br" class="extiw" title="m:Privacy policy/pt-br">Política de privacidade</a></li>
+								<li id="footer-places-about"><a href="/wiki/Wikip%C3%A9dia:Sobre" class="mw-redirect" title="Wikipédia:Sobre">Sobre a Wikipédia</a></li>
+								<li id="footer-places-disclaimer"><a href="/wiki/Wikip%C3%A9dia:Aviso_geral" title="Wikipédia:Aviso geral">Avisos gerais</a></li>
+								<li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Programadores</a></li>
+								<li id="footer-places-statslink"><a href="https://stats.wikimedia.org/v2/#/pt.wikipedia.org">Estatísticas</a></li>
+								<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Cookie_statement">Declaração sobre ''cookies''</a></li>
+								<li id="footer-places-mobileview"><a href="//pt.m.wikipedia.org/w/index.php?title=Inform%C3%A1tica&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Versão móvel</a></li>
+							</ul>
+										<ul id="footer-icons" class="noprint">
+										<li id="footer-copyrightico">
+						<a href="https://wikimediafoundation.org/"><img src="/static/images/wikimedia-button.png" srcset="/static/images/wikimedia-button-1.5x.png 1.5x, /static/images/wikimedia-button-2x.png 2x" width="88" height="31" alt="Wikimedia Foundation"/></a>					</li>
+										<li id="footer-poweredbyico">
+						<a href="https://www.mediawiki.org/"><img src="/static/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/static/images/poweredby_mediawiki_132x47.png 1.5x, /static/images/poweredby_mediawiki_176x62.png 2x" width="88" height="31"/></a>					</li>
+									</ul>
+						<div style="clear: both;"></div>
+		</div>
+		
+
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.308","walltime":"0.435","ppvisitednodes":{"value":1499,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":41903,"limit":2097152},"templateargumentsize":{"value":3347,"limit":2097152},"expansiondepth":{"value":9,"limit":40},"expensivefunctioncount":{"value":0,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":5855,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  308.813      1 -total"," 47.26%  145.948      1 Predefinição:Referências"," 40.51%  125.103      3 Predefinição:Citar_livro"," 24.92%   76.963      1 Predefinição:Wikipedia_audível"," 22.67%   70.019      1 Predefinição:Top_icon"," 18.24%   56.322      1 Predefinição:Produção_Econômica"," 17.56%   54.221      1 Predefinição:Category_handler"," 16.12%   49.780      1 Predefinição:Navbox","  9.44%   29.137      1 Predefinição:Portal3","  8.11%   25.054      1 Predefinição:Portal3/Portais"]},"scribunto":{"limitreport-timeusage":{"value":"0.099","limit":"10.000"},"limitreport-memusage":{"value":2266381,"limit":52428800}},"cachereport":{"origin":"mw1266","timestamp":"20191219174624","ttl":2592000,"transientcontent":false}}});});</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Inform\u00e1tica","url":"https:\/\/pt.wikipedia.org\/wiki\/Inform%C3%A1tica","sameAs":"http:\/\/www.wikidata.org\/entity\/Q179310","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q179310","author":{"@type":"Organization","name":"Contribuidores dos projetos da Wikimedia"},"publisher":{"@type":"Organization","name":"Funda\u00e7\u00e3o Wikimedia, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2003-02-04T16:50:40Z","dateModified":"2019-11-09T12:26:58Z"}</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":132,"wgHostname":"mw1245"});});</script>
+</body>
+</html>

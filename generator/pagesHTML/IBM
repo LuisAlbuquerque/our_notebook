@@ -1,0 +1,1764 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="pt" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>IBM – Wikipédia, a enciclopédia livre</title>
+<script>document.documentElement.className="client-js";RLCONF={"wgBreakFrames":!1,"wgSeparatorTransformTable":[",\t."," \t,"],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","janeiro","fevereiro","março","abril","maio","junho","julho","agosto","setembro","outubro","novembro","dezembro"],"wgMonthNamesShort":["","jan.","fev.","mar.","abr.","mai.","jun.","jul.","ago.","set.","out.","nov.","dez."],"wgRequestId":"XhXRXwpAAD4AAFGejBYAAABA","wgCSPNonce":!1,"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":!1,"wgNamespaceNumber":0,"wgPageName":"IBM","wgTitle":"IBM","wgCurRevisionId":56910531,"wgRevisionId":56910531,"wgArticleId":28722,"wgIsArticle":!0,"wgIsRedirect":!1,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["!CS1 inglês-fontes em língua (en)","!Portal:Economia e negócios/Artigos relacionados","!Portal:Economia e negócios/Artigos relacionados sobre empresas","Empresas de eletrônicos dos Estados Unidos",
+"Empresas no Dow Jones Industrial Average","IBM","Empresas de informática dos Estados Unidos","Empresas de semicondutores dos Estados Unidos","Empresas fundadas em 1911","Empresas listadas na New York Stock Exchange","Multinacionais dos Estados Unidos","Marcas dos Estados Unidos"],"wgPageContentLanguage":"pt","wgPageContentModel":"wikitext","wgRelevantPageName":"IBM","wgRelevantArticleId":28722,"wgIsProbablyEditable":!0,"wgRelevantPageIsProbablyEditable":!0,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgMediaViewerOnClick":!0,"wgMediaViewerEnabledByDefault":!0,"wgPopupsReferencePreviews":!1,"wgPopupsConflictsWithNavPopupGadget":!1,"wgVisualEditor":{"pageLanguageCode":"pt","pageLanguageDir":"ltr","pageVariantFallbacks":"pt"},"wgMFDisplayWikibaseDescriptions":{"search":!0,"nearby":!0,"watchlist":!0,"tagline":!0},"wgWMESchemaEditAttemptStepOversample":!1,"wgULSCurrentAutonym":"português","wgNoticeProject":"wikipedia","wgWikibaseItemId":"Q37156",
+"wgCentralAuthMobileDomain":!1,"wgEditSubmitButtonLabelPublish":!0,"wgSiteNoticeId":"2.28"};RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","user.tokens":"loading","ext.cite.styles":"ready","mediawiki.page.gallery.styles":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","jquery.tablesorter.styles":"ready","mediawiki.toc.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","ext.dismissableSiteNotice.styles":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready"};RLPAGEMODULES=["ext.cite.ux-enhancements","site","mediawiki.page.startup","mediawiki.page.ready","jquery.tablesorter","mediawiki.toc","mediawiki.searchSuggest","ext.gadget.Topicon","ext.gadget.Metacaixa","ext.gadget.TitleRewrite"
+,"ext.gadget.ElementosOcultaveis","ext.gadget.FeedbackHighlight","ext.gadget.ReferenceTooltips","ext.gadget.NewVillagePump","ext.gadget.wikibugs","ext.gadget.charinsert","ext.gadget.requestForAdminship","ext.gadget.EnhancedSearch","ext.gadget.WikiMiniAtlas","ext.gadget.PagesForDeletion","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.uls.compactlinks","ext.uls.interface","ext.cx.eventlogging.campaigns","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js","ext.dismissableSiteNotice"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@jqysj",function($,jQuery,require,module){/*@nomin*/mw.user.options.set({"variant":"pt"});
+});mw.loader.implement("user.tokens@tffin",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});});</script>
+<link rel="stylesheet" href="/w/load.php?lang=pt&amp;modules=ext.cite.styles%7Cext.dismissableSiteNotice.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cjquery.tablesorter.styles%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.page.gallery.styles%7Cmediawiki.skinning.interface%7Cmediawiki.toc.styles%7Cskins.vector.styles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector"/>
+<script async="" src="/w/load.php?lang=pt&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/w/load.php?lang=pt&amp;modules=site.styles&amp;only=styles&amp;skin=vector"/>
+<meta name="generator" content="MediaWiki 1.35.0-wmf.11"/>
+<meta name="referrer" content="origin"/>
+<meta name="referrer" content="origin-when-crossorigin"/>
+<meta name="referrer" content="origin-when-cross-origin"/>
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/IBM_CHQ_-_Oct_2014.jpg/1200px-IBM_CHQ_-_Oct_2014.jpg"/>
+<link rel="alternate" href="android-app://org.wikipedia/http/pt.m.wikipedia.org/wiki/IBM"/>
+<link rel="alternate" type="application/x-wiki" title="Editar" href="/w/index.php?title=IBM&amp;action=edit"/>
+<link rel="edit" title="Editar" href="/w/index.php?title=IBM&amp;action=edit"/>
+<link rel="apple-touch-icon" href="/static/apple-touch/wikipedia.png"/>
+<link rel="shortcut icon" href="/static/favicon/wikipedia.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipédia (pt)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//pt.wikipedia.org/w/api.php?action=rsd"/>
+<link rel="license" href="//creativecommons.org/licenses/by-sa/3.0/"/>
+<link rel="canonical" href="https://pt.wikipedia.org/wiki/IBM"/>
+<link rel="dns-prefetch" href="//login.wikimedia.org"/>
+<link rel="dns-prefetch" href="//meta.wikimedia.org" />
+<!--[if lt IE 9]><script src="/w/resources/lib/html5shiv/html5shiv.js"></script><![endif]-->
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-IBM rootpage-IBM skin-vector action-view">
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+<div id="content" class="mw-body" role="main">
+	<a id="top"></a>
+	<div id="siteNotice" class="mw-body-content"><!-- CentralNotice --><div id="mw-dismissablenotice-anonplace"></div><script>(function(){var node=document.getElementById("mw-dismissablenotice-anonplace");if(node){node.outerHTML="\u003Cdiv class=\"mw-dismissable-notice\"\u003E\u003Cdiv class=\"mw-dismissable-notice-close\"\u003E[\u003Ca tabindex=\"0\" role=\"button\"\u003Eocultar\u003C/a\u003E]\u003C/div\u003E\u003Cdiv class=\"mw-dismissable-notice-body\"\u003E\u003Cdiv id=\"localNotice\" lang=\"pt\" dir=\"ltr\"\u003E\u003C/div\u003E\u003C/div\u003E\u003C/div\u003E";}}());</script></div>
+	<div class="mw-indicators mw-body-content">
+</div>
+
+	<h1 id="firstHeading" class="firstHeading" lang="pt">IBM</h1>
+	
+	<div id="bodyContent" class="mw-body-content">
+		<div id="siteSub" class="noprint">Origem: Wikip&eacute;dia, a enciclop&eacute;dia livre.</div>
+		<div id="contentSub"></div>
+		
+		
+		
+		<div id="jump-to-nav"></div>
+		<a class="mw-jump-link" href="#mw-head">Saltar para a navega&ccedil;&atilde;o</a>
+		<a class="mw-jump-link" href="#p-search">Saltar para a pesquisa</a>
+		<div id="mw-content-text" lang="pt" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><table class="infobox_v2" cellpadding="3" border="0" style="text-align: left; font-size: 88%;">
+
+<tbody><tr>
+<th colspan="2" class="" style="text-align:center; font-size:larger; background-color:transparent; border-radius: 3px 3px 0 0;"><span class="">IBM</span>
+</th></tr>
+
+
+<tr>
+<td colspan="2" style="text-align:center;"><div style="padding-bottom: 5px;"><div class="center"><div class="floatnone"><a href="/wiki/Ficheiro:IBM_logo.svg" class="image" title="IBM"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/5/51/IBM_logo.svg/270px-IBM_logo.svg.png" decoding="async" width="270" height="108" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/5/51/IBM_logo.svg/405px-IBM_logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/5/51/IBM_logo.svg/540px-IBM_logo.svg.png 2x" data-file-width="1000" data-file-height="400" /></a></div></div></div>
+</td></tr>
+
+<tr>
+<td colspan="2" style="text-align:center;"><div style="padding-bottom: 5px;"><div class="center"><div class="floatnone"><a href="/wiki/Ficheiro:IBM_CHQ_-_Oct_2014.jpg" class="image" title="IBM"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/b/b5/IBM_CHQ_-_Oct_2014.jpg/270px-IBM_CHQ_-_Oct_2014.jpg" decoding="async" width="270" height="203" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/b/b5/IBM_CHQ_-_Oct_2014.jpg/405px-IBM_CHQ_-_Oct_2014.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/b/b5/IBM_CHQ_-_Oct_2014.jpg/540px-IBM_CHQ_-_Oct_2014.jpg 2x" data-file-width="3264" data-file-height="2448" /></a></div></div></div>Sede da IBM em Armonk
+</td></tr>
+
+
+
+ 
+<tr>
+<td scope="row" style="vertical-align: top; text-align: left; text-align: left; font-weight: bold;"><a href="/wiki/Raz%C3%A3o_social" title="Razão social">Razão social</a>
+</td>
+<td style="vertical-align: top; text-align: left; text-align: left;">International Business<br />Machines Corporation
+</td></tr>
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+<tr>
+<td scope="row" style="vertical-align: top; text-align: left; text-align: left; font-weight: bold;">Nome(s) anterior(es)
+</td>
+<td style="vertical-align: top; text-align: left; text-align: left;">Computing-Tabulating-<br />Recording Company<br /><span style="font-size:85%;">(1911–1924)</span>
+</td></tr>
+ 
+
+ 
+<tr>
+<td scope="row" style="vertical-align: top; text-align: left; text-align: left; font-weight: bold;"><div style="padding:0.1em 0;line-height:1.2em;"><a href="/wiki/Tipos_de_empresas" title="Tipos de empresas">Tipo</a></div>
+</td>
+<td style="vertical-align: top; text-align: left; text-align: left;"><a href="/wiki/Empresa_de_capital_aberto" title="Empresa de capital aberto">Pública</a>
+</td></tr>
+ 
+
+ 
+
+ 
+
+ 
+<tr>
+<td scope="row" style="vertical-align: top; text-align: left; text-align: left; font-weight: bold;">Cotação
+</td>
+<td style="vertical-align: top; text-align: left; text-align: left;"><a href="/wiki/New_York_Stock_Exchange" title="New York Stock Exchange">NYSE</a>: <a rel="nofollow" class="external text" href="https://www.nyse.com/quote/XNYS:IBM">IBM</a>
+</td></tr>
+ 
+
+ 
+<tr>
+<td scope="row" style="vertical-align: top; text-align: left; text-align: left; font-weight: bold;">Atividade
+</td>
+<td style="vertical-align: top; text-align: left; text-align: left;"><a href="/wiki/Computa%C3%A7%C3%A3o" title="Computação">Computação</a>
+</td></tr>
+ 
+
+ 
+
+ 
+
+
+ 
+<tr>
+<td scope="row" style="vertical-align: top; text-align: left; text-align: left; font-weight: bold;">Fundação
+</td>
+<td style="vertical-align: top; text-align: left; text-align: left;">16 de junho de 1911
+</td></tr>
+ 
+
+ 
+<tr>
+<td scope="row" style="vertical-align: top; text-align: left; text-align: left; font-weight: bold;">Fundador(es)
+</td>
+<td style="vertical-align: top; text-align: left; text-align: left;">Charles Ranlett Flint<br /><a href="/wiki/Thomas_John_Watson" title="Thomas John Watson">Thomas John Watson</a>
+</td></tr>
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+<tr>
+<td scope="row" style="vertical-align: top; text-align: left; text-align: left; font-weight: bold;">Sede
+</td>
+<td style="vertical-align: top; text-align: left; text-align: left;">Armonk, <a href="/wiki/Nova_Iorque_(estado)" title="Nova Iorque (estado)">Nova Iorque</a>,<br /><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/22px-Flag_of_the_United_States.svg.png" decoding="async" width="22" height="12" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/33px-Flag_of_the_United_States.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/44px-Flag_of_the_United_States.svg.png 2x" data-file-width="1235" data-file-height="650" />&#160;<a href="/wiki/Estados_Unidos" title="Estados Unidos">Estados Unidos</a>
+</td></tr>
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+<tr>
+<td scope="row" style="vertical-align: top; text-align: left; text-align: left; font-weight: bold;">Presidente
+</td>
+<td style="vertical-align: top; text-align: left; text-align: left;"><a href="/wiki/Ginni_Rometty" title="Ginni Rometty">Ginni Rometty</a>
+</td></tr>
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+<tr>
+<td scope="row" style="vertical-align: top; text-align: left; text-align: left; font-weight: bold;">Empregados
+</td>
+<td style="vertical-align: top; text-align: left; text-align: left;">c. 350 mil
+</td></tr>
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+<tr>
+<td scope="row" style="vertical-align: top; text-align: left; text-align: left; font-weight: bold;"><a href="/wiki/Ativo" title="Ativo">Ativos</a>
+</td>
+<td style="vertical-align: top; text-align: left; text-align: left;"><span style="white-space:nowrap;"><span title="Baixa"><img alt="Baixa" src="//upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Decrease2.svg/11px-Decrease2.svg.png" decoding="async" width="11" height="11" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Decrease2.svg/17px-Decrease2.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Decrease2.svg/22px-Decrease2.svg.png 2x" data-file-width="300" data-file-height="300" /></span> <a href="/wiki/D%C3%B3lar_dos_Estados_Unidos" title="Dólar dos Estados Unidos">US$</a> 123,38 bilhões <span style="font-size:85%;">(2018)</span><sup id="cite_ref-financeiro_1-0" class="reference"><a href="#cite_note-financeiro-1"><span>[</span>1<span>]</span></a></sup></span>
+</td></tr>
+ 
+
+ 
+<tr>
+<td scope="row" style="vertical-align: top; text-align: left; text-align: left; font-weight: bold;"><a href="/wiki/Receita_(economia)" title="Receita (economia)">Receita</a>
+</td>
+<td style="vertical-align: top; text-align: left; text-align: left;"><span title="Aumento"><img alt="Aumento" src="//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/11px-Increase2.svg.png" decoding="async" width="11" height="11" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/17px-Increase2.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/22px-Increase2.svg.png 2x" data-file-width="300" data-file-height="300" /></span> US$ 79,59 bilhões <span style="font-size:85%;">(2018)</span><sup id="cite_ref-financeiro_1-1" class="reference"><a href="#cite_note-financeiro-1"><span>[</span>1<span>]</span></a></sup>
+</td></tr>
+ 
+
+ 
+
+ 
+
+ 
+<tr>
+<td scope="row" style="vertical-align: top; text-align: left; text-align: left; font-weight: bold;"><a href="/wiki/Lucro_antes_de_juros_e_imposto_de_renda" title="Lucro antes de juros e imposto de renda">LAJIR</a>
+</td>
+<td style="vertical-align: top; text-align: left; text-align: left;"><span title="Aumento"><img alt="Aumento" src="//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/11px-Increase2.svg.png" decoding="async" width="11" height="11" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/17px-Increase2.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/22px-Increase2.svg.png 2x" data-file-width="300" data-file-height="300" /></span> US$ 13,21 bilhões <span style="font-size:85%;">(2018)</span><sup id="cite_ref-financeiro_1-2" class="reference"><a href="#cite_note-financeiro-1"><span>[</span>1<span>]</span></a></sup>
+</td></tr>
+ 
+
+ 
+
+ 
+
+ 
+<tr>
+<td scope="row" style="vertical-align: top; text-align: left; text-align: left; font-weight: bold;"><a href="/wiki/Patrim%C3%B4nio_l%C3%ADquido" title="Patrimônio líquido">Renda líquida</a>
+</td>
+<td style="vertical-align: top; text-align: left; text-align: left;"><span title="Aumento"><img alt="Aumento" src="//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/11px-Increase2.svg.png" decoding="async" width="11" height="11" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/17px-Increase2.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/22px-Increase2.svg.png 2x" data-file-width="300" data-file-height="300" /></span> US$ 8,72 bilhões <span style="font-size:85%;">(2018)</span><sup id="cite_ref-financeiro_1-3" class="reference"><a href="#cite_note-financeiro-1"><span>[</span>1<span>]</span></a></sup>
+</td></tr>
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+<tr>
+<td scope="row" style="vertical-align: top; text-align: left; text-align: left; font-weight: bold;"><i>Website</i> oficial
+</td>
+<td style="vertical-align: top; text-align: left; text-align: left;"><a rel="nofollow" class="external text" href="https://www.ibm.com/">ibm.com</a>
+</td></tr>
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+
+</tbody></table>
+<p>A <b>International Business Machines Corporation</b> (<b>IBM</b>) é uma <a href="/wiki/Empresa" title="Empresa">empresa</a> dos <a href="/wiki/Estados_Unidos" title="Estados Unidos">Estados Unidos</a> voltada para a área de <a href="/wiki/Inform%C3%A1tica" title="Informática">informática</a>.
+</p><p>A empresa é uma das poucas na área de tecnologia da informação (TI) com uma história contínua que remonta ao século XIX. A IBM fabrica e vende <a href="/wiki/Hardware" title="Hardware">hardware</a> e <a href="/wiki/Software" title="Software">software</a>, oferece serviços de infraestrutura, serviços de hospedagem e serviços de consultoria nas áreas que vão desde <a href="/wiki/Mainframe" title="Mainframe">computadores de grande porte</a> até a <a href="/wiki/Nanotecnologia" title="Nanotecnologia">nanotecnologia</a>. Foi apelidada de "Big Blue" por adotar o azul como sua cor corporativa oficial, em português "Grande Azul".
+</p><p>Com mais de 398.455 colaboradores em todo o mundo, a IBM é a maior empresa da área de TI no mundo. A IBM detém mais patentes do que qualquer outra empresa americana baseada em tecnologia e tem 15 laboratórios de pesquisa no mundo inteiro. A empresa possui cientistas, engenheiros, consultores e profissionais de vendas em mais de 150 países. Funcionários da IBM já ganharam cinco prêmios <a href="/wiki/Pr%C3%A9mio_Nobel" title="Prémio Nobel">Nobel</a>, quatro Prêmios <a href="/wiki/Pr%C3%AAmio_Turing" title="Prêmio Turing">Turing</a> (conhecido como o Nobel da computação), dentre vários outros prêmios.<sup id="cite_ref-2" class="reference"><a href="#cite_note-2"><span>[</span>2<span>]</span></a></sup>
+</p>
+<div id="toc" class="toc"><input type="checkbox" role="button" id="toctogglecheckbox" class="toctogglecheckbox" style="display:none" /><div class="toctitle" lang="pt" dir="ltr"><h2>Índice</h2><span class="toctogglespan"><label class="toctogglelabel" for="toctogglecheckbox"></label></span></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#História"><span class="tocnumber">1</span> <span class="toctext">História</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#IBM_Brasil"><span class="tocnumber">2</span> <span class="toctext">IBM Brasil</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Cultura_organizacional"><span class="tocnumber">3</span> <span class="toctext">Cultura organizacional</span></a>
+<ul>
+<li class="toclevel-2 tocsection-4"><a href="#Funcionários"><span class="tocnumber">3.1</span> <span class="toctext">Funcionários</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-5"><a href="#Cronologia"><span class="tocnumber">4</span> <span class="toctext">Cronologia</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#Executivos"><span class="tocnumber">5</span> <span class="toctext">Executivos</span></a>
+<ul>
+<li class="toclevel-2 tocsection-7"><a href="#CEO&#39;s_IBM_Corporate"><span class="tocnumber">5.1</span> <span class="toctext">CEO's IBM Corporate</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#General_Manager_Brasil"><span class="tocnumber">5.2</span> <span class="toctext">General Manager Brasil</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-9"><a href="#Aliança_IBM"><span class="tocnumber">6</span> <span class="toctext">Aliança IBM</span></a></li>
+<li class="toclevel-1 tocsection-10"><a href="#Logotipos"><span class="tocnumber">7</span> <span class="toctext">Logotipos</span></a></li>
+<li class="toclevel-1 tocsection-11"><a href="#Ver_também"><span class="tocnumber">8</span> <span class="toctext">Ver também</span></a></li>
+<li class="toclevel-1"><a href="#Referências"><span class="tocnumber">9</span> <span class="toctext">Referências</span></a></li>
+<li class="toclevel-1 tocsection-12"><a href="#Ligações_externas"><span class="tocnumber">10</span> <span class="toctext">Ligações externas</span></a></li>
+</ul>
+</div>
+
+<h2><span id="Hist.C3.B3ria"></span><span class="mw-headline" id="História">História</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=IBM&amp;veaction=edit&amp;section=1" class="mw-editsection-visualeditor" title="Editar secção: História">editar</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=IBM&amp;action=edit&amp;section=1" title="Editar secção: História">editar código-fonte</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p><a href="/wiki/Herman_Hollerith" title="Herman Hollerith">Herman Hollerith</a>, um inventor de diversas máquinas elétricas para a soma e contagem de dados que eram representados sob a forma de fitas de papel perfuradas. Através dessas perfurações, os dados que elas representavam podiam ser computados de uma forma rápida e automática, através de circuitos elétricos. Com esse processo, os Estados Unidos puderam acompanhar de perto o crescimento de sua população. Os resultados do censo de 1890 foram fornecidos três anos depois, economizando-se vários anos de trabalho.
+</p><p>Em 1896, Hollerith criou a Tabulating Machine Company e introduziu inovações em sua descoberta: a fita de papel foi substituída por cartões. Estes viriam a ser o elemento básico das máquinas IBM de processamento de dados de algumas décadas atrás. Já em 1911, duas outras companhias, a Internacional <a href="/w/index.php?title=International_Time_Recording_Co&amp;action=edit&amp;redlink=1" class="new" title="International Time Recording Co (página não existe)">Time Recorde Co</a>. (de registradores mecânicos de tempo), e a Computing Cale Co. (de instrumentos de aferição de peso), uniram-se a ela, por sugestão do negociante e banqueiro <a href="/w/index.php?title=Charles_R._Flint&amp;action=edit&amp;redlink=1" class="new" title="Charles R. Flint (página não existe)">Charles R. Flint</a>, formando-se então a Computing Tabulating Recording Co - a <a href="/w/index.php?title=CTR&amp;action=edit&amp;redlink=1" class="new" title="CTR (página não existe)">CTR</a>.
+</p><p>Três anos mais tarde, em 1914, <a href="/wiki/Thomas_J._Watson" class="mw-redirect" title="Thomas J. Watson">Thomas J. Watson</a> (líder industrial que foi um dos homens mais ricos do seu tempo) assumiu a presidência da organização e estabeleceu normas de trabalho absolutamente inovadoras para a época. Naquele tempo, a CTR contava com menos de 1400 funcionários e as constantes pesquisas de engenharia resultaram na criação e no aperfeiçoamento de novas máquinas de contabilidade, exigidas pelo rápido desenvolvimento industrial. Antes do ano de 1924, aquele pequeno grupo de homens havia aumentado e diversificado muito sua experiência. Os produtos ganharam maior qualidade, surgiram novas máquinas e com elas novos escritórios de vendas e mais vendedores.
+</p><p>Em fevereiro de 1924 a CTR muda seu nome para INTERNATIONAL BUSINESS MACHINES, hoje mundialmente conhecida pelo seu acrônimo, IBM.
+</p><p>A sigla IBM passou a ser, desde então, a fórmula para que a indústria e o comércio continuassem a resolver seus problemas de desenvolvimento.<sup id="cite_ref-3" class="reference"><a href="#cite_note-3"><span>[</span>3<span>]</span></a></sup>
+</p><p>No início do século XX, a IBM era a única empresa do mundo que dispunha da tecnologia de cartões perfurados, aplicado em quase todas as áreas que utilizavam máquinas para cadastro, identificação, arquivo e regulação de informações. O equipamento desenvolvido pela IBM foi também utilizado para fins menos nobres durante o período da 2ª Guerra Mundial, quando o Terceiro Reich firmou uma parceria com a empresa para automatizar o sistema de identificação,<sup id="cite_ref-4" class="reference"><a href="#cite_note-4"><span>[</span>4<span>]</span></a></sup> controle e transferência de prisioneiros, segundo o jornalista Edwin Black no seu livro “Nazi Nexus: America's Corporate Connections to Hitler's Holocaus<i>t</i>”, de 2009. Os serviços prestados pela IBM ao governo alemão rendeu o equivalente a US$ 200 milhões. O número de identificação tatuado no braço dos prisioneiros do campo de concentração de Auschwitz relacionava-se ao número de cartão perfurado dos registros da IBM.<sup id="cite_ref-5" class="reference"><a href="#cite_note-5"><span>[</span>5<span>]</span></a></sup>
+</p><p>Em consequência do constante e rápido desenvolvimento, a International Business Machines Corporation criou em 1949 a IBM World Trade Corporation, uma subsidiária inteiramente independente, cujo objetivo era aumentar vendas, serviços e produção fora dos Estados Unidos.
+</p><p>As fábricas e laboratórios da IBM funcionam em 15 diferentes países. Essas fábricas estão integradas aos laboratórios de desenvolvimento na <a href="/wiki/Fran%C3%A7a" title="França">França</a>, <a href="/wiki/Alemanha" title="Alemanha">Alemanha</a>, <a href="/wiki/Espanha" title="Espanha">Espanha</a>, <a href="/wiki/It%C3%A1lia" title="Itália">Itália</a>, <a href="/wiki/Holanda" class="mw-redirect" title="Holanda">Holanda</a>, <a href="/wiki/Su%C3%A9cia" title="Suécia">Suécia</a>, <a href="/wiki/Inglaterra" title="Inglaterra">Inglaterra</a>, <a href="/wiki/Brasil" title="Brasil">Brasil</a>, <a href="/wiki/Argentina" title="Argentina">Argentina</a>, <a href="/wiki/Col%C3%B4mbia" title="Colômbia">Colômbia</a>, <a href="/wiki/M%C3%A9xico" title="México">México</a>, <a href="/wiki/Canad%C3%A1" title="Canadá">Canadá</a>, <a href="/wiki/Austr%C3%A1lia" title="Austrália">Austrália</a> e <a href="/wiki/Jap%C3%A3o" title="Japão">Japão</a>.<sup id="cite_ref-6" class="reference"><a href="#cite_note-6"><span>[</span>6<span>]</span></a></sup>
+</p><p>A IBM é uma das principais empresas que investe em pesquisa e desenvolvimento mantendo-se na liderança do ranking de publicação de patentes há 16 anos consecutivos - a IBM publicou 4.914 patentes norte-americanas em 2009, estabelecendo um recorde histórico para a "Big Blue", mantendo sua liderança contra competidores como a <a href="/wiki/Samsung" title="Samsung">Samsung</a> (3.611 patentes) e a <a href="/wiki/Microsoft" title="Microsoft">Microsoft</a> (2.906 patentes).
+</p><p>Nos últimos anos, a IBM transformou completamente seu modelo de negócio. A empresa se desfez de várias atividades que já tinham se transformado em "commodities", como os segmentos de <a href="/wiki/Computador_pessoal" title="Computador pessoal">PCs</a> e impressoras, e ampliou os investimentos nas áreas de prestação de serviços, que possuem um superior valor agregado, como consultoria, informação sob demanda e serviços. Em 2005, sua divisão de PCs foi vendida para a empresa chinesa <a href="/wiki/Lenovo" title="Lenovo">Lenovo</a>.<sup id="cite_ref-7" class="reference"><a href="#cite_note-7"><span>[</span>7<span>]</span></a></sup>
+</p>
+<h2><span class="mw-headline" id="IBM_Brasil">IBM Brasil</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=IBM&amp;veaction=edit&amp;section=2" class="mw-editsection-visualeditor" title="Editar secção: IBM Brasil">editar</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=IBM&amp;action=edit&amp;section=2" title="Editar secção: IBM Brasil">editar código-fonte</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="thumb tright"><div class="thumbinner" style="width:182px;"><a href="/wiki/Ficheiro:IBM,_S%C3%A3o_Paulo_01.JPG" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/1/16/IBM%2C_S%C3%A3o_Paulo_01.JPG/180px-IBM%2C_S%C3%A3o_Paulo_01.JPG" decoding="async" width="180" height="136" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/1/16/IBM%2C_S%C3%A3o_Paulo_01.JPG/270px-IBM%2C_S%C3%A3o_Paulo_01.JPG 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/1/16/IBM%2C_S%C3%A3o_Paulo_01.JPG/360px-IBM%2C_S%C3%A3o_Paulo_01.JPG 2x" data-file-width="794" data-file-height="600" /></a>  <div class="thumbcaption"><div class="magnify"><a href="/wiki/Ficheiro:IBM,_S%C3%A3o_Paulo_01.JPG" class="internal" title="Ampliar"></a></div><a href="/wiki/Edif%C3%ADcio" title="Edifício">Edifício</a> da empresa em <a href="/wiki/S%C3%A3o_Paulo_(cidade)" class="mw-redirect" title="São Paulo (cidade)">São Paulo</a>, uma das filiais no Brasil</div></div></div>
+<div class="thumb tright"><div class="thumbinner" style="width:182px;"><a href="/wiki/Ficheiro:IBMRJ.png" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/d/df/IBMRJ.png/180px-IBMRJ.png" decoding="async" width="180" height="112" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/df/IBMRJ.png/270px-IBMRJ.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/df/IBMRJ.png/360px-IBMRJ.png 2x" data-file-width="1008" data-file-height="626" /></a>  <div class="thumbcaption"><div class="magnify"><a href="/wiki/Ficheiro:IBMRJ.png" class="internal" title="Ampliar"></a></div><a href="/wiki/Edif%C3%ADcio" title="Edifício">Edifício</a> da matriz da empresa no Brasil, no <a href="/wiki/Rio_de_Janeiro_(cidade)" class="mw-redirect" title="Rio de Janeiro (cidade)">Rio de Janeiro</a>.</div></div></div>
+<p>A IBM Brasil (Indústria, Máquinas e Serviços Ltda.) é uma das subsidiárias da IBM World Trade Corporation.
+</p><p>Em 1917, a IBM surgiu no Brasil, ainda funcionando com o nome de <b>Computing, Tabulating &amp; Recording Company (CTR)</b>. O Brasil foi o primeiro país do mundo a receber uma filial da IBM. Nesse mesmo ano, foi firmado o primeiro contrato para a prestação de serviços com a <a href="/w/index.php?title=Diretoria_de_Estat%C3%ADstica_Comercial&amp;action=edit&amp;redlink=1" class="new" title="Diretoria de Estatística Comercial (página não existe)">Diretoria de Estatística Comercial</a>.
+</p>
+<div class="thumb tleft"><div class="thumbinner" style="width:182px;"><a href="/wiki/Ficheiro:IBM_S%C3%A3o_Paulo.jpg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/b/b5/IBM_S%C3%A3o_Paulo.jpg/180px-IBM_S%C3%A3o_Paulo.jpg" decoding="async" width="180" height="135" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/b/b5/IBM_S%C3%A3o_Paulo.jpg/270px-IBM_S%C3%A3o_Paulo.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/b/b5/IBM_S%C3%A3o_Paulo.jpg/360px-IBM_S%C3%A3o_Paulo.jpg 2x" data-file-width="640" data-file-height="480" /></a>  <div class="thumbcaption"><div class="magnify"><a href="/wiki/Ficheiro:IBM_S%C3%A3o_Paulo.jpg" class="internal" title="Ampliar"></a></div>Vista aérea do edifício da empresa em São Paulo, uma das filiais no Brasil</div></div></div>
+<p>Com os resultados obtidos, o <a href="/wiki/Governo_Brasileiro" class="mw-redirect" title="Governo Brasileiro">Governo Brasileiro</a> resolveu contratar a <a href="/w/index.php?title=CTR&amp;action=edit&amp;redlink=1" class="new" title="CTR (página não existe)">CTR</a> para o <a href="/wiki/Censo_demogr%C3%A1fico" title="Censo demográfico">censo demográfico</a> de 1920. Nesse mesmo ano chegaram ao Brasil as primeiras máquinas impressoras.
+</p><p>O ano de 1924 marcou o estabelecimento definitivo da IBM Brasil.
+</p><p>Presente em mais de 170 países, a IBM opera no modelo de empresa globalmente integrada e emprega 386 mil pessoas em todo o mundo. Em 2008, a empresa atingiu um faturamento global de US$ 103,6 bilhões.
+</p><p>Hoje, o Brasil possui o segundo maior centro de prestação mundial de serviços da IBM. Para poder atender clientes de qualquer lugar do mundo, a IBM Brasil faz parte do que a empresa define como "Global Delivery Model", modelo integrado de prestação de serviços que garante custos competitivos, excelência e padronização de processos.
+</p>
+<h2><span class="mw-headline" id="Cultura_organizacional">Cultura organizacional</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=IBM&amp;veaction=edit&amp;section=3" class="mw-editsection-visualeditor" title="Editar secção: Cultura organizacional">editar</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=IBM&amp;action=edit&amp;section=3" title="Editar secção: Cultura organizacional">editar código-fonte</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span id="Funcion.C3.A1rios"></span><span class="mw-headline" id="Funcionários">Funcionários</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=IBM&amp;veaction=edit&amp;section=4" class="mw-editsection-visualeditor" title="Editar secção: Funcionários">editar</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=IBM&amp;action=edit&amp;section=4" title="Editar secção: Funcionários">editar código-fonte</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>A IBM tem uma das maiores forças de trabalho do mundo, e os funcionários da Big Blue são chamados de "IBMers" nos Estados Unidos ou de IBMistas,<sup id="cite_ref-8" class="reference"><a href="#cite_note-8"><span>[</span>8<span>]</span></a></sup> no Brasil. A empresa foi pioneira em conceder benefícios aos funcionários nos Estados Unidos como seguro de vida em grupo (1934), treinamento para mulheres (1935), férias remuneradas (1937), e treinamento para pessoas com deficiências (1942).
+</p>
+<h2><span class="mw-headline" id="Cronologia">Cronologia</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=IBM&amp;veaction=edit&amp;section=5" class="mw-editsection-visualeditor" title="Editar secção: Cronologia">editar</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=IBM&amp;action=edit&amp;section=5" title="Editar secção: Cronologia">editar código-fonte</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li>1925 - Foram feitas as primeiras instalações de relógio autorregulados.</li>
+<li>1928 – Introduziu no Brasil o cartão de 80 colunas e também os primeiros cursos técnicos.</li>
+<li>1930 – Iniciou a criação das primeiras filiais nos estados, juntamente com o apoio que a IBM deu ao setor educacional.</li>
+<li>1933 – Foi contratada pelo governo alemão para serviços que mais tarde seriam usados pela máquina de morte alemã.</li>
+<li>1939 – <a href="/wiki/Thomas_John_Watson" title="Thomas John Watson">Thomas John Watson</a> inaugurou, no Rio de Janeiro, a primeira fábrica IBM na América do Sul, no bairro de Benfica, cidade do Rio de Janeiro.</li>
+<li>1950 a 1954 – Foram introduzidas as primeiras <a href="/w/index.php?title=Calculadoras_eletr%C3%B4nicas&amp;action=edit&amp;redlink=1" class="new" title="Calculadoras eletrônicas (página não existe)">calculadoras eletrônicas</a> e outros equipamentos que alteraram profundamente os métodos de ensino e de produção.</li>
+<li>1960 – A IBM lançou o primeiro <a href="/wiki/Computador" title="Computador">computador</a> eletrônico IBM: o RAMA <a href="/wiki/RAMAC_305" title="RAMAC 305">305</a>. Adotou-se a denominação IBM do Brasil, onde a empresa passou a viver a era dos computadores eletrônicos.</li>
+<li>1961 – Iniciou-se, na fábrica de Benfica, Rio de Janeiro, a montagem dos <a href="/w/index.php?title=Computadores_1401&amp;action=edit&amp;redlink=1" class="new" title="Computadores 1401 (página não existe)">computadores 1401</a>. Equipamento de maior sucesso na história de processamento de dados.<sup id="cite_ref-9" class="reference"><a href="#cite_note-9"><span>[</span>9<span>]</span></a></sup></li>
+<li>1963 – Inaugurada a filial de Brasília.</li>
+<li>1964 – Com a demanda do mercado mundial de processamento de dados, iniciou-se a exportação de máquinas perfuradoras e verificadoras e, em 1970, o valor das exportações de produtos DO (Data Processo – produtos na área de computação) e O (Office Productions – produtos orientados para escritórios, como as famosas máquinas de Datilografia IBM), fabricados no Brasil já era superior a 14 milhões de dólares. Surgimento do <a href="/wiki/IBM_System/360" title="IBM System/360">IBM System/360</a>.</li>
+<li>1966 – IBM do Brasil assinou com a ABRI o maior contrato de serviços de dados na história da IBM. Lançou-se no mercado brasileiro a <a href="/wiki/M%C3%A1quina_de_escrever" title="Máquina de escrever">máquina de escrever</a> elétrica, IBM 72, foram assinados também os primeiros contratos para os sistemas IBM 1130 e IBM S/360.</li>
+<li>Década de 1970 – Marcada pelo crescimento da informatização no Brasil, introduziu-se o primeiro sistema de tele processamento no <a href="/wiki/Bradesco" title="Bradesco">Bradesco</a> e a instalação do primeiro <a href="/wiki/CPD" class="mw-redirect" title="CPD">CPD</a> na <a href="/wiki/Bolsa_de_Valores" class="mw-redirect" title="Bolsa de Valores">Bolsa de Valores</a> onde instalou-se o seu primeiro CPD. O computador IBM, no ano seguinte, é divulgado por todo o país com um veículo ambulante – o Road Show.</li>
+<li>1971 – Inaugurou-se a fábrica em Sumaré (atualmente Hortolândia), em São Paulo, iniciando-se uma nova fase tecnológica. Em [1972, começa a produção da unidade central de processamento do computador sistema S/370 modelo 145, além das unidades de fitas magnéticas 3420 e controladoras de fitas 3803. Também em Sumaré, começa a produção da família de terminais 3270, em 1973, e a produção das impressoras seriais modelo 3287. A empresa atinge exportações de US$ 54 milhões no ano de 1974.</li>
+<li>1979 – A empresa coloca o Centro de Suporte a Clientes no Rio, em <a href="/wiki/S%C3%A3o_Paulo_(estado)" title="São Paulo (estado)">São Paulo</a> e em <a href="/wiki/Bras%C3%ADlia" title="Brasília">Brasília</a> em funcionamento, e inicia a produção da CPU 4341 com capacidade máxima de 16 Bytes e em 1980, os processadores 4331-MG2 e 4341-MG2, além dos discos magnéticos 3370.</li>
+<li>1981 – Inicia-se a produção das máquinas de escrever elétricas 196 e 196C e a instalação do sistema de <a href="/wiki/Correio_eletr%C3%B4nico" class="mw-redirect" title="Correio eletrônico">correio eletrônico</a> PROFS. A empresa passa então, em 1984, a se chamar IBM Brasil. É criado, no mesmo ano, em São Paulo o Centro de Tecnologia de Software. No ano seguinte, instala-se em Sumaré o Centro de Tecnologia de Hardware.</li>
+<li>1985 – IBM Brasil faz parceria com a <a href="/wiki/Gerdau" title="Gerdau">Gerdau</a>, que cria a SI (Gerdau Serviços de Informática), transferindo toda a atividade dos bureau de serviço da IBM.</li>
+<li>1987 – A IBM Brasil completa seus 70 anos.</li>
+<li>1988 – Inicia-se as parcerias de produtos com empresas nacionais, como a Digital, para impressoras e a Contraparte para fabricar unidades de fitas magnéticas.</li>
+<li>1989 – Começam as parcerias de fabricação com a Coronel para controladoras de terminais e com a DA para os terminais 3276 / 3278 monocromáticos.</li>
+<li><a href="/wiki/D%C3%A9cada_de_1990" title="Década de 1990">Década de 1990</a> – IBM faz parceria com a Blecaute, para a fabricação e comercialização do <a href="/wiki/AS/400" title="AS/400">AS/400</a> e uma associação com a SI, para a produção do <a href="/wiki/PS/2" title="PS/2">PS/2</a>.</li>
+<li>1994 – IBM assumiu o controle acionário da SI. Neste ano lançou o Ativa, com processador Intel 486 DX4.</li>
+<li>1995 – Em 1995 a <a href="/wiki/IBM_Brasil" class="mw-redirect" title="IBM Brasil">IBM Brasil</a> cria o conceito de trabalho em parceria com empresas nacionais e anuncia o primeiro protocolo de entendimento com a Contraparte, para a produção de fitas magnéticas. Outra parceria, com a Gerdau, cria a SI (Gerdau Serviços de Informática), transferindo toda atividade dos bureau de serviço da IBM.</li>
+<li>2007 - A IBM Brasil completa seus 90 anos, com uma apresentação do grupo Banda loop.</li>
+<li>2009 - A marca IBM é a segunda marca mais valiosa do mundo.</li>
+<li>2014 - A IBM Brasil assume a gestão da Scopus Tecnologia Ltda, departamento de T.I do Banco Bradesco.</li></ul>
+<p>Foi eleita pelo Reatar Lace to Work Instituto (GP) como uma das cem melhores empresas para se trabalhar no Brasil.<sup id="cite_ref-10" class="reference"><a href="#cite_note-10"><span>[</span>10<span>]</span></a></sup>
+</p>
+<h2><span class="mw-headline" id="Executivos">Executivos</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=IBM&amp;veaction=edit&amp;section=6" class="mw-editsection-visualeditor" title="Editar secção: Executivos">editar</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=IBM&amp;action=edit&amp;section=6" title="Editar secção: Executivos">editar código-fonte</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span id="CEO.27s_IBM_Corporate"></span><span class="mw-headline" id="CEO's_IBM_Corporate">CEO's IBM Corporate</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=IBM&amp;veaction=edit&amp;section=7" class="mw-editsection-visualeditor" title="Editar secção: CEO&#039;s IBM Corporate">editar</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=IBM&amp;action=edit&amp;section=7" title="Editar secção: CEO&#039;s IBM Corporate">editar código-fonte</a><span class="mw-editsection-bracket">]</span></span></h3>
+<table class="wikitable sortable">
+
+<tbody><tr valign="bottom">
+<th>Nome
+</th>
+<th>Período
+</th></tr>
+<tr>
+<td><a href="/wiki/Estados_Unidos" title="Estados Unidos"><img alt="Estados Unidos" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/22px-Flag_of_the_United_States.svg.png" decoding="async" width="22" height="12" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/33px-Flag_of_the_United_States.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/44px-Flag_of_the_United_States.svg.png 2x" data-file-width="1235" data-file-height="650" /></a> <a href="/wiki/Thomas_J._Watson" class="mw-redirect" title="Thomas J. Watson">Thomas J. Watson</a>
+</td>
+<td>1914 - 1956
+</td></tr>
+<tr>
+<td><a href="/wiki/Estados_Unidos" title="Estados Unidos"><img alt="Estados Unidos" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/22px-Flag_of_the_United_States.svg.png" decoding="async" width="22" height="12" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/33px-Flag_of_the_United_States.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/44px-Flag_of_the_United_States.svg.png 2x" data-file-width="1235" data-file-height="650" /></a> <a href="/w/index.php?title=Thomas_Watson,_Jr.&amp;action=edit&amp;redlink=1" class="new" title="Thomas Watson, Jr. (página não existe)">Thomas Watson, Jr.</a>
+</td>
+<td>1956 - 1971
+</td></tr>
+<tr>
+<td><a href="/wiki/Estados_Unidos" title="Estados Unidos"><img alt="Estados Unidos" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/22px-Flag_of_the_United_States.svg.png" decoding="async" width="22" height="12" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/33px-Flag_of_the_United_States.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/44px-Flag_of_the_United_States.svg.png 2x" data-file-width="1235" data-file-height="650" /></a> <a href="/w/index.php?title=T._Vincent_Learson&amp;action=edit&amp;redlink=1" class="new" title="T. Vincent Learson (página não existe)">T. Vincent Learson</a>
+</td>
+<td>1971 - 1973
+</td></tr>
+<tr>
+<td><a href="/wiki/Estados_Unidos" title="Estados Unidos"><img alt="Estados Unidos" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/22px-Flag_of_the_United_States.svg.png" decoding="async" width="22" height="12" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/33px-Flag_of_the_United_States.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/44px-Flag_of_the_United_States.svg.png 2x" data-file-width="1235" data-file-height="650" /></a> <a href="/w/index.php?title=Frank_T._Cary&amp;action=edit&amp;redlink=1" class="new" title="Frank T. Cary (página não existe)">Frank T. Cary</a>
+</td>
+<td>1973 - 1981
+</td></tr>
+<tr>
+<td><a href="/wiki/Estados_Unidos" title="Estados Unidos"><img alt="Estados Unidos" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/22px-Flag_of_the_United_States.svg.png" decoding="async" width="22" height="12" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/33px-Flag_of_the_United_States.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/44px-Flag_of_the_United_States.svg.png 2x" data-file-width="1235" data-file-height="650" /></a> <a href="/w/index.php?title=John_R._Opel&amp;action=edit&amp;redlink=1" class="new" title="John R. Opel (página não existe)">John R. Opel</a>
+</td>
+<td>1981 - 1985
+</td></tr>
+<tr>
+<td><a href="/wiki/Estados_Unidos" title="Estados Unidos"><img alt="Estados Unidos" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/22px-Flag_of_the_United_States.svg.png" decoding="async" width="22" height="12" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/33px-Flag_of_the_United_States.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/44px-Flag_of_the_United_States.svg.png 2x" data-file-width="1235" data-file-height="650" /></a> <a href="/w/index.php?title=John_Fellows_Akers&amp;action=edit&amp;redlink=1" class="new" title="John Fellows Akers (página não existe)">John Fellows Akers</a>
+</td>
+<td>1985 - 1993
+</td></tr>
+<tr>
+<td><a href="/wiki/Estados_Unidos" title="Estados Unidos"><img alt="Estados Unidos" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/22px-Flag_of_the_United_States.svg.png" decoding="async" width="22" height="12" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/33px-Flag_of_the_United_States.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/44px-Flag_of_the_United_States.svg.png 2x" data-file-width="1235" data-file-height="650" /></a> <a href="/w/index.php?title=Louis_V._Gerstner,_Jr.&amp;action=edit&amp;redlink=1" class="new" title="Louis V. Gerstner, Jr. (página não existe)">Louis V. Gerstner, Jr.</a>
+</td>
+<td>1993 - 2002
+</td></tr>
+<tr>
+<td><a href="/wiki/Estados_Unidos" title="Estados Unidos"><img alt="Estados Unidos" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/22px-Flag_of_the_United_States.svg.png" decoding="async" width="22" height="12" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/33px-Flag_of_the_United_States.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/44px-Flag_of_the_United_States.svg.png 2x" data-file-width="1235" data-file-height="650" /></a> <a href="/wiki/Samuel_J._Palmisano" title="Samuel J. Palmisano">Samuel J. Palmisano</a>
+</td>
+<td>2002 - 2012
+</td></tr>
+<tr>
+<td><a href="/wiki/Estados_Unidos" title="Estados Unidos"><img alt="Estados Unidos" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/22px-Flag_of_the_United_States.svg.png" decoding="async" width="22" height="12" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/33px-Flag_of_the_United_States.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/44px-Flag_of_the_United_States.svg.png 2x" data-file-width="1235" data-file-height="650" /></a> <a href="/wiki/Ginni_Rometty" title="Ginni Rometty">Ginni Rometty</a>
+</td>
+<td>2012 - atualmente
+</td></tr></tbody></table>
+<h3><span class="mw-headline" id="General_Manager_Brasil">General Manager Brasil</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=IBM&amp;veaction=edit&amp;section=8" class="mw-editsection-visualeditor" title="Editar secção: General Manager Brasil">editar</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=IBM&amp;action=edit&amp;section=8" title="Editar secção: General Manager Brasil">editar código-fonte</a><span class="mw-editsection-bracket">]</span></span></h3>
+<table class="wikitable sortable">
+
+<tbody><tr valign="bottom">
+<th>Nome
+</th>
+<th>Período
+</th></tr>
+<tr>
+<td><a href="/wiki/Peru" title="Peru"><img alt="Peru" src="//upload.wikimedia.org/wikipedia/commons/thumb/d/df/Flag_of_Peru_%28state%29.svg/22px-Flag_of_Peru_%28state%29.svg.png" decoding="async" width="22" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/df/Flag_of_Peru_%28state%29.svg/33px-Flag_of_Peru_%28state%29.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/df/Flag_of_Peru_%28state%29.svg/44px-Flag_of_Peru_%28state%29.svg.png 2x" data-file-width="900" data-file-height="600" /></a> Bruno di Leo
+</td>
+<td>
+</td></tr>
+<tr>
+<td><a href="/wiki/Brasil" title="Brasil"><img alt="Brasil" src="//upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/22px-Flag_of_Brazil.svg.png" decoding="async" width="22" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/33px-Flag_of_Brazil.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/44px-Flag_of_Brazil.svg.png 2x" data-file-width="720" data-file-height="504" /></a> Rogério de Oliveira
+</td>
+<td>
+</td></tr>
+<tr>
+<td><a href="/wiki/Brasil" title="Brasil"><img alt="Brasil" src="//upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/22px-Flag_of_Brazil.svg.png" decoding="async" width="22" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/33px-Flag_of_Brazil.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/44px-Flag_of_Brazil.svg.png 2x" data-file-width="720" data-file-height="504" /></a> Ricardo Pelegrini
+</td>
+<td>2008 - 2012
+</td></tr>
+<tr>
+<td><a href="/wiki/Brasil" title="Brasil"><img alt="Brasil" src="//upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/22px-Flag_of_Brazil.svg.png" decoding="async" width="22" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/33px-Flag_of_Brazil.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/44px-Flag_of_Brazil.svg.png 2x" data-file-width="720" data-file-height="504" /></a> Rodrigo Kede de Freitas Lima
+</td>
+<td>2012 - 2015
+</td></tr>
+<tr>
+<td><a href="/wiki/Brasil" title="Brasil"><img alt="Brasil" src="//upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/22px-Flag_of_Brazil.svg.png" decoding="async" width="22" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/33px-Flag_of_Brazil.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/44px-Flag_of_Brazil.svg.png 2x" data-file-width="720" data-file-height="504" /></a> Marcelo Porto
+</td>
+<td>2015 - 2018
+</td></tr>
+<tr>
+<td><a href="/wiki/Brasil" title="Brasil"><img alt="Brasil" src="//upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/22px-Flag_of_Brazil.svg.png" decoding="async" width="22" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/33px-Flag_of_Brazil.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/44px-Flag_of_Brazil.svg.png 2x" data-file-width="720" data-file-height="504" /></a> Tonny Martins
+</td>
+<td>2018 - atual
+</td></tr></tbody></table>
+<h2><span id="Alian.C3.A7a_IBM"></span><span class="mw-headline" id="Aliança_IBM">Aliança IBM</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=IBM&amp;veaction=edit&amp;section=9" class="mw-editsection-visualeditor" title="Editar secção: Aliança IBM">editar</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=IBM&amp;action=edit&amp;section=9" title="Editar secção: Aliança IBM">editar código-fonte</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Em 21 de setembro de 2004 a IBM e a People Soft (que mais tarde foi adquirida pela <a href="/wiki/Oracle_Corporation" title="Oracle Corporation">Oracle</a>) anunciaram — conforme o press release<sup id="cite_ref-11" class="reference"><a href="#cite_note-11"><span>[</span>11<span>]</span></a></sup> — "a mais importante aliança na história das duas empresas". Esta parceria visava a plataforma de infraestrutura e as soluções empresarias mais abrangentes e integradas do setor. A People Soft padronizaria seus aplicativos líderes de mercado na plataforma líder de <a href="/wiki/Middleware" title="Middleware">middleware</a> da IBM, e as duas empresas passariam a comercializar as soluções conjuntas.
+</p>
+<h2><span class="mw-headline" id="Logotipos">Logotipos</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=IBM&amp;veaction=edit&amp;section=10" class="mw-editsection-visualeditor" title="Editar secção: Logotipos">editar</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=IBM&amp;action=edit&amp;section=10" title="Editar secção: Logotipos">editar código-fonte</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul class="gallery mw-gallery-traditional">
+		<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+			<div class="thumb" style="width: 150px;"><div style="margin:17.5px auto;"><a href="/wiki/Ficheiro:Original_IBM_Logo.png" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Original_IBM_Logo.png/120px-Original_IBM_Logo.png" decoding="async" width="120" height="115" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Original_IBM_Logo.png/180px-Original_IBM_Logo.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Original_IBM_Logo.png/240px-Original_IBM_Logo.png 2x" data-file-width="600" data-file-height="575" /></a></div></div>
+			<div class="gallerytext">
+<p>O logotipo que foi usado entre 1924-1946. O logotipo está em um formato para sugerir um globo, cercado pela palavra "Internacional".<sup id="cite_ref-12" class="reference"><a href="#cite_note-12"><span>[</span>12<span>]</span></a></sup>
+</p>
+			</div>
+		</div></li>
+		<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+			<div class="thumb" style="width: 150px;"><div style="margin:47.5px auto;"><a href="/wiki/Ficheiro:Older_IBM_Logo.png" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/d/d1/Older_IBM_Logo.png" decoding="async" width="120" height="55" data-file-width="120" data-file-height="55" /></a></div></div>
+			<div class="gallerytext">
+<p>O logotipo que foi usado entre 1947-1956. O "globo" foi substituído simplesmente pelas letras "IBM".<sup id="cite_ref-13" class="reference"><a href="#cite_note-13"><span>[</span>13<span>]</span></a></sup>
+</p>
+			</div>
+		</div></li>
+		<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+			<div class="thumb" style="width: 150px;"><div style="margin:47.5px auto;"><a href="/wiki/Ficheiro:Old_IBM_Logo.png" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/42/Old_IBM_Logo.png/120px-Old_IBM_Logo.png" decoding="async" width="120" height="55" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/42/Old_IBM_Logo.png/180px-Old_IBM_Logo.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/42/Old_IBM_Logo.png/240px-Old_IBM_Logo.png 2x" data-file-width="600" data-file-height="275" /></a></div></div>
+			<div class="gallerytext">
+<p>O logotipo que foi usado entre 1956-1972. A IBM disse que as letras assumiram uma aparência mais sólida e balanceada.<sup id="cite_ref-14" class="reference"><a href="#cite_note-14"><span>[</span>14<span>]</span></a></sup>
+</p>
+			</div>
+		</div></li>
+		<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+			<div class="thumb" style="width: 150px;"><div style="margin:51px auto;"><a href="/wiki/Ficheiro:IBM_logo.svg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/5/51/IBM_logo.svg/120px-IBM_logo.svg.png" decoding="async" width="120" height="48" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/5/51/IBM_logo.svg/180px-IBM_logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/5/51/IBM_logo.svg/240px-IBM_logo.svg.png 2x" data-file-width="1000" data-file-height="400" /></a></div></div>
+			<div class="gallerytext">
+<p>O logotipo listrado foi usado pela primeira vez em 1967 e substituiu o logotipo de aparência mais sólida em 1972. As listras horizontais, sugerem "velocidade e dinamismo".<sup id="cite_ref-15" class="reference"><a href="#cite_note-15"><span>[</span>15<span>]</span></a></sup>
+</p>
+			</div>
+		</div></li>
+</ul>
+<p>O logo atual de oito barras foi projetado em 1972 pelo designer gráfico Paul Rand.<sup id="cite_ref-16" class="reference"><a href="#cite_note-16"><span>[</span>16<span>]</span></a></sup>
+</p>
+<h2><span id="Ver_tamb.C3.A9m"></span><span class="mw-headline" id="Ver_também">Ver também</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=IBM&amp;veaction=edit&amp;section=11" class="mw-editsection-visualeditor" title="Editar secção: Ver também">editar</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=IBM&amp;action=edit&amp;section=11" title="Editar secção: Ver também">editar código-fonte</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li><a href="/wiki/Big_data" title="Big data">Big data</a></li>
+<li><a href="/wiki/Lista_de_produtos_da_IBM" title="Lista de produtos da IBM">Lista de produtos da IBM</a></li></ul>
+<h2 style="cursor: help;" title="Esta seção foi configurada para não ser editável diretamente. Edite a página toda ou a seção anterior em vez disso."><span id="Refer.C3.AAncias"></span><span class="mw-headline" id="Referências">Referências</span></h2>
+<div class="reflist references-small" style="-moz-column-count: 2; -webkit-column-count: 2; column-count: 2;"><ol class="references">
+<li id="cite_note-financeiro-1"><span class="mw-cite-backlink">↑ <sup><i><b><a href="#cite_ref-financeiro_1-0">a</a></b></i></sup> <sup><i><b><a href="#cite_ref-financeiro_1-1">b</a></b></i></sup> <sup><i><b><a href="#cite_ref-financeiro_1-2">c</a></b></i></sup> <sup><i><b><a href="#cite_ref-financeiro_1-3">d</a></b></i></sup></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="https://www.ibm.com/annualreport/assets/downloads/IBM_Annual_Report_2018.pdf">«2018 Annual Report – IBM»</a> <span style="font-size:85%;">(PDF)</span>. <i>IBM</i>. 2019<span class="reference-accessdate">. Consultado em 15 de junho de 2019</span></cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpt.wikipedia.org%3AIBM&amp;rft.atitle=2018+Annual+Report+%93+IBM&amp;rft.date=2019&amp;rft.genre=unknown&amp;rft.jtitle=IBM&amp;rft_id=https%3A%2F%2Fwww.ibm.com%2Fannualreport%2Fassets%2Fdownloads%2FIBM_Annual_Report_2018.pdf&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal" class="Z3988"><span style="display:none;">&#160;</span></span> </span>
+</li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><a href="#cite_ref-2">↑</a></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://www.research.ibm.com/resources/awards.shtml">«IBM Research&#124; Awards &amp; Achievements»</a> (em inglês). web.archive.org<span class="reference-accessdate">. Consultado em 19 de junho de 2012</span>. <a rel="nofollow" class="external text" href="https://web.archive.org/web/20110629122453/http://www.research.ibm.com/resources/awards.shtml">Cópia arquivada em 29 de junho de 2011</a></cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpt.wikipedia.org%3AIBM&amp;rft.btitle=IBM+Research%26%23124%3B+Awards+%26+Achievements&amp;rft.genre=unknown&amp;rft.pub=web.archive.org&amp;rft_id=http%3A%2F%2Fwww.research.ibm.com%2Fresources%2Fawards.shtml&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span>
+</li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><a href="#cite_ref-3">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.ibm.com/legal/us/en/">IBM Termos de Uso (orientações legais)</a></span>
+</li>
+<li id="cite_note-4"><span class="mw-cite-backlink"><a href="#cite_ref-4">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external text" href="https://www.nytimes.com/books/first/b/black-ibm.html">IBM and the Holocaust</a></span>
+</li>
+<li id="cite_note-5"><span class="mw-cite-backlink"><a href="#cite_ref-5">↑</a></span> <span class="reference-text">LIMA, Cláudia de Castro. Os aliados ocultos de Hitler. Revista Super Interessante, São Paulo, n. 333, p. 24-35, mai, 2014.</span>
+</li>
+<li id="cite_note-6"><span class="mw-cite-backlink"><a href="#cite_ref-6">↑</a></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://www.ibm.com/br/ibm/history/">«IBM Brasil - História da IBM e da IBM no Brasil»</a>. www.ibm.com<span class="reference-accessdate">. Consultado em 19 de junho de 2012</span></cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpt.wikipedia.org%3AIBM&amp;rft.btitle=IBM+Brasil+-+Hist%C3%B3ria+da+IBM+e+da+IBM+no+Brasil&amp;rft.genre=unknown&amp;rft.pub=www.ibm.com&amp;rft_id=http%3A%2F%2Fwww.ibm.com%2Fbr%2Fibm%2Fhistory%2F&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span>
+</li>
+<li id="cite_note-7"><span class="mw-cite-backlink"><a href="#cite_ref-7">↑</a></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="https://web.archive.org/web/20140203011134/http://www.lenovo.com/lenovo/br/pt/history.html">«Lenovo Brasil História»</a><span class="reference-accessdate">. Consultado em 25 de maio de 2014</span>. Arquivado do <a rel="nofollow" class="external text" href="http://www.lenovo.com/lenovo/br/pt/history.html">original</a> em 3 de fevereiro de 2014</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpt.wikipedia.org%3AIBM&amp;rft.btitle=Lenovo+Brasil+Hist%C3%B3ria&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.lenovo.com%2Flenovo%2Fbr%2Fpt%2Fhistory.html&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span>
+</li>
+<li id="cite_note-8"><span class="mw-cite-backlink"><a href="#cite_ref-8">↑</a></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://www-05.ibm.com/employment/br-pt/life_ibm.html">«IBM Carreira - Seja um IBMista - Brasil»</a>. <i>www-05.ibm.com</i><span class="reference-accessdate">. Consultado em 22 de abril de 2017</span></cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpt.wikipedia.org%3AIBM&amp;rft.atitle=IBM+Carreira+-+Seja+um+IBMista+-+Brasil&amp;rft.genre=unknown&amp;rft.jtitle=www-05.ibm.com&amp;rft_id=http%3A%2F%2Fwww-05.ibm.com%2Femployment%2Fbr-pt%2Flife_ibm.html&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal" class="Z3988"><span style="display:none;">&#160;</span></span></span>
+</li>
+<li id="cite_note-9"><span class="mw-cite-backlink"><a href="#cite_ref-9">↑</a></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://www-03.ibm.com/ibm/history/exhibits/mainframe/mainframe_PP1401.html">«IBM Archives: 1401 Data Processing System»</a>. www-03.ibm.com<span class="reference-accessdate">. Consultado em 19 de junho de 2012</span></cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpt.wikipedia.org%3AIBM&amp;rft.btitle=IBM+Archives%3A+1401+Data+Processing+System&amp;rft.genre=unknown&amp;rft.pub=www-03.ibm.com&amp;rft_id=http%3A%2F%2Fwww-03.ibm.com%2Fibm%2Fhistory%2Fexhibits%2Fmainframe%2Fmainframe_PP1401.html&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span>
+</li>
+<li id="cite_note-10"><span class="mw-cite-backlink"><a href="#cite_ref-10">↑</a></span> <span class="reference-text"><a href="/wiki/Revista_%C3%89poca" class="mw-redirect" title="Revista Época">Revista Época</a>, n. 588, 24 de agosto de 2009.</span>
+</li>
+<li id="cite_note-11"><span class="mw-cite-backlink"><a href="#cite_ref-11">↑</a></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://www-03.ibm.com/press/us/en/pressrelease/7302.wss">«IBM News room - 2004-09-21 PeopleSoft and IBM Announce Most Significant Enterprise Applications Alliance in History of the Two Companies - United States»</a>. www-03.ibm.com<span class="reference-accessdate">. Consultado em 19 de junho de 2012</span></cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpt.wikipedia.org%3AIBM&amp;rft.btitle=IBM+News+room+-+2004-09-21+PeopleSoft+and+IBM+Announce+Most+Significant+Enterprise+Applications+Alliance+in+History+of+the+Two+Companies+-+United+States&amp;rft.genre=unknown&amp;rft.pub=www-03.ibm.com&amp;rft_id=http%3A%2F%2Fwww-03.ibm.com%2Fpress%2Fus%2Fen%2Fpressrelease%2F7302.wss&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span>
+</li>
+<li id="cite_note-12"><span class="mw-cite-backlink"><a href="#cite_ref-12">↑</a></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://www-03.ibm.com/ibm/history/exhibits/logo/logo_5.html">«IBM Archives: International Business Machines (1924-1946)»</a>. www-03.ibm.com<span class="reference-accessdate">. Consultado em 19 de junho de 2012</span></cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpt.wikipedia.org%3AIBM&amp;rft.btitle=IBM+Archives%3A+International+Business+Machines+%281924-1946%29&amp;rft.genre=unknown&amp;rft.pub=www-03.ibm.com&amp;rft_id=http%3A%2F%2Fwww-03.ibm.com%2Fibm%2Fhistory%2Fexhibits%2Flogo%2Flogo_5.html&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span>
+</li>
+<li id="cite_note-13"><span class="mw-cite-backlink"><a href="#cite_ref-13">↑</a></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://www-03.ibm.com/ibm/history/exhibits/logo/logo_6.html">«IBM Archives: IBM in transition (1947-1956)»</a>. www-03.ibm.com<span class="reference-accessdate">. Consultado em 19 de junho de 2012</span></cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpt.wikipedia.org%3AIBM&amp;rft.btitle=IBM+Archives%3A+IBM+in+transition+%281947-1956%29&amp;rft.genre=unknown&amp;rft.pub=www-03.ibm.com&amp;rft_id=http%3A%2F%2Fwww-03.ibm.com%2Fibm%2Fhistory%2Fexhibits%2Flogo%2Flogo_6.html&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span>
+</li>
+<li id="cite_note-14"><span class="mw-cite-backlink"><a href="#cite_ref-14">↑</a></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://www-03.ibm.com/ibm/history/exhibits/logo/logo_7.html">«IBM Archives: IBM continuity (1956-1972)»</a>. www-03.ibm.com<span class="reference-accessdate">. Consultado em 19 de junho de 2012</span></cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpt.wikipedia.org%3AIBM&amp;rft.btitle=IBM+Archives%3A+IBM+continuity+%281956-1972%29&amp;rft.genre=unknown&amp;rft.pub=www-03.ibm.com&amp;rft_id=http%3A%2F%2Fwww-03.ibm.com%2Fibm%2Fhistory%2Fexhibits%2Flogo%2Flogo_7.html&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span>
+</li>
+<li id="cite_note-15"><span class="mw-cite-backlink"><a href="#cite_ref-15">↑</a></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://www-03.ibm.com/ibm/history/exhibits/logo/logo_1.html">«IBM Archives: IBM logo»</a>. www-03.ibm.com<span class="reference-accessdate">. Consultado em 19 de junho de 2012</span></cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpt.wikipedia.org%3AIBM&amp;rft.btitle=IBM+Archives%3A+IBM+logo&amp;rft.genre=unknown&amp;rft.pub=www-03.ibm.com&amp;rft_id=http%3A%2F%2Fwww-03.ibm.com%2Fibm%2Fhistory%2Fexhibits%2Flogo%2Flogo_1.html&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span>
+</li>
+<li id="cite_note-16"><span class="mw-cite-backlink"><a href="#cite_ref-16">↑</a></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://www-03.ibm.com/ibm/history/exhibits/logo/logo_8.html">«IBM Archives: IBM international recognition (1972- )»</a>. www-03.ibm.com<span class="reference-accessdate">. Consultado em 19 de junho de 2012</span></cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpt.wikipedia.org%3AIBM&amp;rft.btitle=IBM+Archives%3A+IBM+international+recognition+%281972-+%29&amp;rft.genre=unknown&amp;rft.pub=www-03.ibm.com&amp;rft_id=http%3A%2F%2Fwww-03.ibm.com%2Fibm%2Fhistory%2Fexhibits%2Flogo%2Flogo_8.html&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span>
+</li>
+</ol></div>
+<h2><span id="Liga.C3.A7.C3.B5es_externas"></span><span class="mw-headline" id="Ligações_externas">Ligações externas</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=IBM&amp;veaction=edit&amp;section=12" class="mw-editsection-visualeditor" title="Editar secção: Ligações externas">editar</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=IBM&amp;action=edit&amp;section=12" title="Editar secção: Ligações externas">editar código-fonte</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="noprint" style="clear: right; border: solid #aaa 1px; margin: 0 0 1em 1em; font-size: 90%; background: #f9f9f9; width: 238px; padding: 5px; spacing: 2px; text-align: center; float: right;">
+<div style="float: left; vertical-align:middle;"><div class="floatnone"><a href="/wiki/Ficheiro:Commons-logo.svg" class="image" title="Commons"><img alt="Commons" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/22px-Commons-logo.svg.png" decoding="async" width="22" height="30" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/33px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/44px-Commons-logo.svg.png 2x" data-file-width="1024" data-file-height="1376" /></a></div></div>
+<div style="margin-left: 30px; line-height:normal; vertical-align:middle;">O <a href="https://commons.wikimedia.org/wiki/P%C3%A1gina_principal" class="extiw" title="commons:Página principal">Commons</a> possui imagens e outros ficheiros sobre  <b><span class="plainlinks"><a class="external text" href="https://commons.wikimedia.org/w/index.php?title=International+Business+Machines&amp;uselang=pt">IBM</a></span></b></div>
+</div>
+<ul><li><a rel="nofollow" class="external text" href="http://www.ibm.com">Página oficial da IBM</a> (em <a href="/wiki/L%C3%ADngua_inglesa" title="Língua inglesa">inglês</a>)</li>
+<li><a rel="nofollow" class="external text" href="http://www.ibm.com/pt/">Página oficial da IBM Portugal</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.ibm.com/br/">Página oficial da IBM Brasil</a></li></ul>
+<div role="navigation" class="navbox" aria-labelledby="Navecaixas_relacionadas_à_IBM" style="padding:3px"><table class="nowraplinks collapsible collapsed navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th scope="col" class="navbox-title" colspan="2" style="background:#e8e8ff;"><div id="Navecaixas_relacionadas_à_IBM" style="font-size:114%;margin:0 4em">Navecaixas relacionadas à IBM</div></th></tr><tr><td colspan="2" class="navbox-list navbox-odd" style="width:100%;padding:0px;font-size:114%"><div style="padding:0px">
+<div role="navigation" class="navbox" aria-labelledby="Empresas_de_indústrias_eletrônicas_nos_Estados_Unidos" style="padding:3px"><table class="nowraplinks hlist collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th scope="col" class="navbox-title" colspan="2"><div class="plainlinks hlist navbar mini"><ul><li class="nv-ver"><a href="/wiki/Predefini%C3%A7%C3%A3o:Empresas_de_ind%C3%BAstrias_eletr%C3%B4nicas_nos_Estados_Unidos" title="Predefinição:Empresas de indústrias eletrônicas nos Estados Unidos"><abbr title="Ver esta predefinição" style=";;background:none transparent;border:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none; padding:0;">v</abbr></a></li><li class="nv-discutir"><a href="/w/index.php?title=Predefini%C3%A7%C3%A3o_Discuss%C3%A3o:Empresas_de_ind%C3%BAstrias_eletr%C3%B4nicas_nos_Estados_Unidos&amp;action=edit&amp;redlink=1" class="new" title="Predefinição Discussão:Empresas de indústrias eletrônicas nos Estados Unidos (página não existe)"><abbr title="Discutir esta predefinição" style=";;background:none transparent;border:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none; padding:0;">d</abbr></a></li><li class="nv-editar"><a class="external text" href="https://pt.wikipedia.org/w/index.php?title=Predefini%C3%A7%C3%A3o:Empresas_de_ind%C3%BAstrias_eletr%C3%B4nicas_nos_Estados_Unidos&amp;action=edit"><abbr title="Editar esta predefinição" style=";;background:none transparent;border:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none; padding:0;">e</abbr></a></li></ul></div><div id="Empresas_de_indústrias_eletrônicas_nos_Estados_Unidos" style="font-size:114%;margin:0 4em">Empresas de indústrias eletrônicas nos Estados Unidos</div></th></tr><tr><td colspan="2" class="navbox-list navbox-odd" style="width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/Advanced_Micro_Devices" title="Advanced Micro Devices">Advanced Micro Devices</a></li>
+<li><a href="/wiki/Agilent_Technologies" title="Agilent Technologies">Agilent</a></li>
+<li><a href="/wiki/Altera" title="Altera">Altera</a></li>
+<li><a href="/wiki/Amazon" title="Amazon">Amazon</a></li>
+<li><a href="/wiki/Vale_do_Sil%C3%ADcio" title="Vale do Silício">Analog Devices</a></li>
+<li><a href="/wiki/Apple" title="Apple">Apple</a></li>
+<li><a href="/wiki/Applied_Materials" title="Applied Materials">Applied Materials</a></li>
+<li><a href="/wiki/Atmel" title="Atmel">Atmel</a></li>
+<li><a href="/wiki/Bell_Labs" title="Bell Labs">Bell Labs</a></li>
+<li><a href="/wiki/Blu_Products" title="Blu Products">Blu</a></li>
+<li><a href="/wiki/Broadcom" title="Broadcom">Broadcom</a></li>
+<li><a href="/wiki/Cypress_Semiconductor" title="Cypress Semiconductor">Cypress</a></li>
+<li><a href="/wiki/Cray" class="mw-disambig" title="Cray">Cray</a></li>
+<li><a href="/wiki/Dell" title="Dell">Dell</a></li>
+<li><a href="/wiki/Diodes_Incorporated" title="Diodes Incorporated">Diodes Incorporated</a></li>
+<li><a href="/wiki/Dolby_Laboratories" title="Dolby Laboratories">Dolby</a></li>
+<li><a href="/wiki/Electronic_Arts" title="Electronic Arts">Electronic Arts</a></li>
+<li><a href="/wiki/EMC_Corporation" class="mw-redirect" title="EMC Corporation">EMC Corporation</a></li>
+<li><a href="/wiki/Fairchild" class="mw-disambig" title="Fairchild">Fairchild</a></li>
+<li><a href="/wiki/Flextronics" class="mw-redirect" title="Flextronics">Flextronics</a></li>
+<li><a href="/wiki/Freescale_Semiconductor" title="Freescale Semiconductor">Freescale</a></li>
+<li><a href="/wiki/General_Electric" title="General Electric">GE</a></li>
+<li><a href="/wiki/Harman_International" title="Harman International">Harman International</a></li>
+<li><a href="/wiki/HP_Inc." title="HP Inc.">HP</a></li>
+<li><a href="/wiki/Hitachi_Global_Storage_Technologies" class="mw-redirect" title="Hitachi Global Storage Technologies">HGST</a></li>
+<li><a href="/wiki/International_Business_Machines" class="mw-redirect" title="International Business Machines">IBM</a></li>
+<li><a href="/wiki/Intel_Corporation" class="mw-redirect" title="Intel Corporation">Intel</a></li>
+<li><a href="/wiki/Fl%C3%B3rida" title="Flórida">Jabil Circuit</a></li>
+<li><a href="/wiki/JBL" title="JBL">JBL</a></li>
+<li><a href="/wiki/Juniper_Networks" title="Juniper Networks">Juniper Networks</a></li>
+<li><a href="/wiki/Indiana" title="Indiana">Kimball International</a></li>
+<li><a href="/wiki/Kemet" class="mw-redirect" title="Kemet">Kemet</a></li>
+<li><a href="/wiki/Kingston_Technology" title="Kingston Technology">Kingston</a></li>
+<li><a href="/wiki/Kodak" title="Kodak">Kodak</a></li>
+<li><a href="/wiki/Lenovo" title="Lenovo">Lenovo</a></li>
+<li><a href="/wiki/Lexmark" title="Lexmark">Lexmark</a></li>
+<li><a href="/wiki/Logitech" title="Logitech">Logitech</a></li>
+<li><a href="/wiki/Vale_do_Sil%C3%ADcio" title="Vale do Silício">Marvell Technologies</a></li>
+<li><a href="/wiki/Maxtor" title="Maxtor">Maxtor</a></li>
+<li><a href="/wiki/Micron_Technology" title="Micron Technology">Micron</a></li>
+<li><a href="/wiki/Motorola_Mobility" title="Motorola Mobility">Motorola Mobility</a></li>
+<li><a href="/wiki/Microsoft_Corporation" class="mw-redirect" title="Microsoft Corporation">Microsoft</a></li>
+<li><a href="/wiki/National_Semiconductor" title="National Semiconductor">National Semiconductor</a></li>
+<li><a href="/wiki/NetApp" title="NetApp">NetApp</a></li>
+<li><a href="/wiki/Nvidia" title="Nvidia">Nvidia</a></li>
+<li><a href="/wiki/Oracle_Corporation" title="Oracle Corporation">Oracle</a></li>
+<li><a href="/wiki/Winsconsin" class="mw-redirect" title="Winsconsin">Plexus</a></li>
+<li><a href="/wiki/Qualcomm" title="Qualcomm">Qualcomm</a></li>
+<li><a href="/wiki/SanDisk" title="SanDisk">SanDisk</a></li>
+<li><a href="/wiki/Sanmina-SCI" class="mw-redirect" title="Sanmina-SCI">Sanmina-SCI</a></li>
+<li><a href="/wiki/Seagate_Technology" title="Seagate Technology">Seagate</a></li>
+<li><a href="/wiki/Signetics" title="Signetics">Signetics</a></li>
+<li><a href="/wiki/Silicon_Graphics" title="Silicon Graphics">Silicon Graphics</a></li>
+<li><a href="/wiki/Silicon_Image" title="Silicon Image">Silicon Image</a></li>
+<li><a href="/wiki/Solectron" title="Solectron">Solectron</a></li>
+<li><a href="/wiki/Texas_Instruments" title="Texas Instruments">Texas Instruments</a></li>
+<li><a href="/wiki/Western_Digital" title="Western Digital">Western Digital</a></li>
+<li><a href="/wiki/Palm" class="mw-redirect" title="Palm">Palm</a></li>
+<li><a href="/wiki/Verizon" class="mw-redirect" title="Verizon">Verizon</a></li>
+<li><a href="/wiki/Xerox" title="Xerox">Xerox</a></li>
+<li><a href="/wiki/Xilinx" title="Xilinx">Xilinx</a></li>
+<li><a href="/wiki/Zebra_Technologies" title="Zebra Technologies">Zebra Technologies</a></li>
+<li><a href="/wiki/Zilog" title="Zilog">Zilog</a></li></ul>
+</div></td></tr></tbody></table></div>
+<div role="navigation" class="navbox" aria-labelledby="Empresas_no_Índice_Dow_Jones_da_Bolsa_de_Valores_de_Nova_Iorque" style="padding:3px"><table class="nowraplinks collapsible collapsed navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th scope="col" class="navbox-title" colspan="2" style="background:lightsteelblue;"><div class="plainlinks hlist navbar mini"><ul><li class="nv-ver"><a href="/wiki/Predefini%C3%A7%C3%A3o:Dow_Jones_Industrial_Average" title="Predefinição:Dow Jones Industrial Average"><abbr title="Ver esta predefinição" style=";background:lightsteelblue;;background:none transparent;border:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none; padding:0;">v</abbr></a></li><li class="nv-discutir"><a href="/w/index.php?title=Predefini%C3%A7%C3%A3o_Discuss%C3%A3o:Dow_Jones_Industrial_Average&amp;action=edit&amp;redlink=1" class="new" title="Predefinição Discussão:Dow Jones Industrial Average (página não existe)"><abbr title="Discutir esta predefinição" style=";background:lightsteelblue;;background:none transparent;border:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none; padding:0;">d</abbr></a></li><li class="nv-editar"><a class="external text" href="https://pt.wikipedia.org/w/index.php?title=Predefini%C3%A7%C3%A3o:Dow_Jones_Industrial_Average&amp;action=edit"><abbr title="Editar esta predefinição" style=";background:lightsteelblue;;background:none transparent;border:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none; padding:0;">e</abbr></a></li></ul></div><div id="Empresas_no_Índice_Dow_Jones_da_Bolsa_de_Valores_de_Nova_Iorque" style="font-size:114%;margin:0 4em">Empresas no <a href="/wiki/Dow_Jones_Industrial_Average" title="Dow Jones Industrial Average">Índice Dow Jones</a> da <a href="/wiki/New_York_Stock_Exchange" title="New York Stock Exchange">Bolsa de Valores de Nova Iorque</a></div></th></tr><tr><th scope="row" class="navbox-group" style="width:1%;background:lightsteelblue;">Ações atuais</th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em"><a href="/wiki/3M" title="3M">3M</a>&#160;<b>&#183;</b>&#32; <a href="/wiki/American_Express" title="American Express">American Express</a>&#160;<b>&#183;</b>&#32; <a href="/wiki/Apple" title="Apple">Apple</a>&#160;<b>&#183;</b>&#32; <a href="/wiki/Boeing" title="Boeing">Boeing</a>&#160;<b>&#183;</b>&#32; <a href="/wiki/Caterpillar_Inc." title="Caterpillar Inc.">Caterpillar</a>&#160;<b>&#183;</b>&#32; <a href="/wiki/Chevron" title="Chevron">Chevron</a>&#160;<b>&#183;</b>&#32;  <a href="/wiki/Cisco_Systems" title="Cisco Systems">Cisco Systems</a>&#160;<b>&#183;</b>&#32; <a href="/wiki/The_Coca-Cola_Company" title="The Coca-Cola Company">The Coca-Cola Company</a>&#160;<b>&#183;</b>&#32; <a href="/wiki/DuPont" title="DuPont">DuPont</a>&#160;<b>&#183;</b>&#32; <a href="/wiki/ExxonMobil" title="ExxonMobil">ExxonMobil</a>&#160;<b>&#183;</b>&#32; <a href="/wiki/General_Electric" title="General Electric">General Electric</a>&#160;<b>&#183;</b>&#32; <a href="/wiki/Goldman_Sachs" title="Goldman Sachs">Goldman Sachs</a>&#160;<b>&#183;</b>&#32;  <a href="/wiki/Home_Depot" class="mw-redirect" title="Home Depot">Home Depot</a>&#160;<b>&#183;</b>&#32; <a href="/wiki/Intel_Corporation" class="mw-redirect" title="Intel Corporation">Intel</a>&#160;<b>&#183;</b>&#32; <a class="mw-selflink selflink">IBM</a>&#160;<b>&#183;</b>&#32; <a href="/wiki/Johnson_%26_Johnson" title="Johnson &amp; Johnson">Johnson &amp; Johnson</a>&#160;<b>&#183;</b>&#32; <a href="/wiki/JPMorgan_Chase" title="JPMorgan Chase">JPMorgan Chase</a> &#160;<b>&#183;</b>&#32; <a href="/wiki/McDonald%27s" title="McDonald&#39;s">McDonald's</a>&#160;<b>&#183;</b>&#32; <a href="/wiki/Merck_Sharp_and_Dohme" title="Merck Sharp and Dohme">Merck &amp; Co.</a>&#160;<b>&#183;</b>&#32; <a href="/wiki/Microsoft" title="Microsoft">Microsoft</a>&#160;<b>&#183;</b>&#32;  <a href="/wiki/Nike,_Inc." title="Nike, Inc.">Nike</a>&#160;<b>&#183;</b>&#32;<a href="/wiki/Pfizer" title="Pfizer">Pfizer</a>&#160;<b>&#183;</b>&#32; <a href="/wiki/Procter_%26_Gamble" title="Procter &amp; Gamble">Procter &amp; Gamble</a>&#160;<b>&#183;</b>&#32; <a href="/wiki/The_Travelers_Companies" title="The Travelers Companies">The Travelers Companies</a>&#160;<b>&#183;</b>&#32; <a href="/wiki/UnitedHealth_Group" title="UnitedHealth Group">UnitedHealth Group</a>&#160;<b>&#183;</b>&#32; <a href="/wiki/United_Technologies_Corporation" title="United Technologies Corporation">United Technologies</a>&#160;<b>&#183;</b>&#32; <a href="/wiki/Verizon_Communications" title="Verizon Communications">Verizon</a>&#160;<b>&#183;</b>&#32; <a href="/wiki/Visa" title="Visa">Visa</a>&#160;<b>&#183;</b>&#32; <a href="/wiki/Walmart" title="Walmart">Wal-Mart</a>&#160;<b>&#183;</b>&#32; <a href="/wiki/The_Walt_Disney_Company" title="The Walt Disney Company">The Walt Disney Company</a></div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%;background:lightsteelblue;">Ações passadas</th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em"><a href="/wiki/Alcoa" title="Alcoa">Alcoa</a>&#160;<b>&#183;</b>&#32; <a href="/wiki/Altria" title="Altria">Altria Group</a>&#160;<b>&#183;</b>&#32; <a href="/wiki/American_International_Group" title="American International Group">American International Group</a> &#160;<b>&#183;</b>&#32; <a href="/wiki/American_Tobacco_Company" title="American Tobacco Company">American Tobacco Company</a>&#160;<b>&#183;</b>&#32; <a href="/wiki/AT%26T" title="AT&amp;T">AT&amp;T</a>&#160;<b>&#183;</b>&#32; <a href="/wiki/Bank_of_America" title="Bank of America">Bank of America</a>&#160;<b>&#183;</b>&#32;<a href="/wiki/Bethlehem_Steel" title="Bethlehem Steel">Bethlehem Steel</a>&#160;<b>&#183;</b>&#32; <a href="/wiki/Citigroup" title="Citigroup">Citigroup</a>&#160;<b>&#183;</b>&#32; <a href="/wiki/Colorado_Fuel_and_Iron" title="Colorado Fuel and Iron">Colorado Fuel and Iron</a>&#160;<b>&#183;</b>&#32; <a href="/wiki/Kodak" title="Kodak">Eastman Kodak</a>&#160;<b>&#183;</b>&#32; <a href="/wiki/General_Foods" title="General Foods">General Foods</a>&#160;<b>&#183;</b>&#32; <a href="/wiki/General_Motors" title="General Motors">General Motors</a>&#160;<b>&#183;</b>&#32; <a href="/wiki/Goodyear" title="Goodyear">Goodyear Tire and Rubber Company</a>&#160;<b>&#183;</b>&#32; <a href="/wiki/Hewlett-Packard" title="Hewlett-Packard">Hewlett-Packard</a>&#160;<b>&#183;</b>&#32; <a href="/wiki/Honeywell" title="Honeywell">Honeywell</a>&#160;<b>&#183;</b>&#32; <a href="/wiki/International_Paper" title="International Paper">International Paper</a>&#160;<b>&#183;</b>&#32; <a href="/wiki/Johns-Manville" title="Johns-Manville">Johns-Manville</a>&#160;<b>&#183;</b>&#32; <a href="https://en.wikipedia.org/wiki/Kraft_Foods_Inc" class="extiw" title="en:Kraft Foods Inc">Kraft Foods</a>&#160;<b>&#183;</b>&#32; <a href="/wiki/Nash_Motors" title="Nash Motors">Nash Motors</a>&#160;<b>&#183;</b>&#32; <a href="/wiki/Navistar_International" title="Navistar International">Navistar International</a>&#160;<b>&#183;</b>&#32; <a href="/wiki/North_American_Company" title="North American Company">North American Company</a>&#160;<b>&#183;</b>&#32; <a href="/wiki/Owens-Illinois" title="Owens-Illinois">Owens-Illinois</a>&#160;<b>&#183;</b>&#32; <a href="/wiki/Sears,_Roebuck_and_Company" title="Sears, Roebuck and Company">Sears, Roebuck and Company</a>&#160;<b>&#183;</b>&#32; <a href="/wiki/Union_Carbide" title="Union Carbide">Union Carbide</a>&#160;<b>&#183;</b>&#32; <a href="/wiki/United_States_Rubber_Company" title="United States Rubber Company">United States Rubber Company</a>&#160;<b>&#183;</b>&#32; <a href="/wiki/Woolworth" title="Woolworth">F. W. Woolworth Company</a></div></td></tr></tbody></table></div>
+<div role="navigation" class="navbox" aria-labelledby="Maiores_empresas_de_computadores,_servidores_e_mainframes" style="padding:3px"><table class="nowraplinks hlist collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th scope="col" class="navbox-title" colspan="2"><div class="plainlinks hlist navbar mini"><ul><li class="nv-ver"><a href="/wiki/Predefini%C3%A7%C3%A3o:Maiores_empresas_de_computadores" title="Predefinição:Maiores empresas de computadores"><abbr title="Ver esta predefinição" style=";;background:none transparent;border:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none; padding:0;">v</abbr></a></li><li class="nv-discutir"><a href="/w/index.php?title=Predefini%C3%A7%C3%A3o_Discuss%C3%A3o:Maiores_empresas_de_computadores&amp;action=edit&amp;redlink=1" class="new" title="Predefinição Discussão:Maiores empresas de computadores (página não existe)"><abbr title="Discutir esta predefinição" style=";;background:none transparent;border:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none; padding:0;">d</abbr></a></li><li class="nv-editar"><a class="external text" href="https://pt.wikipedia.org/w/index.php?title=Predefini%C3%A7%C3%A3o:Maiores_empresas_de_computadores&amp;action=edit"><abbr title="Editar esta predefinição" style=";;background:none transparent;border:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none; padding:0;">e</abbr></a></li></ul></div><div id="Maiores_empresas_de_computadores,_servidores_e_mainframes" style="font-size:114%;margin:0 4em">Maiores empresas de computadores, servidores e mainframes</div></th></tr><tr><td class="navbox-abovebelow" colspan="2"><div id="Receita_anual_acima_de_US$_3_bilhões">Receita anual acima de <a href="/wiki/D%C3%B3lar_dos_Estados_Unidos" title="Dólar dos Estados Unidos">US$</a> 3 bilhões</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Computadores<br />pessoais e servidores</th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/Acer_(empresa)" title="Acer (empresa)">Acer</a></li>
+<li><a href="/wiki/Apple" title="Apple">Apple</a></li>
+<li><a href="/wiki/Asus" title="Asus">Asus</a></li>
+<li><a href="/wiki/Dell" title="Dell">Dell</a></li>
+<li><a href="/wiki/Fujitsu" title="Fujitsu">Fujitsu</a></li>
+<li><a href="/wiki/Huawei" title="Huawei">Huawei</a></li>
+<li><a href="/wiki/HP_Inc." title="HP Inc.">HP</a></li>
+<li><a href="/wiki/Lenovo" title="Lenovo">Lenovo</a></li>
+<li><a href="/wiki/LG_Electronics" title="LG Electronics">LG Electronics</a></li>
+<li><a href="/wiki/Microsoft" title="Microsoft">Microsoft</a></li>
+<li><a href="/wiki/NEC_Corporation" title="NEC Corporation">NEC</a></li>
+<li><a href="/wiki/Panasonic_Corporation" title="Panasonic Corporation">Panasonic</a></li>
+<li><a href="/wiki/Razer" title="Razer">Razer</a></li>
+<li><a href="/wiki/Samsung" title="Samsung">Samsung</a></li>
+<li><a href="/wiki/Toshiba" title="Toshiba">Toshiba</a></li>
+<li><a href="/wiki/VAIO" title="VAIO">VAIO</a></li></ul>
+</div><table class="nowraplinks navbox-subgroup" style="border-spacing:0"><tbody><tr><th id="Apenas_servidores" scope="row" class="navbox-group" style="width:1%">Apenas servidores</th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/Cisco_Systems" title="Cisco Systems">Cisco Systems</a></li>
+<li><a href="/wiki/Hewlett_Packard_Enterprise" title="Hewlett Packard Enterprise">Hewlett Packard Enterprise</a></li>
+<li><a class="mw-selflink selflink">IBM</a></li>
+<li><a href="/w/index.php?title=Inspur&amp;action=edit&amp;redlink=1" class="new" title="Inspur (página não existe)">Inspur</a></li>
+<li><a href="/wiki/Oracle_Corporation" title="Oracle Corporation">Oracle</a></li></ul>
+</div></td></tr></tbody></table><div>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Mainframes</th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/Fujitsu" title="Fujitsu">Fujitsu</a></li>
+<li><a href="/wiki/Hewlett_Packard_Enterprise" title="Hewlett Packard Enterprise">Hewlett Packard Enterprise</a></li>
+<li><a class="mw-selflink selflink">IBM</a></li></ul>
+</div></td></tr><tr><td class="navbox-abovebelow" colspan="2"><div><a href="/wiki/Ficheiro:Folder_Hexagonal_Icon.svg" class="image" title="Página de categoria"><img alt="Página de categoria" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/48/Folder_Hexagonal_Icon.svg/16px-Folder_Hexagonal_Icon.svg.png" decoding="async" width="16" height="14" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/48/Folder_Hexagonal_Icon.svg/24px-Folder_Hexagonal_Icon.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/48/Folder_Hexagonal_Icon.svg/32px-Folder_Hexagonal_Icon.svg.png 2x" data-file-width="36" data-file-height="31" /></a> <a href="/wiki/Categoria:Empresas_de_hardware" title="Categoria:Empresas de hardware">Categoria</a></div></td></tr></tbody></table></div>
+<div role="navigation" class="navbox" aria-labelledby="Maiores_empresas_de_internet" style="padding:3px"><table class="nowraplinks hlist collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th scope="col" class="navbox-title" colspan="2"><div class="plainlinks hlist navbar mini"><ul><li class="nv-ver"><a href="/wiki/Predefini%C3%A7%C3%A3o:Maiores_empresas_de_internet" title="Predefinição:Maiores empresas de internet"><abbr title="Ver esta predefinição" style=";;background:none transparent;border:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none; padding:0;">v</abbr></a></li><li class="nv-discutir"><a href="/w/index.php?title=Predefini%C3%A7%C3%A3o_Discuss%C3%A3o:Maiores_empresas_de_internet&amp;action=edit&amp;redlink=1" class="new" title="Predefinição Discussão:Maiores empresas de internet (página não existe)"><abbr title="Discutir esta predefinição" style=";;background:none transparent;border:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none; padding:0;">d</abbr></a></li><li class="nv-editar"><a class="external text" href="https://pt.wikipedia.org/w/index.php?title=Predefini%C3%A7%C3%A3o:Maiores_empresas_de_internet&amp;action=edit"><abbr title="Editar esta predefinição" style=";;background:none transparent;border:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none; padding:0;">e</abbr></a></li></ul></div><div id="Maiores_empresas_de_internet" style="font-size:114%;margin:0 4em">Maiores empresas de <a href="/wiki/Internet" title="Internet">internet</a></div></th></tr><tr><td class="navbox-abovebelow" colspan="2"><div id="Receita_anual_acima_de_US$_2_bilhões">Receita anual acima de <a href="/wiki/D%C3%B3lar_dos_Estados_Unidos" title="Dólar dos Estados Unidos">US$</a> 2 bilhões</div></td></tr><tr><td colspan="2" class="navbox-list navbox-odd" style="width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/Apple" title="Apple">Apple</a></li>
+<li><a href="/wiki/Baidu" title="Baidu">Baidu</a></li>
+<li><a href="/wiki/Facebook" title="Facebook">Facebook</a></li>
+<li><a href="/wiki/Google" title="Google">Google</a></li>
+<li><a href="/wiki/IAC_(empresa)" title="IAC (empresa)">IAC</a></li>
+<li><a href="/wiki/Microsoft" title="Microsoft">Microsoft</a></li>
+<li><a href="/wiki/Naver" title="Naver">Naver</a></li>
+<li><a href="/w/index.php?title=NetEase&amp;action=edit&amp;redlink=1" class="new" title="NetEase (página não existe)">NetEase</a></li>
+<li><a href="/wiki/Netflix" title="Netflix">Netflix</a></li>
+<li><a href="/wiki/Tencent" title="Tencent">Tencent</a></li>
+<li><a href="/wiki/Twitter" title="Twitter">Twitter</a></li>
+<li><a href="/wiki/Verizon_Media" title="Verizon Media">Verizon Media</a></li>
+<li><a href="/wiki/Yandex" title="Yandex">Yandex</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Computação em nuvem</th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/Akamai_Technologies" title="Akamai Technologies">Akamai Technologies</a></li>
+<li><a href="/wiki/Alibaba_Cloud" title="Alibaba Cloud">Alibaba Cloud</a></li>
+<li><a href="/wiki/Amazon_Web_Services" title="Amazon Web Services">Amazon Web Services</a></li>
+<li><a href="/wiki/Google" title="Google">Google</a></li>
+<li><a class="mw-selflink selflink">IBM</a></li>
+<li><a href="/wiki/ICloud" title="ICloud">iCloud</a></li>
+<li><a href="/wiki/Microsoft" title="Microsoft">Microsoft</a></li>
+<li><a href="/wiki/Oracle_Corporation" title="Oracle Corporation">Oracle</a></li>
+<li><a href="/w/index.php?title=Rackspace&amp;action=edit&amp;redlink=1" class="new" title="Rackspace (página não existe)">Rackspace</a></li>
+<li><a href="/wiki/Salesforce.com" title="Salesforce.com">Salesforce.com</a></li>
+<li><a href="/w/index.php?title=ServiceNow&amp;action=edit&amp;redlink=1" class="new" title="ServiceNow (página não existe)">ServiceNow</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Comércio online</th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/Alibaba_Group" title="Alibaba Group">Alibaba Group</a></li>
+<li><a href="/wiki/Amazon" title="Amazon">Amazon</a></li>
+<li><a href="/wiki/Apple" title="Apple">Apple</a></li>
+<li><a href="/wiki/EBay" title="EBay">eBay</a></li>
+<li><a href="/wiki/Flipkart" title="Flipkart">Flipkart</a></li>
+<li><a href="/wiki/Groupon" title="Groupon">Groupon</a></li>
+<li><a href="/w/index.php?title=JD.com&amp;action=edit&amp;redlink=1" class="new" title="JD.com (página não existe)">JD.com</a></li>
+<li><a href="/wiki/Shopify" title="Shopify">Shopify</a></li>
+<li><a href="/wiki/Rakuten" title="Rakuten">Rakuten</a></li></ul>
+</div></td></tr><tr><td class="navbox-abovebelow" colspan="2"><div><a href="/wiki/Ficheiro:Folder_Hexagonal_Icon.svg" class="image" title="Página de categoria"><img alt="Página de categoria" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/48/Folder_Hexagonal_Icon.svg/16px-Folder_Hexagonal_Icon.svg.png" decoding="async" width="16" height="14" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/48/Folder_Hexagonal_Icon.svg/24px-Folder_Hexagonal_Icon.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/48/Folder_Hexagonal_Icon.svg/32px-Folder_Hexagonal_Icon.svg.png 2x" data-file-width="36" data-file-height="31" /></a> <a href="/wiki/Categoria:Empresas_de_Internet" title="Categoria:Empresas de Internet">Categoria</a></div></td></tr></tbody></table></div>
+<div role="navigation" class="navbox" aria-labelledby="Maiores_empresas_de_consultoria_tecnológica_e_terceirização" style="padding:3px"><table class="nowraplinks hlist collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th scope="col" class="navbox-title" colspan="2"><div class="plainlinks hlist navbar mini"><ul><li class="nv-ver"><a href="/wiki/Predefini%C3%A7%C3%A3o:Maiores_empresas_de_consultoria_tecnol%C3%B3gica" title="Predefinição:Maiores empresas de consultoria tecnológica"><abbr title="Ver esta predefinição" style=";;background:none transparent;border:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none; padding:0;">v</abbr></a></li><li class="nv-discutir"><a href="/w/index.php?title=Predefini%C3%A7%C3%A3o_Discuss%C3%A3o:Maiores_empresas_de_consultoria_tecnol%C3%B3gica&amp;action=edit&amp;redlink=1" class="new" title="Predefinição Discussão:Maiores empresas de consultoria tecnológica (página não existe)"><abbr title="Discutir esta predefinição" style=";;background:none transparent;border:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none; padding:0;">d</abbr></a></li><li class="nv-editar"><a class="external text" href="https://pt.wikipedia.org/w/index.php?title=Predefini%C3%A7%C3%A3o:Maiores_empresas_de_consultoria_tecnol%C3%B3gica&amp;action=edit"><abbr title="Editar esta predefinição" style=";;background:none transparent;border:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none; padding:0;">e</abbr></a></li></ul></div><div id="Maiores_empresas_de_consultoria_tecnológica_e_terceirização" style="font-size:114%;margin:0 4em">Maiores empresas de consultoria tecnológica e <a href="/wiki/Terceiriza%C3%A7%C3%A3o" title="Terceirização">terceirização</a></div></th></tr><tr><td class="navbox-abovebelow" colspan="2"><div id="Receita_anual_acima_de_US$_3_bilhões">Receita anual acima de <a href="/wiki/D%C3%B3lar_dos_Estados_Unidos" title="Dólar dos Estados Unidos">US$</a> 3 bilhões</div></td></tr><tr><td colspan="2" class="navbox-list navbox-odd" style="width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/Accenture" title="Accenture">Accenture</a></li>
+<li><a href="/wiki/Atos_(empresa)" title="Atos (empresa)">Atos</a></li>
+<li><a href="/wiki/Booz_Allen_Hamilton" title="Booz Allen Hamilton">Booz Allen Hamilton</a></li>
+<li><a href="/wiki/BMC_Software" title="BMC Software">BMC Software</a></li>
+<li><a href="/w/index.php?title=BT_Global_Services&amp;action=edit&amp;redlink=1" class="new" title="BT Global Services (página não existe)">BT Global Services</a></li>
+<li><a href="/w/index.php?title=CACI&amp;action=edit&amp;redlink=1" class="new" title="CACI (página não existe)">CACI</a></li>
+<li><a href="/wiki/Capgemini" title="Capgemini">Capgemini</a></li>
+<li><a href="/w/index.php?title=CGI_Group&amp;action=edit&amp;redlink=1" class="new" title="CGI Group (página não existe)">CGI Group</a></li>
+<li><a href="/wiki/Cognizant" title="Cognizant">Cognizant</a></li>
+<li><a href="/wiki/Deloitte" title="Deloitte">Deloitte</a></li>
+<li><a href="/w/index.php?title=Digital_China&amp;action=edit&amp;redlink=1" class="new" title="Digital China (página não existe)">Digital China</a></li>
+<li><a href="/w/index.php?title=DXC_Technology&amp;action=edit&amp;redlink=1" class="new" title="DXC Technology (página não existe)">DXC Technology</a></li>
+<li><a href="/wiki/Fujitsu" title="Fujitsu">Fujitsu</a></li>
+<li><a href="/wiki/HCL_Technologies" title="HCL Technologies">HCL Technologies</a></li>
+<li><a href="/w/index.php?title=Hitachi_Consulting&amp;action=edit&amp;redlink=1" class="new" title="Hitachi Consulting (página não existe)">Hitachi Consulting</a></li>
+<li><a class="mw-selflink selflink">IBM</a></li>
+<li><a href="/wiki/Indra_Sistemas" title="Indra Sistemas">Indra Sistemas</a></li>
+<li><a href="/wiki/Infosys" title="Infosys">Infosys</a></li>
+<li><a href="/wiki/Infor" title="Infor">Infor</a></li>
+<li><a href="/wiki/KPMG" title="KPMG">KPMG</a></li>
+<li><a href="/w/index.php?title=Leidos&amp;action=edit&amp;redlink=1" class="new" title="Leidos (página não existe)">Leidos</a></li>
+<li><a href="/wiki/NEC_Corporation" title="NEC Corporation">NEC</a></li>
+<li><a href="/w/index.php?title=NTT_Data&amp;action=edit&amp;redlink=1" class="new" title="NTT Data (página não existe)">NTT Data</a></li>
+<li><a href="/wiki/Orange_S.A." title="Orange S.A.">Orange</a></li>
+<li><a href="/wiki/T-Systems" title="T-Systems">T-Systems</a></li>
+<li><a href="/wiki/Tata_Consultancy_Services" title="Tata Consultancy Services">Tata Consultancy Services</a></li>
+<li><a href="/w/index.php?title=Tech_Mahindra&amp;action=edit&amp;redlink=1" class="new" title="Tech Mahindra (página não existe)">Tech Mahindra</a></li>
+<li><a href="/wiki/Unisys" title="Unisys">Unisys</a></li>
+<li><a href="/wiki/Wipro" title="Wipro">Wipro</a></li></ul>
+</div></td></tr></tbody></table></div>
+<div role="navigation" class="navbox" aria-labelledby="Maiores_empresas_de_armazenamento_de_dados" style="padding:3px"><table class="nowraplinks hlist collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th scope="col" class="navbox-title" colspan="2"><div class="plainlinks hlist navbar mini"><ul><li class="nv-ver"><a href="/wiki/Predefini%C3%A7%C3%A3o:Maiores_empresas_de_armazenamento_de_dados" title="Predefinição:Maiores empresas de armazenamento de dados"><abbr title="Ver esta predefinição" style=";;background:none transparent;border:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none; padding:0;">v</abbr></a></li><li class="nv-discutir"><a href="/w/index.php?title=Predefini%C3%A7%C3%A3o_Discuss%C3%A3o:Maiores_empresas_de_armazenamento_de_dados&amp;action=edit&amp;redlink=1" class="new" title="Predefinição Discussão:Maiores empresas de armazenamento de dados (página não existe)"><abbr title="Discutir esta predefinição" style=";;background:none transparent;border:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none; padding:0;">d</abbr></a></li><li class="nv-editar"><a class="external text" href="https://pt.wikipedia.org/w/index.php?title=Predefini%C3%A7%C3%A3o:Maiores_empresas_de_armazenamento_de_dados&amp;action=edit"><abbr title="Editar esta predefinição" style=";;background:none transparent;border:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none; padding:0;">e</abbr></a></li></ul></div><div id="Maiores_empresas_de_armazenamento_de_dados" style="font-size:114%;margin:0 4em">Maiores empresas de <a href="/wiki/Dispositivo_de_armazenamento_de_dados" title="Dispositivo de armazenamento de dados">armazenamento de dados</a></div></th></tr><tr><td class="navbox-abovebelow" colspan="2"><div id="Receita_anual_acima_de_US$_3_bilhões">Receita anual acima de <a href="/wiki/D%C3%B3lar_dos_Estados_Unidos" title="Dólar dos Estados Unidos">US$</a> 3 bilhões</div></td></tr><tr><td colspan="2" class="navbox-list navbox-odd" style="width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/w/index.php?title=ADATA&amp;action=edit&amp;redlink=1" class="new" title="ADATA (página não existe)">ADATA</a></li>
+<li><a href="/wiki/Amazon" title="Amazon">Amazon</a></li>
+<li><a href="/wiki/Apple" title="Apple">Apple</a></li>
+<li><a href="/wiki/Dell_Technologies" title="Dell Technologies">Dell Technologies</a>
+<ul><li><a href="/wiki/Dell_EMC" title="Dell EMC">Dell EMC</a></li></ul></li>
+<li><a href="/wiki/Fujitsu" title="Fujitsu">Fujitsu</a></li>
+<li><a href="/wiki/Google" title="Google">Google</a></li>
+<li><a href="/w/index.php?title=Hitachi_Data_Systems&amp;action=edit&amp;redlink=1" class="new" title="Hitachi Data Systems (página não existe)">Hitachi Data Systems</a></li>
+<li><a href="/wiki/Hewlett_Packard_Enterprise" title="Hewlett Packard Enterprise">Hewlett Packard Enterprise</a></li>
+<li><a class="mw-selflink selflink">IBM</a></li>
+<li><a href="/wiki/Kingston_Technology" title="Kingston Technology">Kingston Technology</a></li>
+<li><a href="/w/index.php?title=Kioxia&amp;action=edit&amp;redlink=1" class="new" title="Kioxia (página não existe)">Kioxia</a></li>
+<li><a href="/wiki/LenovoEMC" title="LenovoEMC">LenovoEMC</a></li>
+<li><a href="/wiki/Microsoft" title="Microsoft">Microsoft</a></li>
+<li><a href="/wiki/NetApp" title="NetApp">NetApp</a></li>
+<li><a href="/wiki/Oracle_Corporation" title="Oracle Corporation">Oracle</a></li>
+<li><a href="/wiki/Plextor" title="Plextor">Plextor</a></li>
+<li><a href="/wiki/Samsung" title="Samsung">Samsung</a></li>
+<li><a href="/wiki/Seagate_Technology" title="Seagate Technology">Seagate Technology</a></li>
+<li><a href="/w/index.php?title=Silicon_Power&amp;action=edit&amp;redlink=1" class="new" title="Silicon Power (página não existe)">Silicon Power</a></li>
+<li><a href="/wiki/Sony" title="Sony">Sony</a></li>
+<li><a href="/w/index.php?title=Transcend_Information&amp;action=edit&amp;redlink=1" class="new" title="Transcend Information (página não existe)">Transcend Information</a></li>
+<li><a href="/wiki/Western_Digital" title="Western Digital">Western Digital</a></li></ul>
+</div></td></tr></tbody></table></div>
+<div role="navigation" class="navbox" aria-labelledby="Maiores_empresas_de_software" style="padding:3px"><table class="nowraplinks hlist collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th scope="col" class="navbox-title" colspan="2"><div class="plainlinks hlist navbar mini"><ul><li class="nv-ver"><a href="/wiki/Predefini%C3%A7%C3%A3o:Maiores_empresas_de_software" title="Predefinição:Maiores empresas de software"><abbr title="Ver esta predefinição" style=";;background:none transparent;border:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none; padding:0;">v</abbr></a></li><li class="nv-discutir"><a href="/w/index.php?title=Predefini%C3%A7%C3%A3o_Discuss%C3%A3o:Maiores_empresas_de_software&amp;action=edit&amp;redlink=1" class="new" title="Predefinição Discussão:Maiores empresas de software (página não existe)"><abbr title="Discutir esta predefinição" style=";;background:none transparent;border:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none; padding:0;">d</abbr></a></li><li class="nv-editar"><a class="external text" href="https://pt.wikipedia.org/w/index.php?title=Predefini%C3%A7%C3%A3o:Maiores_empresas_de_software&amp;action=edit"><abbr title="Editar esta predefinição" style=";;background:none transparent;border:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none; padding:0;">e</abbr></a></li></ul></div><div id="Maiores_empresas_de_software" style="font-size:114%;margin:0 4em">Maiores empresas de <a href="/wiki/Software" title="Software">software</a></div></th></tr><tr><td class="navbox-abovebelow" colspan="2"><div id="Receita_anual_acima_de_US$_3_bilhões">Receita anual acima de <a href="/wiki/D%C3%B3lar_dos_Estados_Unidos" title="Dólar dos Estados Unidos">US$</a> 3 bilhões</div></td></tr><tr><td colspan="2" class="navbox-list navbox-odd" style="width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/Adobe_Inc." title="Adobe Inc.">Adobe</a></li>
+<li><a href="/wiki/Amadeus_IT_Group" title="Amadeus IT Group">Amadeus IT Group</a></li>
+<li><a href="/wiki/Apple" title="Apple">Apple</a></li>
+<li><a href="/wiki/Autodesk" title="Autodesk">Autodesk</a></li>
+<li><a href="/w/index.php?title=FIS_(empresa)&amp;action=edit&amp;redlink=1" class="new" title="FIS (empresa) (página não existe)">FIS</a></li>
+<li><a href="/wiki/Google" title="Google">Google</a></li>
+<li><a href="/wiki/Hewlett_Packard_Enterprise" title="Hewlett Packard Enterprise">Hewlett Packard Enterprise</a></li>
+<li><a class="mw-selflink selflink">IBM</a></li>
+<li><a href="/wiki/Intuit" title="Intuit">Intuit</a></li>
+<li><a href="/wiki/Infor" title="Infor">Infor</a></li>
+<li><a href="/wiki/Microsoft" title="Microsoft">Microsoft</a></li>
+<li><a href="/wiki/Oracle_Corporation" title="Oracle Corporation">Oracle Corporation</a></li>
+<li><a href="/w/index.php?title=Quest_Software&amp;action=edit&amp;redlink=1" class="new" title="Quest Software (página não existe)">Quest Software</a></li>
+<li><a href="/wiki/Sage_Group" title="Sage Group">Sage Group</a></li>
+<li><a href="/wiki/SAP_SE" title="SAP SE">SAP SE</a></li></ul>
+</div></td></tr><tr><td class="navbox-abovebelow" colspan="2"><div><a href="/wiki/Ficheiro:Folder_Hexagonal_Icon.svg" class="image" title="Página de categoria"><img alt="Página de categoria" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/48/Folder_Hexagonal_Icon.svg/16px-Folder_Hexagonal_Icon.svg.png" decoding="async" width="16" height="14" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/48/Folder_Hexagonal_Icon.svg/24px-Folder_Hexagonal_Icon.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/48/Folder_Hexagonal_Icon.svg/32px-Folder_Hexagonal_Icon.svg.png 2x" data-file-width="36" data-file-height="31" /></a> <a href="/wiki/Categoria:Empresas_produtoras_de_programas_de_computador" title="Categoria:Empresas produtoras de programas de computador">Categoria</a></div></td></tr></tbody></table></div>
+<div role="navigation" class="navbox" aria-labelledby="As_50_maiores_empresas_do_mundo_pela_Financial_Times_Global_500_de_2011" style="padding:3px"><table class="nowraplinks collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th scope="col" class="navbox-title" colspan="2"><div class="plainlinks hlist navbar mini"><ul><li class="nv-ver"><a href="/wiki/Predefini%C3%A7%C3%A3o:EmpresasFTGlobal" title="Predefinição:EmpresasFTGlobal"><abbr title="Ver esta predefinição" style=";;background:none transparent;border:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none; padding:0;">v</abbr></a></li><li class="nv-discutir"><a href="/w/index.php?title=Predefini%C3%A7%C3%A3o_Discuss%C3%A3o:EmpresasFTGlobal&amp;action=edit&amp;redlink=1" class="new" title="Predefinição Discussão:EmpresasFTGlobal (página não existe)"><abbr title="Discutir esta predefinição" style=";;background:none transparent;border:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none; padding:0;">d</abbr></a></li><li class="nv-editar"><a class="external text" href="https://pt.wikipedia.org/w/index.php?title=Predefini%C3%A7%C3%A3o:EmpresasFTGlobal&amp;action=edit"><abbr title="Editar esta predefinição" style=";;background:none transparent;border:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none; padding:0;">e</abbr></a></li></ul></div><div id="As_50_maiores_empresas_do_mundo_pela_Financial_Times_Global_500_de_2011" style="font-size:114%;margin:0 4em">As 50 maiores empresas do mundo pela <a href="/wiki/Financial_Times" title="Financial Times">Financial Times</a> <a href="/wiki/Financial_Times_Global_500" title="Financial Times Global 500">Global 500</a> de <a href="/wiki/2011" title="2011">2011</a></div></th></tr><tr><td colspan="2" class="navbox-list navbox-odd" style="width:100%;padding:0px"><div style="padding:0em 0.25em"><style data-mw-deduplicate="TemplateStyles:r57040861">.mw-parser-output .sep-list{font-weight:bold}</style><span class="nowrap"><a href="/wiki/ExxonMobil" title="ExxonMobil">ExxonMobil</a></span>&#160;<span class="sep-list">·</span> <span class="nowrap"><a href="/wiki/Petrochina" class="mw-redirect" title="Petrochina">Petrochina</a></span>&#160;<span class="sep-list">·</span> <span class="nowrap"><a href="/wiki/Apple_Inc." class="mw-redirect" title="Apple Inc.">Apple Inc.</a></span>&#160;<span class="sep-list">·</span> <span class="nowrap"><a href="/wiki/ICBC" class="mw-redirect" title="ICBC">ICBC</a></span>&#160;<span class="sep-list">·</span> <span class="nowrap"><a href="/wiki/Petrobras" title="Petrobras">Petrobras</a></span>&#160;<span class="sep-list">·</span> <span class="nowrap"><a href="/wiki/BHP_Billiton" title="BHP Billiton">BHP Billiton</a></span>&#160;<span class="sep-list">·</span> <span class="nowrap"><a href="/wiki/China_Construction_Bank" title="China Construction Bank">China Construction Bank</a></span>&#160;<span class="sep-list">·</span> <span class="nowrap"><a href="/wiki/Royal_Dutch_Shell" title="Royal Dutch Shell">Royal Dutch Shell</a></span>&#160;<span class="sep-list">·</span> <span class="nowrap"><a href="/wiki/Chevron" title="Chevron">Chevron</a></span>&#160;<span class="sep-list">·</span> <span class="nowrap"><a href="/wiki/Microsoft" title="Microsoft">Microsoft</a></span>&#160;<span class="sep-list">·</span> <span class="nowrap"><a href="/wiki/General_Electric" title="General Electric">General Electric</a></span>&#160;<span class="sep-list">·</span> <span class="nowrap"><a href="/wiki/Berkshire_Hathaway" title="Berkshire Hathaway">Berkshire Hathaway</a></span>&#160;<span class="sep-list">·</span> <span class="nowrap"><a href="/wiki/Nestl%C3%A9" title="Nestlé">Nestlé</a></span>&#160;<span class="sep-list">·</span> <span class="nowrap"><a class="mw-selflink selflink">IBM</a></span>&#160;<span class="sep-list">·</span> <span class="nowrap"><a href="/wiki/Gazprom" title="Gazprom">Gazprom</a></span>&#160;<span class="sep-list">·</span> <span class="nowrap"><a href="/wiki/China_Mobile" title="China Mobile">China Mobile</a></span>&#160;<span class="sep-list">·</span> <span class="nowrap"><a href="/wiki/JP_Morgan_Chase" class="mw-redirect" title="JP Morgan Chase">JP Morgan Chase</a></span>&#160;<span class="sep-list">·</span> <span class="nowrap"><a href="/wiki/HSBC" title="HSBC">HSBC</a></span>&#160;<span class="sep-list">·</span> <span class="nowrap"><a href="/wiki/Wal-Mart" class="mw-redirect" title="Wal-Mart">Wal-Mart</a></span>&#160;<span class="sep-list">·</span> <span class="nowrap"><a href="/wiki/AT%26T" title="AT&amp;T">AT&amp;T</a></span>&#160;<span class="sep-list">·</span> <span class="nowrap"><a href="/wiki/Procter_%26_Gamble" title="Procter &amp; Gamble">Procter &amp; Gamble</a></span>&#160;<span class="sep-list">·</span> <span class="nowrap"><a href="/wiki/Oracle_Corporation" title="Oracle Corporation">Oracle</a></span>&#160;<span class="sep-list">·</span> <span class="nowrap"><a href="/wiki/Vale_S.A." title="Vale S.A.">Vale</a></span>&#160;<span class="sep-list">·</span> <span class="nowrap"><a href="/wiki/Wells_Fargo" title="Wells Fargo">Wells Fargo</a></span>&#160;<span class="sep-list">·</span> <span class="nowrap"><a href="/wiki/Johnson_%26_Johnson" title="Johnson &amp; Johnson">Johnson &amp; Johnson</a></span>&#160;<span class="sep-list">·</span> <span class="nowrap"><a href="/wiki/Pfizer" title="Pfizer">Pfizer</a></span>&#160;<span class="sep-list">·</span> <span class="nowrap"><a href="/wiki/The_Coca-Cola_Company" title="The Coca-Cola Company">Coca Cola</a></span>&#160;<span class="sep-list">·</span> <span class="nowrap"><a href="/wiki/Google" title="Google">Google</a></span>&#160;<span class="sep-list">·</span> <span class="nowrap"><a href="/wiki/Bank_of_China" title="Bank of China">Bank of China</a></span>&#160;<span class="sep-list">·</span> <span class="nowrap"><a href="/wiki/Vodafone" title="Vodafone">Vodafone</a></span>&#160;<span class="sep-list">·</span> <span class="nowrap"><a href="/wiki/Rio_Tinto_(empresa)" class="mw-redirect" title="Rio Tinto (empresa)">Rio Tinto</a></span>&#160;<span class="sep-list">·</span> <span class="nowrap"><a href="/wiki/Novartis" title="Novartis">Novartis</a></span>&#160;<span class="sep-list">·</span> <span class="nowrap"><a href="/wiki/Total_S.A." title="Total S.A.">Total</a></span>&#160;<span class="sep-list">·</span> <span class="nowrap"><a href="/wiki/Banco_Agr%C3%ADcola_da_China" title="Banco Agrícola da China">Banco Agrícola da China</a></span>&#160;<span class="sep-list">·</span> <span class="nowrap"><a href="/wiki/Toyota" class="mw-redirect" title="Toyota">Toyota</a></span>&#160;<span class="sep-list">·</span> <span class="nowrap"><a href="/wiki/Samsung" title="Samsung">Samsung</a></span>&#160;<span class="sep-list">·</span> <span class="nowrap"><a href="/wiki/BP" title="BP">BP</a></span>&#160;<span class="sep-list">·</span> <span class="nowrap"><a href="/wiki/Bank_of_America" title="Bank of America">Bank of America</a></span>&#160;<span class="sep-list">·</span> <span class="nowrap"><a href="/wiki/Citigroup" title="Citigroup">Citigroup</a></span>&#160;<span class="sep-list">·</span> <span class="nowrap"><a href="/wiki/Hoffmann%E2%80%93La_Roche" title="Hoffmann–La Roche">Roche</a></span>&#160;<span class="sep-list">·</span> <span class="nowrap"><a href="/wiki/Schlumberger" title="Schlumberger">Schlumberger</a></span>&#160;<span class="sep-list">·</span> <span class="nowrap"><a href="/wiki/Siemens" class="mw-redirect" title="Siemens">Siemens</a></span>&#160;<span class="sep-list">·</span> <span class="nowrap"><a href="/wiki/Philip_Morris_International" title="Philip Morris International">Philip Morris International</a></span>&#160;<span class="sep-list">·</span> <span class="nowrap"><a href="/wiki/Telefonica" class="mw-redirect" title="Telefonica">Telefonica</a></span>&#160;<span class="sep-list">·</span> <span class="nowrap"><a href="/wiki/ConocoPhillips" title="ConocoPhillips">ConocoPhillips</a></span>&#160;<span class="sep-list">·</span> <span class="nowrap"><a href="/wiki/China_National_Offshore_Oil_Corporation" title="China National Offshore Oil Corporation">CNOOC</a></span>&#160;<span class="sep-list">·</span> <span class="nowrap"><a href="/wiki/Intel_Corporation" class="mw-redirect" title="Intel Corporation">Intel Corporation</a></span>&#160;<span class="sep-list">·</span> <span class="nowrap"><a href="/wiki/Verizon_Communications" title="Verizon Communications">Verizon Communications</a></span>&#160;<span class="sep-list">·</span> <span class="nowrap"><a href="/wiki/Sinopec" title="Sinopec">Sinopec</a></span>&#160;<span class="sep-list">·</span> <span class="nowrap"><a href="/wiki/PepsiCo" title="PepsiCo">PepsiCo</a></span>&#160;<span class="sep-list">·</span> <span class="nowrap"><a href="/wiki/Merck_Sharp_and_Dohme" title="Merck Sharp and Dohme">Merck</a></span>&#160;<span class="sep-list">·</span> <span class="nowrap"><a href="/wiki/Ita%C3%BA_Unibanco" title="Itaú Unibanco">Itaú Unibanco</a></span></div></td></tr></tbody></table></div></div></td></tr></tbody></table></div>
+<ul class="noprint" style="border-top: solid silver 1px; border-bottom:1px solid silver; padding:3px; background-color: #F9F9F9; text-align: center; margin-top:10px; margin-left: 0; clear: both;"><li style="display: inline;"><span style="white-space: nowrap; margin: auto 1.5em"><span style="margin-right: 0.5em"><a href="/wiki/Ficheiro:Crystal_Clear_app_ktalkd.png" title="Portal das tecnologias de informação"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Crystal_Clear_app_ktalkd.png/25px-Crystal_Clear_app_ktalkd.png" decoding="async" width="25" height="25" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Crystal_Clear_app_ktalkd.png/38px-Crystal_Clear_app_ktalkd.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Crystal_Clear_app_ktalkd.png/50px-Crystal_Clear_app_ktalkd.png 2x" data-file-width="128" data-file-height="128" /></a></span> <span style="font-weight:bold"><a href="/wiki/Portal:Tecnologias_de_informa%C3%A7%C3%A3o" title="Portal:Tecnologias de informação">Portal das tecnologias de informação</a></span></span></li>         </ul>
+<div role="navigation" class="navbox" aria-labelledby="Controle_de_autoridade" style="padding:3px"><table class="nowraplinks hlist navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th id="Controle_de_autoridade" scope="row" class="navbox-group" style="width:1%;width: 12%; text-align:center;"><a href="/wiki/Ajuda:Controle_de_autoridade" title="Ajuda:Controle de autoridade">Controle de autoridade</a></th><td class="navbox-list navbox-odd plainlinks" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><span style="white-space:nowrap;"><a href="https://www.wikidata.org/wiki/Wikidata:Main_Page" title="Wikidata"><img alt="Wd" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Wikidata-logo.svg/20px-Wikidata-logo.svg.png" decoding="async" width="20" height="11" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Wikidata-logo.svg/30px-Wikidata-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Wikidata-logo.svg/40px-Wikidata-logo.svg.png 2x" data-file-width="1050" data-file-height="590" /></a>: <span class="uid"><a href="https://www.wikidata.org/wiki/Q37156" class="extiw" title="wikidata:Q37156">Q37156</a></span></span></li>
+<li><span style="white-space:nowrap;"> <span><a rel="nofollow" class="external text" href="//www.worldcat.org/identities/containsVIAFID/150702892">WorldCat</a></span></span></li>
+<li><span style="white-space:nowrap;"><a href="/wiki/Base_Virtual_Internacional_de_Autoridade" title="Base Virtual Internacional de Autoridade">VIAF</a>: <span class="uid"><span class="plainlinks"><a rel="nofollow" class="external text" href="https://viaf.org/viaf/150702892">150702892</a></span></span></span></li>
+<li><span style="white-space:nowrap;"><a href="/wiki/Museu_Brit%C3%A2nico" title="Museu Britânico">BMT</a>: <span class="uid"><span class="plainlinks"><a rel="nofollow" class="external text" href="https://collection.britishmuseum.org/resource/?uri=http%3A%2F%2Fcollection.britishmuseum.org%2Fid%2Fperson-institution%2F53920">53920</a></span></span></span></li>
+<li><span style="white-space:nowrap;"><a href="/wiki/Biblioteca_Nacional_da_Espanha" title="Biblioteca Nacional da Espanha">BNE</a>: <span class="uid"><span class="plainlinks"><a rel="nofollow" class="external text" href="http://datos.bne.es/resource/XX254046">XX254046</a></span></span></span></li>
+<li><span style="white-space:nowrap;"><a href="/wiki/Biblioteca_Nacional_da_Fran%C3%A7a" title="Biblioteca Nacional da França">BNF</a>: <span class="uid"><span class="plainlinks"><a rel="nofollow" class="external text" href="https://catalogue.bnf.fr/ark:/12148/cb11993066c">11993066c</a></span></span></span></li>
+<li><span style="white-space:nowrap;"><a href="/wiki/Grande_Enciclop%C3%A9dia_Sovi%C3%A9tica" title="Grande Enciclopédia Soviética">BRE</a>: <span class="uid"><span class="plainlinks"><a rel="nofollow" class="external text" href="https://bigenc.ru/text/2014683">2014683</a></span></span></span></li>
+<li><span style="white-space:nowrap;"><a href="/wiki/Cat%C3%A1logo_de_autoridades_de_nomes_e_t%C3%ADtulos_da_Catalunha" title="Catálogo de autoridades de nomes e títulos da Catalunha">CANTIC</a>: <span class="uid"><span class="plainlinks"><a rel="nofollow" class="external text" href="http://cantic.bnc.cat/registres/CUCId/a1179799x">a1179799x</a></span></span></span></li>
+<li><span style="white-space:nowrap;"><a href="/wiki/Encyclop%C3%A6dia_Britannica" title="Encyclopædia Britannica">EBID</a>: <span class="uid"><span class="plainlinks"><a rel="nofollow" class="external text" href="https://www.britannica.com/topic/International-Business-Machines-Corporation">ID</a></span></span></span></li>
+<li><span style="white-space:nowrap;"><a href="/wiki/Gran_Enciclop%C3%A8dia_Catalana" title="Gran Enciclopèdia Catalana">GEC</a>: <span class="uid"><span class="plainlinks"><a rel="nofollow" class="external text" href="https://www.enciclopedia.cat/EC-GEC-0033785.xml">0033785</a></span></span></span></li>
+<li><span style="white-space:nowrap;"><a href="/wiki/Gemeinsame_Normdatei" title="Gemeinsame Normdatei">GND</a>: <span class="uid"><span class="plainlinks"><a rel="nofollow" class="external text" href="https://d-nb.info/gnd/1042-X">1042-X</a></span></span></span></li>
+<li><span style="white-space:nowrap;"><a href="/wiki/Global_Research_Identifier_Database" title="Global Research Identifier Database">GRID</a>: <span class="uid"><span class="plainlinks"><a rel="nofollow" class="external text" href="https://www.grid.ac/institutes/grid.410484.d">grid.410484.d</a></span></span></span></li>
+<li><span style="white-space:nowrap;"><a href="/wiki/International_Standard_Name_Identifier" title="International Standard Name Identifier">ISNI</a>: <span class="uid"><span class="plainlinks"><a rel="nofollow" class="external text" href="http://www.isni.org/0000000404002468">ID</a></span></span></span></li>
+<li><span style="white-space:nowrap;"><a href="/wiki/N%C3%BAmero_de_controle_da_Biblioteca_do_Congresso" title="Número de controle da Biblioteca do Congresso">LCCN</a>: <span class="uid"><span class="plainlinks"><a rel="nofollow" class="external text" href="https://id.loc.gov/authorities/n79142877">n79142877</a></span></span></span></li>
+<li><span style="white-space:nowrap;"><a href="/wiki/Legal_Entity_Identifier" class="mw-redirect" title="Legal Entity Identifier">LEI</a>: <span class="uid"><span class="plainlinks"><a rel="nofollow" class="external text" href="https://search.gleif.org/#/record/VGRQXHF3J8VDLUA7XE92">VGRQXHF3J8VDLUA7XE92</a></span></span></span></li>
+<li><span style="white-space:nowrap;"><a href="/wiki/MusicBrainz" title="MusicBrainz">MusicBrainz</a>: <span class="uid"><span class="plainlinks"><a rel="nofollow" class="external text" href="https://musicbrainz.org/artist/bd76df85-2fb2-49d1-b4fe-ec7df774c07c">ID</a></span></span></span></li>
+<li><span style="white-space:nowrap;"><a href="/wiki/Biblioteca_Nacional_da_Dieta" title="Biblioteca Nacional da Dieta">NDL</a>: <span class="uid"><span class="plainlinks"><a rel="nofollow" class="external text" href="https://id.ndl.go.jp/auth/ndlna/00406062">00406062</a></span></span></span></li>
+<li><span style="white-space:nowrap;"><a href="/wiki/Biblioteca_Nacional_da_Rep%C3%BAblica_Checa" title="Biblioteca Nacional da República Checa">NKC</a>: <span class="uid"><span class="plainlinks"><a rel="nofollow" class="external text" href="https://aleph.nkp.cz/F/?func=find-c&amp;local_base=aut&amp;ccl_term=ica=kn20010710496">kn20010710496</a></span></span></span></li>
+<li><span style="white-space:nowrap;"><a href="/wiki/Biblioteca_Nacional_da_Austr%C3%A1lia" title="Biblioteca Nacional da Austrália">NLA</a>: <span class="uid"><span class="plainlinks"><a rel="nofollow" class="external text" href="https://nla.gov.au/anbd.aut-an35713999">35713999</a></span></span></span></li>
+<li><span style="white-space:nowrap;"><a href="/wiki/Biblioteca_Nacional_da_Gr%C3%A9cia" class="mw-redirect" title="Biblioteca Nacional da Grécia">NLG</a>: <span class="uid"><span class="plainlinks"><a rel="nofollow" class="external text" href="https://catalogue.nlg.gr/Authority/Record?id=au.67040">67040</a></span></span></span></li>
+<li><span style="white-space:nowrap;">NUKAT: <span class="uid"><span class="plainlinks"><a rel="nofollow" class="external text" href="https://viaf.org/processed/NUKAT%7Cn96033548">n96033548</a></span></span></span></li>
+<li><span style="white-space:nowrap;">openMLOL: <span class="uid"><span class="plainlinks"><a rel="nofollow" class="external text" href="https://openmlol.it/autore/21065">21065</a></span></span></span></li>
+<li><span style="white-space:nowrap;"><a href="/wiki/Biblioteca_Nacional_de_Portugal" title="Biblioteca Nacional de Portugal">PTBNP</a>: <span class="uid"><span class="plainlinks"><a rel="nofollow" class="external text" href="http://urn.bn.pt/bibliografia/unimarc/txt?id=11689">11689</a></span></span></span></li>
+<li><span style="white-space:nowrap;"><a href="/wiki/LIBRIS" title="LIBRIS">SELIBR</a>: <span class="uid"><span class="plainlinks"><a rel="nofollow" class="external text" href="https://libris.kb.se/auth/118155">118155</a></span></span></span></li>
+<li><span style="white-space:nowrap;">SNAC: <span class="uid"><span class="plainlinks"><a rel="nofollow" class="external text" href="https://snaccooperative.org/ark:/99166/w65v48mw">w65v48mw</a></span></span></span></li>
+<li><span style="white-space:nowrap;"><a href="/wiki/Sistema_Universit%C3%A1rio_de_Documenta%C3%A7%C3%A3o" title="Sistema Universitário de Documentação">SUDOC</a>: <span class="uid"><span class="plainlinks"><a rel="nofollow" class="external text" href="https://www.idref.fr/028008871">028008871</a></span></span></span></li>
+<li><span style="white-space:nowrap;"><a href="/wiki/Enciclop%C3%A9dia_Treccani" title="Enciclopédia Treccani">Treccani</a>: <span class="uid"><span class="plainlinks"><a rel="nofollow" class="external text" href="http://www.treccani.it/enciclopedia/ibm">ibm</a></span></span></span></li>
+<li><span style="white-space:nowrap;"><a href="/wiki/Union_List_of_Artist_Names" title="Union List of Artist Names">ULAN</a>: <span class="uid"><span class="plainlinks"><a rel="nofollow" class="external text" href="https://www.getty.edu/vow/ULANFullDisplay?find=&amp;role=&amp;nation=&amp;subjectid=500217526">500217526</a></span></span></span></li></ul>
+</div></td></tr></tbody></table></div>
+<!-- 
+NewPP limit report
+Parsed by mw1294
+Cached time: 20200107212355
+Cache expiry: 2592000
+Dynamic content: false
+Complications: []
+CPU time usage: 2.104 seconds
+Real time usage: 3.557 seconds
+Preprocessor visited node count: 8219/1000000
+Preprocessor generated node count: 0/1500000
+Post‐expand include size: 195503/2097152 bytes
+Template argument size: 61073/2097152 bytes
+Highest expansion depth: 14/40
+Expensive parser function count: 54/500
+Unstrip recursion depth: 1/20
+Unstrip post‐expand size: 18125/5000000 bytes
+Number of Wikibase entities loaded: 27/400
+Lua time usage: 1.248/10.000 seconds
+Lua memory usage: 10.79 MB/50 MB
+Lua Profile:
+    Scribunto_LuaSandboxCallback::getEntity                          960 ms       77.4%
+    Scribunto_LuaSandboxCallback::addStatementUsage                   60 ms        4.8%
+    Scribunto_LuaSandboxCallback::plain                               40 ms        3.2%
+    ?                                                                 40 ms        3.2%
+    Scribunto_LuaSandboxCallback::getExpandedArgument                 40 ms        3.2%
+    type                                                              20 ms        1.6%
+    pairs                                                             20 ms        1.6%
+    old_getmetatable                                                  20 ms        1.6%
+    tostring                                                          20 ms        1.6%
+    recursiveClone <mwInit.lua:41>                                    20 ms        1.6%
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00% 3341.711      1 -total
+ 64.55% 2157.114      1 Predefinição:Controle_de_autoridade
+ 17.33%  578.966      1 Predefinição:Info/Empresa
+ 17.15%  573.269      1 Predefinição:Info
+  8.41%  281.201      1 Predefinição:Valor_Wikidata
+  5.50%  183.688      1 Predefinição:Link
+  5.42%  181.046      1 Predefinição:Link/código
+  5.12%  171.222      1 Predefinição:Link/línguas
+  4.28%  143.012      1 Predefinição:Navboxes
+  3.21%  107.324      1 Predefinição:Referências
+-->
+
+<!-- Saved in parser cache with key ptwiki:pcache:idhash:28722-0!canonical and timestamp 20200107212355 and revision id 56910531
+ -->
+</div><noscript><img src="//pt.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript></div>
+		
+		<div class="printfooter">Obtida de "<a dir="ltr" href="https://pt.wikipedia.org/w/index.php?title=IBM&amp;oldid=56910531">https://pt.wikipedia.org/w/index.php?title=IBM&amp;oldid=56910531</a>"</div>
+		
+		<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Especial:Categorias" title="Especial:Categorias">Categorias</a>: <ul><li><a href="/wiki/Categoria:Empresas_de_eletr%C3%B4nicos_dos_Estados_Unidos" title="Categoria:Empresas de eletrônicos dos Estados Unidos">Empresas de eletrônicos dos Estados Unidos</a></li><li><a href="/wiki/Categoria:Empresas_no_Dow_Jones_Industrial_Average" title="Categoria:Empresas no Dow Jones Industrial Average">Empresas no Dow Jones Industrial Average</a></li><li><a href="/wiki/Categoria:IBM" title="Categoria:IBM">IBM</a></li><li><a href="/wiki/Categoria:Empresas_de_inform%C3%A1tica_dos_Estados_Unidos" title="Categoria:Empresas de informática dos Estados Unidos">Empresas de informática dos Estados Unidos</a></li><li><a href="/wiki/Categoria:Empresas_de_semicondutores_dos_Estados_Unidos" title="Categoria:Empresas de semicondutores dos Estados Unidos">Empresas de semicondutores dos Estados Unidos</a></li><li><a href="/wiki/Categoria:Empresas_fundadas_em_1911" title="Categoria:Empresas fundadas em 1911">Empresas fundadas em 1911</a></li><li><a href="/wiki/Categoria:Empresas_listadas_na_New_York_Stock_Exchange" title="Categoria:Empresas listadas na New York Stock Exchange">Empresas listadas na New York Stock Exchange</a></li><li><a href="/wiki/Categoria:Multinacionais_dos_Estados_Unidos" title="Categoria:Multinacionais dos Estados Unidos">Multinacionais dos Estados Unidos</a></li><li><a href="/wiki/Categoria:Marcas_dos_Estados_Unidos" title="Categoria:Marcas dos Estados Unidos">Marcas dos Estados Unidos</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Categorias ocultas: <ul><li><a href="/wiki/Categoria:!CS1_ingl%C3%AAs-fontes_em_l%C3%ADngua_(en)" title="Categoria:!CS1 inglês-fontes em língua (en)">!CS1 inglês-fontes em língua (en)</a></li><li><a href="/wiki/Categoria:!Portal:Economia_e_neg%C3%B3cios/Artigos_relacionados" title="Categoria:!Portal:Economia e negócios/Artigos relacionados">!Portal:Economia e negócios/Artigos relacionados</a></li><li><a href="/wiki/Categoria:!Portal:Economia_e_neg%C3%B3cios/Artigos_relacionados_sobre_empresas" title="Categoria:!Portal:Economia e negócios/Artigos relacionados sobre empresas">!Portal:Economia e negócios/Artigos relacionados sobre empresas</a></li></ul></div></div>
+		<div class="visualClear"></div>
+		
+	</div>
+</div>
+<div id='mw-data-after-content'>
+	<div class="read-more-container"></div>
+</div>
+
+
+		<div id="mw-navigation">
+			<h2>Menu de navegação</h2>
+			<div id="mw-head">
+						<div id="p-personal" role="navigation" aria-labelledby="p-personal-label">
+			<h3 id="p-personal-label">Ferramentas pessoais</h3>
+			<ul>
+				<li id="pt-anonuserpage">Não autenticado</li><li id="pt-anontalk"><a href="/wiki/Especial:Minha_discuss%C3%A3o" title="Discussão sobre edições feitas a partir deste endereço IP [n]" accesskey="n">Discussão</a></li><li id="pt-anoncontribs"><a href="/wiki/Especial:Minhas_contribui%C3%A7%C3%B5es" title="Uma lista de edições feitas a partir deste endereço IP [y]" accesskey="y">Contribuições</a></li><li id="pt-createaccount"><a href="/w/index.php?title=Especial:Criar_conta&amp;returnto=IBM" title="É encorajado a criar uma conta e iniciar sessão; no entanto, não é obrigatório">Criar uma conta</a></li><li id="pt-login"><a href="/w/index.php?title=Especial:Entrar&amp;returnto=IBM" title="Aconselhamos-lhe a criar uma conta na Wikipédia, embora tal não seja obrigatório. [o]" accesskey="o">Entrar</a></li>			</ul>
+		</div>
+						<div id="left-navigation">
+					
+<div id="p-namespaces" role="navigation" class="vectorTabs " aria-labelledby="p-namespaces-label">
+	<h3 id="p-namespaces-label">Espa&ccedil;os nominais</h3>
+	<ul >
+		<li id="ca-nstab-main" class="selected"><a href="/wiki/IBM" title="Ver a página de conteúdo [c]" accesskey="c">Artigo</a></li><li id="ca-talk"><a href="/wiki/Discuss%C3%A3o:IBM" rel="discussion" title="Discussão sobre o conteúdo da página [t]" accesskey="t">Discussão</a></li>
+	</ul>
+</div>
+		<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+						<input type="checkbox" class="vectorMenuCheckbox" aria-labelledby="p-variants-label" />
+			<h3 id="p-variants-label">
+				<span>Variantes</span>
+			</h3>
+			<ul class="menu">
+							</ul>
+		</div>
+						</div>
+				<div id="right-navigation">
+					
+<div id="p-views" role="navigation" class="vectorTabs " aria-labelledby="p-views-label">
+	<h3 id="p-views-label">Vistas</h3>
+	<ul >
+		<li id="ca-view" class="collapsible selected"><a href="/wiki/IBM">Ler</a></li><li id="ca-ve-edit" class="collapsible"><a href="/w/index.php?title=IBM&amp;veaction=edit" title="Editar esta página [v]" accesskey="v">Editar</a></li><li id="ca-edit" class="collapsible"><a href="/w/index.php?title=IBM&amp;action=edit" title="Editar esta página [e]" accesskey="e">Editar código-fonte</a></li><li id="ca-history" class="collapsible"><a href="/w/index.php?title=IBM&amp;action=history" title="Edições anteriores desta página. [h]" accesskey="h">Ver histórico</a></li>
+	</ul>
+</div>
+		<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+			<input type="checkbox" class="vectorMenuCheckbox" aria-labelledby="p-cactions-label" />
+			<h3 id="p-cactions-label"><span>Mais</span></h3>
+			<ul class="menu">
+							</ul>
+		</div>
+		
+<div id="p-search" role="search">
+	<h3 >
+		<label for="searchInput">Busca</label>
+	</h3>
+	<form action="/w/index.php" id="searchform">
+		<div id="simpleSearch">
+			<input type="search" name="search" placeholder="Pesquisar na Wikipédia" title="Pesquisar na Wikipédia [f]" accesskey="f" id="searchInput"/>
+			<input type="hidden" value="Especial:Pesquisar" name="title"/>
+			
+			<input type="submit" name="fulltext" value="Pesquisar" title="Procurar páginas que contêm este texto" id="mw-searchButton" class="searchButton mw-fallbackSearchButton"/>
+			<input type="submit" name="go" value="Ir" title="Ir para uma página com este nome exacto, caso exista" id="searchButton" class="searchButton"/>
+		</div>
+	</form>
+</div>
+				</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/wiki/Wikip%C3%A9dia:P%C3%A1gina_principal" title="Visitar a página principal"></a></div>
+						<div class="portal" role="navigation" id="p-navigation" aria-labelledby="p-navigation-label">
+			<h3 id="p-navigation-label">Navegação</h3>
+			<div class="body">
+								<ul>
+					<li id="n-mainpage-description"><a href="/wiki/Wikip%C3%A9dia:P%C3%A1gina_principal" title="Visitar a página principal [z]" accesskey="z">Página principal</a></li><li id="n-featuredcontent"><a href="/wiki/Portal:Conte%C3%BAdo_destacado">Conteúdo destacado</a></li><li id="n-currentevents"><a href="/wiki/Portal:Eventos_atuais" title="Informação temática sobre eventos atuais">Eventos atuais</a></li><li id="n-villagepump"><a href="/wiki/Wikip%C3%A9dia:Esplanada">Esplanada</a></li><li id="n-randompage"><a href="/wiki/Especial:Aleat%C3%B3ria" title="Carregar página aleatória [x]" accesskey="x">Página aleatória</a></li><li id="n-portals"><a href="/wiki/Portal:%C3%8Dndice">Portais</a></li><li id="n-bug_in_article"><a href="/wiki/Wikip%C3%A9dia:Informe_um_erro">Informar um erro</a></li><li id="n-shoplink"><a href="//shop.wikimedia.org" title="Visite a loja da Wikipédia">Loja da Wikipédia</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-interaction" aria-labelledby="p-interaction-label">
+			<h3 id="p-interaction-label">Colaboração</h3>
+			<div class="body">
+								<ul>
+					<li id="n-welcome"><a href="/wiki/Wikip%C3%A9dia:Boas-vindas">Boas-vindas</a></li><li id="n-help"><a href="/wiki/Ajuda:P%C3%A1gina_principal" title="Um local reservado para auxílio.">Ajuda</a></li><li id="n-testpage"><a href="/wiki/Wikip%C3%A9dia:P%C3%A1gina_de_testes">Página de testes</a></li><li id="n-portal"><a href="/wiki/Wikip%C3%A9dia:Portal_comunit%C3%A1rio" title="Sobre o projeto">Portal comunitário</a></li><li id="n-recentchanges"><a href="/wiki/Especial:Mudan%C3%A7as_recentes" title="Uma lista de mudanças recentes nesta wiki [r]" accesskey="r">Mudanças recentes</a></li><li id="n-maintenance"><a href="/wiki/Wikip%C3%A9dia:Manuten%C3%A7%C3%A3o">Manutenção</a></li><li id="n-createpage"><a href="/wiki/Ajuda:Guia_de_edi%C3%A7%C3%A3o/Como_come%C3%A7ar_uma_p%C3%A1gina">Criar página</a></li><li id="n-newpages-description"><a href="/wiki/Especial:P%C3%A1ginas_novas">Páginas novas</a></li><li id="n-contact-description"><a href="/wiki/Wikip%C3%A9dia:Contato">Contato</a></li><li id="n-sitesupport"><a href="//donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=20120521SB001&amp;uselang=pt" title="Ajude-nos">Donativos</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-wikibase-otherprojects" aria-labelledby="p-wikibase-otherprojects-label">
+			<h3 id="p-wikibase-otherprojects-label">Noutros projetos</h3>
+			<div class="body">
+								<ul>
+					<li class="wb-otherproject-link wb-otherproject-commons"><a href="https://commons.wikimedia.org/wiki/Category:IBM" hreflang="en">Wikimedia Commons</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-coll-print_export" aria-labelledby="p-coll-print_export-label">
+			<h3 id="p-coll-print_export-label">Imprimir/exportar</h3>
+			<div class="body">
+								<ul>
+					<li id="coll-create_a_book"><a href="/w/index.php?title=Especial:Livro&amp;bookcmd=book_creator&amp;referer=IBM">Criar um livro</a></li><li id="coll-download-as-rl"><a href="/w/index.php?title=Especial:ElectronPdf&amp;page=IBM&amp;action=show-download-screen">Descarregar como PDF</a></li><li id="t-print"><a href="/w/index.php?title=IBM&amp;printable=yes" title="Versão para impressão desta página [p]" accesskey="p">Versão para impressão</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-tb" aria-labelledby="p-tb-label">
+			<h3 id="p-tb-label">Ferramentas</h3>
+			<div class="body">
+								<ul>
+					<li id="t-whatlinkshere"><a href="/wiki/Especial:P%C3%A1ginas_afluentes/IBM" title="Lista de todas as páginas que contêm hiperligações para esta [j]" accesskey="j">Páginas afluentes</a></li><li id="t-recentchangeslinked"><a href="/wiki/Especial:Altera%C3%A7%C3%B5es_relacionadas/IBM" rel="nofollow" title="Mudanças recentes nas páginas para as quais esta contém hiperligações [k]" accesskey="k">Alterações relacionadas</a></li><li id="t-upload"><a href="/wiki/Wikipedia:Carregar_ficheiro" title="Carregar ficheiros [u]" accesskey="u">Carregar ficheiro</a></li><li id="t-specialpages"><a href="/wiki/Especial:P%C3%A1ginas_especiais" title="Lista de páginas especiais [q]" accesskey="q">Páginas especiais</a></li><li id="t-permalink"><a href="/w/index.php?title=IBM&amp;oldid=56910531" title="Hiperligação permanente para esta revisão da página">Hiperligação permanente</a></li><li id="t-info"><a href="/w/index.php?title=IBM&amp;action=info" title="Mais informações sobre esta página">Informações da página</a></li><li id="t-wikibase"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q37156" title="Hiperligação para o elemento do repositório de dados [g]" accesskey="g">Elemento Wikidata</a></li><li id="t-cite"><a href="/w/index.php?title=Especial:Citar&amp;page=IBM&amp;id=56910531" title="Informação sobre como citar esta página">Citar esta página</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-lang" aria-labelledby="p-lang-label">
+			<h3 id="p-lang-label">Noutras línguas</h3>
+			<div class="body">
+								<ul>
+					<li class="interlanguage-link interwiki-af"><a href="https://af.wikipedia.org/wiki/IBM" title="IBM — africanês" lang="af" hreflang="af" class="interlanguage-link-target">Afrikaans</a></li><li class="interlanguage-link interwiki-als"><a href="https://als.wikipedia.org/wiki/IBM" title="IBM — Alemannisch" lang="gsw" hreflang="gsw" class="interlanguage-link-target">Alemannisch</a></li><li class="interlanguage-link interwiki-ar"><a href="https://ar.wikipedia.org/wiki/%D8%A2%D9%8A_%D8%A8%D9%8A_%D8%A5%D9%85" title="آي بي إم — árabe" lang="ar" hreflang="ar" class="interlanguage-link-target">العربية</a></li><li class="interlanguage-link interwiki-ast"><a href="https://ast.wikipedia.org/wiki/IBM" title="IBM — asturiano" lang="ast" hreflang="ast" class="interlanguage-link-target">Asturianu</a></li><li class="interlanguage-link interwiki-az"><a href="https://az.wikipedia.org/wiki/IBM" title="IBM — azerbaijano" lang="az" hreflang="az" class="interlanguage-link-target">Azərbaycanca</a></li><li class="interlanguage-link interwiki-azb"><a href="https://azb.wikipedia.org/wiki/%D8%A2%DB%8C%E2%80%8C%D8%A8%DB%8C%E2%80%8C%D8%A7%D9%85" title="آی‌بی‌ام — South Azerbaijani" lang="azb" hreflang="azb" class="interlanguage-link-target">تۆرکجه</a></li><li class="interlanguage-link interwiki-ba"><a href="https://ba.wikipedia.org/wiki/IBM" title="IBM — bashkir" lang="ba" hreflang="ba" class="interlanguage-link-target">Башҡортса</a></li><li class="interlanguage-link interwiki-be"><a href="https://be.wikipedia.org/wiki/IBM" title="IBM — bielorrusso" lang="be" hreflang="be" class="interlanguage-link-target">Беларуская</a></li><li class="interlanguage-link interwiki-be-x-old"><a href="https://be-x-old.wikipedia.org/wiki/IBM" title="IBM — Belarusian (Taraškievica orthography)" lang="be-tarask" hreflang="be-tarask" class="interlanguage-link-target">Беларуская (тарашкевіца)‎</a></li><li class="interlanguage-link interwiki-bg"><a href="https://bg.wikipedia.org/wiki/IBM" title="IBM — búlgaro" lang="bg" hreflang="bg" class="interlanguage-link-target">Български</a></li><li class="interlanguage-link interwiki-bn"><a href="https://bn.wikipedia.org/wiki/%E0%A6%86%E0%A6%87%E0%A6%AC%E0%A6%BF%E0%A6%8F%E0%A6%AE" title="আইবিএম — bengalês" lang="bn" hreflang="bn" class="interlanguage-link-target">বাংলা</a></li><li class="interlanguage-link interwiki-bs"><a href="https://bs.wikipedia.org/wiki/IBM" title="IBM — bósnio" lang="bs" hreflang="bs" class="interlanguage-link-target">Bosanski</a></li><li class="interlanguage-link interwiki-ca"><a href="https://ca.wikipedia.org/wiki/IBM" title="IBM — catalão" lang="ca" hreflang="ca" class="interlanguage-link-target">Català</a></li><li class="interlanguage-link interwiki-ckb"><a href="https://ckb.wikipedia.org/wiki/%D8%A6%D8%A7%DB%8C_%D8%A8%DB%8C_%D8%A6%DB%8E%D9%85" title="ئای بی ئێم — sorani curdo" lang="ckb" hreflang="ckb" class="interlanguage-link-target">کوردی</a></li><li class="interlanguage-link interwiki-cs"><a href="https://cs.wikipedia.org/wiki/IBM" title="IBM — checo" lang="cs" hreflang="cs" class="interlanguage-link-target">Čeština</a></li><li class="interlanguage-link interwiki-cv"><a href="https://cv.wikipedia.org/wiki/IBM" title="IBM — chuvash" lang="cv" hreflang="cv" class="interlanguage-link-target">Чӑвашла</a></li><li class="interlanguage-link interwiki-da"><a href="https://da.wikipedia.org/wiki/IBM" title="IBM — dinamarquês" lang="da" hreflang="da" class="interlanguage-link-target">Dansk</a></li><li class="interlanguage-link interwiki-de"><a href="https://de.wikipedia.org/wiki/IBM" title="IBM — alemão" lang="de" hreflang="de" class="interlanguage-link-target">Deutsch</a></li><li class="interlanguage-link interwiki-el"><a href="https://el.wikipedia.org/wiki/IBM" title="IBM — grego" lang="el" hreflang="el" class="interlanguage-link-target">Ελληνικά</a></li><li class="interlanguage-link interwiki-en"><a href="https://en.wikipedia.org/wiki/IBM" title="IBM — inglês" lang="en" hreflang="en" class="interlanguage-link-target">English</a></li><li class="interlanguage-link interwiki-eo"><a href="https://eo.wikipedia.org/wiki/IBM" title="IBM — esperanto" lang="eo" hreflang="eo" class="interlanguage-link-target">Esperanto</a></li><li class="interlanguage-link interwiki-es"><a href="https://es.wikipedia.org/wiki/IBM" title="IBM — espanhol" lang="es" hreflang="es" class="interlanguage-link-target">Español</a></li><li class="interlanguage-link interwiki-et"><a href="https://et.wikipedia.org/wiki/IBM" title="IBM — estónio" lang="et" hreflang="et" class="interlanguage-link-target">Eesti</a></li><li class="interlanguage-link interwiki-eu"><a href="https://eu.wikipedia.org/wiki/IBM" title="IBM — basco" lang="eu" hreflang="eu" class="interlanguage-link-target">Euskara</a></li><li class="interlanguage-link interwiki-fa"><a href="https://fa.wikipedia.org/wiki/%D8%A2%DB%8C%E2%80%8C%D8%A8%DB%8C%E2%80%8C%D8%A7%D9%85" title="آی‌بی‌ام — persa" lang="fa" hreflang="fa" class="interlanguage-link-target">فارسی</a></li><li class="interlanguage-link interwiki-fi"><a href="https://fi.wikipedia.org/wiki/IBM" title="IBM — finlandês" lang="fi" hreflang="fi" class="interlanguage-link-target">Suomi</a></li><li class="interlanguage-link interwiki-fr"><a href="https://fr.wikipedia.org/wiki/IBM" title="IBM — francês" lang="fr" hreflang="fr" class="interlanguage-link-target">Français</a></li><li class="interlanguage-link interwiki-ga"><a href="https://ga.wikipedia.org/wiki/IBM" title="IBM — irlandês" lang="ga" hreflang="ga" class="interlanguage-link-target">Gaeilge</a></li><li class="interlanguage-link interwiki-gl"><a href="https://gl.wikipedia.org/wiki/IBM" title="IBM — galego" lang="gl" hreflang="gl" class="interlanguage-link-target">Galego</a></li><li class="interlanguage-link interwiki-he"><a href="https://he.wikipedia.org/wiki/IBM" title="IBM — hebraico" lang="he" hreflang="he" class="interlanguage-link-target">עברית</a></li><li class="interlanguage-link interwiki-hi"><a href="https://hi.wikipedia.org/wiki/%E0%A4%86%E0%A4%88%E0%A4%AC%E0%A5%80%E0%A4%8F%E0%A4%AE" title="आईबीएम — hindi" lang="hi" hreflang="hi" class="interlanguage-link-target">हिन्दी</a></li><li class="interlanguage-link interwiki-hr"><a href="https://hr.wikipedia.org/wiki/IBM" title="IBM — croata" lang="hr" hreflang="hr" class="interlanguage-link-target">Hrvatski</a></li><li class="interlanguage-link interwiki-hu"><a href="https://hu.wikipedia.org/wiki/IBM" title="IBM — húngaro" lang="hu" hreflang="hu" class="interlanguage-link-target">Magyar</a></li><li class="interlanguage-link interwiki-hy"><a href="https://hy.wikipedia.org/wiki/IBM" title="IBM — arménio" lang="hy" hreflang="hy" class="interlanguage-link-target">Հայերեն</a></li><li class="interlanguage-link interwiki-id"><a href="https://id.wikipedia.org/wiki/IBM" title="IBM — indonésio" lang="id" hreflang="id" class="interlanguage-link-target">Bahasa Indonesia</a></li><li class="interlanguage-link interwiki-ie"><a href="https://ie.wikipedia.org/wiki/IBM" title="IBM — interlingue" lang="ie" hreflang="ie" class="interlanguage-link-target">Interlingue</a></li><li class="interlanguage-link interwiki-io"><a href="https://io.wikipedia.org/wiki/IBM" title="IBM — ido" lang="io" hreflang="io" class="interlanguage-link-target">Ido</a></li><li class="interlanguage-link interwiki-is"><a href="https://is.wikipedia.org/wiki/IBM" title="IBM — islandês" lang="is" hreflang="is" class="interlanguage-link-target">Íslenska</a></li><li class="interlanguage-link interwiki-it"><a href="https://it.wikipedia.org/wiki/IBM" title="IBM — italiano" lang="it" hreflang="it" class="interlanguage-link-target">Italiano</a></li><li class="interlanguage-link interwiki-ja"><a href="https://ja.wikipedia.org/wiki/IBM" title="IBM — japonês" lang="ja" hreflang="ja" class="interlanguage-link-target">日本語</a></li><li class="interlanguage-link interwiki-ka"><a href="https://ka.wikipedia.org/wiki/IBM" title="IBM — georgiano" lang="ka" hreflang="ka" class="interlanguage-link-target">ქართული</a></li><li class="interlanguage-link interwiki-kaa"><a href="https://kaa.wikipedia.org/wiki/IBM" title="IBM — kara-kalpak" lang="kaa" hreflang="kaa" class="interlanguage-link-target">Qaraqalpaqsha</a></li><li class="interlanguage-link interwiki-ki"><a href="https://ki.wikipedia.org/wiki/IBM" title="IBM — quicuio" lang="ki" hreflang="ki" class="interlanguage-link-target">Gĩkũyũ</a></li><li class="interlanguage-link interwiki-kk"><a href="https://kk.wikipedia.org/wiki/International_Business_Machines" title="International Business Machines — cazaque" lang="kk" hreflang="kk" class="interlanguage-link-target">Қазақша</a></li><li class="interlanguage-link interwiki-ko"><a href="https://ko.wikipedia.org/wiki/IBM" title="IBM — coreano" lang="ko" hreflang="ko" class="interlanguage-link-target">한국어</a></li><li class="interlanguage-link interwiki-ku"><a href="https://ku.wikipedia.org/wiki/IBM" title="IBM — curdo" lang="ku" hreflang="ku" class="interlanguage-link-target">Kurdî</a></li><li class="interlanguage-link interwiki-ky"><a href="https://ky.wikipedia.org/wiki/IBM" title="IBM — quirguiz" lang="ky" hreflang="ky" class="interlanguage-link-target">Кыргызча</a></li><li class="interlanguage-link interwiki-la"><a href="https://la.wikipedia.org/wiki/International_Business_Machines_Corporation" title="International Business Machines Corporation — latim" lang="la" hreflang="la" class="interlanguage-link-target">Latina</a></li><li class="interlanguage-link interwiki-lb"><a href="https://lb.wikipedia.org/wiki/IBM" title="IBM — luxemburguês" lang="lb" hreflang="lb" class="interlanguage-link-target">Lëtzebuergesch</a></li><li class="interlanguage-link interwiki-lt"><a href="https://lt.wikipedia.org/wiki/IBM" title="IBM — lituano" lang="lt" hreflang="lt" class="interlanguage-link-target">Lietuvių</a></li><li class="interlanguage-link interwiki-lv"><a href="https://lv.wikipedia.org/wiki/IBM" title="IBM — letão" lang="lv" hreflang="lv" class="interlanguage-link-target">Latviešu</a></li><li class="interlanguage-link interwiki-mai"><a href="https://mai.wikipedia.org/wiki/%E0%A4%86%E0%A4%87%E0%A4%AC%E0%A4%BF%E0%A4%8F%E0%A4%AE" title="आइबिएम — maithili" lang="mai" hreflang="mai" class="interlanguage-link-target">मैथिली</a></li><li class="interlanguage-link interwiki-mg"><a href="https://mg.wikipedia.org/wiki/IBM" title="IBM — malgaxe" lang="mg" hreflang="mg" class="interlanguage-link-target">Malagasy</a></li><li class="interlanguage-link interwiki-mk"><a href="https://mk.wikipedia.org/wiki/%D0%98%D0%91%D0%9C" title="ИБМ — macedónio" lang="mk" hreflang="mk" class="interlanguage-link-target">Македонски</a></li><li class="interlanguage-link interwiki-ml"><a href="https://ml.wikipedia.org/wiki/%E0%B4%90.%E0%B4%AC%E0%B4%BF.%E0%B4%8E%E0%B4%82." title="ഐ.ബി.എം. — malaiala" lang="ml" hreflang="ml" class="interlanguage-link-target">മലയാളം</a></li><li class="interlanguage-link interwiki-mn"><a href="https://mn.wikipedia.org/wiki/IBM" title="IBM — mongol" lang="mn" hreflang="mn" class="interlanguage-link-target">Монгол</a></li><li class="interlanguage-link interwiki-mr"><a href="https://mr.wikipedia.org/wiki/%E0%A4%86%E0%A4%AF.%E0%A4%AC%E0%A5%80.%E0%A4%8F%E0%A4%AE." title="आय.बी.एम. — marata" lang="mr" hreflang="mr" class="interlanguage-link-target">मराठी</a></li><li class="interlanguage-link interwiki-ms"><a href="https://ms.wikipedia.org/wiki/IBM" title="IBM — malaio" lang="ms" hreflang="ms" class="interlanguage-link-target">Bahasa Melayu</a></li><li class="interlanguage-link interwiki-ne"><a href="https://ne.wikipedia.org/wiki/%E0%A4%86%E0%A4%87%E0%A4%AC%E0%A4%BF%E0%A4%8F%E0%A4%AE" title="आइबिएम — nepalês" lang="ne" hreflang="ne" class="interlanguage-link-target">नेपाली</a></li><li class="interlanguage-link interwiki-nl"><a href="https://nl.wikipedia.org/wiki/IBM" title="IBM — neerlandês" lang="nl" hreflang="nl" class="interlanguage-link-target">Nederlands</a></li><li class="interlanguage-link interwiki-nn"><a href="https://nn.wikipedia.org/wiki/IBM" title="IBM — norueguês nynorsk" lang="nn" hreflang="nn" class="interlanguage-link-target">Norsk nynorsk</a></li><li class="interlanguage-link interwiki-no"><a href="https://no.wikipedia.org/wiki/IBM" title="IBM — norueguês bokmål" lang="nb" hreflang="nb" class="interlanguage-link-target">Norsk bokmål</a></li><li class="interlanguage-link interwiki-oc"><a href="https://oc.wikipedia.org/wiki/IBM" title="IBM — occitano" lang="oc" hreflang="oc" class="interlanguage-link-target">Occitan</a></li><li class="interlanguage-link interwiki-or"><a href="https://or.wikipedia.org/wiki/%E0%AC%86%E0%AC%87.%E0%AC%AC%E0%AC%BF.%E0%AC%8F%E0%AC%AE." title="ଆଇ.ବି.ଏମ. — oriya" lang="or" hreflang="or" class="interlanguage-link-target">ଓଡ଼ିଆ</a></li><li class="interlanguage-link interwiki-pa"><a href="https://pa.wikipedia.org/wiki/%E0%A8%86%E0%A8%88.%E0%A8%AC%E0%A9%80.%E0%A8%90%E0%A8%AE" title="ਆਈ.ਬੀ.ਐਮ — panjabi" lang="pa" hreflang="pa" class="interlanguage-link-target">ਪੰਜਾਬੀ</a></li><li class="interlanguage-link interwiki-pl"><a href="https://pl.wikipedia.org/wiki/IBM" title="IBM — polaco" lang="pl" hreflang="pl" class="interlanguage-link-target">Polski</a></li><li class="interlanguage-link interwiki-pms"><a href="https://pms.wikipedia.org/wiki/IBM" title="IBM — Piedmontese" lang="pms" hreflang="pms" class="interlanguage-link-target">Piemontèis</a></li><li class="interlanguage-link interwiki-ro"><a href="https://ro.wikipedia.org/wiki/IBM" title="IBM — romeno" lang="ro" hreflang="ro" class="interlanguage-link-target">Română</a></li><li class="interlanguage-link interwiki-ru"><a href="https://ru.wikipedia.org/wiki/IBM" title="IBM — russo" lang="ru" hreflang="ru" class="interlanguage-link-target">Русский</a></li><li class="interlanguage-link interwiki-sah"><a href="https://sah.wikipedia.org/wiki/IBM" title="IBM — sakha" lang="sah" hreflang="sah" class="interlanguage-link-target">Саха тыла</a></li><li class="interlanguage-link interwiki-sco"><a href="https://sco.wikipedia.org/wiki/IBM" title="IBM — scots" lang="sco" hreflang="sco" class="interlanguage-link-target">Scots</a></li><li class="interlanguage-link interwiki-sh"><a href="https://sh.wikipedia.org/wiki/IBM" title="IBM — servo-croata" lang="sh" hreflang="sh" class="interlanguage-link-target">Srpskohrvatski / српскохрватски</a></li><li class="interlanguage-link interwiki-si"><a href="https://si.wikipedia.org/wiki/IBM" title="IBM — cingalês" lang="si" hreflang="si" class="interlanguage-link-target">සිංහල</a></li><li class="interlanguage-link interwiki-simple"><a href="https://simple.wikipedia.org/wiki/IBM" title="IBM — Simple English" lang="en-simple" hreflang="en-simple" class="interlanguage-link-target">Simple English</a></li><li class="interlanguage-link interwiki-sk"><a href="https://sk.wikipedia.org/wiki/IBM" title="IBM — eslovaco" lang="sk" hreflang="sk" class="interlanguage-link-target">Slovenčina</a></li><li class="interlanguage-link interwiki-sl"><a href="https://sl.wikipedia.org/wiki/IBM" title="IBM — esloveno" lang="sl" hreflang="sl" class="interlanguage-link-target">Slovenščina</a></li><li class="interlanguage-link interwiki-sq"><a href="https://sq.wikipedia.org/wiki/IBM" title="IBM — albanês" lang="sq" hreflang="sq" class="interlanguage-link-target">Shqip</a></li><li class="interlanguage-link interwiki-sr"><a href="https://sr.wikipedia.org/wiki/IBM" title="IBM — sérvio" lang="sr" hreflang="sr" class="interlanguage-link-target">Српски / srpski</a></li><li class="interlanguage-link interwiki-sv"><a href="https://sv.wikipedia.org/wiki/IBM" title="IBM — sueco" lang="sv" hreflang="sv" class="interlanguage-link-target">Svenska</a></li><li class="interlanguage-link interwiki-sw"><a href="https://sw.wikipedia.org/wiki/IBM" title="IBM — suaíli" lang="sw" hreflang="sw" class="interlanguage-link-target">Kiswahili</a></li><li class="interlanguage-link interwiki-ta"><a href="https://ta.wikipedia.org/wiki/%E0%AE%90%E0%AE%AA%E0%AE%BF%E0%AE%8E%E0%AE%AE%E0%AF%8D" title="ஐபிஎம் — tâmil" lang="ta" hreflang="ta" class="interlanguage-link-target">தமிழ்</a></li><li class="interlanguage-link interwiki-te"><a href="https://te.wikipedia.org/wiki/%E0%B0%87%E0%B0%82%E0%B0%9F%E0%B0%B0%E0%B1%8D%E0%B0%A8%E0%B1%87%E0%B0%B7%E0%B0%A8%E0%B0%B2%E0%B1%8D_%E0%B0%AC%E0%B0%BF%E0%B0%9C%E0%B0%BF%E0%B0%A8%E0%B1%86%E0%B0%B8%E0%B1%8D_%E0%B0%AE%E0%B1%86%E0%B0%B7%E0%B1%80%E0%B0%A8%E0%B1%8D%E0%B0%B8%E0%B1%8D" title="ఇంటర్నేషనల్ బిజినెస్ మెషీన్స్ — telugu" lang="te" hreflang="te" class="interlanguage-link-target">తెలుగు</a></li><li class="interlanguage-link interwiki-tg"><a href="https://tg.wikipedia.org/wiki/IBM" title="IBM — tajique" lang="tg" hreflang="tg" class="interlanguage-link-target">Тоҷикӣ</a></li><li class="interlanguage-link interwiki-th"><a href="https://th.wikipedia.org/wiki/%E0%B9%84%E0%B8%AD%E0%B8%9A%E0%B8%B5%E0%B9%80%E0%B8%AD%E0%B9%87%E0%B8%A1" title="ไอบีเอ็ม — tailandês" lang="th" hreflang="th" class="interlanguage-link-target">ไทย</a></li><li class="interlanguage-link interwiki-tl"><a href="https://tl.wikipedia.org/wiki/IBM" title="IBM — tagalo" lang="tl" hreflang="tl" class="interlanguage-link-target">Tagalog</a></li><li class="interlanguage-link interwiki-tr"><a href="https://tr.wikipedia.org/wiki/IBM" title="IBM — turco" lang="tr" hreflang="tr" class="interlanguage-link-target">Türkçe</a></li><li class="interlanguage-link interwiki-tt"><a href="https://tt.wikipedia.org/wiki/IBM" title="IBM — tatar" lang="tt" hreflang="tt" class="interlanguage-link-target">Татарча/tatarça</a></li><li class="interlanguage-link interwiki-uk"><a href="https://uk.wikipedia.org/wiki/IBM" title="IBM — ucraniano" lang="uk" hreflang="uk" class="interlanguage-link-target">Українська</a></li><li class="interlanguage-link interwiki-ur"><a href="https://ur.wikipedia.org/wiki/%D8%A2%D8%A6%DB%8C_%D8%A8%DB%8C_%D8%A7%DB%8C%D9%85" title="آئی بی ایم — urdu" lang="ur" hreflang="ur" class="interlanguage-link-target">اردو</a></li><li class="interlanguage-link interwiki-uz"><a href="https://uz.wikipedia.org/wiki/IBM" title="IBM — usbeque" lang="uz" hreflang="uz" class="interlanguage-link-target">Oʻzbekcha/ўзбекча</a></li><li class="interlanguage-link interwiki-vi"><a href="https://vi.wikipedia.org/wiki/IBM" title="IBM — vietnamita" lang="vi" hreflang="vi" class="interlanguage-link-target">Tiếng Việt</a></li><li class="interlanguage-link interwiki-war"><a href="https://war.wikipedia.org/wiki/IBM" title="IBM — waray" lang="war" hreflang="war" class="interlanguage-link-target">Winaray</a></li><li class="interlanguage-link interwiki-wuu"><a href="https://wuu.wikipedia.org/wiki/%E5%9B%BD%E9%99%85%E5%95%86%E7%94%A8%E6%9C%BA%E5%99%A8%E5%85%AC%E5%8F%B8" title="国际商用机器公司 — wu" lang="wuu" hreflang="wuu" class="interlanguage-link-target">吴语</a></li><li class="interlanguage-link interwiki-yi"><a href="https://yi.wikipedia.org/wiki/%D7%90%D7%99%D7%99.%D7%91%D7%99.%D7%A2%D7%9D." title="איי.בי.עם. — iídiche" lang="yi" hreflang="yi" class="interlanguage-link-target">ייִדיש</a></li><li class="interlanguage-link interwiki-zh"><a href="https://zh.wikipedia.org/wiki/IBM" title="IBM — chinês" lang="zh" hreflang="zh" class="interlanguage-link-target">中文</a></li><li class="interlanguage-link interwiki-zh-min-nan"><a href="https://zh-min-nan.wikipedia.org/wiki/IBM" title="IBM — Chinese (Min Nan)" lang="nan" hreflang="nan" class="interlanguage-link-target">Bân-lâm-gú</a></li><li class="interlanguage-link interwiki-zh-yue"><a href="https://zh-yue.wikipedia.org/wiki/IBM" title="IBM — Cantonese" lang="yue" hreflang="yue" class="interlanguage-link-target">粵語</a></li>				</ul>
+				<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q37156#sitelinks-wikipedia" title="Editar hiperligações interlínguas" class="wbc-editpage">Editar hiperligações</a></span></div>			</div>
+		</div>
+				</div>
+		</div>
+				<div id="footer" role="contentinfo">
+						<ul id="footer-info">
+								<li id="footer-info-lastmod"> Esta página foi editada pela última vez às 22h35min de 8 de dezembro de 2019.</li>
+								<li id="footer-info-copyright">Este texto é disponibilizado nos termos da licença <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.pt">Atribuição-CompartilhaIgual 3.0 Não Adaptada (CC BY-SA 3.0) da Creative Commons</a>;
+pode estar sujeito a condições adicionais.
+Para mais detalhes, consulte as <a href="https://foundation.wikimedia.org/wiki/Condições_de_Uso">condições de utilização</a>.</li>
+							</ul>
+						<ul id="footer-places">
+								<li id="footer-places-privacy"><a href="https://meta.wikimedia.org/wiki/Privacy_policy/pt-br" class="extiw" title="m:Privacy policy/pt-br">Política de privacidade</a></li>
+								<li id="footer-places-about"><a href="/wiki/Wikip%C3%A9dia:Sobre" class="mw-redirect" title="Wikipédia:Sobre">Sobre a Wikipédia</a></li>
+								<li id="footer-places-disclaimer"><a href="/wiki/Wikip%C3%A9dia:Aviso_geral" title="Wikipédia:Aviso geral">Avisos gerais</a></li>
+								<li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Programadores</a></li>
+								<li id="footer-places-statslink"><a href="https://stats.wikimedia.org/v2/#/pt.wikipedia.org">Estatísticas</a></li>
+								<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Cookie_statement">Declaração sobre ''cookies''</a></li>
+								<li id="footer-places-mobileview"><a href="//pt.m.wikipedia.org/w/index.php?title=IBM&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Versão móvel</a></li>
+							</ul>
+										<ul id="footer-icons" class="noprint">
+										<li id="footer-copyrightico">
+						<a href="https://wikimediafoundation.org/"><img src="/static/images/wikimedia-button.png" srcset="/static/images/wikimedia-button-1.5x.png 1.5x, /static/images/wikimedia-button-2x.png 2x" width="88" height="31" alt="Wikimedia Foundation"/></a>					</li>
+										<li id="footer-poweredbyico">
+						<a href="https://www.mediawiki.org/"><img src="/static/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/static/images/poweredby_mediawiki_132x47.png 1.5x, /static/images/poweredby_mediawiki_176x62.png 2x" width="88" height="31"/></a>					</li>
+									</ul>
+						<div style="clear: both;"></div>
+		</div>
+		
+
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"2.104","walltime":"3.557","ppvisitednodes":{"value":8219,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":195503,"limit":2097152},"templateargumentsize":{"value":61073,"limit":2097152},"expansiondepth":{"value":14,"limit":40},"expensivefunctioncount":{"value":54,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":18125,"limit":5000000},"entityaccesscount":{"value":27,"limit":400},"timingprofile":["100.00% 3341.711      1 -total"," 64.55% 2157.114      1 Predefinição:Controle_de_autoridade"," 17.33%  578.966      1 Predefinição:Info/Empresa"," 17.15%  573.269      1 Predefinição:Info","  8.41%  281.201      1 Predefinição:Valor_Wikidata","  5.50%  183.688      1 Predefinição:Link","  5.42%  181.046      1 Predefinição:Link/código","  5.12%  171.222      1 Predefinição:Link/línguas","  4.28%  143.012      1 Predefinição:Navboxes","  3.21%  107.324      1 Predefinição:Referências"]},"scribunto":{"limitreport-timeusage":{"value":"1.248","limit":"10.000"},"limitreport-memusage":{"value":11313982,"limit":52428800},"limitreport-profile":[["Scribunto_LuaSandboxCallback::getEntity","960","77.4"],["Scribunto_LuaSandboxCallback::addStatementUsage","60","4.8"],["Scribunto_LuaSandboxCallback::plain","40","3.2"],["?","40","3.2"],["Scribunto_LuaSandboxCallback::getExpandedArgument","40","3.2"],["type","20","1.6"],["pairs","20","1.6"],["old_getmetatable","20","1.6"],["tostring","20","1.6"],["recursiveClone \u003CmwInit.lua:41\u003E","20","1.6"]]},"cachereport":{"origin":"mw1294","timestamp":"20200107212355","ttl":2592000,"transientcontent":false}}});});</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"IBM","url":"https:\/\/pt.wikipedia.org\/wiki\/IBM","sameAs":"http:\/\/www.wikidata.org\/entity\/Q37156","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q37156","author":{"@type":"Organization","name":"Contribuidores dos projetos da Wikimedia"},"publisher":{"@type":"Organization","name":"Funda\u00e7\u00e3o Wikimedia, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2004-09-08T23:38:27Z","dateModified":"2019-12-08T22:35:37Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/b\/b5\/IBM_CHQ_-_Oct_2014.jpg","headline":"empresa dos Estados Unidos de inform\u00e1tica"}</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":168,"wgHostname":"mw1267"});});</script>
+</body>
+</html>

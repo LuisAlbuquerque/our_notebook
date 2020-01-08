@@ -1,0 +1,1287 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="pt" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Common Lisp – Wikipédia, a enciclopédia livre</title>
+<script>document.documentElement.className="client-js";RLCONF={"wgBreakFrames":!1,"wgSeparatorTransformTable":[",\t."," \t,"],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","janeiro","fevereiro","março","abril","maio","junho","julho","agosto","setembro","outubro","novembro","dezembro"],"wgMonthNamesShort":["","jan.","fev.","mar.","abr.","mai.","jun.","jul.","ago.","set.","out.","nov.","dez."],"wgRequestId":"XhXSRApAMFEAACJUws8AAAAE","wgCSPNonce":!1,"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":!1,"wgNamespaceNumber":0,"wgPageName":"Common_Lisp","wgTitle":"Common Lisp","wgCurRevisionId":54725909,"wgRevisionId":54725909,"wgArticleId":149140,"wgIsArticle":!0,"wgIsRedirect":!1,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["!CS1 manut: Nomes múltiplos: lista de autores","!Predefinição Webarchive wayback links","!Páginas que usam hiperligações mágicas ISBN","!Esboços sobre programação",
+"!Esboços maiores que 1000 bytes","Lisp","Linguagens de programação funcionais","Linguagens de programação baseadas em classes"],"wgPageContentLanguage":"pt","wgPageContentModel":"wikitext","wgRelevantPageName":"Common_Lisp","wgRelevantArticleId":149140,"wgIsProbablyEditable":!0,"wgRelevantPageIsProbablyEditable":!0,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgMediaViewerOnClick":!0,"wgMediaViewerEnabledByDefault":!0,"wgPopupsReferencePreviews":!1,"wgPopupsConflictsWithNavPopupGadget":!1,"wgVisualEditor":{"pageLanguageCode":"pt","pageLanguageDir":"ltr","pageVariantFallbacks":"pt"},"wgMFDisplayWikibaseDescriptions":{"search":!0,"nearby":!0,"watchlist":!0,"tagline":!0},"wgWMESchemaEditAttemptStepOversample":!1,"wgULSCurrentAutonym":"português","wgNoticeProject":"wikipedia","wgWikibaseItemId":"Q849146","wgCentralAuthMobileDomain":!1,"wgEditSubmitButtonLabelPublish":!0,"wgSiteNoticeId":"2.28"};RLSTATE={"ext.globalCssJs.user.styles":"ready",
+"site.styles":"ready","noscript":"ready","user.styles":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","user.tokens":"loading","ext.cite.styles":"ready","ext.pygments":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.toc.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","ext.dismissableSiteNotice.styles":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready"};RLPAGEMODULES=["ext.cite.ux-enhancements","site","mediawiki.page.startup","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","ext.gadget.Topicon","ext.gadget.Metacaixa","ext.gadget.TitleRewrite","ext.gadget.ElementosOcultaveis","ext.gadget.FeedbackHighlight","ext.gadget.ReferenceTooltips","ext.gadget.NewVillagePump","ext.gadget.wikibugs","ext.gadget.charinsert","ext.gadget.requestForAdminship",
+"ext.gadget.EnhancedSearch","ext.gadget.WikiMiniAtlas","ext.gadget.PagesForDeletion","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.uls.compactlinks","ext.uls.interface","ext.cx.eventlogging.campaigns","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js","ext.dismissableSiteNotice"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@jqysj",function($,jQuery,require,module){/*@nomin*/mw.user.options.set({"variant":"pt"});
+});mw.loader.implement("user.tokens@tffin",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});});</script>
+<link rel="stylesheet" href="/w/load.php?lang=pt&amp;modules=ext.cite.styles%7Cext.dismissableSiteNotice.styles%7Cext.pygments%2CwikimediaBadges%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.skinning.interface%7Cmediawiki.toc.styles%7Cskins.vector.styles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector"/>
+<script async="" src="/w/load.php?lang=pt&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/w/load.php?lang=pt&amp;modules=site.styles&amp;only=styles&amp;skin=vector"/>
+<meta name="generator" content="MediaWiki 1.35.0-wmf.11"/>
+<meta name="referrer" content="origin"/>
+<meta name="referrer" content="origin-when-crossorigin"/>
+<meta name="referrer" content="origin-when-cross-origin"/>
+<link rel="alternate" href="android-app://org.wikipedia/http/pt.m.wikipedia.org/wiki/Common_Lisp"/>
+<link rel="alternate" type="application/x-wiki" title="Editar" href="/w/index.php?title=Common_Lisp&amp;action=edit"/>
+<link rel="edit" title="Editar" href="/w/index.php?title=Common_Lisp&amp;action=edit"/>
+<link rel="apple-touch-icon" href="/static/apple-touch/wikipedia.png"/>
+<link rel="shortcut icon" href="/static/favicon/wikipedia.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipédia (pt)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//pt.wikipedia.org/w/api.php?action=rsd"/>
+<link rel="license" href="//creativecommons.org/licenses/by-sa/3.0/"/>
+<link rel="canonical" href="https://pt.wikipedia.org/wiki/Common_Lisp"/>
+<link rel="dns-prefetch" href="//login.wikimedia.org"/>
+<link rel="dns-prefetch" href="//meta.wikimedia.org" />
+<!--[if lt IE 9]><script src="/w/resources/lib/html5shiv/html5shiv.js"></script><![endif]-->
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-Common_Lisp rootpage-Common_Lisp skin-vector action-view">
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+<div id="content" class="mw-body" role="main">
+	<a id="top"></a>
+	<div id="siteNotice" class="mw-body-content"><!-- CentralNotice --><div id="mw-dismissablenotice-anonplace"></div><script>(function(){var node=document.getElementById("mw-dismissablenotice-anonplace");if(node){node.outerHTML="\u003Cdiv class=\"mw-dismissable-notice\"\u003E\u003Cdiv class=\"mw-dismissable-notice-close\"\u003E[\u003Ca tabindex=\"0\" role=\"button\"\u003Eocultar\u003C/a\u003E]\u003C/div\u003E\u003Cdiv class=\"mw-dismissable-notice-body\"\u003E\u003Cdiv id=\"localNotice\" lang=\"pt\" dir=\"ltr\"\u003E\u003C/div\u003E\u003C/div\u003E\u003C/div\u003E";}}());</script></div>
+	<div class="mw-indicators mw-body-content">
+</div>
+
+	<h1 id="firstHeading" class="firstHeading" lang="pt">Common Lisp</h1>
+	
+	<div id="bodyContent" class="mw-body-content">
+		<div id="siteSub" class="noprint">Origem: Wikip&eacute;dia, a enciclop&eacute;dia livre.</div>
+		<div id="contentSub"></div>
+		
+		
+		
+		<div id="jump-to-nav"></div>
+		<a class="mw-jump-link" href="#mw-head">Saltar para a navega&ccedil;&atilde;o</a>
+		<a class="mw-jump-link" href="#p-search">Saltar para a pesquisa</a>
+		<div id="mw-content-text" lang="pt" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><table class="infobox_v2" cellpadding="3" border="0" style="width: 20em; text-align: left; font-size: 88%;">
+
+<tbody><tr>
+<th colspan="2" class="topo computador" style="text-align: center; inherit"><span class="">Common Lisp</span>
+</th></tr>
+
+
+
+
+
+
+
+
+ 
+<tr>
+<td scope="row" style="vertical-align: top; text-align: left; font-weight:bold; text-align:left;"><a href="/wiki/Paradigma_de_programa%C3%A7%C3%A3o" title="Paradigma de programação">Paradigma</a>
+</td>
+<td style="vertical-align: top; text-align: left;"><a href="/wiki/Multiparadigma" class="mw-redirect" title="Multiparadigma">Multiparadigma</a>, <a href="/wiki/Programa%C3%A7%C3%A3o_funcional" title="Programação funcional">funcional</a>, <a href="/wiki/Orienta%C3%A7%C3%A3o_a_Objetos" class="mw-redirect" title="Orientação a Objetos">Orientação a Objetos</a>
+</td></tr>
+ 
+
+ 
+<tr>
+<td scope="row" style="vertical-align: top; text-align: left; font-weight:bold; text-align:left;">Surgido em
+</td>
+<td style="vertical-align: top; text-align: left;"><a href="/wiki/1984" title="1984">1984</a>, <a href="/wiki/1994" title="1994">1994</a> para o ANSI Common Lisp
+</td></tr>
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+<tr>
+<td scope="row" style="vertical-align: top; text-align: left; font-weight:bold; text-align:left;">Criado por
+</td>
+<td style="vertical-align: top; text-align: left;">Comitê ANSI X3J13, presidido por <a href="/w/index.php?title=Guy_L._Steele_Jr.&amp;action=edit&amp;redlink=1" class="new" title="Guy L. Steele Jr. (página não existe)">Guy L. Steele Jr.</a>
+</td></tr>
+ 
+
+ 
+<tr>
+<td scope="row" style="vertical-align: top; text-align: left; font-weight:bold; text-align:left;"><a href="/wiki/Tipo_de_dado" title="Tipo de dado">Estilo de tipagem</a>:
+</td>
+<td style="vertical-align: top; text-align: left;">forte, dinâmica
+</td></tr>
+ 
+
+ 
+<tr>
+<td scope="row" style="vertical-align: top; text-align: left; font-weight:bold; text-align:left;"><a href="/wiki/Compilador" title="Compilador">Compiladores</a>
+</td>
+<td style="vertical-align: top; text-align: left;">CLISP, Steel Bank Common Lisp, Embeddable Common Lisp, Armed Bear Common Lisp, Clozure Common Lisp, Allegro Common Lisp, GNU Common Lisp, Corman Common Lisp, LispWorks
+</td></tr>
+ 
+
+ 
+
+ 
+
+ 
+<tr>
+<td scope="row" style="vertical-align: top; text-align: left; font-weight:bold; text-align:left;">Influenciada por
+</td>
+<td style="vertical-align: top; text-align: left;"><a href="/wiki/Lisp" title="Lisp">Lisp</a>, <a href="/wiki/Scheme" title="Scheme">Scheme</a>, <a href="/wiki/Smalltalk" title="Smalltalk">Smalltalk</a>
+</td></tr>
+ 
+
+
+ 
+<tr>
+<td scope="row" style="vertical-align: top; text-align: left; font-weight:bold; text-align:left;">Influenciou
+</td>
+<td style="vertical-align: top; text-align: left;"><a href="/wiki/Dylan_(linguagem_de_programa%C3%A7%C3%A3o)" title="Dylan (linguagem de programação)">Dylan</a>, <a href="/wiki/Clojure" title="Clojure">Clojure</a>,  <a href="/wiki/Ruby_(linguagem_de_programa%C3%A7%C3%A3o)" title="Ruby (linguagem de programação)">Ruby</a>
+</td></tr>
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+
+</tbody></table>
+<p><b>Common Lisp</b> é uma implementação específica da <a href="/wiki/Linguagem_de_programa%C3%A7%C3%A3o" title="Linguagem de programação">linguagem de programação</a> <a href="/wiki/Lisp" title="Lisp">Lisp</a> multi-paradigma que suporta <a href="/wiki/Programa%C3%A7%C3%A3o_funcional" title="Programação funcional">programação funcional</a> e <a href="/wiki/Programa%C3%A7%C3%A3o_procedural" title="Programação procedural">procedural</a>. Sua especificação foi criada por Guy L. Steele nos anos 1980 a partir da linguagem Lisp com o intuito de combinar aspectos de diversos dialetos Lisp anteriores, incluindo <a href="/wiki/Scheme" title="Scheme">Scheme</a>. Foi proposto inicialmente o nome de "Standard Lisp" para a linguagem, mas em virtude de um dialecto Lisp já existir com este nome, se buscou um nome similar, resultando no nome "Common Lisp"<sup id="cite_ref-hoplii_1-0" class="reference"><a href="#cite_note-hoplii-1"><span>[</span>1<span>]</span></a></sup>.  Em 1994 foi publicada no padrão <a href="/wiki/American_National_Standards_Institute" title="American National Standards Institute">ANSI</a> <i>Information Technology - Programming Language - Common Lisp</i>, registro <i>X3.226-1994 (R1999)</i>.<sup id="cite_ref-2" class="reference"><a href="#cite_note-2"><span>[</span>2<span>]</span></a></sup>. É bem maior e semanticamente mais complexa que <a href="/wiki/Scheme" title="Scheme">Scheme</a> uma vez que foi projetada para ser uma linguagem comercial e ser compatível com os diversos dialectos Lisp dos quais derivou.
+</p>
+<div id="toc" class="toc"><input type="checkbox" role="button" id="toctogglecheckbox" class="toctogglecheckbox" style="display:none" /><div class="toctitle" lang="pt" dir="ltr"><h2>Índice</h2><span class="toctogglespan"><label class="toctogglelabel" for="toctogglecheckbox"></label></span></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Exemplos_de_código"><span class="tocnumber">1</span> <span class="toctext">Exemplos de código</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#Olá_mundo"><span class="tocnumber">1.1</span> <span class="toctext">Olá mundo</span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="#Entrada_e_Saída"><span class="tocnumber">1.2</span> <span class="toctext">Entrada e Saída</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#Loops"><span class="tocnumber">1.3</span> <span class="toctext">Loops</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-5"><a href="#Bibliografia"><span class="tocnumber">2</span> <span class="toctext">Bibliografia</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#Ver_também"><span class="tocnumber">3</span> <span class="toctext">Ver também</span></a></li>
+<li class="toclevel-1"><a href="#Referências"><span class="tocnumber">4</span> <span class="toctext">Referências</span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="#Ligações_externas"><span class="tocnumber">5</span> <span class="toctext">Ligações externas</span></a></li>
+</ul>
+</div>
+
+<h2><span id="Exemplos_de_c.C3.B3digo"></span><span class="mw-headline" id="Exemplos_de_código">Exemplos de código</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Common_Lisp&amp;veaction=edit&amp;section=1" class="mw-editsection-visualeditor" title="Editar secção: Exemplos de código">editar</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Common_Lisp&amp;action=edit&amp;section=1" title="Editar secção: Exemplos de código">editar código-fonte</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span id="Ol.C3.A1_mundo"></span><span class="mw-headline" id="Olá_mundo">Olá mundo</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Common_Lisp&amp;veaction=edit&amp;section=2" class="mw-editsection-visualeditor" title="Editar secção: Olá mundo">editar</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Common_Lisp&amp;action=edit&amp;section=2" title="Editar secção: Olá mundo">editar código-fonte</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre><span></span><span class="p">(</span><span class="nb">defun</span> <span class="nv">olá-mundo</span>
+  <span class="p">(</span><span class="nb">format</span> <span class="no">t</span> <span class="s">&quot;Olá mundo&quot;</span><span class="p">))</span>
+</pre></div>
+<h3><span id="Entrada_e_Sa.C3.ADda"></span><span class="mw-headline" id="Entrada_e_Saída">Entrada e Saída</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Common_Lisp&amp;veaction=edit&amp;section=3" class="mw-editsection-visualeditor" title="Editar secção: Entrada e Saída">editar</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Common_Lisp&amp;action=edit&amp;section=3" title="Editar secção: Entrada e Saída">editar código-fonte</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre><span></span><span class="p">(</span><span class="nb">defun</span> <span class="nv">pergunta</span> <span class="p">(</span><span class="nb">string</span><span class="p">)</span>
+  <span class="p">(</span><span class="nb">format</span> <span class="no">t</span> <span class="s">&quot;~%~%~A&quot;</span> <span class="nb">string</span><span class="p">)</span>
+  <span class="p">(</span><span class="nb">read</span><span class="p">))</span>
+
+<span class="p">(</span><span class="nv">pergunta</span> <span class="s">&quot;Quantos anos voce tem? &quot;</span><span class="p">)</span>
+</pre></div>
+<h3><span class="mw-headline" id="Loops">Loops</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Common_Lisp&amp;veaction=edit&amp;section=4" class="mw-editsection-visualeditor" title="Editar secção: Loops">editar</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Common_Lisp&amp;action=edit&amp;section=4" title="Editar secção: Loops">editar código-fonte</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre><span></span><span class="p">(</span><span class="nb">defun</span> <span class="nv">quadrados</span> <span class="p">(</span><span class="nv">inicio</span> <span class="nv">fim</span><span class="p">)</span>
+  <span class="p">(</span><span class="nb">do</span> <span class="p">((</span><span class="nv">i</span> <span class="nv">inicio</span> <span class="p">(</span><span class="nb">+</span> <span class="nv">i</span> <span class="mi">1</span><span class="p">)))</span>
+      <span class="p">((</span><span class="nb">&gt;</span> <span class="nv">i</span> <span class="nv">fim</span><span class="p">)</span> <span class="ss">&#39;fim</span><span class="p">)</span>
+    <span class="p">(</span><span class="nb">format</span> <span class="no">t</span> <span class="s">&quot;~A ~A~%&quot;</span> <span class="nv">i</span> <span class="p">(</span><span class="nb">*</span> <span class="nv">i</span> <span class="nv">i</span><span class="p">))))</span>
+</pre></div>
+<h2><span class="mw-headline" id="Bibliografia">Bibliografia</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Common_Lisp&amp;veaction=edit&amp;section=5" class="mw-editsection-visualeditor" title="Editar secção: Bibliografia">editar</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Common_Lisp&amp;action=edit&amp;section=5" title="Editar secção: Bibliografia">editar código-fonte</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li>SEIBEL, PETER.(2005); <i>Practical Common Lisp</i>. Apress, 2005.</li>
+<li><cite class="citation book">GRAHAM, Paul (1996). <i>Ansi Common Lisp</i>. <a href="/wiki/New_Jersey" class="mw-redirect" title="New Jersey">New Jersey</a>: Prentice Hall. <a href="/wiki/Especial:Fontes_de_livros/0133708756" class="internal mw-magiclink-isbn">ISBN 0-13-370875-6</a></cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpt.wikipedia.org%3ACommon+Lisp&amp;rft.au=GRAHAM%2C+Paul&amp;rft.btitle=Ansi+Common+Lisp&amp;rft.date=1996&amp;rft.genre=book&amp;rft.place=New+Jersey&amp;rft.pub=Prentice+Hall&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></li>
+<li>GRAHAM, PAUL.(1993); <i>On Lisp</i>. Prentice Hall, 1993. (Descreve técnicas avançadas para uso de macros)</li>
+<li><cite class="citation book">STEELE, Guy L. (1990). <i>Common Lisp - The Language</i>. <a href="/wiki/Lexington" class="mw-disambig" title="Lexington">Lexington</a>: Digital Press. <a href="/wiki/Especial:Fontes_de_livros/1555580416" class="internal mw-magiclink-isbn">ISBN 1-55558-041-6</a></cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpt.wikipedia.org%3ACommon+Lisp&amp;rft.au=STEELE%2C+Guy+L.&amp;rft.btitle=Common+Lisp+-+The+Language&amp;rft.date=1990&amp;rft.genre=book&amp;rft.place=Lexington&amp;rft.pub=Digital+Press&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></li>
+<li>TOURETZKY, DAVID S.(1990); <i>Common Lisp - A Gentle Introduction to Symbolic Computation</i>. Benjamin Cummings, <a href="/wiki/Redwood_City" title="Redwood City">Redwood City</a>, 1990. <a href="/wiki/Especial:Fontes_de_livros/0805304924" class="internal mw-magiclink-isbn">ISBN 0-8053-0492-4</a></li></ul>
+<h2><span id="Ver_tamb.C3.A9m"></span><span class="mw-headline" id="Ver_também">Ver também</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Common_Lisp&amp;veaction=edit&amp;section=6" class="mw-editsection-visualeditor" title="Editar secção: Ver também">editar</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Common_Lisp&amp;action=edit&amp;section=6" title="Editar secção: Ver também">editar código-fonte</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li><a href="/wiki/Lisp" title="Lisp">Lisp</a></li>
+<li><a href="/wiki/Scheme" title="Scheme">Scheme</a></li></ul>
+<h2 style="cursor: help;" title="Esta seção foi configurada para não ser editável diretamente. Edite a página toda ou a seção anterior em vez disso."><span id="Refer.C3.AAncias"></span><span class="mw-headline" id="Referências">Referências</span></h2>
+<div class="reflist references-small" style=""><div class="mw-references-wrap"><ol class="references">
+<li id="cite_note-hoplii-1"><span class="mw-cite-backlink"><a href="#cite_ref-hoplii_1-0">↑</a></span> <span class="reference-text"><cite class="citation book">BERGIN, Thomas J.; GIBSON, Richard G. (1996). <i>History of Programming Languages II</i>. New York: ACM Press, Addison-Wesley. 864&#160;páginas. <small><a href="/wiki/Especial:Fontes_de_livros/0201895021" class="internal mw-magiclink-isbn">ISBN 0-201-89502-1</a></small></cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpt.wikipedia.org%3ACommon+Lisp&amp;rft.au=BERGIN%2C+Thomas+J.%3B+GIBSON%2C+Richard+G.&amp;rft.btitle=History+of+Programming+Languages+II&amp;rft.date=1996&amp;rft.genre=book&amp;rft.place=New+York&amp;rft.pub=ACM+Press%2C+Addison-Wesley&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span><span class="citation-comment" style="display:none; color:#33aa33"> !CS1 manut: Nomes múltiplos: lista de autores (<a href="/wiki/Categoria:!CS1_manut:_Nomes_m%C3%BAltiplos:_lista_de_autores" title="Categoria:!CS1 manut: Nomes múltiplos: lista de autores">link</a>)</span></span>
+</li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><a href="#cite_ref-2">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://webstore.ansi.org/RecordDetail.aspx?sku=ANSI+INCITS+226-1994+(R2004)">Página do Documento</a> <a rel="nofollow" class="external text" href="https://web.archive.org/web/20140101204441/http://webstore.ansi.org/RecordDetail.aspx?sku=ANSI+INCITS+226-1994+(R2004)">Arquivado em</a> 1 de janeiro de  2014, no <a href="/wiki/Wayback_Machine" title="Wayback Machine">Wayback Machine</a>. no sítio da ANSI</span>
+</li>
+</ol></div></div>
+<h2><span id="Liga.C3.A7.C3.B5es_externas"></span><span class="mw-headline" id="Ligações_externas">Ligações externas</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Common_Lisp&amp;veaction=edit&amp;section=7" class="mw-editsection-visualeditor" title="Editar secção: Ligações externas">editar</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Common_Lisp&amp;action=edit&amp;section=7" title="Editar secção: Ligações externas">editar código-fonte</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li><a rel="nofollow" class="external text" href="http://common-lisp.net/">common-lisp.net</a></li>
+<li><a rel="nofollow" class="external text" href="http://lisp-lang.org/">lisp-lang.org</a></li>
+<li><a rel="nofollow" class="external text" href="https://lispcookbook.github.io/cl-cookbook/">Common Lisp Cookbook</a></li>
+<li><a rel="nofollow" class="external text" href="https://github.com/CodyReichert/awesome-cl">Awesome-cl</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.cs.cmu.edu/~dst/LispBook/index.html">Site do autor David S. Touretzky</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.cs.cmu.edu/~dst/LispBook/book.pdf">Livro em pdf "Common Lisp: A Gentle Introduction to Symbolic Computation de David S. Touretzky"</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.cs.cmu.edu/Groups/AI/html/cltl/clm/clm.html">Livro "Common Lisp - The Language" disponível em formato HTML</a></li>
+<li><a rel="nofollow" class="external text" href="http://books.google.com.br/books?id=FYoOIWuoXUIC&amp;dq=Common+Lisp+the+Language&amp;printsec=frontcover&amp;source=bn&amp;hl=pt-BR&amp;ei=SwcHSoP6GZuqtgfL0emdBw&amp;sa=X&amp;oi=book_result&amp;ct=result&amp;resnum=4#PRA1-PA780,M1">Livro "Common Lisp The Language" pela Google books</a></li>
+<li><a rel="nofollow" class="external text" href="https://web.archive.org/web/20120421181340/http://common-lisp.net/~dlw/LispSurvey.html">Implementações de Common Lisp</a></li>
+<li><a rel="nofollow" class="external text" href="http://lib.store.yahoo.net/lib/paulgraham/onlisp.pdf">Livro do Paul Graham em pdf "On Lisp"</a></li></ul>
+<table class="noprint" style="border-top:none; border-bottom:none; background:none;"><tbody><tr>
+ <td style="text-align: center;"><a href="/wiki/Ficheiro:Farm-Fresh_application_osx_terminal.png" class="image"><img alt="Ícone de esboço" src="//upload.wikimedia.org/wikipedia/commons/thumb/1/13/Farm-Fresh_application_osx_terminal.png/30px-Farm-Fresh_application_osx_terminal.png" decoding="async" width="30" height="30" srcset="//upload.wikimedia.org/wikipedia/commons/1/13/Farm-Fresh_application_osx_terminal.png 1.5x" data-file-width="32" data-file-height="32" /></a></td>
+<td><i>Este artigo  sobre <span><a href="/wiki/Programa%C3%A7%C3%A3o_de_computadores" title="Programação de computadores">programação de computadores</a></span> é um <a href="/wiki/Wikip%C3%A9dia:Esbo%C3%A7o" title="Wikipédia:Esboço">esboço</a>.  Você pode ajudar a Wikipédia <span class="plainlinks" style="font-weight:bold;"><a class="external text" href="https://pt.wikipedia.org/w/index.php?title=Common_Lisp&amp;action=edit">expandindo-o</a></span>.</i><div class="plainlinks hlist navbar mini" style="position:absolute; right:15px; font-size:smaller; display:none;"><ul><li class="nv-ver"><a href="/wiki/Predefini%C3%A7%C3%A3o:Esbo%C3%A7o-programa%C3%A7%C3%A3o" title="Predefinição:Esboço-programação"><abbr title="Ver esta predefinição">v</abbr></a></li><li class="nv-discutir"><a href="/w/index.php?title=Predefini%C3%A7%C3%A3o_Discuss%C3%A3o:Esbo%C3%A7o-programa%C3%A7%C3%A3o&amp;action=edit&amp;redlink=1" class="new" title="Predefinição Discussão:Esboço-programação (página não existe)"><abbr title="Discutir esta predefinição">d</abbr></a></li><li class="nv-editar"><a class="external text" href="https://pt.wikipedia.org/w/index.php?title=Predefini%C3%A7%C3%A3o:Esbo%C3%A7o-programa%C3%A7%C3%A3o&amp;action=edit"><abbr title="Editar esta predefinição">e</abbr></a></li></ul></div></td>
+</tr></tbody></table>
+<!-- 
+NewPP limit report
+Parsed by mw1327
+Cached time: 20200103201715
+Cache expiry: 2592000
+Dynamic content: false
+Complications: [vary‐revision‐sha1]
+CPU time usage: 0.552 seconds
+Real time usage: 1.384 seconds
+Preprocessor visited node count: 2713/1000000
+Preprocessor generated node count: 0/1500000
+Post‐expand include size: 22512/2097152 bytes
+Template argument size: 3491/2097152 bytes
+Highest expansion depth: 12/40
+Expensive parser function count: 0/500
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 4084/5000000 bytes
+Number of Wikibase entities loaded: 0/400
+Lua time usage: 0.073/10.000 seconds
+Lua memory usage: 1.87 MB/50 MB
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00% 1336.294      1 -total
+ 24.92%  332.954      1 Predefinição:Info/Linguagem_de_computador
+ 24.65%  329.378      1 Predefinição:Info
+  8.24%  110.139      1 Predefinição:Referências
+  5.56%   74.253      1 Predefinição:Categorização_AD_e_AB_de_outras_wikis
+  5.07%   67.792      3 Predefinição:Citar_livro
+  2.61%   34.940      1 Predefinição:Esboço-prog
+  2.21%   29.537      1 Predefinição:Esboço_personalizado
+  1.40%   18.675      1 Predefinição:Asbox
+  0.83%   11.041      1 Predefinição:Navbar
+-->
+
+<!-- Saved in parser cache with key ptwiki:pcache:idhash:149140-0!canonical and timestamp 20200103201713 and revision id 54725909
+ -->
+</div><noscript><img src="//pt.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript></div>
+		
+		<div class="printfooter">Obtida de "<a dir="ltr" href="https://pt.wikipedia.org/w/index.php?title=Common_Lisp&amp;oldid=54725909">https://pt.wikipedia.org/w/index.php?title=Common_Lisp&amp;oldid=54725909</a>"</div>
+		
+		<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Especial:Categorias" title="Especial:Categorias">Categorias</a>: <ul><li><a href="/wiki/Categoria:Lisp" title="Categoria:Lisp">Lisp</a></li><li><a href="/wiki/Categoria:Linguagens_de_programa%C3%A7%C3%A3o_funcionais" title="Categoria:Linguagens de programação funcionais">Linguagens de programação funcionais</a></li><li><a href="/wiki/Categoria:Linguagens_de_programa%C3%A7%C3%A3o_baseadas_em_classes" title="Categoria:Linguagens de programação baseadas em classes">Linguagens de programação baseadas em classes</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Categorias ocultas: <ul><li><a href="/wiki/Categoria:!CS1_manut:_Nomes_m%C3%BAltiplos:_lista_de_autores" title="Categoria:!CS1 manut: Nomes múltiplos: lista de autores">!CS1 manut: Nomes múltiplos: lista de autores</a></li><li><a href="/wiki/Categoria:!Predefini%C3%A7%C3%A3o_Webarchive_wayback_links" title="Categoria:!Predefinição Webarchive wayback links">!Predefinição Webarchive wayback links</a></li><li><a href="/wiki/Categoria:!P%C3%A1ginas_que_usam_hiperliga%C3%A7%C3%B5es_m%C3%A1gicas_ISBN" title="Categoria:!Páginas que usam hiperligações mágicas ISBN">!Páginas que usam hiperligações mágicas ISBN</a></li><li><a href="/wiki/Categoria:!Esbo%C3%A7os_sobre_programa%C3%A7%C3%A3o" title="Categoria:!Esboços sobre programação">!Esboços sobre programação</a></li><li><a href="/wiki/Categoria:!Esbo%C3%A7os_maiores_que_1000_bytes" title="Categoria:!Esboços maiores que 1000 bytes">!Esboços maiores que 1000 bytes</a></li></ul></div></div>
+		<div class="visualClear"></div>
+		
+	</div>
+</div>
+<div id='mw-data-after-content'>
+	<div class="read-more-container"></div>
+</div>
+
+
+		<div id="mw-navigation">
+			<h2>Menu de navegação</h2>
+			<div id="mw-head">
+						<div id="p-personal" role="navigation" aria-labelledby="p-personal-label">
+			<h3 id="p-personal-label">Ferramentas pessoais</h3>
+			<ul>
+				<li id="pt-anonuserpage">Não autenticado</li><li id="pt-anontalk"><a href="/wiki/Especial:Minha_discuss%C3%A3o" title="Discussão sobre edições feitas a partir deste endereço IP [n]" accesskey="n">Discussão</a></li><li id="pt-anoncontribs"><a href="/wiki/Especial:Minhas_contribui%C3%A7%C3%B5es" title="Uma lista de edições feitas a partir deste endereço IP [y]" accesskey="y">Contribuições</a></li><li id="pt-createaccount"><a href="/w/index.php?title=Especial:Criar_conta&amp;returnto=Common+Lisp" title="É encorajado a criar uma conta e iniciar sessão; no entanto, não é obrigatório">Criar uma conta</a></li><li id="pt-login"><a href="/w/index.php?title=Especial:Entrar&amp;returnto=Common+Lisp" title="Aconselhamos-lhe a criar uma conta na Wikipédia, embora tal não seja obrigatório. [o]" accesskey="o">Entrar</a></li>			</ul>
+		</div>
+						<div id="left-navigation">
+					
+<div id="p-namespaces" role="navigation" class="vectorTabs " aria-labelledby="p-namespaces-label">
+	<h3 id="p-namespaces-label">Espa&ccedil;os nominais</h3>
+	<ul >
+		<li id="ca-nstab-main" class="selected"><a href="/wiki/Common_Lisp" title="Ver a página de conteúdo [c]" accesskey="c">Artigo</a></li><li id="ca-talk" class="new"><a href="/w/index.php?title=Discuss%C3%A3o:Common_Lisp&amp;action=edit&amp;redlink=1" rel="discussion" title="Discussão sobre o conteúdo da página (página não existe) [t]" accesskey="t">Discussão</a></li>
+	</ul>
+</div>
+		<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+						<input type="checkbox" class="vectorMenuCheckbox" aria-labelledby="p-variants-label" />
+			<h3 id="p-variants-label">
+				<span>Variantes</span>
+			</h3>
+			<ul class="menu">
+							</ul>
+		</div>
+						</div>
+				<div id="right-navigation">
+					
+<div id="p-views" role="navigation" class="vectorTabs " aria-labelledby="p-views-label">
+	<h3 id="p-views-label">Vistas</h3>
+	<ul >
+		<li id="ca-view" class="collapsible selected"><a href="/wiki/Common_Lisp">Ler</a></li><li id="ca-ve-edit" class="collapsible"><a href="/w/index.php?title=Common_Lisp&amp;veaction=edit" title="Editar esta página [v]" accesskey="v">Editar</a></li><li id="ca-edit" class="collapsible"><a href="/w/index.php?title=Common_Lisp&amp;action=edit" title="Editar esta página [e]" accesskey="e">Editar código-fonte</a></li><li id="ca-history" class="collapsible"><a href="/w/index.php?title=Common_Lisp&amp;action=history" title="Edições anteriores desta página. [h]" accesskey="h">Ver histórico</a></li>
+	</ul>
+</div>
+		<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+			<input type="checkbox" class="vectorMenuCheckbox" aria-labelledby="p-cactions-label" />
+			<h3 id="p-cactions-label"><span>Mais</span></h3>
+			<ul class="menu">
+							</ul>
+		</div>
+		
+<div id="p-search" role="search">
+	<h3 >
+		<label for="searchInput">Busca</label>
+	</h3>
+	<form action="/w/index.php" id="searchform">
+		<div id="simpleSearch">
+			<input type="search" name="search" placeholder="Pesquisar na Wikipédia" title="Pesquisar na Wikipédia [f]" accesskey="f" id="searchInput"/>
+			<input type="hidden" value="Especial:Pesquisar" name="title"/>
+			
+			<input type="submit" name="fulltext" value="Pesquisar" title="Procurar páginas que contêm este texto" id="mw-searchButton" class="searchButton mw-fallbackSearchButton"/>
+			<input type="submit" name="go" value="Ir" title="Ir para uma página com este nome exacto, caso exista" id="searchButton" class="searchButton"/>
+		</div>
+	</form>
+</div>
+				</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/wiki/Wikip%C3%A9dia:P%C3%A1gina_principal" title="Visitar a página principal"></a></div>
+						<div class="portal" role="navigation" id="p-navigation" aria-labelledby="p-navigation-label">
+			<h3 id="p-navigation-label">Navegação</h3>
+			<div class="body">
+								<ul>
+					<li id="n-mainpage-description"><a href="/wiki/Wikip%C3%A9dia:P%C3%A1gina_principal" title="Visitar a página principal [z]" accesskey="z">Página principal</a></li><li id="n-featuredcontent"><a href="/wiki/Portal:Conte%C3%BAdo_destacado">Conteúdo destacado</a></li><li id="n-currentevents"><a href="/wiki/Portal:Eventos_atuais" title="Informação temática sobre eventos atuais">Eventos atuais</a></li><li id="n-villagepump"><a href="/wiki/Wikip%C3%A9dia:Esplanada">Esplanada</a></li><li id="n-randompage"><a href="/wiki/Especial:Aleat%C3%B3ria" title="Carregar página aleatória [x]" accesskey="x">Página aleatória</a></li><li id="n-portals"><a href="/wiki/Portal:%C3%8Dndice">Portais</a></li><li id="n-bug_in_article"><a href="/wiki/Wikip%C3%A9dia:Informe_um_erro">Informar um erro</a></li><li id="n-shoplink"><a href="//shop.wikimedia.org" title="Visite a loja da Wikipédia">Loja da Wikipédia</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-interaction" aria-labelledby="p-interaction-label">
+			<h3 id="p-interaction-label">Colaboração</h3>
+			<div class="body">
+								<ul>
+					<li id="n-welcome"><a href="/wiki/Wikip%C3%A9dia:Boas-vindas">Boas-vindas</a></li><li id="n-help"><a href="/wiki/Ajuda:P%C3%A1gina_principal" title="Um local reservado para auxílio.">Ajuda</a></li><li id="n-testpage"><a href="/wiki/Wikip%C3%A9dia:P%C3%A1gina_de_testes">Página de testes</a></li><li id="n-portal"><a href="/wiki/Wikip%C3%A9dia:Portal_comunit%C3%A1rio" title="Sobre o projeto">Portal comunitário</a></li><li id="n-recentchanges"><a href="/wiki/Especial:Mudan%C3%A7as_recentes" title="Uma lista de mudanças recentes nesta wiki [r]" accesskey="r">Mudanças recentes</a></li><li id="n-maintenance"><a href="/wiki/Wikip%C3%A9dia:Manuten%C3%A7%C3%A3o">Manutenção</a></li><li id="n-createpage"><a href="/wiki/Ajuda:Guia_de_edi%C3%A7%C3%A3o/Como_come%C3%A7ar_uma_p%C3%A1gina">Criar página</a></li><li id="n-newpages-description"><a href="/wiki/Especial:P%C3%A1ginas_novas">Páginas novas</a></li><li id="n-contact-description"><a href="/wiki/Wikip%C3%A9dia:Contato">Contato</a></li><li id="n-sitesupport"><a href="//donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=20120521SB001&amp;uselang=pt" title="Ajude-nos">Donativos</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-wikibase-otherprojects" aria-labelledby="p-wikibase-otherprojects-label">
+			<h3 id="p-wikibase-otherprojects-label">Noutros projetos</h3>
+			<div class="body">
+								<ul>
+					<li class="wb-otherproject-link wb-otherproject-commons"><a href="https://commons.wikimedia.org/wiki/Category:Common_Lisp" hreflang="en">Wikimedia Commons</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-coll-print_export" aria-labelledby="p-coll-print_export-label">
+			<h3 id="p-coll-print_export-label">Imprimir/exportar</h3>
+			<div class="body">
+								<ul>
+					<li id="coll-create_a_book"><a href="/w/index.php?title=Especial:Livro&amp;bookcmd=book_creator&amp;referer=Common+Lisp">Criar um livro</a></li><li id="coll-download-as-rl"><a href="/w/index.php?title=Especial:ElectronPdf&amp;page=Common+Lisp&amp;action=show-download-screen">Descarregar como PDF</a></li><li id="t-print"><a href="/w/index.php?title=Common_Lisp&amp;printable=yes" title="Versão para impressão desta página [p]" accesskey="p">Versão para impressão</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-tb" aria-labelledby="p-tb-label">
+			<h3 id="p-tb-label">Ferramentas</h3>
+			<div class="body">
+								<ul>
+					<li id="t-whatlinkshere"><a href="/wiki/Especial:P%C3%A1ginas_afluentes/Common_Lisp" title="Lista de todas as páginas que contêm hiperligações para esta [j]" accesskey="j">Páginas afluentes</a></li><li id="t-recentchangeslinked"><a href="/wiki/Especial:Altera%C3%A7%C3%B5es_relacionadas/Common_Lisp" rel="nofollow" title="Mudanças recentes nas páginas para as quais esta contém hiperligações [k]" accesskey="k">Alterações relacionadas</a></li><li id="t-upload"><a href="/wiki/Wikipedia:Carregar_ficheiro" title="Carregar ficheiros [u]" accesskey="u">Carregar ficheiro</a></li><li id="t-specialpages"><a href="/wiki/Especial:P%C3%A1ginas_especiais" title="Lista de páginas especiais [q]" accesskey="q">Páginas especiais</a></li><li id="t-permalink"><a href="/w/index.php?title=Common_Lisp&amp;oldid=54725909" title="Hiperligação permanente para esta revisão da página">Hiperligação permanente</a></li><li id="t-info"><a href="/w/index.php?title=Common_Lisp&amp;action=info" title="Mais informações sobre esta página">Informações da página</a></li><li id="t-wikibase"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q849146" title="Hiperligação para o elemento do repositório de dados [g]" accesskey="g">Elemento Wikidata</a></li><li id="t-cite"><a href="/w/index.php?title=Especial:Citar&amp;page=Common_Lisp&amp;id=54725909" title="Informação sobre como citar esta página">Citar esta página</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-lang" aria-labelledby="p-lang-label">
+			<h3 id="p-lang-label">Noutras línguas</h3>
+			<div class="body">
+								<ul>
+					<li class="interlanguage-link interwiki-bg"><a href="https://bg.wikipedia.org/wiki/Common_Lisp" title="Common Lisp — búlgaro" lang="bg" hreflang="bg" class="interlanguage-link-target">Български</a></li><li class="interlanguage-link interwiki-cs"><a href="https://cs.wikipedia.org/wiki/Common_Lisp" title="Common Lisp — checo" lang="cs" hreflang="cs" class="interlanguage-link-target">Čeština</a></li><li class="interlanguage-link interwiki-da"><a href="https://da.wikipedia.org/wiki/Common_Lisp" title="Common Lisp — dinamarquês" lang="da" hreflang="da" class="interlanguage-link-target">Dansk</a></li><li class="interlanguage-link interwiki-de"><a href="https://de.wikipedia.org/wiki/Common_Lisp" title="Common Lisp — alemão" lang="de" hreflang="de" class="interlanguage-link-target">Deutsch</a></li><li class="interlanguage-link interwiki-en"><a href="https://en.wikipedia.org/wiki/Common_Lisp" title="Common Lisp — inglês" lang="en" hreflang="en" class="interlanguage-link-target">English</a></li><li class="interlanguage-link interwiki-es"><a href="https://es.wikipedia.org/wiki/Common_Lisp" title="Common Lisp — espanhol" lang="es" hreflang="es" class="interlanguage-link-target">Español</a></li><li class="interlanguage-link interwiki-et"><a href="https://et.wikipedia.org/wiki/Common_Lisp" title="Common Lisp — estónio" lang="et" hreflang="et" class="interlanguage-link-target">Eesti</a></li><li class="interlanguage-link interwiki-fa"><a href="https://fa.wikipedia.org/wiki/%D9%84%DB%8C%D8%B3%D9%BE_%D9%85%D8%B9%D9%85%D9%88%D9%84%DB%8C" title="لیسپ معمولی — persa" lang="fa" hreflang="fa" class="interlanguage-link-target">فارسی</a></li><li class="interlanguage-link interwiki-fi"><a href="https://fi.wikipedia.org/wiki/Common_Lisp" title="Common Lisp — finlandês" lang="fi" hreflang="fi" class="interlanguage-link-target">Suomi</a></li><li class="interlanguage-link interwiki-fr"><a href="https://fr.wikipedia.org/wiki/Common_Lisp" title="Common Lisp — francês" lang="fr" hreflang="fr" class="interlanguage-link-target">Français</a></li><li class="interlanguage-link interwiki-gl"><a href="https://gl.wikipedia.org/wiki/Common_Lisp" title="Common Lisp — galego" lang="gl" hreflang="gl" class="interlanguage-link-target">Galego</a></li><li class="interlanguage-link interwiki-he"><a href="https://he.wikipedia.org/wiki/Common_Lisp" title="Common Lisp — hebraico" lang="he" hreflang="he" class="interlanguage-link-target">עברית</a></li><li class="interlanguage-link interwiki-hr"><a href="https://hr.wikipedia.org/wiki/Common_Lisp" title="Common Lisp — croata" lang="hr" hreflang="hr" class="interlanguage-link-target">Hrvatski</a></li><li class="interlanguage-link interwiki-hu"><a href="https://hu.wikipedia.org/wiki/Common_Lisp" title="Common Lisp — húngaro" lang="hu" hreflang="hu" class="interlanguage-link-target">Magyar</a></li><li class="interlanguage-link interwiki-hy"><a href="https://hy.wikipedia.org/wiki/Common_Lisp" title="Common Lisp — arménio" lang="hy" hreflang="hy" class="interlanguage-link-target">Հայերեն</a></li><li class="interlanguage-link interwiki-is"><a href="https://is.wikipedia.org/wiki/Common_Lisp" title="Common Lisp — islandês" lang="is" hreflang="is" class="interlanguage-link-target">Íslenska</a></li><li class="interlanguage-link interwiki-it"><a href="https://it.wikipedia.org/wiki/Common_LISP" title="Common LISP — italiano" lang="it" hreflang="it" class="interlanguage-link-target">Italiano</a></li><li class="interlanguage-link interwiki-ja"><a href="https://ja.wikipedia.org/wiki/Common_Lisp" title="Common Lisp — japonês" lang="ja" hreflang="ja" class="interlanguage-link-target">日本語</a></li><li class="interlanguage-link interwiki-ko"><a href="https://ko.wikipedia.org/wiki/%EC%BB%A4%EB%A8%BC_%EB%A6%AC%EC%8A%A4%ED%94%84" title="커먼 리스프 — coreano" lang="ko" hreflang="ko" class="interlanguage-link-target">한국어</a></li><li class="interlanguage-link interwiki-pl"><a href="https://pl.wikipedia.org/wiki/Common_Lisp" title="Common Lisp — polaco" lang="pl" hreflang="pl" class="interlanguage-link-target">Polski</a></li><li class="interlanguage-link interwiki-ro"><a href="https://ro.wikipedia.org/wiki/Common_Lisp" title="Common Lisp — romeno" lang="ro" hreflang="ro" class="interlanguage-link-target">Română</a></li><li class="interlanguage-link interwiki-ru"><a href="https://ru.wikipedia.org/wiki/Common_Lisp" title="Common Lisp — russo" lang="ru" hreflang="ru" class="interlanguage-link-target">Русский</a></li><li class="interlanguage-link interwiki-sh"><a href="https://sh.wikipedia.org/wiki/Common_Lisp" title="Common Lisp — servo-croata" lang="sh" hreflang="sh" class="interlanguage-link-target">Srpskohrvatski / српскохрватски</a></li><li class="interlanguage-link interwiki-sv"><a href="https://sv.wikipedia.org/wiki/Common_Lisp" title="Common Lisp — sueco" lang="sv" hreflang="sv" class="interlanguage-link-target">Svenska</a></li><li class="interlanguage-link interwiki-uk"><a href="https://uk.wikipedia.org/wiki/Common_Lisp" title="Common Lisp — ucraniano" lang="uk" hreflang="uk" class="interlanguage-link-target">Українська</a></li><li class="interlanguage-link interwiki-zh"><a href="https://zh.wikipedia.org/wiki/Common_Lisp" title="Common Lisp — chinês" lang="zh" hreflang="zh" class="interlanguage-link-target">中文</a></li>				</ul>
+				<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q849146#sitelinks-wikipedia" title="Editar hiperligações interlínguas" class="wbc-editpage">Editar hiperligações</a></span></div>			</div>
+		</div>
+				</div>
+		</div>
+				<div id="footer" role="contentinfo">
+						<ul id="footer-info">
+								<li id="footer-info-lastmod"> Esta página foi editada pela última vez às 12h09min de 6 de abril de 2019.</li>
+								<li id="footer-info-copyright">Este texto é disponibilizado nos termos da licença <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.pt">Atribuição-CompartilhaIgual 3.0 Não Adaptada (CC BY-SA 3.0) da Creative Commons</a>;
+pode estar sujeito a condições adicionais.
+Para mais detalhes, consulte as <a href="https://foundation.wikimedia.org/wiki/Condições_de_Uso">condições de utilização</a>.</li>
+							</ul>
+						<ul id="footer-places">
+								<li id="footer-places-privacy"><a href="https://meta.wikimedia.org/wiki/Privacy_policy/pt-br" class="extiw" title="m:Privacy policy/pt-br">Política de privacidade</a></li>
+								<li id="footer-places-about"><a href="/wiki/Wikip%C3%A9dia:Sobre" class="mw-redirect" title="Wikipédia:Sobre">Sobre a Wikipédia</a></li>
+								<li id="footer-places-disclaimer"><a href="/wiki/Wikip%C3%A9dia:Aviso_geral" title="Wikipédia:Aviso geral">Avisos gerais</a></li>
+								<li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Programadores</a></li>
+								<li id="footer-places-statslink"><a href="https://stats.wikimedia.org/v2/#/pt.wikipedia.org">Estatísticas</a></li>
+								<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Cookie_statement">Declaração sobre ''cookies''</a></li>
+								<li id="footer-places-mobileview"><a href="//pt.m.wikipedia.org/w/index.php?title=Common_Lisp&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Versão móvel</a></li>
+							</ul>
+										<ul id="footer-icons" class="noprint">
+										<li id="footer-copyrightico">
+						<a href="https://wikimediafoundation.org/"><img src="/static/images/wikimedia-button.png" srcset="/static/images/wikimedia-button-1.5x.png 1.5x, /static/images/wikimedia-button-2x.png 2x" width="88" height="31" alt="Wikimedia Foundation"/></a>					</li>
+										<li id="footer-poweredbyico">
+						<a href="https://www.mediawiki.org/"><img src="/static/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/static/images/poweredby_mediawiki_132x47.png 1.5x, /static/images/poweredby_mediawiki_176x62.png 2x" width="88" height="31"/></a>					</li>
+									</ul>
+						<div style="clear: both;"></div>
+		</div>
+		
+
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.552","walltime":"1.384","ppvisitednodes":{"value":2713,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":22512,"limit":2097152},"templateargumentsize":{"value":3491,"limit":2097152},"expansiondepth":{"value":12,"limit":40},"expensivefunctioncount":{"value":0,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":4084,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00% 1336.294      1 -total"," 24.92%  332.954      1 Predefinição:Info/Linguagem_de_computador"," 24.65%  329.378      1 Predefinição:Info","  8.24%  110.139      1 Predefinição:Referências","  5.56%   74.253      1 Predefinição:Categorização_AD_e_AB_de_outras_wikis","  5.07%   67.792      3 Predefinição:Citar_livro","  2.61%   34.940      1 Predefinição:Esboço-prog","  2.21%   29.537      1 Predefinição:Esboço_personalizado","  1.40%   18.675      1 Predefinição:Asbox","  0.83%   11.041      1 Predefinição:Navbar"]},"scribunto":{"limitreport-timeusage":{"value":"0.073","limit":"10.000"},"limitreport-memusage":{"value":1959360,"limit":52428800}},"cachereport":{"origin":"mw1327","timestamp":"20200103201715","ttl":2592000,"transientcontent":false}}});});</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Common Lisp","url":"https:\/\/pt.wikipedia.org\/wiki\/Common_Lisp","sameAs":"http:\/\/www.wikidata.org\/entity\/Q849146","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q849146","author":{"@type":"Organization","name":"Contribuidores dos projetos da Wikimedia"},"publisher":{"@type":"Organization","name":"Funda\u00e7\u00e3o Wikimedia, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2005-09-04T21:29:27Z","dateModified":"2019-04-06T12:09:15Z","headline":"linguagem de programa\u00e7\u00e3o"}</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":209,"wgHostname":"mw1246"});});</script>
+</body>
+</html>

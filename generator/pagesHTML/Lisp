@@ -1,0 +1,1569 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="pt" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Lisp – Wikipédia, a enciclopédia livre</title>
+<script>document.documentElement.className="client-js";RLCONF={"wgBreakFrames":!1,"wgSeparatorTransformTable":[",\t."," \t,"],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","janeiro","fevereiro","março","abril","maio","junho","julho","agosto","setembro","outubro","novembro","dezembro"],"wgMonthNamesShort":["","jan.","fev.","mar.","abr.","mai.","jun.","jul.","ago.","set.","out.","nov.","dez."],"wgRequestId":"XhXSEwpAAEUAAHxHyUkAAADG","wgCSPNonce":!1,"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":!1,"wgNamespaceNumber":0,"wgPageName":"Lisp","wgTitle":"Lisp","wgCurRevisionId":56509047,"wgRevisionId":56509047,"wgArticleId":23726,"wgIsArticle":!0,"wgIsRedirect":!1,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["!Páginas com citações usando parâmetros sem suporte","!CS1 manut: Nomes múltiplos: lista de autores","Lisp","Linguagens de programação funcionais"],"wgPageContentLanguage":"pt","wgPageContentModel":
+"wikitext","wgRelevantPageName":"Lisp","wgRelevantArticleId":23726,"wgIsProbablyEditable":!0,"wgRelevantPageIsProbablyEditable":!0,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgMediaViewerOnClick":!0,"wgMediaViewerEnabledByDefault":!0,"wgPopupsReferencePreviews":!1,"wgPopupsConflictsWithNavPopupGadget":!1,"wgVisualEditor":{"pageLanguageCode":"pt","pageLanguageDir":"ltr","pageVariantFallbacks":"pt"},"wgMFDisplayWikibaseDescriptions":{"search":!0,"nearby":!0,"watchlist":!0,"tagline":!0},"wgWMESchemaEditAttemptStepOversample":!1,"wgULSCurrentAutonym":"português","wgNoticeProject":"wikipedia","wgWikibaseItemId":"Q132874","wgCentralAuthMobileDomain":!1,"wgEditSubmitButtonLabelPublish":!0,"wgSiteNoticeId":"2.28"};RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","user.tokens":"loading","ext.cite.styles":"ready","ext.pygments":
+"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.toc.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","ext.dismissableSiteNotice.styles":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready"};RLPAGEMODULES=["ext.cite.ux-enhancements","site","mediawiki.page.startup","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","ext.gadget.Topicon","ext.gadget.Metacaixa","ext.gadget.TitleRewrite","ext.gadget.ElementosOcultaveis","ext.gadget.FeedbackHighlight","ext.gadget.ReferenceTooltips","ext.gadget.NewVillagePump","ext.gadget.wikibugs","ext.gadget.charinsert","ext.gadget.requestForAdminship","ext.gadget.EnhancedSearch","ext.gadget.WikiMiniAtlas","ext.gadget.PagesForDeletion","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init"
+,"ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.uls.compactlinks","ext.uls.interface","ext.cx.eventlogging.campaigns","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js","ext.dismissableSiteNotice"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@jqysj",function($,jQuery,require,module){/*@nomin*/mw.user.options.set({"variant":"pt"});
+});mw.loader.implement("user.tokens@tffin",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});});</script>
+<link rel="stylesheet" href="/w/load.php?lang=pt&amp;modules=ext.cite.styles%7Cext.dismissableSiteNotice.styles%7Cext.pygments%2CwikimediaBadges%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.skinning.interface%7Cmediawiki.toc.styles%7Cskins.vector.styles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector"/>
+<script async="" src="/w/load.php?lang=pt&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/w/load.php?lang=pt&amp;modules=site.styles&amp;only=styles&amp;skin=vector"/>
+<meta name="generator" content="MediaWiki 1.35.0-wmf.11"/>
+<meta name="referrer" content="origin"/>
+<meta name="referrer" content="origin-when-crossorigin"/>
+<meta name="referrer" content="origin-when-cross-origin"/>
+<link rel="alternate" href="android-app://org.wikipedia/http/pt.m.wikipedia.org/wiki/Lisp"/>
+<link rel="alternate" type="application/x-wiki" title="Editar" href="/w/index.php?title=Lisp&amp;action=edit"/>
+<link rel="edit" title="Editar" href="/w/index.php?title=Lisp&amp;action=edit"/>
+<link rel="apple-touch-icon" href="/static/apple-touch/wikipedia.png"/>
+<link rel="shortcut icon" href="/static/favicon/wikipedia.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipédia (pt)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//pt.wikipedia.org/w/api.php?action=rsd"/>
+<link rel="license" href="//creativecommons.org/licenses/by-sa/3.0/"/>
+<link rel="canonical" href="https://pt.wikipedia.org/wiki/Lisp"/>
+<link rel="dns-prefetch" href="//login.wikimedia.org"/>
+<link rel="dns-prefetch" href="//meta.wikimedia.org" />
+<!--[if lt IE 9]><script src="/w/resources/lib/html5shiv/html5shiv.js"></script><![endif]-->
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-Lisp rootpage-Lisp skin-vector action-view">
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+<div id="content" class="mw-body" role="main">
+	<a id="top"></a>
+	<div id="siteNotice" class="mw-body-content"><!-- CentralNotice --><div id="mw-dismissablenotice-anonplace"></div><script>(function(){var node=document.getElementById("mw-dismissablenotice-anonplace");if(node){node.outerHTML="\u003Cdiv class=\"mw-dismissable-notice\"\u003E\u003Cdiv class=\"mw-dismissable-notice-close\"\u003E[\u003Ca tabindex=\"0\" role=\"button\"\u003Eocultar\u003C/a\u003E]\u003C/div\u003E\u003Cdiv class=\"mw-dismissable-notice-body\"\u003E\u003Cdiv id=\"localNotice\" lang=\"pt\" dir=\"ltr\"\u003E\u003C/div\u003E\u003C/div\u003E\u003C/div\u003E";}}());</script></div>
+	<div class="mw-indicators mw-body-content">
+</div>
+
+	<h1 id="firstHeading" class="firstHeading" lang="pt">Lisp</h1>
+	
+	<div id="bodyContent" class="mw-body-content">
+		<div id="siteSub" class="noprint">Origem: Wikip&eacute;dia, a enciclop&eacute;dia livre.</div>
+		<div id="contentSub"></div>
+		
+		
+		
+		<div id="jump-to-nav"></div>
+		<a class="mw-jump-link" href="#mw-head">Saltar para a navega&ccedil;&atilde;o</a>
+		<a class="mw-jump-link" href="#p-search">Saltar para a pesquisa</a>
+		<div id="mw-content-text" lang="pt" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><p><br />
+</p>
+<table class="infobox_v2" cellpadding="3" border="0" style="width: 20em; text-align: left; font-size: 88%;">
+
+<tbody><tr>
+<th colspan="2" class="topo computador" style="text-align: center; inherit"><span class="">Lisp</span>
+</th></tr>
+
+
+
+
+
+
+
+
+ 
+<tr>
+<td scope="row" style="vertical-align: top; text-align: left; font-weight:bold; text-align:left;"><a href="/wiki/Paradigma_de_programa%C3%A7%C3%A3o" title="Paradigma de programação">Paradigma</a>
+</td>
+<td style="vertical-align: top; text-align: left;"><a href="/wiki/Multiparadigma" class="mw-redirect" title="Multiparadigma">multiparadigma</a>: <a href="/wiki/Programa%C3%A7%C3%A3o_funcional" title="Programação funcional">funcional</a>, <a href="/wiki/Programa%C3%A7%C3%A3o_procedural" title="Programação procedural">procedural</a>, <a href="/wiki/Orienta%C3%A7%C3%A3o_a_objetos" title="Orientação a objetos">orientada a objetos</a>
+</td></tr>
+ 
+
+ 
+<tr>
+<td scope="row" style="vertical-align: top; text-align: left; font-weight:bold; text-align:left;">Surgido em
+</td>
+<td style="vertical-align: top; text-align: left;">1958<span class="noprint">; há 62 anos</span>
+</td></tr>
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+<tr>
+<td scope="row" style="vertical-align: top; text-align: left; font-weight:bold; text-align:left;">Criado por
+</td>
+<td style="vertical-align: top; text-align: left;"><a href="/wiki/John_McCarthy" title="John McCarthy">John McCarthy</a>
+</td></tr>
+ 
+
+ 
+<tr>
+<td scope="row" style="vertical-align: top; text-align: left; font-weight:bold; text-align:left;"><a href="/wiki/Tipo_de_dado" title="Tipo de dado">Estilo de tipagem</a>:
+</td>
+<td style="vertical-align: top; text-align: left;">Dinamica, Forte
+</td></tr>
+ 
+
+ 
+<tr>
+<td scope="row" style="vertical-align: top; text-align: left; font-weight:bold; text-align:left;"><a href="/wiki/Compilador" title="Compilador">Compiladores</a>
+</td>
+<td style="vertical-align: top; text-align: left;">internos
+</td></tr>
+ 
+
+ 
+<tr>
+<td scope="row" style="vertical-align: top; text-align: left; font-weight:bold; text-align:left;">Dialetos:
+</td>
+<td style="vertical-align: top; text-align: left;"><div class="hlist" style="margin-left: 0em;">
+<ul><li><a href="/wiki/Arc_(linguagem_de_programa%C3%A7%C3%A3o)" title="Arc (linguagem de programação)">Arc</a></li>
+<li><a href="/wiki/Autolisp" class="mw-redirect" title="Autolisp">Autolisp</a></li>
+<li><a href="/wiki/Clojure" title="Clojure">Clojure</a></li>
+<li><a href="/wiki/Common_Lisp" title="Common Lisp">Common Lisp</a></li>
+<li><a href="/wiki/Emacs_Lisp" title="Emacs Lisp">Emacs Lisp</a></li>
+<li><a class="external text" href="https://en.wikipedia.org/wiki/EuLisp">EuLisp</a></li>
+<li><a class="external text" href="https://en.wikipedia.org/wiki/Franz_Lisp">Franz Lisp</a></li>
+<li><a class="external text" href="https://en.wikipedia.org/wiki/Hy">Hy</a></li>
+<li><a class="external text" href="https://en.wikipedia.org/wiki/Interlisp">Interlisp</a></li>
+<li><a class="external text" href="https://en.wikipedia.org/wiki/ISLISP">ISLISP</a></li>
+<li><a class="external text" href="https://en.wikipedia.org/wiki/LeLisp">LeLisp</a></li>
+<li><a class="external text" href="https://en.wikipedia.org/wiki/LFE_(programming_language)">LFE</a></li>
+<li><a href="/wiki/Lush_(linguagem_de_programa%C3%A7%C3%A3o)" title="Lush (linguagem de programação)">Lush</a></li>
+<li><a href="/wiki/Maclisp" title="Maclisp">Maclisp</a></li>
+<li><a class="external text" href="https://en.wikipedia.org/wiki/MDL_(programming_language)">MDL</a></li>
+<li><a class="external text" href="https://en.wikipedia.org/wiki/Newlisp">Newlisp</a></li>
+<li><a class="external text" href="https://en.wikipedia.org/wiki/NIL)_(programming_language)">NIL</a></li>
+<li><a class="external text" href="https://en.wikipedia.org/wiki/Picolisp">Picolisp</a></li>
+<li><a class="external text" href="https://en.wikipedia.org/wiki/Portable_Standard_Lisp">Portable Standart Lisp</a></li>
+<li><a href="/wiki/Racket" title="Racket">Racket</a></li>
+<li><a class="external text" href="https://en.wikipedia.org/wiki/RPL_(programming_language)">RPL</a></li>
+<li><a href="/wiki/Scheme" title="Scheme">Scheme</a></li>
+<li><a class="external text" href="https://en.wikipedia.org/wiki/Cadence_SKILL">SKILL</a></li>
+<li><a class="external text" href="https://en.wikipedia.org/wiki/Spice_Lisp">Spice Lisp</a></li>
+<li><a class="external text" href="https://en.wikipedia.org/wiki/T_(programming_language)">T</a></li>
+<li><a class="external text" href="https://en.wikipedia.org/wiki/Zetalisp">Zetalisp</a></li></ul>
+</div>
+</td></tr>
+ 
+
+ 
+<tr>
+<td scope="row" style="vertical-align: top; text-align: left; font-weight:bold; text-align:left;">Influenciada por
+</td>
+<td style="vertical-align: top; text-align: left;"><a class="external text" href="https://en.wikipedia.org/wiki/Information_Processing_Language">IPL</a>
+</td></tr>
+ 
+
+
+ 
+<tr>
+<td scope="row" style="vertical-align: top; text-align: left; font-weight:bold; text-align:left;">Influenciou
+</td>
+<td style="vertical-align: top; text-align: left;"><div class="hlist" style="margin-left: 0em;">
+<ul><li><a class="external text" href="https://en.wikipedia.org/wiki/CLIPS">CLIPS</a></li>
+<li><a class="external text" href="https://en.wikipedia.org/wiki/CLU_(programming_language)">CLU</a></li>
+<li><a class="external text" href="https://en.wikipedia.org/wiki/COWSEL">COSWELL</a></li>
+<li><a href="/wiki/Dylan_(linguagem_de_programa%C3%A7%C3%A3o)" title="Dylan (linguagem de programação)">Dylan</a></li>
+<li><a href="/wiki/Elixir_(linguagem_de_programa%C3%A7%C3%A3o)" title="Elixir (linguagem de programação)">Elixir</a></li>
+<li><a href="/wiki/Forth" title="Forth">Forth</a></li>
+<li><a href="/wiki/Haskell_(linguagem_de_programa%C3%A7%C3%A3o)" title="Haskell (linguagem de programação)">Haskell</a></li>
+<li><a href="/wiki/Io_(linguagem_de_programa%C3%A7%C3%A3o)" title="Io (linguagem de programação)">IO</a></li>
+<li><a class="external text" href="https://en.wikipedia.org/wiki/ioke_(programming_language)">Ioke</a></li>
+<li><a href="/wiki/JavaScript" title="JavaScript">JavaScript</a></li>
+<li><a href="/wiki/Julia_(linguagem_de_programa%C3%A7%C3%A3o)" title="Julia (linguagem de programação)">Julia</a><sup id="cite_ref-Julia_1-0" class="reference"><a href="#cite_note-Julia-1"><span>[</span>1<span>]</span></a></sup></li>
+<li><a href="/wiki/Logo" title="Logo">Logo</a></li>
+<li><a href="/wiki/Lua_(linguagem_de_programa%C3%A7%C3%A3o)" title="Lua (linguagem de programação)">Lua</a></li>
+<li><a href="/wiki/ML_(linguagem_de_programa%C3%A7%C3%A3o)" title="ML (linguagem de programação)">ML</a></li>
+<li><a class="external text" href="https://en.wikipedia.org/wiki/Nim_(programming_language)">Nim</a></li>
+<li><a class="external text" href="https://en.wikipedia.org/wiki/Nu">Nu</a></li>
+<li><a class="external text" href="https://en.wikipedia.org/wiki/OPS5">OPS5</a></li>
+<li><a href="/wiki/Perl" title="Perl">Perl</a></li>
+<li><a class="external autonumber" href="https://en.wikipedia.org/wiki/POP-2">[1]</a> POP-2]/<a class="external text" href="https://en.wikipedia.org/wiki/POP-11">11</a></li>
+<li><a href="/wiki/Python" title="Python">Python</a></li>
+<li><a href="/wiki/R_(linguagem_de_programa%C3%A7%C3%A3o)" title="R (linguagem de programação)">R</a></li>
+<li><a class="external text" href="https://en.wikipedia.org/wiki/Rebol">Rebol</a></li>
+<li><a href="/wiki/Ruby_(linguagem_de_programa%C3%A7%C3%A3o)" title="Ruby (linguagem de programação)">Ruby</a></li>
+<li><a href="/wiki/Scala_(linguagem_de_programa%C3%A7%C3%A3o)" title="Scala (linguagem de programação)">Scala</a></li>
+<li><a href="/wiki/Swift_(linguagem_de_programa%C3%A7%C3%A3o)" title="Swift (linguagem de programação)">Swift</a></li>
+<li><a href="/wiki/Smalltalk" title="Smalltalk">Smalltalk</a></li>
+<li><a href="/wiki/Tcl" title="Tcl">Tcl</a></li>
+<li><a href="/wiki/Wolfram_(linguagem_de_programa%C3%A7%C3%A3o)" title="Wolfram (linguagem de programação)">Wolfram</a><sup id="cite_ref-Wolfram_2-0" class="reference"><a href="#cite_note-Wolfram-2"><span>[</span>2<span>]</span></a></sup></li></ul>
+</div>
+</td></tr>
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+
+</tbody></table>
+<p><b>Lisp</b> é uma família de linguagens de programação concebida por <a href="/wiki/John_McCarthy" title="John McCarthy">John McCarthy</a> em <a href="/wiki/1958" title="1958">1958</a>. Num célebre artigo, ele mostra que é possível usar exclusivamente funções matemáticas como estruturas de dados elementares (o que é possível a partir do momento em que há um mecanismo formal para manipular funções: o <a href="/wiki/C%C3%A1lculo_Lambda" class="mw-redirect" title="Cálculo Lambda">Cálculo Lambda</a> de <a href="/wiki/Alonzo_Church" title="Alonzo Church">Alonzo Church</a>). A linguagem Lisp foi projetada primariamente para o processamento de dados simbólicos.<sup id="cite_ref-manual_3-0" class="reference"><a href="#cite_note-manual-3"><span>[</span>3<span>]</span></a></sup> Ela é uma linguagem formal matemática.<sup id="cite_ref-manual_3-1" class="reference"><a href="#cite_note-manual-3"><span>[</span>3<span>]</span></a></sup>  Durante os anos de <a href="/wiki/1970" title="1970">1970</a> e <a href="/wiki/1980" title="1980">1980</a>, Lisp se tornou a principal linguagem da comunidade de inteligência artificial, tendo sido pioneiro em aplicações como administração automática de armazenamento, <a href="/wiki/Interpretador" title="Interpretador">linguagens interpretadas</a> e <a href="/wiki/Programa%C3%A7%C3%A3o_funcional" title="Programação funcional">programação funcional</a>.
+</p><p>O seu nome vem de <b>List Processing</b> (a <a href="/wiki/Lista" title="Lista">lista</a> é a <a href="/wiki/Estrutura_de_dados" title="Estrutura de dados">estrutura de dados</a> fundamental desta linguagem).  Tanto os <a href="/wiki/Dados" title="Dados">dados</a> como o <a href="/wiki/Programa" class="mw-disambig" title="Programa">programa</a> são representados como listas, o que permite que a linguagem manipule o <a href="/wiki/C%C3%B3digo_fonte" class="mw-redirect" title="Código fonte">código fonte</a> como qualquer outro tipo de dados.
+</p><p>Existem diversos dialetos de Lisp, sendo os mais conhecidos: <a href="/wiki/Common_Lisp" title="Common Lisp">Common Lisp</a>, <a href="/wiki/Scheme" title="Scheme">Scheme</a> e <a href="/wiki/Clojure" title="Clojure">Clojure</a>.<sup id="cite_ref-little_4-0" class="reference"><a href="#cite_note-little-4"><span>[</span>4<span>]</span></a></sup>
+</p>
+<div id="toc" class="toc"><input type="checkbox" role="button" id="toctogglecheckbox" class="toctogglecheckbox" style="display:none" /><div class="toctitle" lang="pt" dir="ltr"><h2>Índice</h2><span class="toctogglespan"><label class="toctogglelabel" for="toctogglecheckbox"></label></span></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#História"><span class="tocnumber">1</span> <span class="toctext">História</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#2000_até_o_presente"><span class="tocnumber">1.1</span> <span class="toctext">2000 até o presente</span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="#Dialetos_historicamente_significativos"><span class="tocnumber">1.2</span> <span class="toctext">Dialetos historicamente significativos</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-4"><a href="#Aplicabilidades"><span class="tocnumber">2</span> <span class="toctext">Aplicabilidades</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#Características_Técnicas"><span class="tocnumber">3</span> <span class="toctext">Características Técnicas</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#Implementação_das_Listas"><span class="tocnumber">4</span> <span class="toctext">Implementação das Listas</span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="#Exemplos_de_Funções"><span class="tocnumber">5</span> <span class="toctext">Exemplos de Funções</span></a></li>
+<li class="toclevel-1 tocsection-8"><a href="#Macros"><span class="tocnumber">6</span> <span class="toctext">Macros</span></a></li>
+<li class="toclevel-1 tocsection-9"><a href="#Uso_de_Lisp"><span class="tocnumber">7</span> <span class="toctext">Uso de Lisp</span></a></li>
+<li class="toclevel-1 tocsection-10"><a href="#Exemplos_de_código"><span class="tocnumber">8</span> <span class="toctext">Exemplos de código</span></a>
+<ul>
+<li class="toclevel-2 tocsection-11"><a href="#Expressões_Lambda"><span class="tocnumber">8.1</span> <span class="toctext">Expressões Lambda</span></a></li>
+<li class="toclevel-2 tocsection-12"><a href="#Fatorial"><span class="tocnumber">8.2</span> <span class="toctext">Fatorial</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1"><a href="#Referências"><span class="tocnumber">9</span> <span class="toctext">Referências</span></a></li>
+<li class="toclevel-1 tocsection-13"><a href="#Ligações_externas"><span class="tocnumber">10</span> <span class="toctext">Ligações externas</span></a></li>
+</ul>
+</div>
+
+<h2><span id="Hist.C3.B3ria"></span><span class="mw-headline" id="História">História</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Lisp&amp;veaction=edit&amp;section=1" class="mw-editsection-visualeditor" title="Editar secção: História">editar</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Lisp&amp;action=edit&amp;section=1" title="Editar secção: História">editar código-fonte</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Lisp é uma família de linguagens que possui uma longa história. As primeiras idéias-chave para a linguagem foram desenvolvidas por <a href="/wiki/John_McCarthy" title="John McCarthy">John McCarthy</a> em 1956, durante um projeto de pesquisa em inteligência artificial. A primeira implementação da linguagem se dá no inverno de 1958.<sup id="cite_ref-hoplii_5-0" class="reference"><a href="#cite_note-hoplii-5"><span>[</span>5<span>]</span></a></sup> A motivação de McCarthy surgiu da idéia de desenvolver uma linguagem algébrica para processamento de listas para trabalho em IA (inteligência artificial). Esforços para a implementação de seus primeiros dialetos foram empreendidos no <a href="/wiki/IBM" title="IBM">IBM</a> 704, IBM 7090, DEC PDP-1, DEC PDP-6 e DEC PDP-10. O dialeto principal entre 1960 e 1965 foi o Lisp 1.5.No início dos anos 1970, houve outros dois dialetos predominantes, desenvolvidos através de esforços anteriores: MacLisp e Interlisp.
+</p><p>Apesar das primeiras implementações do Lisp terem sido realizados nos IBM 704 e 7090, trabalhos posteriores concentraram-se nos DEC PDP-6 e PDP-10, este último sendo o baluarte do Lisp e das pesquisas em IA (inteligência artificial) em lugares como o MIT (Massachussets Institute of Tecnology) e as Universidades de Stanford e Carnegie-Mellon até metade dos anos 1970. O computador PDP-10 e seu antecessor, o PDP-6 eram por definição, especialmente adequados para o Lisp, por possuirem palavras de 36 bits e endereços de 18 bits. Esta arquitetura permitia um registro de um cons cell (par pontuado) em uma única palavra de memória, em instruções simples extraíam o seu car e cdr. Esses computadores possuíam também poderosas instruções de pilha, que proporcionavam rápida chamada a funções; porém suas limitações em 1973 eram evidentes: suportavam um pequeno número de pesquisadores utilizando o Lisp e seu endereçamento em 18 bits limitava o espaço dos programas. Uma resposta para o problema de endereçamento foi o desenvolvimento do "Lisp Machine",um computador dedicado especialmente à tarefa de trabalhar com a linguagem. Outra solução foi a utilização de computadores de uso geral com maior capacidade de endereçamento, como o DEC VAX e o S1 Mark IIA.
+</p><p><br />
+</p>
+<h4><span id="2000_at.C3.A9_o_presente"></span><span class="mw-headline" id="2000_até_o_presente">2000 até o presente</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Lisp&amp;veaction=edit&amp;section=2" class="mw-editsection-visualeditor" title="Editar secção: 2000 até o presente">editar</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Lisp&amp;action=edit&amp;section=2" title="Editar secção: 2000 até o presente">editar código-fonte</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>Depois de ter decaído um pouco nos anos 90, Lisp experimentou um ressurgimento de interesse após 2000. A maioria das novas atividades foi focada em implementações de <a href="/wiki/Common_Lisp" title="Common Lisp">Common Lisp</a>, <a href="/wiki/Scheme" title="Scheme">Scheme</a>, <a href="/wiki/Emacs_Lisp" title="Emacs Lisp">Emacs Lisp</a>, <a href="/wiki/Clojure" title="Clojure">Clojure</a>, e <a href="/wiki/Racket" title="Racket">Racket</a>, e inclui o desenvolvimento de novas bibliotecas e aplicativos portáteis.<br />
+</p><p>Muitos novos programadores de Lisp foram inspirados por escritores como <a href="/wiki/Paul_Graham" title="Paul Graham">Paul Graham</a> e <a href="/wiki/Eric_S._Raymond" class="mw-redirect" title="Eric S. Raymond">Eric S. Raymond</a> para buscar uma linguagem que outros consideram antiquada. Os programadores New Lisp frequentemente descrevem a linguagem como uma experiência de abrir os olhos e afirmam ser substancialmente mais produtivos do que em outras linguagens.[28] Esse aumento na consciência pode ser contrastado com o "<a class="external text" href="https://en.wikipedia.org/wiki/AI_winter">Inverno da IA</a>" e o breve ganho de Lisp em meados da década de 1990.<sup id="cite_ref-6" class="reference"><a href="#cite_note-6"><span>[</span>6<span>]</span></a></sup><br />
+</p><p>Dan Weinreb lista em sua pesquisa de implementações Common Lisp<sup id="cite_ref-7" class="reference"><a href="#cite_note-7"><span>[</span>7<span>]</span></a></sup> onze implementações de Common Lisp ativamente mantidas. Scieneer Common Lisp é uma nova implementação comercial da CMUCL com um primeiro lançamento em 2002.<br />
+</p><p>A comunidade <a href="/wiki/Open-source" class="mw-redirect" title="Open-source">open-source</a> criou uma nova infra-estrutura de suporte: o <a class="external text" href="https://en.wikipedia.org/wiki/CLiki">CLiki</a> é um wiki que coleta informações relacionadas ao Common Lisp, o <a class="external text" href="https://en.wikipedia.org/w/index.php?title=Common_Lisp_directory&amp;action=edit&amp;redlink=1">diretório Common Lisp</a> lista recursos, o #lisp é um canal IRC popular e permite compartilhar e comentar trechos de código (com suporte do <a class="external text" href="https://en.wikipedia.org/w/index.php?title=Lisppaste&amp;action=edit&amp;redlink=1">lisppaste</a>, um <a href="/wiki/Rob%C3%B4_de_IRC" title="Robô de IRC">bot de IRC</a> escrito em Lisp), <a class="external text" href="https://en.wikipedia.org/w/index.php?title=Planet_Lisp&amp;action=edit&amp;redlink=1">Planet Lisp</a> coleta o conteúdo de vários blogs relacionados a Lisp, no <a class="external text" href="https://en.wikipedia.org/w/index.php?title=LispForum&amp;action=edit&amp;redlink=1">LispForum</a> usuários discutem tópicos de Lisp, <a class="external text" href="https://en.wikipedia.org/w/index.php?title=Lispjobs&amp;action=edit&amp;redlink=1">Lispjobs</a> é um serviço para anunciar ofertas de emprego e há um serviço de notícias semanal, <a class="external text" href="https://en.wikipedia.org/w/index.php?title=Weekly_Lisp_News&amp;action=edit&amp;redlink=1">Weekly Lisp News</a>. Common-lisp.net é um site de hospedagem para projetos Common Lisp de código aberto. [en.wikipedia.org/w/Quicklisp QuickLisp] é um gerenciador de bibliotecas do Common Lisp.<br />
+</p><p>Cinquenta anos de Lisp (1958–2008) foram celebrados em LISP50@OOPSLA.<sup id="cite_ref-8" class="reference"><a href="#cite_note-8"><span>[</span>8<span>]</span></a></sup> Há reuniões regulares de usuários locais em Boston, Vancouver e Hamburgo. Outros eventos incluem o European Common Lisp Meeting, o European Lisp Symposium e uma Conferênia Internacional de Lisp.<br />
+</p><p>A comunidade Scheme mantém ativamente <a class="external text" href="https://en.wikipedia.org/wiki/Scheme_(programming_language)#Implementations">mais de vinte implementações</a>. Várias novas implementações significativas (Chicken, Gambit, Gauche, Ikarus, Larceny, Ypsilon) foram desenvolvidas nos anos 2000. O Relatório Revisado sobre o Esquema de Linguagem Algorítmica<sup id="cite_ref-9" class="reference"><a href="#cite_note-9"><span>[</span>9<span>]</span></a></sup> padrão do Scheme foi amplamente aceito na comunidade Scheme. O <a class="external text" href="https://en.wikipedia.org/wiki/Scheme_Requests_for_Implementation">processo Solicitações de implementação do Scheme</a> criou muitas bibliotecas e extensões quase-padrão para o Scheme. As comunidades de usuários de implementações individuais do Scheme continuam a crescer. Um novo processo de padronização de linguagem foi iniciado em 2003 e levou ao padrão R<sup>6</sup>RS Scheme em 2007. O uso acadêmico do Scheme para o ensino de informática parece ter diminuído um pouco. Algumas universidades não estão mais usando Scheme em seus cursos introdutórios de ciência da computação;<sup id="cite_ref-10" class="reference"><a href="#cite_note-10"><span>[</span>10<span>]</span></a></sup><sup id="cite_ref-11" class="reference"><a href="#cite_note-11"><span>[</span>11<span>]</span></a></sup> MIT agora usa <a href="/wiki/Python" title="Python">Python</a> em vez de Scheme para seu programa de <a href="/wiki/Ci%C3%AAncia_da_computa%C3%A7%C3%A3o" title="Ciência da computação">ciência da computação</a> e MITx massive open online course.<sup id="cite_ref-12" class="reference"><a href="#cite_note-12"><span>[</span>12<span>]</span></a></sup><sup id="cite_ref-13" class="reference"><a href="#cite_note-13"><span>[</span>13<span>]</span></a></sup><br />
+</p><p>Existem vários novos dialetos de Lisp: <a href="/wiki/Arc_(linguagem_de_programa%C3%A7%C3%A3o)" title="Arc (linguagem de programação)">Arc</a>, <a class="external text" href="https://en.wikipedia.org/wiki/Hy">Hy</a>, <a class="external text" href="https://en.wikipedia.org/wiki/Nu_(programming_language)">Nu</a>, <a class="external text" href="https://en.wikipedia.org/wiki/Liskell">Liskell</a> e <a class="external text" href="https://en.wikipedia.org/wiki/LFE_(programming_language)">LFE</a> (Lisp Flavored Erlang). O analisador para <a href="/wiki/Julia_(linguagem_de_programa%C3%A7%C3%A3o)" title="Julia (linguagem de programação)">Julia</a> é implementado em Femtolisp, um dialeto de <a href="/wiki/Scheme" title="Scheme">Scheme</a> (Julia é inspirada por Scheme e é frequentemente considerada um Lisp).<br />
+</p><p><br />
+</p>
+<h3><span class="mw-headline" id="Dialetos_historicamente_significativos">Dialetos historicamente significativos</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Lisp&amp;veaction=edit&amp;section=3" class="mw-editsection-visualeditor" title="Editar secção: Dialetos historicamente significativos">editar</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Lisp&amp;action=edit&amp;section=3" title="Editar secção: Dialetos historicamente significativos">editar código-fonte</a><span class="mw-editsection-bracket">]</span></span></h3>
+<ul><li>LISP 1<sup id="cite_ref-14" class="reference"><a href="#cite_note-14"><span>[</span>14<span>]</span></a></sup> – Primeira Implementação.</li>
+<li>LISP 1.5<sup id="cite_ref-15" class="reference"><a href="#cite_note-15"><span>[</span>15<span>]</span></a></sup> – Primeira versão amplamente distribuída, desenvolvida por McCarthy e outros do MIT. Assim chamada porque continha várias melhorias no interpretador "LISP 1" original, mas não foi uma grande reestruturação como planejado que fosse ser o <a class="external text" href="https://en.wikipedia.org/wiki/LISP_2">LISP 2</a>.</li>
+<li><a href="/w/index.php?title=Stanford_LISP&amp;action=edit&amp;redlink=1" class="new" title="Stanford LISP (página não existe)">Stanford LISP</a> 1.6<sup id="cite_ref-16" class="reference"><a href="#cite_note-16"><span>[</span>16<span>]</span></a></sup> – Este foi uma sucessora para o LISP 1.5 desenvolvida no <a class="external text" href="https://en.wikipedia.org/wiki/Stanford_AI_Lab">Laboratório de IA de Stanford</a>, e amplamente distribuída para sistemas <a class="external text" href="https://en.wikipedia.org/wiki/PDP-10">PDP-10</a> rodando o sistema operacional <a class="external text" href="https://en.wikipedia.org/wiki/TOPS-10">TOPS-10</a>. Se tornou obsoleta com o advento do Maclisp e do InterLisp.</li>
+<li><a href="/wiki/Maclisp" title="Maclisp">MACLISP</a><sup id="cite_ref-17" class="reference"><a href="#cite_note-17"><span>[</span>17<span>]</span></a></sup> – Desenvolvido para o <a class="external text" href="https://en.wikipedia.org/wiki/MIT_Computer_Science_and_Artificial_Intelligence_Laboratory#Project_MAC">Projeto MAC</a> do <a href="/wiki/Instituto_de_Tecnologia_de_Massachusetts" title="Instituto de Tecnologia de Massachusetts"> MIT</a> (Não tem relaçãocom o <a href="/wiki/Macintosh" title="Macintosh">Macintosh</a> da Apple, nem com <a href="/wiki/John_McCarthy" title="John McCarthy">McCarthy</a>), descendente direto do LISP 1.5. Rodou em sistemas PDP-10 e <a href="/wiki/Multics" title="Multics">Multics</a>. (MACLISP mais tarde começou a ser chamado de Maclisp, e geralmente é citado como MacLisp.)</li>
+<li><a class="external text" href="https://en.wikipedia.org/wiki/InterLisp">InterLisp</a><sup id="cite_ref-18" class="reference"><a href="#cite_note-18"><span>[</span>18<span>]</span></a></sup> – desenvolvido na <a class="external text" href="https://en.wikipedia.org/wiki/BBN_Technologies">BBN Technologies</a> para sistemas PDP-10 rodando o sistema operacional <a class="external text" href="https://en.wikipedia.org/wiki/TOPS-20">Tenex</a>, mais tarde usado como Lisp "da costa oeste" para as máquinas Xerox Lisp como <a class="external text" href="https://en.wikipedia.org/w/index.php?title=InterLisp-D&amp;action=edit&amp;redlink=1">InterLisp-D</a>. Umaversão menor chamada "InterLISP 65" foi produzida para a linha base de computadores <a class="external text" href="https://en.wikipedia.org/wiki/MOS_6502">6502</a> da <a href="/wiki/Fam%C3%ADlia_Atari_de_8-bits" title="Família Atari de 8-bits"> Família Atari de 8 bits</a>. Por bastante tempo Maclisp e Interlisp foram fortes competidores.</li>
+<li><a class="external text" href="https://en.wikipedia.org/wiki/Franz_Lisp">Franz Lisp</a> – originalmente um projeto da <a href="/wiki/Universidade_da_Calif%C3%B3rnia" title="Universidade da Califórnia">Universidade da Califórnia, Berkeleyt</a>; mais tarde desenvolvido por Franz Inc. O nome é uma piada com o nome de "<a href="/wiki/Franz_Liszt" title="Franz Liszt">Franz Liszt</a>", e não se refere à <a class="external text" href="https://en.wikipedia.org/wiki/Allegro_Common_Lisp">Allegro Common Lisp</a>, o dialeto de Common Lisp vendido por Franz Inc., em anos mais recentes.</li></ul>
+<p><br />
+</p>
+<h2><span class="mw-headline" id="Aplicabilidades">Aplicabilidades</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Lisp&amp;veaction=edit&amp;section=4" class="mw-editsection-visualeditor" title="Editar secção: Aplicabilidades">editar</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Lisp&amp;action=edit&amp;section=4" title="Editar secção: Aplicabilidades">editar código-fonte</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Lisp é uma linguagem madura, concebida atenciosamente, altamente portável, linguagem de força industrial. Suas características que mais chamam atenção são:
+</p>
+<ul><li>Ferramenta rápida e altamente personalizável para fazer coisas do dia a dia.</li>
+<li>Aplicações grandes, complexas e críticas as quais seriam impossíveis desenvolver em outra linguagem.</li>
+<li>Prototipação rápida e Rapid Application Development (RAD).</li>
+<li>Aplicações de alta disponibilidade, principalmente aquelas que necessitam de mudanças após a etapa inicial.</li></ul>
+<p>A linguagem teve um grande sucesso em software do ramo de negócios, engenharia, processamento de documentos, hipermídia (incluindo a Web), matemática, gráficos e animação (Mirai), inteligência artificial e processamento de linguagem natural. Uma das grandes vantagens de Lisp é que ela trata o programa como dado, possibilitando assim um programa inteiro ser dado como entrada de um outro, coisa que não acontece em outras linguagens como C e Pascal. É usada algumas vezes para definir todos os aspectos de uma aplicação, ou apenas o motor de processamento interno, ou apenas a interface do usuário; e ainda é usada com rotina para prover linguagens de comando interativas, linguagens de macro ou script e linguagens extensoras de sistemas comerciais.
+</p>
+<h2><span id="Caracter.C3.ADsticas_T.C3.A9cnicas"></span><span class="mw-headline" id="Características_Técnicas">Características Técnicas</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Lisp&amp;veaction=edit&amp;section=5" class="mw-editsection-visualeditor" title="Editar secção: Características Técnicas">editar</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Lisp&amp;action=edit&amp;section=5" title="Editar secção: Características Técnicas">editar código-fonte</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>A linguagem LISP é interpretada, onde o usuário digita expressões em uma linguagem formal definida e recebe de volta a avaliação de sua expressão. Deste ponto de vista podemos pensar no LISP como uma calculadora, que ao invés de avaliar expressões aritméticas avalia expressões simbólicas, chamadas de expressões.<sup id="cite_ref-Wexelblat_19-0" class="reference"><a href="#cite_note-Wexelblat-19"><span>[</span>19<span>]</span></a></sup> Cada programa em LISP, é, portanto, uma expressão. As expressões são de tamanho indefinido e tem uma estrutura de árvore binária.
+A estrutura de utilização da memória disponível é na forma de listas, pois livra o programador da necessidade de alocar espaços diferentes para o programa e para os dados, fazendo com que os dados e os programas sejam homogêneos, característica única da linguagem LISP.
+Suas principais características são:
+</p>
+<ul><li>Tipos de dados: átomo e a lista. É com apenas esses dois tipos de dados que se constroem as expressões-S, as estruturas basilares de LISP.</li>
+<li>Fraca Tipagem: LISP, em relação a outras linguagens funcionais mais recentes, é fracamente tipado, o que causa complicações, já que operações que acessam as suas estruturas de dados são tratadas como funções.</li>
+<li>Funções de ordem elevada: Linguagens funcionais tipicamente suportam funções de ordem elevada (exemplo: função de uma função de uma função de uma…).</li>
+<li>Avaliação Ociosa: É o que ocorre quando uma função aninhada executa uma computação desnecessária para a avaliação da função que a chama, aumentando o tempo de execução.</li>
+<li>Concorrência (multitarefa): A concorrência nas linguagens imperativas tradicionais é relativamente complexa; o programador é o responsável pela sincronização de todas as tarefas (a multitarefa no paradigma procedural é tão sofisticada quanto um GOTO). Em contraste, as linguagens funcionais intrinsecamente nos oferecem oportunidades para a concorrência: A partir do momento em que uma função tem mais de um parâmetro, estes parâmetros devem em princípio ser avaliados simultaneamente (note que os parâmetros seriam as funções correspondentes às tarefas a serem executadas); A partir deste ponto, a responsabilidade pela sincronização das tarefas passa do programador para o compilador (as modernas linguagens funcionais orientadas a multitarefa dispõe de mecanismos através dos quais o programador pode guiar o compilador). Todavia, as linguagens funcionais orientadas a multitarefa permitem ao programador trabalhar em um nível muito mais elevado do que as linguagens imperativas destinadas a este mesmo fim.</li>
+<li>Um alto nível de abstração, especialmente quando as funções são utilizadas, suprimindo muitos detalhes da programação e minimizando a probabilidade da ocorrência de muitas classes de erros;</li>
+<li>A não dependência das operações de atribuição permite aos programas avaliações nas mais diferentes ordens. Esta característica de avaliação independente da ordem torna as linguagens funcionais as mais indicadas para a programação de computadores maciçamente paralelos;</li>
+<li>A ausência de operações de atribuição torna os programas funcionais muito mais simples para provas e análises matemáticas do que os programas procedurais.</li></ul>
+<p>E como desvantagem, destacamos:
+</p>
+<ul><li>Uma menor eficiência para resolver problemas que envolvam muitas variáveis (ex. contas de banco) ou muitas atividades seqüenciais são muitas vezes mais fáceis de se trabalhar com programas procedurais ou programas orientados a objeto.</li></ul>
+<p>O Common Lisp permite várias representações diferentes de números. Estas representações podem ser divididas em 4 tipos: hexadecimais, octais, binários e decimais. Estes últimos podem ser divididos em 4 categorias: inteiros, racionais, ponto flutuante e complexos.
+</p>
+<h2><span id="Implementa.C3.A7.C3.A3o_das_Listas"></span><span class="mw-headline" id="Implementação_das_Listas">Implementação das Listas</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Lisp&amp;veaction=edit&amp;section=6" class="mw-editsection-visualeditor" title="Editar secção: Implementação das Listas">editar</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Lisp&amp;action=edit&amp;section=6" title="Editar secção: Implementação das Listas">editar código-fonte</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Originalmente, em Lisp havia duas estruturas de dados fundamentais: o <a href="/wiki/%C3%81tomo" title="Átomo">átomo</a> e a lista; o átomo pode ser <a href="/wiki/Num%C3%A9rico" class="mw-redirect" title="Numérico">numérico</a>, ou <a href="/wiki/Alfanum%C3%A9rico" title="Alfanumérico">alfanumérico</a>. Exemplos de átomos:
+<code><b>atomo1</b></code>, <code><b>a</b></code>, <code><b>12</b></code>, <code><b>54</b></code>, <code><b>bola</b></code>, <code><b>nil</b></code>.
+</p><p>O átomo <code>nil</code> representa o valor nulo e ao mesmo tempo representa uma lista vazia.
+A lista é a associação de átomos ou outras listas (numa lista chamamos de elementos a cada um dos itens) representandos entre parêntesis. Exemplo de lista:
+</p><p><code>(esta lista contém 5 átomos)</code>
+</p><p><code>((jose (22 solteiro)) (antonio (15 casado)))</code>
+</p><p>Normalmente a implementação de uma lista é um encadeamento de pares em que o ponteiro à esquerda do par aponta para o elemento correspondente da lista e em que o ponteiro à direita do par aponta para a restante lista.
+</p>
+<pre>  [   .   ]
+    |   |
+    |   +---- ponteiro para a restante lista (quando for o último, aponta para nil)
+    +-------- ponteiro para o conteúdo do elemento
+</pre>
+<pre>  [   .   ] +→[   .   ] +→[   .   ] +→[   .   ] +→[   .   ]
+    |   |   |   |   |   |   |   |   |   |   |   |   |   |
+    |   +---+   |   +---+   |   +---+   |   +---+   |   +--&gt; nil
+   esta        lista      contém        5         átomos
+</pre>
+<p>Avaliação dados: os átomos quando avaliados retornam eles mesmos. As listas, quando avaliadas, são funções, onde o primeiro elemento representa o nome da função e os elementos seguintes são os argumentos para esta função.
+Exemplos de função:
+</p><p><code>
+(+ 3 4) <br />
+&gt; 7 <br />
+(* 5 (+ 2 5)) <br />
+&gt; 35 <br />
+(car (quote (a b)))<br />
+&gt; a <br />
+</code>
+</p><p>Normalmente, as implementações de Lisp providenciam um ambiente interactivo de avaliação de expressões.  Os exemplos acima apresentam a interacção com uma implementação de Lisp.  Como pode ser visto também, um programa Lisp pode confundir um programador inexperiente porque requer o uso de muitos parênteses, o que lhe rendeu um trocadilho anglófono para o nome da linguagem: LISP = Lots of Irritating Stupid Parentheses (tradução: Montes de Irritantes Parênteses Estúpidos), ou então LISP = Linguagem Infernal Somente de Parênteses.
+</p><p>Existe o mito de que Lisp é uma linguagem que só funciona com um <a href="/wiki/Interpretador" title="Interpretador">interpretador</a>.  Na realidade, todos os dialetos relevantes de Lisp têm <a href="/wiki/Compilador" title="Compilador">compiladores</a>.  Alguns dialetos, o <a href="/wiki/Compilador" title="Compilador">compilador</a> é uma função que se pode invocar a partir de código normal para transformar uma lista (que descreve uma função) numa função invocável.  Programas Lisp comerciais são tipicamente compilados por motivos de eficiência, mas a semântica do Lisp permite que o programador possa usar programas interpretados e programas compilados ao mesmo tempo.  A maioria dos usos interpretados ocorrem interativamente, para invocar programas compilados a partir de código escrito por um programador.  Há exemplos disso acima onde se apresenta o resultado interactivo de invocar funções compiladas.
+</p>
+<h2><span id="Exemplos_de_Fun.C3.A7.C3.B5es"></span><span class="mw-headline" id="Exemplos_de_Funções">Exemplos de Funções</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Lisp&amp;veaction=edit&amp;section=7" class="mw-editsection-visualeditor" title="Editar secção: Exemplos de Funções">editar</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Lisp&amp;action=edit&amp;section=7" title="Editar secção: Exemplos de Funções">editar código-fonte</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p><code>(<b>quote</b> expressão)</code><br />
+Retorna a expressão diretamente, sem tentar qualquer forma da avaliação. Ex: <code>(quote jose)</code> retorna <code>jose</code>, e <code>(quote (jose silva))</code> retorna <code>(jose silva)</code>.
+</p><p><code>'expressão</code><br />
+Significa o mesmo que <code>(<b>quote</b> expressão)</code>. Ex: <code>'jose</code> retorna <code>jose</code>, e <code>'(jose silva)</code> retorna <code>(jose silva)</code>.
+</p><p><code>(<b>eval</b> expressão)</code><br />
+força a avaliar a expressão. Ex: Embora <code>'(+ 3 4)</code> simplesmente retorna <code>(+ 3 4)</code>, <code>(eval '(+ 3 4))</code> força a avaliar o <code>(+ 3 4)</code> e portanto retorna <code>7</code>.
+</p><p><code>(<b>car</b> lista)</code><br />
+Retorna o primeiro elemento da lista. Ex: <code>(car '(jose silva))</code> retorna <code>jose</code>. Entre os vários dialetos de Lisp, há alguns (por exemplo, <a href="/w/index.php?title=ISLISP&amp;action=edit&amp;redlink=1" class="new" title="ISLISP (página não existe)">ISLISP</a>) que permitem o nome <code><b>first</b></code> como alternativa para <code><b>car</b></code>.
+</p><p><code>(<b>cdr</b> lista)</code><br />
+Retorna a lista sem o primeiro elemento. Ex: <code>(cdr '(jose da silva))</code> retorna <code>(da silva)</code>. Há dialetos que usam o nome <code><b>rest</b></code> como alternativa para <code><b>cdr</b></code>.
+</p><p><code>(<b>cons</b> atomo lista)</code><br />
+Adiciona átomo ao início da lista. Ex: <code>(cons 'jose '(da silva))</code> retorna <code>(jose da silva)</code>.
+</p><p>Funções matemáticas:
+</p>
+<pre>+ (Adição)
+- (Subtração)
+* (Multiplicação)
+/ (Divisão)
+</pre>
+<h2><span class="mw-headline" id="Macros">Macros</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Lisp&amp;veaction=edit&amp;section=8" class="mw-editsection-visualeditor" title="Editar secção: Macros">editar</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Lisp&amp;action=edit&amp;section=8" title="Editar secção: Macros">editar código-fonte</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>O grande diferencial de Lisp são as <a href="/wiki/Macros" class="mw-redirect" title="Macros">macros</a>. As macros são completamente diferentes das que se encontram em C, pois estas somente fazem substituição de texto, enquanto que em Lisp as macros são programas que geram programas.
+</p>
+<h2><span class="mw-headline" id="Uso_de_Lisp">Uso de Lisp</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Lisp&amp;veaction=edit&amp;section=9" class="mw-editsection-visualeditor" title="Editar secção: Uso de Lisp">editar</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Lisp&amp;action=edit&amp;section=9" title="Editar secção: Uso de Lisp">editar código-fonte</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Lisp foi utilizado para desenvolver o primeiro sistema computacional de <a href="/wiki/Matem%C3%A1tica_simb%C3%B3lica" title="Matemática simbólica">matemática simbólica</a>, o <a href="/wiki/Macsyma" title="Macsyma">Macsyma</a>.
+</p><p>Ele também é utilizado como <a href="/w/index.php?title=Linguagem_de_extens%C3%A3o&amp;action=edit&amp;redlink=1" class="new" title="Linguagem de extensão (página não existe)">linguagem de extensão</a> do software de <a href="/wiki/CAD" class="mw-redirect" title="CAD">CAD</a> <a href="/wiki/AutoCAD" title="AutoCAD">AutoCAD</a>, desenvolvido pela <a href="/w/index.php?title=AutoDesk&amp;action=edit&amp;redlink=1" class="new" title="AutoDesk (página não existe)">AutoDesk</a>. O editor de textos <a href="/wiki/Emacs" class="mw-redirect" title="Emacs">Emacs</a> também utiliza Lisp como linguagem de extensão. Segundo o seu próprio autor, <a href="/wiki/Richard_Stallman" class="mw-redirect" title="Richard Stallman">Richard Stallman</a>, Lisp foi o responsável por tornar o <a href="/wiki/Emacs" class="mw-redirect" title="Emacs">Emacs</a> tão popular, pois o fato da linguagem de extensão dele ser tão poderosa permite que ele seja estendido muito além do que se imaginava que ele originalmente poderia fazer.
+</p><p>A ITA software desenvolveu um sistema de reserva de passagens chamado Orbitz em LISP, ele é utilizado por diversas companhias aéreas. A <a href="/w/index.php?title=Symbolics&amp;action=edit&amp;redlink=1" class="new" title="Symbolics (página não existe)">Symbolics</a> criou um sistema de modelagem 3D que depois foi adquirido pela IZWare e atualmente se chama <a href="/wiki/Mirai" class="mw-redirect" title="Mirai">Mirai</a>, ele foi utilizado nos efeitos do filme <a href="/wiki/Senhor_dos_An%C3%A9is" class="mw-redirect" title="Senhor dos Anéis">Senhor dos Anéis</a>.
+</p><p>O LISP foi utilizado pelo <a href="/wiki/Paul_Graham" title="Paul Graham">Paul Graham</a> para desenvolver o sistema de <a href="/wiki/Com%C3%A9rcio_eletr%C3%B4nico" title="Comércio eletrônico">e-commerce</a> da <a href="/w/index.php?title=Viaweb&amp;action=edit&amp;redlink=1" class="new" title="Viaweb (página não existe)">Viaweb</a>, que posteriormente foi vendido para o <a href="/wiki/Yahoo!" title="Yahoo!">Yahoo</a> por US$ 40 milhões, na época da <a href="/wiki/Bolha_da_internet" class="mw-redirect" title="Bolha da internet">bolha da internet</a>.
+</p>
+<h2><span id="Exemplos_de_c.C3.B3digo"></span><span class="mw-headline" id="Exemplos_de_código">Exemplos de código</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Lisp&amp;veaction=edit&amp;section=10" class="mw-editsection-visualeditor" title="Editar secção: Exemplos de código">editar</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Lisp&amp;action=edit&amp;section=10" title="Editar secção: Exemplos de código">editar código-fonte</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span id="Express.C3.B5es_Lambda"></span><span class="mw-headline" id="Expressões_Lambda">Expressões Lambda</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Lisp&amp;veaction=edit&amp;section=11" class="mw-editsection-visualeditor" title="Editar secção: Expressões Lambda">editar</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Lisp&amp;action=edit&amp;section=11" title="Editar secção: Expressões Lambda">editar código-fonte</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre><span></span><span class="p">((</span><span class="k">lambda</span> <span class="p">(</span><span class="nv">arg</span><span class="p">)</span> <span class="p">(</span><span class="nb">+</span> <span class="nv">arg</span> <span class="mi">1</span><span class="p">))</span> <span class="mi">5</span><span class="p">)</span>
+</pre></div>
+<p>Resultado: 6
+</p>
+<h3><span class="mw-headline" id="Fatorial">Fatorial</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Lisp&amp;veaction=edit&amp;section=12" class="mw-editsection-visualeditor" title="Editar secção: Fatorial">editar</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Lisp&amp;action=edit&amp;section=12" title="Editar secção: Fatorial">editar código-fonte</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><i>Common Lisp:</i>
+</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre><span></span><span class="p">(</span><span class="nb">defun</span> <span class="nv">fatorial</span> <span class="p">(</span><span class="nv">n</span><span class="p">)</span>
+  <span class="p">(</span><span class="k">if</span> <span class="p">(</span><span class="nb">=</span> <span class="nv">n</span> <span class="mi">0</span><span class="p">)</span>
+      <span class="mi">1</span>
+      <span class="p">(</span><span class="nb">*</span> <span class="nv">n</span> <span class="p">(</span><span class="nv">fatorial</span> <span class="p">(</span><span class="nb">-</span> <span class="nv">n</span> <span class="mi">1</span><span class="p">)))))</span>
+</pre></div>
+<p><i>Scheme:</i>
+</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre><span></span><span class="p">(</span><span class="k">define </span><span class="nv">fatorial</span>
+  <span class="p">(</span><span class="k">lambda </span><span class="p">(</span><span class="nf">n</span><span class="p">)</span>
+    <span class="p">(</span><span class="k">if </span><span class="p">(</span><span class="nb">= </span><span class="nv">n</span> <span class="mi">0</span><span class="p">)</span>
+        <span class="mi">1</span>
+        <span class="p">(</span><span class="nb">* </span><span class="nv">n</span> <span class="p">(</span><span class="nf">fatorial</span> <span class="p">(</span><span class="nb">- </span><span class="nv">n</span> <span class="mi">1</span><span class="p">))))))</span>
+</pre></div>
+<p>Embora as definições acima pareçam correctas, para evitar o transbordamento da pilha pode ser preferível usar as seguintes.
+</p><p><i>Common Lisp:</i>
+</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre><span></span><span class="p">(</span><span class="nb">defun</span> <span class="nv">fatorial</span> <span class="p">(</span><span class="nv">n</span><span class="p">)</span>
+  <span class="p">(</span><span class="nb">do</span> <span class="p">((</span><span class="nv">i</span> <span class="nv">n</span> <span class="p">(</span><span class="nb">-</span> <span class="nv">i</span> <span class="mi">1</span><span class="p">))</span>
+       <span class="p">(</span><span class="nv">resultado</span> <span class="mi">1</span> <span class="p">(</span><span class="nb">*</span> <span class="nv">resultado</span> <span class="nv">i</span><span class="p">)))</span>
+      <span class="p">((</span><span class="nb">=</span> <span class="nv">i</span> <span class="mi">0</span><span class="p">)</span> <span class="nv">resultado</span><span class="p">)))</span>
+</pre></div>
+<p><i>Scheme:</i>
+</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre><span></span><span class="p">(</span><span class="k">define </span><span class="nv">fatorial</span>
+   <span class="p">(</span><span class="k">lambda </span><span class="p">(</span><span class="nf">n</span><span class="p">)</span>
+     <span class="p">(</span><span class="k">let </span><span class="nv">f</span> <span class="p">((</span><span class="nf">i</span> <span class="nv">n</span><span class="p">)</span> <span class="p">(</span><span class="nf">resultado</span> <span class="mi">1</span><span class="p">))</span>
+       <span class="p">(</span><span class="k">if </span><span class="p">(</span><span class="nb">= </span><span class="nv">i</span> <span class="mi">0</span><span class="p">)</span>
+         <span class="nv">resultado</span>
+         <span class="p">(</span><span class="nf">f</span> <span class="p">(</span><span class="nb">- </span><span class="nv">i</span> <span class="mi">1</span><span class="p">)</span> <span class="p">(</span><span class="nb">* </span><span class="nv">resultado</span> <span class="nv">i</span><span class="p">))))))</span>
+</pre></div>
+<p>Na maioria dos dialetos modernos de Lisp usam-se inteiros de precisão numérica indefinida:
+</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre><span></span><span class="p">(</span><span class="nv">fatorial</span> <span class="mi">40</span><span class="p">)</span>
+<span class="err">⇒</span> <span class="mi">815915283247897734345611269596115894272000000000</span>
+
+<span class="p">(</span><span class="nb">length</span> <span class="p">(</span><span class="nb">write-to-string</span> <span class="p">(</span><span class="nv">fatorial</span> <span class="mi">10000</span><span class="p">)))</span>
+<span class="err">⇒</span> <span class="mi">35660</span>       <span class="c1">; dígitos no resultado de (fatorial 10000)</span>
+
+<span class="p">(</span><span class="nb">/</span> <span class="p">(</span><span class="nv">fatorial</span> <span class="mi">10000</span><span class="p">)</span> <span class="p">(</span><span class="nv">fatorial</span> <span class="mi">9998</span><span class="p">))</span>
+<span class="err">⇒</span> <span class="mi">99990000</span>    <span class="c1">; resultado exato</span>
+</pre></div>
+<p>Naqueles dialetos também usam-se <a href="/wiki/N%C3%BAmero_racional" title="Número racional">números racionais</a> de precisão numérica indefinida.  Por exemplo, no Common Lisp se pode ter esta interacção:
+</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre><span></span><span class="nv">pi</span>
+<span class="err">⇒</span> <span class="mf">3.141592653589793</span>
+
+<span class="p">(</span><span class="nb">rationalize</span> <span class="nv">pi</span><span class="p">)</span>        <span class="c1">; aproximação do valor como número racional</span>
+<span class="err">⇒</span> <span class="m">245850922/78256779</span>
+
+<span class="p">(</span><span class="nb">*</span> <span class="p">(</span><span class="nb">rationalize</span> <span class="nv">pi</span><span class="p">)</span> <span class="p">(</span><span class="nv">fatorial</span> <span class="mi">40</span><span class="p">))</span> <span class="c1">; o resultado é um número racional</span>
+<span class="err">⇒</span> <span class="m">66864508220128937516859865761265220075208572928000000000/26085593</span>
+
+<span class="p">(</span><span class="nb">-</span> <span class="p">(</span><span class="nb">/</span> <span class="p">(</span><span class="nb">*</span> <span class="p">(</span><span class="nb">rationalize</span> <span class="nv">pi</span><span class="p">)</span> <span class="p">(</span><span class="nv">fatorial</span> <span class="mi">40</span><span class="p">))</span>
+      <span class="p">(</span><span class="nv">fatorial</span> <span class="mi">40</span><span class="p">))</span>
+   <span class="p">(</span><span class="nb">rationalize</span> <span class="nv">pi</span><span class="p">))</span>
+<span class="err">⇒</span> <span class="mi">0</span>                    <span class="c1">; o resultado da aritmética racional é exato</span>
+</pre></div>
+<h2 style="cursor: help;" title="Esta seção foi configurada para não ser editável diretamente. Edite a página toda ou a seção anterior em vez disso."><span id="Refer.C3.AAncias"></span><span class="mw-headline" id="Referências">Referências</span></h2>
+<div class="reflist references-small" style=""><div class="mw-references-wrap mw-references-columns"><ol class="references">
+<li id="cite_note-Julia-1"><span class="mw-cite-backlink"><a href="#cite_ref-Julia_1-0">↑</a></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://julia.readthedocs.org/en/latest/manual/introduction/">«Introduction»</a>. <i>The Julia Manual</i>. Read the Docs<span class="reference-accessdate">. Consultado em 10 de dezembro de 2016</span>. <a rel="nofollow" class="external text" href="https://web.archive.org/web/20160408134008/http://julia.readthedocs.org/en/latest/manual/introduction/">Cópia arquivada em 8 de abril de 2016</a></cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpt.wikipedia.org%3ALisp&amp;rft.atitle=Introduction&amp;rft.genre=unknown&amp;rft.jtitle=The+Julia+Manual&amp;rft_id=http%3A%2F%2Fjulia.readthedocs.org%2Fen%2Flatest%2Fmanual%2Fintroduction%2F&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal" class="Z3988"><span style="display:none;">&#160;</span></span> <span style="font-size:100%" class="error citation-comment">Parâmetro desconhecido <code style="color:inherit; border:inherit; padding:inherit;">&#124;url-status=</code> ignorado (<a href="/wiki/Ajuda:Erros_nas_refer%C3%AAncias#parameter_ignored" title="Ajuda:Erros nas referências">ajuda</a>)</span></span>
+</li>
+<li id="cite_note-Wolfram-2"><span class="mw-cite-backlink"><a href="#cite_ref-Wolfram_2-0">↑</a></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="https://www.wolfram.com/language/faq/">«Wolfram Language Q&amp;A»</a>. Wolfram Research<span class="reference-accessdate">. Consultado em 10 de dezembro de 2016</span></cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpt.wikipedia.org%3ALisp&amp;rft.btitle=Wolfram+Language+Q%26A&amp;rft.genre=unknown&amp;rft.pub=Wolfram+Research&amp;rft_id=https%3A%2F%2Fwww.wolfram.com%2Flanguage%2Ffaq%2F&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span>
+</li>
+<li id="cite_note-manual-3"><span class="mw-cite-backlink">↑ <sup><i><b><a href="#cite_ref-manual_3-0">a</a></b></i></sup> <sup><i><b><a href="#cite_ref-manual_3-1">b</a></b></i></sup></span> <span class="reference-text"><cite class="citation book">McCarthy, John; Abrahams, Paul W.; Edwards, Daniel J.; Hart, Timothy P.; Levin, Michael I (1962). <i>Lisp 1.5 Programmer´s Manual</i>. Cambridge, Massachusetts: The MIT Press. p.&#160;1. 106&#160;páginas. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="/wiki/Especial:Fontes_de_livros/0-262-13011-4" title="Especial:Fontes de livros/0-262-13011-4">0-262-13011-4</a></cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpt.wikipedia.org%3ALisp&amp;rft.au=McCarthy%2C+John%3B+Abrahams%2C+Paul+W.%3B+Edwards%2C+Daniel+J.%3B+Hart%2C+Timothy+P.%3B+Levin%2C+Michael+I&amp;rft.btitle=Lisp+1.5+Programmer%B4s+Manual&amp;rft.date=1962&amp;rft.genre=book&amp;rft.isbn=0-262-13011-4&amp;rft.pages=1&amp;rft.place=Cambridge%2C+Massachusetts&amp;rft.pub=The+MIT+Press&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span><span class="citation-comment" style="display:none; color:#33aa33"> !CS1 manut: Nomes múltiplos: lista de autores (<a href="/wiki/Categoria:!CS1_manut:_Nomes_m%C3%BAltiplos:_lista_de_autores" title="Categoria:!CS1 manut: Nomes múltiplos: lista de autores">link</a>)</span></span>
+</li>
+<li id="cite_note-little-4"><span class="mw-cite-backlink"><a href="#cite_ref-little_4-0">↑</a></span> <span class="reference-text"><cite class="citation book">Friedman, Daniel P.; Felleisen, Matthias (1989). <i>The Little LISPer</i>. New York: Macmillan. p.&#160;xiii. 206&#160;páginas. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="/wiki/Especial:Fontes_de_livros/0-02-339763-2" title="Especial:Fontes de livros/0-02-339763-2">0-02-339763-2</a></cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpt.wikipedia.org%3ALisp&amp;rft.au=Friedman%2C+Daniel+P.%3B+Felleisen%2C+Matthias&amp;rft.btitle=The+Little+LISPer&amp;rft.date=1989&amp;rft.genre=book&amp;rft.isbn=0-02-339763-2&amp;rft.pages=xiii&amp;rft.place=New+York&amp;rft.pub=Macmillan&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span><span class="citation-comment" style="display:none; color:#33aa33"> !CS1 manut: Nomes múltiplos: lista de autores (<a href="/wiki/Categoria:!CS1_manut:_Nomes_m%C3%BAltiplos:_lista_de_autores" title="Categoria:!CS1 manut: Nomes múltiplos: lista de autores">link</a>)</span></span>
+</li>
+<li id="cite_note-hoplii-5"><span class="mw-cite-backlink"><a href="#cite_ref-hoplii_5-0">↑</a></span> <span class="reference-text"><cite class="citation book">Bergin, Thomas J.; Gibson, Richard G. (1996). <i>History of Programming Languages II</i>. New York: ACM Press, Addison-Wesley. 864&#160;páginas. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="/wiki/Especial:Fontes_de_livros/0-201-89502-1" title="Especial:Fontes de livros/0-201-89502-1">0-201-89502-1</a></cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpt.wikipedia.org%3ALisp&amp;rft.au=Bergin%2C+Thomas+J.%3B+Gibson%2C+Richard+G.&amp;rft.btitle=History+of+Programming+Languages+II&amp;rft.date=1996&amp;rft.genre=book&amp;rft.isbn=0-201-89502-1&amp;rft.place=New+York&amp;rft.pub=ACM+Press%2C+Addison-Wesley&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span><span class="citation-comment" style="display:none; color:#33aa33"> !CS1 manut: Nomes múltiplos: lista de autores (<a href="/wiki/Categoria:!CS1_manut:_Nomes_m%C3%BAltiplos:_lista_de_autores" title="Categoria:!CS1 manut: Nomes múltiplos: lista de autores">link</a>)</span></span>
+</li>
+<li id="cite_note-6"><span class="mw-cite-backlink"><a href="#cite_ref-6">↑</a></span> <span class="reference-text"> "<a rel="nofollow" class="external text" href="http://www.faqs.org/docs/artu/ch14s05.html">Trends for the Future</a>". Faqs.org. Recuperada em 15 de novembro de 2013</span>
+</li>
+<li id="cite_note-7"><span class="mw-cite-backlink"><a href="#cite_ref-7">↑</a></span> <span class="reference-text">Weinreb, Daniel. "<a rel="nofollow" class="external text" href="https://web.archive.org/web/20120421181340/http://common-lisp.net/~dlw/LispSurvey.html#">Common Lisp Implementations: A Survey</a>". Arquivado do <a rel="nofollow" class="external text" href="http://common-lisp.net/~dlw/LispSurvey.html">original</a> em 21 de abril de 2012. Recuperado em 4 de abril de 2012.</span>
+</li>
+<li id="cite_note-8"><span class="mw-cite-backlink"><a href="#cite_ref-8">↑</a></span> <span class="reference-text"> "<a rel="nofollow" class="external text" href="http://www.lisp50.org/">LISP50@OOPSLA</a>". Lisp50.org. Recuperado em 15 de novembro de 2013.</span>
+</li>
+<li id="cite_note-9"><span class="mw-cite-backlink"><a href="#cite_ref-9">↑</a></span> <span class="reference-text"> <a rel="nofollow" class="external text" href="http://www.schemers.org/Documents/Standards/R5RS/">Documents: Standards: R5RS</a>. schemers.org (11/01/2012). Recuperado em 17 de julho de 2013.</span>
+</li>
+<li id="cite_note-10"><span class="mw-cite-backlink"><a href="#cite_ref-10">↑</a></span> <span class="reference-text"> "<a rel="nofollow" class="external text" href="http://cemerick.com/2009/03/24/why-mit-now-uses-python-instead-of-scheme-for-its-undergraduate-cs-program/">Why MIT now uses python instead of scheme for its undergraduate CS program</a>". cemerick.com. 24 de Março de 2009. Recuperado em 10 de Novembro de 2013.</span>
+</li>
+<li id="cite_note-11"><span class="mw-cite-backlink"><a href="#cite_ref-11">↑</a></span> <span class="reference-text">Broder, Evan (8 de Janeiro de 2008). "<a rel="nofollow" class="external text" href="http://mitadmissions.org/blogs/entry/the_end_of_an_era_1">The End of an Era</a>". mitadmissions.org. Recuperado em 10 de Novembro de 2013.</span>
+</li>
+<li id="cite_note-12"><span class="mw-cite-backlink"><a href="#cite_ref-12">↑</a></span> <span class="reference-text"> "<a rel="nofollow" class="external text" href="https://www.eecs.mit.edu/academics-admissions/undergraduate-programs">MIT EECS Undergraduate Programs</a>". www.eecs.mit.edu. MIT Electrical Engineering &amp; Computer Science. Recuperado em 31 de Dezembro de 2018.</span>
+</li>
+<li id="cite_note-13"><span class="mw-cite-backlink"><a href="#cite_ref-13">↑</a></span> <span class="reference-text"> "<a rel="nofollow" class="external text" href="https://www.eecs.mit.edu/news-events/announcements/mitx-introductory-python-course-hits-12-million-enrollments">MITx introductory Python course hits 1.2 million enrollments</a>". MIT EECS. MIT Electrical Engineering &amp; Computer Science. Recuperado em 31 de Dezembro de 2018.</span>
+</li>
+<li id="cite_note-14"><span class="mw-cite-backlink"><a href="#cite_ref-14">↑</a></span> <span class="reference-text"><cite class="citation web">McCarthy, J; Brayton, R.; Edwards, D. Fox, P.; Luckham, D.; Maling, K.; Park, D.; Russell, S (1960). <a rel="nofollow" class="external text" href="http://history.siam.org/sup/Fox_1960_LISP.pdf">«LISP I Programmers Manual»</a> <span style="font-size:85%;">(PDF)</span>. <a href="/wiki/Boston" title="Boston">Boston</a>, <a href="/wiki/Massachusetts" title="Massachusetts">Massachusetts</a>: Artificial Intelligence Group, <a href="/w/index.php?title=M.I.T._Computation_Center&amp;action=edit&amp;redlink=1" class="new" title="M.I.T. Computation Center (página não existe)">M.I.T. Computation Center</a> and <a href="/w/index.php?title=Research_Laboratory_of_Electronics_at_MIT&amp;action=edit&amp;redlink=1" class="new" title="Research Laboratory of Electronics at MIT (página não existe)">Research Laboratory</a></cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpt.wikipedia.org%3ALisp&amp;rft.au=McCarthy%2C+J%3B+Brayton%2C+R.%3B+Edwards%2C+D.+Fox%2C+P.%3B+Luckham%2C+D.%3B+Maling%2C+K.%3B+Park%2C+D.%3B+Russell%2C+S&amp;rft.btitle=LISP+I+Programmers+Manual&amp;rft.date=1960&amp;rft.genre=unknown&amp;rft.place=Boston%2C+Massachusetts&amp;rft.pub=Artificial+Intelligence+Group%2C+M.I.T.+Computation+Center+and+Research+Laboratory&amp;rft_id=http%3A%2F%2Fhistory.siam.org%2Fsup%2FFox_1960_LISP.pdf&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span><span class="citation-comment" style="display:none; color:#33aa33"> !CS1 manut: Nomes múltiplos: lista de autores (<a href="/wiki/Categoria:!CS1_manut:_Nomes_m%C3%BAltiplos:_lista_de_autores" title="Categoria:!CS1 manut: Nomes múltiplos: lista de autores">link</a>)</span> Acessado em 11 de maio de 2010.</span>
+</li>
+<li id="cite_note-15"><span class="mw-cite-backlink"><a href="#cite_ref-15">↑</a></span> <span class="reference-text"><cite class="citation book">McCarthy, John; Abrahams, Paul W.; Edwards, Daniel J.; Hart, Timothy P.; Levin, Michael I. (1985) [1962]. <a rel="nofollow" class="external text" href="http://www.softwarepreservation.org/projects/LISP/book/LISP%201.5%20Programmers%20Manual.pdf"><i>LISP 1.5 Programmer's Manual</i></a> <span style="font-size:85%;">(PDF)</span> 2ª ed. [S.l.]: <a href="/wiki/MIT_Press" class="mw-redirect" title="MIT Press">MIT Press</a>. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="/wiki/Especial:Fontes_de_livros/0_262_130_1_1_4" title="Especial:Fontes de livros/0 262 130 1 1 4">0 262 130 1 1 4</a></cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpt.wikipedia.org%3ALisp&amp;rft.au=Abrahams%2C+Paul+W.&amp;rft.au=Edwards%2C+Daniel+J.&amp;rft.au=Hart%2C+Timothy+P.&amp;rft.au=Levin%2C+Michael+I.&amp;rft.aufirst=John&amp;rft.aulast=McCarthy&amp;rft.btitle=LISP+1.5+Programmer%27s+Manual&amp;rft.date=1985&amp;rft.edition=2%AA&amp;rft.genre=book&amp;rft.isbn=0262130114&amp;rft.pub=MIT+Press&amp;rft_id=http%3A%2F%2Fwww.softwarepreservation.org%2Fprojects%2FLISP%2Fbook%2FLISP%25201.5%2520Programmers%2520Manual.pdf&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span>
+</li>
+<li id="cite_note-16"><span class="mw-cite-backlink"><a href="#cite_ref-16">↑</a></span> <span class="reference-text"><cite class="citation book">Quam, Lynn H.; Diffle, Whitfield. <a rel="nofollow" class="external text" href="http://www.softwarepreservation.org/projects/LISP/stanford/SAILON-28.6.pdf"><i>Stanford LISP 1.6 Manual</i></a> <span style="font-size:85%;">(PDF)</span>. [S.l.: s.n.]</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpt.wikipedia.org%3ALisp&amp;rft.au=Diffle%2C+Whitfield&amp;rft.aufirst=Lynn+H.&amp;rft.aulast=Quam&amp;rft.btitle=Stanford+LISP+1.6+Manual&amp;rft.genre=book&amp;rft_id=http%3A%2F%2Fwww.softwarepreservation.org%2Fprojects%2FLISP%2Fstanford%2FSAILON-28.6.pdf&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span>
+</li>
+<li id="cite_note-17"><span class="mw-cite-backlink"><a href="#cite_ref-17">↑</a></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="https://web.archive.org/web/20071214064433/http://zane.brouhaha.com/~healyzh/doc/lisp.doc.txt">«Maclisp Reference Manual»</a>. 3 de março de 1979<span class="reference-accessdate">. Consultado em 7 de janeiro de 2012</span>. Arquivado do <a rel="nofollow" class="external text" href="http://zane.brouhaha.com/~healyzh/doc/lisp.doc.txt">original</a> em 14 de dezembro de 2007</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpt.wikipedia.org%3ALisp&amp;rft.btitle=Maclisp+Reference+Manual&amp;rft.date=1979-03-03&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fzane.brouhaha.com%2F~healyzh%2Fdoc%2Flisp.doc.txt&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span>
+</li>
+<li id="cite_note-18"><span class="mw-cite-backlink"><a href="#cite_ref-18">↑</a></span> <span class="reference-text"><cite class="citation book">Teitelman, Warren (1974). <a rel="nofollow" class="external text" href="https://web.archive.org/web/20060602134835/http://www.bitsavers.org/pdf/xerox/interlisp/1974_InterlispRefMan.pdf"><i>InterLisp Reference Manual</i></a> <span style="font-size:85%;">(PDF)</span>. [S.l.: s.n.]<span class="reference-accessdate"> Consultado em 7 de janeiro de 2012</span>. Arquivado do <a rel="nofollow" class="external text" href="http://www.bitsavers.org/pdf/xerox/interlisp/1974_InterlispRefMan.pdf">original</a> <span style="font-size:85%;">(PDF)</span> em 2 de junho de 2006</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpt.wikipedia.org%3ALisp&amp;rft.aufirst=Warren&amp;rft.aulast=Teitelman&amp;rft.btitle=InterLisp+Reference+Manual&amp;rft.date=1974&amp;rft.genre=book&amp;rft_id=http%3A%2F%2Fwww.bitsavers.org%2Fpdf%2Fxerox%2Finterlisp%2F1974_InterlispRefMan.pdf&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span>
+</li>
+<li id="cite_note-Wexelblat-19"><span class="mw-cite-backlink"><a href="#cite_ref-Wexelblat_19-0">↑</a></span> <span class="reference-text"><cite class="citation book">Wexelblat, Richard L.(Editor) (1981). <i>History of Programming Languages</i>. New York: Academic Press. p.&#160;173-197. 758&#160;páginas. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="/wiki/Especial:Fontes_de_livros/0-12-745040-8" title="Especial:Fontes de livros/0-12-745040-8">0-12-745040-8</a></cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpt.wikipedia.org%3ALisp&amp;rft.aufirst=Richard+L.%28Editor%29&amp;rft.aulast=Wexelblat&amp;rft.btitle=History+of+Programming+Languages&amp;rft.date=1981&amp;rft.genre=book&amp;rft.isbn=0-12-745040-8&amp;rft.pages=173-197&amp;rft.place=New+York&amp;rft.pub=Academic+Press&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span>
+</li>
+</ol></div></div>
+<h2><span id="Liga.C3.A7.C3.B5es_externas"></span><span class="mw-headline" id="Ligações_externas">Ligações externas</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Lisp&amp;veaction=edit&amp;section=13" class="mw-editsection-visualeditor" title="Editar secção: Ligações externas">editar</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Lisp&amp;action=edit&amp;section=13" title="Editar secção: Ligações externas">editar código-fonte</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li><a rel="nofollow" class="external free" href="http://www-formal.stanford.edu/jmc/history/lisp/lisp.html">http://www-formal.stanford.edu/jmc/history/lisp/lisp.html</a></li>
+<li><a rel="nofollow" class="external free" href="http://www-formal.stanford.edu/jmc/lisp20th/lisp20th.html">http://www-formal.stanford.edu/jmc/lisp20th/lisp20th.html</a></li>
+<li><a rel="nofollow" class="external free" href="http://www.gigamonkeys.com/book/">http://www.gigamonkeys.com/book/</a></li>
+<li><a rel="nofollow" class="external free" href="http://www.paulgraham.com/onlisp.html">http://www.paulgraham.com/onlisp.html</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.dca.ufrn.br/~adelardo/lisp/">Linguagem LISP</a> (em Common Lisp)</li>
+<li><a rel="nofollow" class="external text" href="http://www.dca.fee.unicamp.br/courses/EA072/lisp9596/Lisp9596.html">Introdução à Linguagem Lisp</a></li>
+<li><a rel="nofollow" class="external text" href="http://lisp-br.void.cc/">Grupo de usuários no Brasil</a></li>
+<li><a rel="nofollow" class="external text" href="http://docs.autodesk.com/ACD/2011/ENU/filesALG/WSfacf1429558a55de185c428100849a0ab7-4130.htm">Usando Linguagem AutoLISP</a> (Site em inglês da Autodesk)</li>
+<li><a rel="nofollow" class="external free" href="https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1fdIwf92qhQZ6UIPwjwYzwLq_cJ-PEruZtWhGRiQoFlU&amp;font=Default&amp;lang=en&amp;initial_zoom=2&amp;height=650">https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1fdIwf92qhQZ6UIPwjwYzwLq_cJ-PEruZtWhGRiQoFlU&amp;font=Default&amp;lang=en&amp;initial_zoom=2&amp;height=650</a> (timeline da linguagem LISP e suas derivadas)</li></ul>
+<div role="navigation" class="navbox" aria-labelledby="Linguagens_de_programação" style="padding:3px"><table class="nowraplinks collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th scope="col" class="navbox-title" colspan="2"><div class="plainlinks hlist navbar mini"><ul><li class="nv-ver"><a href="/wiki/Predefini%C3%A7%C3%A3o:Linguagens_de_programa%C3%A7%C3%A3o" title="Predefinição:Linguagens de programação"><abbr title="Ver esta predefinição" style=";;background:none transparent;border:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none; padding:0;">v</abbr></a></li><li class="nv-discutir"><a href="/wiki/Predefini%C3%A7%C3%A3o_Discuss%C3%A3o:Linguagens_de_programa%C3%A7%C3%A3o" title="Predefinição Discussão:Linguagens de programação"><abbr title="Discutir esta predefinição" style=";;background:none transparent;border:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none; padding:0;">d</abbr></a></li><li class="nv-editar"><a class="external text" href="https://pt.wikipedia.org/w/index.php?title=Predefini%C3%A7%C3%A3o:Linguagens_de_programa%C3%A7%C3%A3o&amp;action=edit"><abbr title="Editar esta predefinição" style=";;background:none transparent;border:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none; padding:0;">e</abbr></a></li></ul></div><div id="Linguagens_de_programação" style="font-size:114%;margin:0 4em"><a href="/wiki/Linguagem_de_programa%C3%A7%C3%A3o" title="Linguagem de programação">Linguagens de programação</a></div></th></tr><tr><td class="navbox-abovebelow" colspan="2"><div id="Esotéricas_·_Comparação_·_História_·_Programa_Olá_Mundo_·_Algoritmo_de_Trabb_Pardo-Knuth"><a href="/wiki/Linguagem_de_programa%C3%A7%C3%A3o_esot%C3%A9rica" title="Linguagem de programação esotérica">Esotéricas</a>&#160;<b>&#183;</b>&#32; <a href="/wiki/Compara%C3%A7%C3%A3o_entre_linguagens_de_programa%C3%A7%C3%A3o" title="Comparação entre linguagens de programação">Comparação</a>&#160;<b>&#183;</b>&#32; <a href="/wiki/Hist%C3%B3ria_das_linguagens_de_programa%C3%A7%C3%A3o" title="História das linguagens de programação">História</a>&#160;<b>&#183;</b>&#32; <a href="/wiki/Programa_Ol%C3%A1_Mundo" title="Programa Olá Mundo">Programa Olá Mundo</a>&#160;<b>&#183;</b>&#32; <a href="/wiki/Algoritmo_de_Trabb_Pardo-Knuth" title="Algoritmo de Trabb Pardo-Knuth">Algoritmo de Trabb Pardo-Knuth</a></div></td></tr><tr><td colspan="2" class="navbox-list navbox-odd hlist" style="width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/Assembly" class="mw-redirect" title="Assembly">Assembly</a> (asm)</li>
+<li><a href="/wiki/C_(linguagem_de_programa%C3%A7%C3%A3o)" title="C (linguagem de programação)">C</a></li>
+<li><a href="/wiki/C%2B%2B" title="C++">C++</a></li>
+<li><a href="/wiki/C_Sharp" title="C Sharp">C#</a></li>
+<li><a href="/wiki/Fortran" title="Fortran">Fortran</a></li>
+<li><a href="/wiki/Go_(linguagem_de_programa%C3%A7%C3%A3o)" title="Go (linguagem de programação)">Go</a></li>
+<li><a href="/wiki/Groovy" title="Groovy">Groovy</a></li>
+<li><a href="/wiki/Haskell_(linguagem_de_programa%C3%A7%C3%A3o)" title="Haskell (linguagem de programação)">Haskell</a></li>
+<li><a href="/wiki/Java_(linguagem_de_programa%C3%A7%C3%A3o)" title="Java (linguagem de programação)">Java</a></li>
+<li><a href="/wiki/JavaScript" title="JavaScript">JavaScript</a> (JS)</li>
+<li><a href="/wiki/Kotlin" title="Kotlin">Kotlin</a></li>
+<li><a class="mw-selflink selflink">Lisp</a></li>
+<li><a href="/wiki/Lua_(linguagem_de_programa%C3%A7%C3%A3o)" title="Lua (linguagem de programação)">Lua</a></li>
+<li><a href="/wiki/Objective-C" title="Objective-C">Objective-C</a></li>
+<li><a href="/wiki/OCaml" title="OCaml">OCaml</a></li>
+<li><a href="/wiki/Perl" title="Perl">Perl</a></li>
+<li><a href="/wiki/PHP" title="PHP">PHP</a></li>
+<li><a href="/wiki/Python" title="Python">Python</a></li>
+<li><a href="/wiki/R_(linguagem_de_programa%C3%A7%C3%A3o)" title="R (linguagem de programação)">R</a></li>
+<li><a href="/wiki/Ruby_(linguagem_de_programa%C3%A7%C3%A3o)" title="Ruby (linguagem de programação)">Ruby</a></li>
+<li><a href="/wiki/Rust_(linguagem_de_programa%C3%A7%C3%A3o)" title="Rust (linguagem de programação)">Rust</a></li>
+<li><a href="/wiki/Scala_(linguagem_de_programa%C3%A7%C3%A3o)" title="Scala (linguagem de programação)">Scala</a></li>
+<li><a href="/wiki/Shell_script" title="Shell script">Shell</a></li>
+<li><a href="/wiki/Swift_(linguagem_de_programa%C3%A7%C3%A3o)" title="Swift (linguagem de programação)">Swift</a></li>
+<li><a href="/wiki/TypeScript" title="TypeScript">TypeScript</a></li>
+<li><a href="/wiki/Visual_Basic_.NET" title="Visual Basic .NET">Visual Basic .NET</a> (VB.NET)</li>
+<li><i><a href="/wiki/Lista_de_linguagens_de_programa%C3%A7%C3%A3o" title="Lista de linguagens de programação">mais...</a></i></li></ul>
+</div></td></tr><tr><td class="navbox-abovebelow" colspan="2"><div><a href="/wiki/Ficheiro:Folder_Hexagonal_Icon.svg" class="image" title="Página de categoria"><img alt="Página de categoria" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/48/Folder_Hexagonal_Icon.svg/16px-Folder_Hexagonal_Icon.svg.png" decoding="async" width="16" height="14" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/48/Folder_Hexagonal_Icon.svg/24px-Folder_Hexagonal_Icon.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/48/Folder_Hexagonal_Icon.svg/32px-Folder_Hexagonal_Icon.svg.png 2x" data-file-width="36" data-file-height="31" /></a> <a href="/wiki/Categoria:Linguagens_de_programa%C3%A7%C3%A3o" title="Categoria:Linguagens de programação">Categoria</a>&#160;<b>&#183;</b>&#32; <a href="/wiki/Ficheiro:Symbol_list_class.svg" class="image" title="Lista"><img alt="Lista" src="//upload.wikimedia.org/wikipedia/commons/thumb/d/db/Symbol_list_class.svg/16px-Symbol_list_class.svg.png" decoding="async" width="16" height="16" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/db/Symbol_list_class.svg/24px-Symbol_list_class.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/db/Symbol_list_class.svg/32px-Symbol_list_class.svg.png 2x" data-file-width="180" data-file-height="185" /></a> <a href="/wiki/Lista_de_linguagens_de_programa%C3%A7%C3%A3o" title="Lista de linguagens de programação">Lista</a></div></td></tr></tbody></table></div>
+<!-- 
+NewPP limit report
+Parsed by mw1319
+Cached time: 20200103164732
+Cache expiry: 2592000
+Dynamic content: false
+Complications: []
+CPU time usage: 0.592 seconds
+Real time usage: 2.534 seconds
+Preprocessor visited node count: 3522/1000000
+Preprocessor generated node count: 0/1500000
+Post‐expand include size: 54181/2097152 bytes
+Template argument size: 12129/2097152 bytes
+Highest expansion depth: 23/40
+Expensive parser function count: 0/500
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 25489/5000000 bytes
+Number of Wikibase entities loaded: 1/400
+Lua time usage: 0.150/10.000 seconds
+Lua memory usage: 3.39 MB/50 MB
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00% 2463.478      1 -total
+ 15.79%  388.902      1 Predefinição:Info/Linguagem_de_computador
+ 15.62%  384.705      1 Predefinição:Info
+  5.59%  137.747      1 Predefinição:Referências
+  4.08%  100.454      1 Predefinição:Categorização_AD_e_AB_de_outras_wikis
+  2.84%   69.993      4 Predefinição:Citar_web
+  1.69%   41.529      7 Predefinição:Citar_livro
+  1.44%   35.387      1 Predefinição:Start_date_and_age
+  1.15%   28.362      1 Predefinição:Tempo_passado
+  1.03%   25.448      1 Predefinição:Tempo_passado/código
+-->
+
+<!-- Saved in parser cache with key ptwiki:pcache:idhash:23726-0!canonical and timestamp 20200103164729 and revision id 56509047
+ -->
+</div><noscript><img src="//pt.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript></div>
+		
+		<div class="printfooter">Obtida de "<a dir="ltr" href="https://pt.wikipedia.org/w/index.php?title=Lisp&amp;oldid=56509047">https://pt.wikipedia.org/w/index.php?title=Lisp&amp;oldid=56509047</a>"</div>
+		
+		<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Especial:Categorias" title="Especial:Categorias">Categorias</a>: <ul><li><a href="/wiki/Categoria:Lisp" title="Categoria:Lisp">Lisp</a></li><li><a href="/wiki/Categoria:Linguagens_de_programa%C3%A7%C3%A3o_funcionais" title="Categoria:Linguagens de programação funcionais">Linguagens de programação funcionais</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Categorias ocultas: <ul><li><a href="/wiki/Categoria:!P%C3%A1ginas_com_cita%C3%A7%C3%B5es_usando_par%C3%A2metros_sem_suporte" title="Categoria:!Páginas com citações usando parâmetros sem suporte">!Páginas com citações usando parâmetros sem suporte</a></li><li><a href="/wiki/Categoria:!CS1_manut:_Nomes_m%C3%BAltiplos:_lista_de_autores" title="Categoria:!CS1 manut: Nomes múltiplos: lista de autores">!CS1 manut: Nomes múltiplos: lista de autores</a></li></ul></div></div>
+		<div class="visualClear"></div>
+		
+	</div>
+</div>
+<div id='mw-data-after-content'>
+	<div class="read-more-container"></div>
+</div>
+
+
+		<div id="mw-navigation">
+			<h2>Menu de navegação</h2>
+			<div id="mw-head">
+						<div id="p-personal" role="navigation" aria-labelledby="p-personal-label">
+			<h3 id="p-personal-label">Ferramentas pessoais</h3>
+			<ul>
+				<li id="pt-anonuserpage">Não autenticado</li><li id="pt-anontalk"><a href="/wiki/Especial:Minha_discuss%C3%A3o" title="Discussão sobre edições feitas a partir deste endereço IP [n]" accesskey="n">Discussão</a></li><li id="pt-anoncontribs"><a href="/wiki/Especial:Minhas_contribui%C3%A7%C3%B5es" title="Uma lista de edições feitas a partir deste endereço IP [y]" accesskey="y">Contribuições</a></li><li id="pt-createaccount"><a href="/w/index.php?title=Especial:Criar_conta&amp;returnto=Lisp" title="É encorajado a criar uma conta e iniciar sessão; no entanto, não é obrigatório">Criar uma conta</a></li><li id="pt-login"><a href="/w/index.php?title=Especial:Entrar&amp;returnto=Lisp" title="Aconselhamos-lhe a criar uma conta na Wikipédia, embora tal não seja obrigatório. [o]" accesskey="o">Entrar</a></li>			</ul>
+		</div>
+						<div id="left-navigation">
+					
+<div id="p-namespaces" role="navigation" class="vectorTabs " aria-labelledby="p-namespaces-label">
+	<h3 id="p-namespaces-label">Espa&ccedil;os nominais</h3>
+	<ul >
+		<li id="ca-nstab-main" class="selected"><a href="/wiki/Lisp" title="Ver a página de conteúdo [c]" accesskey="c">Artigo</a></li><li id="ca-talk"><a href="/wiki/Discuss%C3%A3o:Lisp" rel="discussion" title="Discussão sobre o conteúdo da página [t]" accesskey="t">Discussão</a></li>
+	</ul>
+</div>
+		<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+						<input type="checkbox" class="vectorMenuCheckbox" aria-labelledby="p-variants-label" />
+			<h3 id="p-variants-label">
+				<span>Variantes</span>
+			</h3>
+			<ul class="menu">
+							</ul>
+		</div>
+						</div>
+				<div id="right-navigation">
+					
+<div id="p-views" role="navigation" class="vectorTabs " aria-labelledby="p-views-label">
+	<h3 id="p-views-label">Vistas</h3>
+	<ul >
+		<li id="ca-view" class="collapsible selected"><a href="/wiki/Lisp">Ler</a></li><li id="ca-ve-edit" class="collapsible"><a href="/w/index.php?title=Lisp&amp;veaction=edit" title="Editar esta página [v]" accesskey="v">Editar</a></li><li id="ca-edit" class="collapsible"><a href="/w/index.php?title=Lisp&amp;action=edit" title="Editar esta página [e]" accesskey="e">Editar código-fonte</a></li><li id="ca-history" class="collapsible"><a href="/w/index.php?title=Lisp&amp;action=history" title="Edições anteriores desta página. [h]" accesskey="h">Ver histórico</a></li>
+	</ul>
+</div>
+		<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+			<input type="checkbox" class="vectorMenuCheckbox" aria-labelledby="p-cactions-label" />
+			<h3 id="p-cactions-label"><span>Mais</span></h3>
+			<ul class="menu">
+							</ul>
+		</div>
+		
+<div id="p-search" role="search">
+	<h3 >
+		<label for="searchInput">Busca</label>
+	</h3>
+	<form action="/w/index.php" id="searchform">
+		<div id="simpleSearch">
+			<input type="search" name="search" placeholder="Pesquisar na Wikipédia" title="Pesquisar na Wikipédia [f]" accesskey="f" id="searchInput"/>
+			<input type="hidden" value="Especial:Pesquisar" name="title"/>
+			
+			<input type="submit" name="fulltext" value="Pesquisar" title="Procurar páginas que contêm este texto" id="mw-searchButton" class="searchButton mw-fallbackSearchButton"/>
+			<input type="submit" name="go" value="Ir" title="Ir para uma página com este nome exacto, caso exista" id="searchButton" class="searchButton"/>
+		</div>
+	</form>
+</div>
+				</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/wiki/Wikip%C3%A9dia:P%C3%A1gina_principal" title="Visitar a página principal"></a></div>
+						<div class="portal" role="navigation" id="p-navigation" aria-labelledby="p-navigation-label">
+			<h3 id="p-navigation-label">Navegação</h3>
+			<div class="body">
+								<ul>
+					<li id="n-mainpage-description"><a href="/wiki/Wikip%C3%A9dia:P%C3%A1gina_principal" title="Visitar a página principal [z]" accesskey="z">Página principal</a></li><li id="n-featuredcontent"><a href="/wiki/Portal:Conte%C3%BAdo_destacado">Conteúdo destacado</a></li><li id="n-currentevents"><a href="/wiki/Portal:Eventos_atuais" title="Informação temática sobre eventos atuais">Eventos atuais</a></li><li id="n-villagepump"><a href="/wiki/Wikip%C3%A9dia:Esplanada">Esplanada</a></li><li id="n-randompage"><a href="/wiki/Especial:Aleat%C3%B3ria" title="Carregar página aleatória [x]" accesskey="x">Página aleatória</a></li><li id="n-portals"><a href="/wiki/Portal:%C3%8Dndice">Portais</a></li><li id="n-bug_in_article"><a href="/wiki/Wikip%C3%A9dia:Informe_um_erro">Informar um erro</a></li><li id="n-shoplink"><a href="//shop.wikimedia.org" title="Visite a loja da Wikipédia">Loja da Wikipédia</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-interaction" aria-labelledby="p-interaction-label">
+			<h3 id="p-interaction-label">Colaboração</h3>
+			<div class="body">
+								<ul>
+					<li id="n-welcome"><a href="/wiki/Wikip%C3%A9dia:Boas-vindas">Boas-vindas</a></li><li id="n-help"><a href="/wiki/Ajuda:P%C3%A1gina_principal" title="Um local reservado para auxílio.">Ajuda</a></li><li id="n-testpage"><a href="/wiki/Wikip%C3%A9dia:P%C3%A1gina_de_testes">Página de testes</a></li><li id="n-portal"><a href="/wiki/Wikip%C3%A9dia:Portal_comunit%C3%A1rio" title="Sobre o projeto">Portal comunitário</a></li><li id="n-recentchanges"><a href="/wiki/Especial:Mudan%C3%A7as_recentes" title="Uma lista de mudanças recentes nesta wiki [r]" accesskey="r">Mudanças recentes</a></li><li id="n-maintenance"><a href="/wiki/Wikip%C3%A9dia:Manuten%C3%A7%C3%A3o">Manutenção</a></li><li id="n-createpage"><a href="/wiki/Ajuda:Guia_de_edi%C3%A7%C3%A3o/Como_come%C3%A7ar_uma_p%C3%A1gina">Criar página</a></li><li id="n-newpages-description"><a href="/wiki/Especial:P%C3%A1ginas_novas">Páginas novas</a></li><li id="n-contact-description"><a href="/wiki/Wikip%C3%A9dia:Contato">Contato</a></li><li id="n-sitesupport"><a href="//donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=20120521SB001&amp;uselang=pt" title="Ajude-nos">Donativos</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-wikibase-otherprojects" aria-labelledby="p-wikibase-otherprojects-label">
+			<h3 id="p-wikibase-otherprojects-label">Noutros projetos</h3>
+			<div class="body">
+								<ul>
+					<li class="wb-otherproject-link wb-otherproject-commons"><a href="https://commons.wikimedia.org/wiki/Category:Lisp_(programming_language)" hreflang="en">Wikimedia Commons</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-coll-print_export" aria-labelledby="p-coll-print_export-label">
+			<h3 id="p-coll-print_export-label">Imprimir/exportar</h3>
+			<div class="body">
+								<ul>
+					<li id="coll-create_a_book"><a href="/w/index.php?title=Especial:Livro&amp;bookcmd=book_creator&amp;referer=Lisp">Criar um livro</a></li><li id="coll-download-as-rl"><a href="/w/index.php?title=Especial:ElectronPdf&amp;page=Lisp&amp;action=show-download-screen">Descarregar como PDF</a></li><li id="t-print"><a href="/w/index.php?title=Lisp&amp;printable=yes" title="Versão para impressão desta página [p]" accesskey="p">Versão para impressão</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-tb" aria-labelledby="p-tb-label">
+			<h3 id="p-tb-label">Ferramentas</h3>
+			<div class="body">
+								<ul>
+					<li id="t-whatlinkshere"><a href="/wiki/Especial:P%C3%A1ginas_afluentes/Lisp" title="Lista de todas as páginas que contêm hiperligações para esta [j]" accesskey="j">Páginas afluentes</a></li><li id="t-recentchangeslinked"><a href="/wiki/Especial:Altera%C3%A7%C3%B5es_relacionadas/Lisp" rel="nofollow" title="Mudanças recentes nas páginas para as quais esta contém hiperligações [k]" accesskey="k">Alterações relacionadas</a></li><li id="t-upload"><a href="/wiki/Wikipedia:Carregar_ficheiro" title="Carregar ficheiros [u]" accesskey="u">Carregar ficheiro</a></li><li id="t-specialpages"><a href="/wiki/Especial:P%C3%A1ginas_especiais" title="Lista de páginas especiais [q]" accesskey="q">Páginas especiais</a></li><li id="t-permalink"><a href="/w/index.php?title=Lisp&amp;oldid=56509047" title="Hiperligação permanente para esta revisão da página">Hiperligação permanente</a></li><li id="t-info"><a href="/w/index.php?title=Lisp&amp;action=info" title="Mais informações sobre esta página">Informações da página</a></li><li id="t-wikibase"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q132874" title="Hiperligação para o elemento do repositório de dados [g]" accesskey="g">Elemento Wikidata</a></li><li id="t-cite"><a href="/w/index.php?title=Especial:Citar&amp;page=Lisp&amp;id=56509047" title="Informação sobre como citar esta página">Citar esta página</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-lang" aria-labelledby="p-lang-label">
+			<h3 id="p-lang-label">Noutras línguas</h3>
+			<div class="body">
+								<ul>
+					<li class="interlanguage-link interwiki-an"><a href="https://an.wikipedia.org/wiki/Lisp" title="Lisp — aragonês" lang="an" hreflang="an" class="interlanguage-link-target">Aragonés</a></li><li class="interlanguage-link interwiki-ar"><a href="https://ar.wikipedia.org/wiki/%D9%84%D9%8A%D8%B3%D8%A8" title="ليسب — árabe" lang="ar" hreflang="ar" class="interlanguage-link-target">العربية</a></li><li class="interlanguage-link interwiki-ast"><a href="https://ast.wikipedia.org/wiki/Lisp" title="Lisp — asturiano" lang="ast" hreflang="ast" class="interlanguage-link-target">Asturianu</a></li><li class="interlanguage-link interwiki-az"><a href="https://az.wikipedia.org/wiki/Lisp" title="Lisp — azerbaijano" lang="az" hreflang="az" class="interlanguage-link-target">Azərbaycanca</a></li><li class="interlanguage-link interwiki-bat-smg"><a href="https://bat-smg.wikipedia.org/wiki/Lisp" title="Lisp — Samogitian" lang="sgs" hreflang="sgs" class="interlanguage-link-target">Žemaitėška</a></li><li class="interlanguage-link interwiki-be"><a href="https://be.wikipedia.org/wiki/%D0%9B%D1%96%D1%81%D0%BF" title="Лісп — bielorrusso" lang="be" hreflang="be" class="interlanguage-link-target">Беларуская</a></li><li class="interlanguage-link interwiki-bg"><a href="https://bg.wikipedia.org/wiki/Lisp_(%D0%B5%D0%B7%D0%B8%D0%BA_%D0%B7%D0%B0_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%B8%D1%80%D0%B0%D0%BD%D0%B5)" title="Lisp (език за програмиране) — búlgaro" lang="bg" hreflang="bg" class="interlanguage-link-target">Български</a></li><li class="interlanguage-link interwiki-bn"><a href="https://bn.wikipedia.org/wiki/%E0%A6%B2%E0%A6%BF%E0%A6%B8%E0%A7%8D%E0%A6%AA_(%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A7%8B%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AE%E0%A6%BF%E0%A6%82_%E0%A6%AD%E0%A6%BE%E0%A6%B7%E0%A6%BE)" title="লিস্প (প্রোগ্রামিং ভাষা) — bengalês" lang="bn" hreflang="bn" class="interlanguage-link-target">বাংলা</a></li><li class="interlanguage-link interwiki-bs"><a href="https://bs.wikipedia.org/wiki/Lisp_(programski_jezik)" title="Lisp (programski jezik) — bósnio" lang="bs" hreflang="bs" class="interlanguage-link-target">Bosanski</a></li><li class="interlanguage-link interwiki-ca"><a href="https://ca.wikipedia.org/wiki/Lisp" title="Lisp — catalão" lang="ca" hreflang="ca" class="interlanguage-link-target">Català</a></li><li class="interlanguage-link interwiki-ckb"><a href="https://ckb.wikipedia.org/wiki/%D9%84%DB%8C%D8%B3%D9%BE" title="لیسپ — sorani curdo" lang="ckb" hreflang="ckb" class="interlanguage-link-target">کوردی</a></li><li class="interlanguage-link interwiki-cs"><a href="https://cs.wikipedia.org/wiki/Lisp" title="Lisp — checo" lang="cs" hreflang="cs" class="interlanguage-link-target">Čeština</a></li><li class="interlanguage-link interwiki-cy"><a href="https://cy.wikipedia.org/wiki/Lisp" title="Lisp — galês" lang="cy" hreflang="cy" class="interlanguage-link-target">Cymraeg</a></li><li class="interlanguage-link interwiki-da"><a href="https://da.wikipedia.org/wiki/Lisp" title="Lisp — dinamarquês" lang="da" hreflang="da" class="interlanguage-link-target">Dansk</a></li><li class="interlanguage-link interwiki-de"><a href="https://de.wikipedia.org/wiki/Lisp" title="Lisp — alemão" lang="de" hreflang="de" class="interlanguage-link-target">Deutsch</a></li><li class="interlanguage-link interwiki-el"><a href="https://el.wikipedia.org/wiki/Lisp" title="Lisp — grego" lang="el" hreflang="el" class="interlanguage-link-target">Ελληνικά</a></li><li class="interlanguage-link interwiki-en"><a href="https://en.wikipedia.org/wiki/Lisp_(programming_language)" title="Lisp (programming language) — inglês" lang="en" hreflang="en" class="interlanguage-link-target">English</a></li><li class="interlanguage-link interwiki-eo"><a href="https://eo.wikipedia.org/wiki/Lisp_(programlingvo)" title="Lisp (programlingvo) — esperanto" lang="eo" hreflang="eo" class="interlanguage-link-target">Esperanto</a></li><li class="interlanguage-link interwiki-es"><a href="https://es.wikipedia.org/wiki/Lisp" title="Lisp — espanhol" lang="es" hreflang="es" class="interlanguage-link-target">Español</a></li><li class="interlanguage-link interwiki-et"><a href="https://et.wikipedia.org/wiki/Lisp" title="Lisp — estónio" lang="et" hreflang="et" class="interlanguage-link-target">Eesti</a></li><li class="interlanguage-link interwiki-eu"><a href="https://eu.wikipedia.org/wiki/Lisp" title="Lisp — basco" lang="eu" hreflang="eu" class="interlanguage-link-target">Euskara</a></li><li class="interlanguage-link interwiki-fa"><a href="https://fa.wikipedia.org/wiki/%D9%84%DB%8C%D8%B3%D9%BE" title="لیسپ — persa" lang="fa" hreflang="fa" class="interlanguage-link-target">فارسی</a></li><li class="interlanguage-link interwiki-fi"><a href="https://fi.wikipedia.org/wiki/Lisp" title="Lisp — finlandês" lang="fi" hreflang="fi" class="interlanguage-link-target">Suomi</a></li><li class="interlanguage-link interwiki-fr"><a href="https://fr.wikipedia.org/wiki/Lisp" title="Lisp — francês" lang="fr" hreflang="fr" class="interlanguage-link-target">Français</a></li><li class="interlanguage-link interwiki-ga"><a href="https://ga.wikipedia.org/wiki/LISP" title="LISP — irlandês" lang="ga" hreflang="ga" class="interlanguage-link-target">Gaeilge</a></li><li class="interlanguage-link interwiki-gl"><a href="https://gl.wikipedia.org/wiki/Lisp" title="Lisp — galego" lang="gl" hreflang="gl" class="interlanguage-link-target">Galego</a></li><li class="interlanguage-link interwiki-he"><a href="https://he.wikipedia.org/wiki/Lisp" title="Lisp — hebraico" lang="he" hreflang="he" class="interlanguage-link-target">עברית</a></li><li class="interlanguage-link interwiki-hr"><a href="https://hr.wikipedia.org/wiki/Lisp" title="Lisp — croata" lang="hr" hreflang="hr" class="interlanguage-link-target">Hrvatski</a></li><li class="interlanguage-link interwiki-hu"><a href="https://hu.wikipedia.org/wiki/Lisp_(programoz%C3%A1si_nyelv)" title="Lisp (programozási nyelv) — húngaro" lang="hu" hreflang="hu" class="interlanguage-link-target">Magyar</a></li><li class="interlanguage-link interwiki-hy"><a href="https://hy.wikipedia.org/wiki/%D4%BC%D5%AB%D5%BD%D5%BA" title="Լիսպ — arménio" lang="hy" hreflang="hy" class="interlanguage-link-target">Հայերեն</a></li><li class="interlanguage-link interwiki-is"><a href="https://is.wikipedia.org/wiki/Lisp" title="Lisp — islandês" lang="is" hreflang="is" class="interlanguage-link-target">Íslenska</a></li><li class="interlanguage-link interwiki-it"><a href="https://it.wikipedia.org/wiki/Lisp" title="Lisp — italiano" lang="it" hreflang="it" class="interlanguage-link-target">Italiano</a></li><li class="interlanguage-link interwiki-ja"><a href="https://ja.wikipedia.org/wiki/LISP" title="LISP — japonês" lang="ja" hreflang="ja" class="interlanguage-link-target">日本語</a></li><li class="interlanguage-link interwiki-ko"><a href="https://ko.wikipedia.org/wiki/%EB%A6%AC%EC%8A%A4%ED%94%84" title="리스프 — coreano" lang="ko" hreflang="ko" class="interlanguage-link-target">한국어</a></li><li class="interlanguage-link interwiki-ky"><a href="https://ky.wikipedia.org/wiki/Lisp_(%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B0%D0%BB%D0%BE%D0%BE_%D1%82%D0%B8%D0%BB%D0%B8)" title="Lisp (программалоо тили) — quirguiz" lang="ky" hreflang="ky" class="interlanguage-link-target">Кыргызча</a></li><li class="interlanguage-link interwiki-la"><a href="https://la.wikipedia.org/wiki/Lisp" title="Lisp — latim" lang="la" hreflang="la" class="interlanguage-link-target">Latina</a></li><li class="interlanguage-link interwiki-lt"><a href="https://lt.wikipedia.org/wiki/Lisp" title="Lisp — lituano" lang="lt" hreflang="lt" class="interlanguage-link-target">Lietuvių</a></li><li class="interlanguage-link interwiki-lv"><a href="https://lv.wikipedia.org/wiki/Lisp" title="Lisp — letão" lang="lv" hreflang="lv" class="interlanguage-link-target">Latviešu</a></li><li class="interlanguage-link interwiki-mg"><a href="https://mg.wikipedia.org/wiki/Lisp" title="Lisp — malgaxe" lang="mg" hreflang="mg" class="interlanguage-link-target">Malagasy</a></li><li class="interlanguage-link interwiki-ml"><a href="https://ml.wikipedia.org/wiki/%E0%B4%B2%E0%B4%BF%E0%B4%B8%E0%B5%8D%E0%B4%AA%E0%B5%8D" title="ലിസ്പ് — malaiala" lang="ml" hreflang="ml" class="interlanguage-link-target">മലയാളം</a></li><li class="interlanguage-link interwiki-mn"><a href="https://mn.wikipedia.org/wiki/Lisp" title="Lisp — mongol" lang="mn" hreflang="mn" class="interlanguage-link-target">Монгол</a></li><li class="interlanguage-link interwiki-mr"><a href="https://mr.wikipedia.org/wiki/%E0%A4%B2%E0%A4%BF%E0%A4%B8%E0%A5%8D%E0%A4%AA" title="लिस्प — marata" lang="mr" hreflang="mr" class="interlanguage-link-target">मराठी</a></li><li class="interlanguage-link interwiki-ms"><a href="https://ms.wikipedia.org/wiki/LISP" title="LISP — malaio" lang="ms" hreflang="ms" class="interlanguage-link-target">Bahasa Melayu</a></li><li class="interlanguage-link interwiki-nl"><a href="https://nl.wikipedia.org/wiki/Lisp_(programmeertaal)" title="Lisp (programmeertaal) — neerlandês" lang="nl" hreflang="nl" class="interlanguage-link-target">Nederlands</a></li><li class="interlanguage-link interwiki-nn"><a href="https://nn.wikipedia.org/wiki/Lisp" title="Lisp — norueguês nynorsk" lang="nn" hreflang="nn" class="interlanguage-link-target">Norsk nynorsk</a></li><li class="interlanguage-link interwiki-no"><a href="https://no.wikipedia.org/wiki/Lisp" title="Lisp — norueguês bokmål" lang="nb" hreflang="nb" class="interlanguage-link-target">Norsk bokmål</a></li><li class="interlanguage-link interwiki-pl"><a href="https://pl.wikipedia.org/wiki/Lisp" title="Lisp — polaco" lang="pl" hreflang="pl" class="interlanguage-link-target">Polski</a></li><li class="interlanguage-link interwiki-ro"><a href="https://ro.wikipedia.org/wiki/LISP" title="LISP — romeno" lang="ro" hreflang="ro" class="interlanguage-link-target">Română</a></li><li class="interlanguage-link interwiki-ru"><a href="https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%81%D0%BF" title="Лисп — russo" lang="ru" hreflang="ru" class="interlanguage-link-target">Русский</a></li><li class="interlanguage-link interwiki-sco"><a href="https://sco.wikipedia.org/wiki/Lisp_(programmin_leid)" title="Lisp (programmin leid) — scots" lang="sco" hreflang="sco" class="interlanguage-link-target">Scots</a></li><li class="interlanguage-link interwiki-sh"><a href="https://sh.wikipedia.org/wiki/Lisp" title="Lisp — servo-croata" lang="sh" hreflang="sh" class="interlanguage-link-target">Srpskohrvatski / српскохрватски</a></li><li class="interlanguage-link interwiki-simple"><a href="https://simple.wikipedia.org/wiki/LISP" title="LISP — Simple English" lang="en-simple" hreflang="en-simple" class="interlanguage-link-target">Simple English</a></li><li class="interlanguage-link interwiki-sk"><a href="https://sk.wikipedia.org/wiki/Lisp" title="Lisp — eslovaco" lang="sk" hreflang="sk" class="interlanguage-link-target">Slovenčina</a></li><li class="interlanguage-link interwiki-sl"><a href="https://sl.wikipedia.org/wiki/Lisp_(programski_jezik)" title="Lisp (programski jezik) — esloveno" lang="sl" hreflang="sl" class="interlanguage-link-target">Slovenščina</a></li><li class="interlanguage-link interwiki-sq"><a href="https://sq.wikipedia.org/wiki/Lisp" title="Lisp — albanês" lang="sq" hreflang="sq" class="interlanguage-link-target">Shqip</a></li><li class="interlanguage-link interwiki-sr"><a href="https://sr.wikipedia.org/wiki/Lisp_(programski_jezik)" title="Lisp (programski jezik) — sérvio" lang="sr" hreflang="sr" class="interlanguage-link-target">Српски / srpski</a></li><li class="interlanguage-link interwiki-sv"><a href="https://sv.wikipedia.org/wiki/Lisp" title="Lisp — sueco" lang="sv" hreflang="sv" class="interlanguage-link-target">Svenska</a></li><li class="interlanguage-link interwiki-ta"><a href="https://ta.wikipedia.org/wiki/%E0%AE%B2%E0%AE%BF%E0%AE%B8%E0%AF%8D%E0%AE%AA%E0%AF%8D" title="லிஸ்ப் — tâmil" lang="ta" hreflang="ta" class="interlanguage-link-target">தமிழ்</a></li><li class="interlanguage-link interwiki-tg"><a href="https://tg.wikipedia.org/wiki/%D0%9B%D0%B8%D1%81%D0%BF" title="Лисп — tajique" lang="tg" hreflang="tg" class="interlanguage-link-target">Тоҷикӣ</a></li><li class="interlanguage-link interwiki-th"><a href="https://th.wikipedia.org/wiki/%E0%B8%A0%E0%B8%B2%E0%B8%A9%E0%B8%B2%E0%B8%A5%E0%B8%B4%E0%B8%AA%E0%B8%9B%E0%B9%8C" title="ภาษาลิสป์ — tailandês" lang="th" hreflang="th" class="interlanguage-link-target">ไทย</a></li><li class="interlanguage-link interwiki-tr"><a href="https://tr.wikipedia.org/wiki/Lisp" title="Lisp — turco" lang="tr" hreflang="tr" class="interlanguage-link-target">Türkçe</a></li><li class="interlanguage-link interwiki-uk"><a href="https://uk.wikipedia.org/wiki/Lisp" title="Lisp — ucraniano" lang="uk" hreflang="uk" class="interlanguage-link-target">Українська</a></li><li class="interlanguage-link interwiki-vi"><a href="https://vi.wikipedia.org/wiki/Lisp" title="Lisp — vietnamita" lang="vi" hreflang="vi" class="interlanguage-link-target">Tiếng Việt</a></li><li class="interlanguage-link interwiki-zh"><a href="https://zh.wikipedia.org/wiki/LISP" title="LISP — chinês" lang="zh" hreflang="zh" class="interlanguage-link-target">中文</a></li><li class="interlanguage-link interwiki-zh-yue"><a href="https://zh-yue.wikipedia.org/wiki/Lisp" title="Lisp — Cantonese" lang="yue" hreflang="yue" class="interlanguage-link-target">粵語</a></li>				</ul>
+				<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q132874#sitelinks-wikipedia" title="Editar hiperligações interlínguas" class="wbc-editpage">Editar hiperligações</a></span></div>			</div>
+		</div>
+				</div>
+		</div>
+				<div id="footer" role="contentinfo">
+						<ul id="footer-info">
+								<li id="footer-info-lastmod"> Esta página foi editada pela última vez às 21h26min de 19 de outubro de 2019.</li>
+								<li id="footer-info-copyright">Este texto é disponibilizado nos termos da licença <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.pt">Atribuição-CompartilhaIgual 3.0 Não Adaptada (CC BY-SA 3.0) da Creative Commons</a>;
+pode estar sujeito a condições adicionais.
+Para mais detalhes, consulte as <a href="https://foundation.wikimedia.org/wiki/Condições_de_Uso">condições de utilização</a>.</li>
+							</ul>
+						<ul id="footer-places">
+								<li id="footer-places-privacy"><a href="https://meta.wikimedia.org/wiki/Privacy_policy/pt-br" class="extiw" title="m:Privacy policy/pt-br">Política de privacidade</a></li>
+								<li id="footer-places-about"><a href="/wiki/Wikip%C3%A9dia:Sobre" class="mw-redirect" title="Wikipédia:Sobre">Sobre a Wikipédia</a></li>
+								<li id="footer-places-disclaimer"><a href="/wiki/Wikip%C3%A9dia:Aviso_geral" title="Wikipédia:Aviso geral">Avisos gerais</a></li>
+								<li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Programadores</a></li>
+								<li id="footer-places-statslink"><a href="https://stats.wikimedia.org/v2/#/pt.wikipedia.org">Estatísticas</a></li>
+								<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Cookie_statement">Declaração sobre ''cookies''</a></li>
+								<li id="footer-places-mobileview"><a href="//pt.m.wikipedia.org/w/index.php?title=Lisp&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Versão móvel</a></li>
+							</ul>
+										<ul id="footer-icons" class="noprint">
+										<li id="footer-copyrightico">
+						<a href="https://wikimediafoundation.org/"><img src="/static/images/wikimedia-button.png" srcset="/static/images/wikimedia-button-1.5x.png 1.5x, /static/images/wikimedia-button-2x.png 2x" width="88" height="31" alt="Wikimedia Foundation"/></a>					</li>
+										<li id="footer-poweredbyico">
+						<a href="https://www.mediawiki.org/"><img src="/static/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/static/images/poweredby_mediawiki_132x47.png 1.5x, /static/images/poweredby_mediawiki_176x62.png 2x" width="88" height="31"/></a>					</li>
+									</ul>
+						<div style="clear: both;"></div>
+		</div>
+		
+
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.592","walltime":"2.534","ppvisitednodes":{"value":3522,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":54181,"limit":2097152},"templateargumentsize":{"value":12129,"limit":2097152},"expansiondepth":{"value":23,"limit":40},"expensivefunctioncount":{"value":0,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":25489,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00% 2463.478      1 -total"," 15.79%  388.902      1 Predefinição:Info/Linguagem_de_computador"," 15.62%  384.705      1 Predefinição:Info","  5.59%  137.747      1 Predefinição:Referências","  4.08%  100.454      1 Predefinição:Categorização_AD_e_AB_de_outras_wikis","  2.84%   69.993      4 Predefinição:Citar_web","  1.69%   41.529      7 Predefinição:Citar_livro","  1.44%   35.387      1 Predefinição:Start_date_and_age","  1.15%   28.362      1 Predefinição:Tempo_passado","  1.03%   25.448      1 Predefinição:Tempo_passado/código"]},"scribunto":{"limitreport-timeusage":{"value":"0.150","limit":"10.000"},"limitreport-memusage":{"value":3558797,"limit":52428800}},"cachereport":{"origin":"mw1319","timestamp":"20200103164732","ttl":2592000,"transientcontent":false}}});});</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Lisp","url":"https:\/\/pt.wikipedia.org\/wiki\/Lisp","sameAs":"http:\/\/www.wikidata.org\/entity\/Q132874","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q132874","author":{"@type":"Organization","name":"Contribuidores dos projetos da Wikimedia"},"publisher":{"@type":"Organization","name":"Funda\u00e7\u00e3o Wikimedia, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2004-08-10T21:18:14Z","dateModified":"2019-10-19T21:26:41Z","headline":"linguagem de programa\u00e7\u00e3o"}</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":166,"wgHostname":"mw1274"});});</script>
+</body>
+</html>
