@@ -7,7 +7,8 @@ var logger = require('morgan');
 var mongoose = require('mongoose');
 mongoose.connect('mongodb://127.0.0.1:27017/ournote', {useNewUrlParser: true, useUnifiedTopology: true });
 
-var apiRouter = require('./routes/api');
+var userApiRouter = require('./routes/user-api');
+var groupApiRouter = require('./routes/group-api');
 
 var app = express();
 
@@ -21,7 +22,8 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use('/', apiRouter);
+app.use('/', userApiRouter);
+app.use('/root', groupApiRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

@@ -14,6 +14,6 @@
         "sub_groups" : [],
         "read_perm" : ["artur@mail.com"],
         "write_perm" : ["artur@mail.com"],
-        "page" : [{"p":"Hello World!!"}]
+        "page" : [{"p":"Hello World!!"}, {"img":"https://cdn-images-1.medium.com/max/1200/1*-1gQfaaOFi1q69Bl1uZNEg.gif"}]
     }
 ]

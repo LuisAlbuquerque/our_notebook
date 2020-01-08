@@ -15,7 +15,7 @@ var api_post = email => res => result => {
 }
 
 var api_get = path => res => result => {
-    axios.get(link + "/" + path)
+    axios.get(link + "/root/" + path)
         .then(dados => {
             result(dados);
         })
