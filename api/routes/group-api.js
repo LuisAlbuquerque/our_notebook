@@ -15,10 +15,13 @@ router.get('/*', (req, res) => {
 });
 
 router.post('/*', (req, res) => {
+    console.log("add new group")
     let path = req.params['0'].replace(/\/+$/, '');
-    Groups.group_id("/" + path)
-            .then(dados => res.jsonp(dados[0]))
-            .catch(erro => res.status(500).jsonp(erro));
+    let group_name = req.body["group_name"];
+    let email = req.body["mail"];
+    let name = req.body["name"];
+    console.log(req.body)
+    Groups.add_group(res,group_name,name,email);
 });
 
 router.put('/*', (req, res) => {

@@ -1,5 +1,7 @@
 var Group = require('../models/groups');
 
+var last = (a) => a[a.lenght -1];
+
 const Groups = module.exports;
 
 Groups.list_groups = () => {
@@ -12,6 +14,29 @@ Groups.names = () => {
     return Group
         .find({},{name : 1})
         .exec();
+}
+
+Groups.add_group = (res,path,name,mail) => {
+    var group = {
+        path : path,
+        id_creator : mail,
+        name : name,
+        sub_groups : [ ],
+        read_perm  : [ mail ],
+        write_perm : [ mail ],
+        page       : [ {"h1" : name}]
+    }
+    console.log(group)
+    var object_group = new Group(group);
+    object_group.save(err =>{
+        if(!err){
+            res.jsonp({ok : 1});
+        }
+        else{
+            res.jsonp({ok : -1});
+        }
+    });
+        
 }
 
 Groups.group_id = id => {
