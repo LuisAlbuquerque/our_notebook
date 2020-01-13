@@ -46,6 +46,76 @@ Groups.group_id = id => {
         .exec();
 }
 
+var remove_id = (object) => {
+    let simplehtml = ["h1","h2","h3","p","img","pdf"]
+    res = {}
+    type = ""
+    simplehtml.forEach((e)=>{
+        if(object[e]!= undefined){
+            res[e] = object[e]
+        }
+    }
+
+    ) 
+
+    return res
+
+    //var obj = {};
+    //var keys = Object.keys(object);
+    //var values = Object.values(object);
+    //for(let i = 0; i< keys.lenght ; i++){
+    //    if(simplehtml.find((e)=> e==keys[i]))
+    //        obj[keys[i]] = values[i]
+    //}
+    //console.log(obj)
+    //return obj
+
+}
+Groups.swap_elements = (res,id,i,j) => {
+    Groups.page(id)
+            .then(dados =>{ 
+            page = (dados[0].page);
+            aux = page[i];
+            page[i] = page[j];
+            page[j] = aux;
+            Group.findByIdAndUpdate(
+                dados[0]._id,
+                {page : page},
+                {new : true},
+                (err,d) => {
+                    if(!err){
+                        console.log(d.page.map(remove_id))
+                        page = page.map(remove_id)
+                        //res = d.page.map(remove_id)
+                        res.jsonp({ok : page});
+                    }else{
+                        res.jsonp({ok : -2})
+                    }
+                })
+            })
+            .catch(err => res.jsonp({ok : -1}))
+}
+
+Groups.delete_elements = (res,id,l) => {
+    Groups.page(id)
+            .then(dados =>{ 
+            page = (dados[0].page);
+
+            Group.findByIdAndUpdate(
+                dados[0]._id,
+                {page : page},
+                {new : true},
+                (err,d) => {
+                    if(!err){
+                        res.jsonp({ok : d});
+                    }else{
+                        res.jsonp({ok : -2})
+                    }
+                })
+            })
+            .catch(err => res.jsonp({ok : -1}))
+}
+
 Groups.page = id => {
     return Group
         .find({path : id},{page : 1})

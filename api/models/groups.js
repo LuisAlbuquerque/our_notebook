@@ -5,6 +5,10 @@ var card_Schema = new mongoose.Schema({
     p: String,
     img: String,
     pdf: String,
+    h1: String,
+    h2: String,
+    h3: String
+
 });
 
 var PATH  = String;
