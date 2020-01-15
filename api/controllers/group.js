@@ -24,7 +24,7 @@ Groups.add_group = (res,path,name,mail) => {
         sub_groups : [ ],
         read_perm  : [ mail ],
         write_perm : [ mail ],
-        page       : [ {"h1" : name}]
+        page       : [ {"h1" : name} ]
     }
     console.log(group)
     var object_group = new Group(group);
@@ -71,6 +71,31 @@ var remove_id = (object) => {
     //return obj
 
 }
+
+
+Groups.add_element = (res,id,content) => {
+    Groups.page(id)
+            .then(dados =>{ 
+            page = (dados[0].page);
+            page.push(content);
+            Group.findByIdAndUpdate(
+                dados[0]._id,
+                {page : page},
+                {new : true},
+                (err,d) => {
+                    if(!err){
+                        res.jsonp({ok : d});
+                    }else{
+                        res.jsonp({ok : -2})
+                    }
+                })
+            })
+            .catch(err => res.jsonp({ok : -1}))
+}
+
+
+
+
 Groups.swap_elements = (res,id,i,j) => {
     Groups.page(id)
             .then(dados =>{ 
@@ -96,11 +121,23 @@ Groups.swap_elements = (res,id,i,j) => {
             .catch(err => res.jsonp({ok : -1}))
 }
 
+var remove_list = (arr,l) =>{
+    res = []
+    for(let x=0; x<arr.lenght ; x++){
+        if(l.indexOf(x) == -1){
+            res.push(arr[x]);
+        }
+    }
+    return res;
+
+
+}
+
 Groups.delete_elements = (res,id,l) => {
     Groups.page(id)
             .then(dados =>{ 
             page = (dados[0].page);
-
+            page = remove_list(page,l);
             Group.findByIdAndUpdate(
                 dados[0]._id,
                 {page : page},

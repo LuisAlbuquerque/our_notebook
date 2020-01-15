@@ -27,9 +27,14 @@ router.post('/*', (req, res) => {
 
 router.put('/*', (req, res) => {
     let path = req.params['0'].replace(/\/+$/, '');
-    let i = req.body.i;
-    let j = req.body.j;
-    Groups.swap_elements(res,path,i,j);
+    let i    = req.body.i;
+    let j    = req.body.j;
+    let page = req.body.page;
+    if(page != undefined){
+        Groups.add_element(res,path,path);
+    }else{
+        Groups.swap_elements(res,path,i,j);
+    }
     //Groups.page(path)
     //        .then(dados => res.jsonp(dados))
     //        .catch(erro => res.status(500).jsonp(erro));
