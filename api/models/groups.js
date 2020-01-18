@@ -7,7 +7,8 @@ var card_Schema = new mongoose.Schema({
     pdf: String,
     h1: String,
     h2: String,
-    h3: String
+    h3: String,
+    file : String
 
 });
 

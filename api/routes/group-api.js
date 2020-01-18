@@ -41,7 +41,42 @@ var movefile = (req,res,path) => {
     fs.mkdirSync(newfolder, { recursive: true });
     fs.rename(oldpath, newpath, (err)=>{
         if(err) res.jsonp(err)
-        res.jsonp(newpath);
+        //res.jsonp(newpath);
+        //
+        var servepath = "http://localhost:3001/uploads/" + path + "/" + req.file.originalname;
+        console.log(req.file.mimetype)
+        switch(req.file.mimetype){
+            case 'application/pdf': Groups.add_element(res,path,{pdf : servepath});
+                                   break;
+
+            case 'image/gif':      Groups.add_element(res,path,{img : servepath});
+                                   break;
+
+            case 'image/jpeg':      Groups.add_element(res,path,{img : servepath});
+                                   break;
+
+            case 'image/png':      Groups.add_element(res,path,{img : servepath});
+                                   break;
+
+            //case 'audio/wav':      Groups.add_element(res,path,{audio : servepath});
+            //                       break;
+
+            //case 'audio/wave':      Groups.add_element(res,path,{audio : servepath});
+            //                       break;
+
+            //case 'video/webm':      Groups.add_element(res,path,{video : servepath});
+            //                       break;
+
+            //case 'video/ogg':      Groups.add_element(res,path,{video : servepath});
+            //                       break;
+
+            case 'aplication/zip': Groups.add_element(res,path,{file : servepath});
+                                   break;
+            default:
+                Groups.add_element(res,path,{file : servepath});
+
+        }
+        //Groups.add_element(res,path,{img : servepath});
     });
 }
 
