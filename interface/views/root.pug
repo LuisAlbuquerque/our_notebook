@@ -27,6 +27,11 @@ block content
                         button(onclick="swap_elements('" + path + "')") Swap
                         button(onclick="delete_elements('" + path + "')") Delete
                         button(onclick="add_card('" + path + "')") Cria Nota
+                        form.w3-container(action="http://localhost:4877/root"+path method="post" enctype="multipart/form-data")
+                            label Ficheiro
+                            input(id="file" type="file" name="file") 
+                            input(type="submit" value="Enviar") 
+                            
                     if group.page
                         each card in group.page
                             tr
@@ -42,6 +47,10 @@ block content
                                                     h2= card.h2
                                                 when 'img'
                                                     img(src=card.img)
+                                                when 'pdf'
+                                                    embed(src=card.pdf)
+                                                when 'file'
+                                                    a(href=card.file)= card.file
                                                 default
                                                     p better luck next time
                                         when 'p'

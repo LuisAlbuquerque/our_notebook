@@ -5,6 +5,45 @@ var Groups  = require('../controllers/group');
 const multer = require('multer');
 const multerConfig = require('./config/multer');
 
+const add_element = (res,path,type,content) => {
+    Groups.page(path)
+        .then(dados =>{ 
+            page = (dados[0].page);
+            switch(type){
+                case 'p' : page.push({p:content});
+                   break;
+                case 'pdf' : page.push({pdf:content});
+                   break;
+                case 'img' : page.push({img:content});
+                   break;
+                case 'h1' : page.push({h1:content});
+                   break;
+                case 'h2' : page.push({h2:content});
+                   break;
+                case 'h3' : page.push({h3:content});
+                   break;
+                case 'a' : page.push({a:content});
+                   break;
+                default: page.push({file:content});
+            }
+            Group.findByIdAndUpdate(
+                dados[0]._id,
+                {page : page},
+                {new : true},
+                (err,d) => {
+                    if(!err){
+                        page = page.map(remove_id)
+                        console.log(page);
+                    }else{
+                        console.log({ok : -2})
+                    }
+                })
+            })
+        .catch(err => console.log({ok : -1}))
+}
+
+
+
 //var upload = multer(multerConfig)
 var upload = multer({dest: 'uploads'})
 
@@ -20,7 +59,7 @@ router.get('/*', (req, res) => {
             .catch(erro => res.status(500).jsonp(erro));
 });
 
-router.post('/*', (req, res) => {
+router.post('/*', upload.single('file'), (req, res) => {
     console.log("add new group")
     let path = req.params['0'].replace(/\/+$/, '');
     console.log(path)
@@ -28,7 +67,14 @@ router.post('/*', (req, res) => {
     //let group_name = req.body["group_name"];
     let name = req.body["name"];
     console.log(req.body)
-    Groups.add_group(res,path+"/"+name,name,email);
+    if(req.file != undefined){
+        console.log("path: " + path)
+        movefile(req,res,path);
+        res.redirect('http://localhost:5877/root/' + path);
+        console.log(req.file);
+    }else{
+        Groups.add_group(res,path+"/"+name,name,email);
+    }
 });
 
 var movefile = (req,res,path) => {
@@ -47,60 +93,52 @@ var movefile = (req,res,path) => {
         console.log("servepath: " + servepath);
         console.log(req.file.mimetype)
         switch(req.file.mimetype){
-            case 'application/pdf': Groups.add_element(res,path,{pdf : servepath});
+            case 'application/pdf': add_element(res,path,"pdf", servepath);
                                    break;
 
-            case 'image/gif':      Groups.add_element(res,path,{img : servepath});
+            case 'image/gif':      add_element(res,path,"img", servepath);
                                    break;
 
-            case 'image/jpeg':      Groups.add_element(res,path,{img : servepath});
+            case 'image/jpeg':     add_element(res,path,"img", servepath);
                                    break;
 
-            case 'image/png':      Groups.add_element(res,path,{img : servepath});
+            case 'image/png':      add_element(res,path,"img", servepath);
                                    break;
 
-            //case 'audio/wav':      Groups.add_element(res,path,{audio : servepath});
+            //case 'audio/wav':      add_element(res,path,{audio : servepath});
             //                       break;
 
-            //case 'audio/wave':      Groups.add_element(res,path,{audio : servepath});
+            //case 'audio/wave':      add_element(res,path,{audio : servepath});
             //                       break;
 
-            //case 'video/webm':      Groups.add_element(res,path,{video : servepath});
+            //case 'video/webm':      add_element(res,path,{video : servepath});
             //                       break;
 
-            //case 'video/ogg':      Groups.add_element(res,path,{video : servepath});
+            //case 'video/ogg':      add_element(res,path,{video : servepath});
             //                       break;
 
-            case 'aplication/zip': Groups.add_element(res,path,{file : servepath});
-                                   break;
             default:
-                Groups.add_element(res,path,{file : servepath});
+                add_element(res,path,"file", servepath);
 
         }
-        //Groups.add_element(res,path,{img : servepath});
+        //add_element(res,path,{img : servepath});
     });
 }
 
-router.put('/*', upload.single('file'), (req, res) => {
+router.put('/*', (req, res) => {
     let path = req.params['0'].replace(/\/+$/, '');
     let i    = req.body.i;
     let j    = req.body.j;
 
     let text = req.body.text;
     let type = req.body.type;
+    console.log("--body--");
+    console.dir(req.body);
     if(text!= undefined && type!= undefined){
-        Groups.add_element(res,path,type,text);
+        add_element(res,path,type,text);
+        res.jsonp({ok:1})
     }else{
-        if(req.file != undefined){
-
-            console.log("path: " + path)
-            movefile(req,res,path);
-            console.log(req.file);
-            //res.jsonp('enviado')
-            //Groups.add_element(res,path,{});
-        }else{
-            Groups.swap_elements(res,path,i,j);
-        }
+        Groups.swap_elements(res,path,i,j);
     }
 
 });

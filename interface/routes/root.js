@@ -46,6 +46,7 @@ router.post('/*', function(req, res, next) {
     let path = req.params['0'].replace(/\/+$/, '');
     let path_list = path.split("/");
 
+    
     if(req.body.name!=undefined){
         api_create_group (path) (req.body) (res)
             (dados => {

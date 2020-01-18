@@ -79,37 +79,40 @@ var remove_id = (object) => {
 
 
 Groups.add_element = (res,path,type,content) => {
-    console.log("path: " + path);
-    console.log("type: " + type);
-    console.log("content: " + content);
+    console.log('old add_element')
     Groups.page(path)
         .then(dados =>{ 
-        page = (dados[0].page);
-        switch(type){
-            case 'p' : page.push({p:content});
-               break;
-            case 'h1' : page.push({h1:content});
-               break;
-            case 'h2' : page.push({h2:content});
-               break;
-            case 'h3' : page.push({h3:content});
-               break;
-            case 'a' : page.push({a:content});
-               break;
-        }
-        Group.findByIdAndUpdate(
-            dados[0]._id,
-            {page : page},
-            {new : true},
-            (err,d) => {
-                if(!err){
-                    page = page.map(remove_id)
-                    res.jsonp(page);
-                }else{
-                    res.jsonp({ok : -2})
-                }
+            page = (dados[0].page);
+            switch(type){
+                case 'p' : page.push({p:content});
+                   break;
+                case 'pdf' : page.push({pdf:content});
+                   break;
+                case 'img' : page.push({img:content});
+                   break;
+                case 'h1' : page.push({h1:content});
+                   break;
+                case 'h2' : page.push({h2:content});
+                   break;
+                case 'h3' : page.push({h3:content});
+                   break;
+                case 'a' : page.push({a:content});
+                   break;
+                default: page.push({file:content});
+            }
+            Group.findByIdAndUpdate(
+                dados[0]._id,
+                {page : page},
+                {new : true},
+                (err,d) => {
+                    if(!err){
+                        page = page.map(remove_id)
+                        res.jsonp(page);
+                    }else{
+                        res.jsonp({ok : -2})
+                    }
+                })
             })
-        })
         .catch(err => res.jsonp({ok : -1}))
 }
 
