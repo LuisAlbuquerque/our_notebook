@@ -15,7 +15,7 @@ var upload = multer({dest: 'uploads'})
  */
 router.get('/*', (req, res) => {
     let path = req.params['0'].replace(/\/+$/, '');
-    Groups.group_id("/" + path)
+    Groups.group_id(path)
             .then(dados => res.jsonp(dados[0]))
             .catch(erro => res.status(500).jsonp(erro));
 });
@@ -87,8 +87,9 @@ router.put('/*', upload.single('file'), (req, res) => {
     let j    = req.body.j;
 
     let text = req.body.text;
-    if(text!= undefined){
-        Groups.add_element(res,path,text);
+    let type = req.body.type;
+    if(text!= undefined && type!= undefined){
+        Groups.add_element(res,path,type,text);
     }else{
         if(req.file != undefined){
 
@@ -105,8 +106,8 @@ router.put('/*', upload.single('file'), (req, res) => {
 
 router.delete('/*', (req, res) => {
     let path = req.params['0'].replace(/\/+$/, '');
-    let l = req.body.i;
-    Groups.swap_elements(res,path,l);
+    let l = req.body.l;
+    Groups.delete_elements(res,path,l);
 
 });
 

@@ -8,6 +8,7 @@ var card_Schema = new mongoose.Schema({
     h1: String,
     h2: String,
     h3: String,
+    a: String,
     file : String
 
 });

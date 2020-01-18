@@ -1,6 +1,6 @@
 var Group = require('../models/groups');
 
-var last = (a) => a[a.lenght -1];
+var last = (a) => a[a.length -1];
 
 const Groups = module.exports;
 
@@ -47,7 +47,7 @@ Groups.group_id = id => {
 }
 
 var remove_id = (object) => {
-    let simplehtml = ["h1","h2","h3","p","img","pdf"]
+    let simplehtml = ["h1","h2","h3","p","img","pdf","file","a"]
     res = {}
     type = ""
     simplehtml.forEach((e)=>{
@@ -63,7 +63,7 @@ var remove_id = (object) => {
     //var obj = {};
     //var keys = Object.keys(object);
     //var values = Object.values(object);
-    //for(let i = 0; i< keys.lenght ; i++){
+    //for(let i = 0; i< keys.length ; i++){
     //    if(simplehtml.find((e)=> e==keys[i]))
     //        obj[keys[i]] = values[i]
     //}
@@ -73,18 +73,30 @@ var remove_id = (object) => {
 }
 
 
-Groups.add_element = (res,id,content) => {
+Groups.add_element = (res,id,type,content) => {
     Groups.page(id)
             .then(dados =>{ 
             page = (dados[0].page);
-            page.push(content);
+            switch(type){
+                case 'p' : page.push({p:content});
+                           break;
+                case 'h1' : page.push({h1:content});
+                           break;
+                case 'h2' : page.push({h2:content});
+                           break;
+                case 'h3' : page.push({h3:content});
+                           break;
+                case 'a' : page.push({a:content});
+                           break;
+            }
             Group.findByIdAndUpdate(
                 dados[0]._id,
                 {page : page},
                 {new : true},
                 (err,d) => {
                     if(!err){
-                        res.jsonp({ok : d});
+                        page = page.map(remove_id)
+                        res.jsonp(page);
                     }else{
                         res.jsonp({ok : -2})
                     }
@@ -112,7 +124,7 @@ Groups.swap_elements = (res,id,i,j) => {
                         console.log(d.page.map(remove_id))
                         page = page.map(remove_id)
                         //res = d.page.map(remove_id)
-                        res.jsonp({ok : page});
+                        res.jsonp(page);
                     }else{
                         res.jsonp({ok : -2})
                     }
@@ -123,7 +135,7 @@ Groups.swap_elements = (res,id,i,j) => {
 
 var remove_list = (arr,l) =>{
     res = []
-    for(let x=0; x<arr.lenght ; x++){
+    for(let x=0; x<arr.length ; x++){
         if(l.indexOf(x) == -1){
             res.push(arr[x]);
         }
@@ -144,7 +156,8 @@ Groups.delete_elements = (res,id,l) => {
                 {new : true},
                 (err,d) => {
                     if(!err){
-                        res.jsonp({ok : d});
+                        page = page.map(remove_id)
+                        res.jsonp(page);
                     }else{
                         res.jsonp({ok : -2})
                     }
@@ -179,7 +192,7 @@ Groups.sub_groups = id => {
 
 
 
-var sub_tree_list = groups => ((groups.lenght >0)
+var sub_tree_list = groups => ((groups.length >0)
                                             ?groups.map(sub_tree)
                                             :[]
                                         );
