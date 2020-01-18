@@ -11,9 +11,10 @@ block content
                             ul
                                 li 
                                     a(href="/root"+path.replace(/\/[^\/]*$/,'')) ..
-                                each sub_group in group.sub_groups
-                                    li 
-                                        a(href="/root"+path+"/" + sub_group)= sub_group
+                                if group.sub_groups
+                                    each sub_group in group.sub_groups
+                                        li 
+                                            a(href="/root"+path+"/" + sub_group)= sub_group
                             center
                                 button(onclick="addGroup('" + path + "')") +
                     tr(style='vertical-align: bottom; height: 50%')
@@ -22,17 +23,18 @@ block content
                             a(href="/") Logout
             td(style='width: 85%')
                 table
-                    each card in group.page
-                        tr
-                            td
-                                case Object.keys(card)[0]
-                                    when 'p'
-                                        p= card.p
-                                    when 'h1'
-                                        h1= card.h1
-                                    when 'img'
-                                        img(src=card.img)
-                                    default
-                                        p better luck next time
-                            td
-                                input(type="CheckBox" class="check-box")
+                    if group.page
+                        each card in group.page
+                            tr
+                                td
+                                    case Object.keys(card)[0]
+                                        when 'p'
+                                            p= card.p
+                                        when 'h1'
+                                            h1= card.h1
+                                        when 'img'
+                                            img(src=card.img)
+                                        default
+                                            p better luck next time
+                                td
+                                    input(type="CheckBox" class="check-box")

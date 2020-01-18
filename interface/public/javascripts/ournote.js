@@ -2,7 +2,8 @@ const addGroup = (path) => {
     var form = $('<form class="w3-container" action="http://localhost:3000/root' 
                     + path + 
                     '" method="post" width="80%">' +
-                    '<input type="text" name="group_name" placeholder="Nome do Grupo"/>' +
+                    '<input type="text" name="mail" placeholder="Email"/>' +
+                    '<input type="text" name="name" placeholder="Nome do Grupo"/>' +
                     '<input type="submit" value="Criar"/>' +
                     '</form>'
                 )

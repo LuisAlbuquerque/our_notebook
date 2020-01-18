@@ -27,13 +27,13 @@ var api_get = path => res => result => {
 router.get('/*', function(req, res, next) {
     let path = req.params['0'].replace(/\/+$/, '');
     let path_list = path.split("/");
-    var name;
 
     api_get (path) (res) 
-        (dados => 
+        (dados => {
+            console.log("group: " + dados.data);
             res.render("root", {path: path?"/"+path:"", 
-                               group: dados.data})
-        );
+                               group: dados.data});
+        });
 });
 
 module.exports = router;
