@@ -43,7 +43,8 @@ var movefile = (req,res,path) => {
         if(err) res.jsonp(err)
         //res.jsonp(newpath);
         //
-        var servepath = "http://localhost:3001/uploads/" + path + "/" + req.file.originalname;
+        var servepath = "http://localhost:4877/uploads/" + path + "/" + req.file.originalname;
+        console.log("servepath: " + servepath);
         console.log(req.file.mimetype)
         switch(req.file.mimetype){
             case 'application/pdf': Groups.add_element(res,path,{pdf : servepath});
@@ -81,7 +82,6 @@ var movefile = (req,res,path) => {
 }
 
 router.put('/*', upload.single('file'), (req, res) => {
-
     let path = req.params['0'].replace(/\/+$/, '');
     let i    = req.body.i;
     let j    = req.body.j;
@@ -93,6 +93,7 @@ router.put('/*', upload.single('file'), (req, res) => {
     }else{
         if(req.file != undefined){
 
+            console.log("path: " + path)
             movefile(req,res,path);
             console.log(req.file);
             //res.jsonp('enviado')
@@ -107,6 +108,8 @@ router.put('/*', upload.single('file'), (req, res) => {
 router.delete('/*', (req, res) => {
     let path = req.params['0'].replace(/\/+$/, '');
     let l = req.body.l;
+    console.log(l);
+    console.log(path);
     Groups.delete_elements(res,path,l);
 
 });

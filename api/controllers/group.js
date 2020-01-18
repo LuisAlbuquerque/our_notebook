@@ -17,6 +17,7 @@ Groups.names = () => {
 }
 
 Groups.add_group = (res,path,name,mail) => {
+    path = "/" + path;
     var group = {
         path : path,
         id_creator : mail,
@@ -30,6 +31,9 @@ Groups.add_group = (res,path,name,mail) => {
     var object_group = new Group(group);
     object_group.save(err =>{
         if(!err){
+            Group.updateOne(
+                {path : path.replace(/\/[^\/]*$/, '')}, 
+                {$push: {sub_groups: name}}).exec();
             res.jsonp({ok : 1});
         }
         else{
@@ -39,10 +43,11 @@ Groups.add_group = (res,path,name,mail) => {
         
 }
 
-Groups.group_id = id => {
-    console.log("group_id : " + id)
+Groups.group_id = path => {
+    path = "/" + path
+    console.log("group_path : " + path)
     return Group
-        .find({path : id})
+        .find({path : path})
         .exec();
 }
 
@@ -73,46 +78,49 @@ var remove_id = (object) => {
 }
 
 
-Groups.add_element = (res,id,type,content) => {
-    Groups.page(id)
-            .then(dados =>{ 
-            page = (dados[0].page);
-            switch(type){
-                case 'p' : page.push({p:content});
-                           break;
-                case 'h1' : page.push({h1:content});
-                           break;
-                case 'h2' : page.push({h2:content});
-                           break;
-                case 'h3' : page.push({h3:content});
-                           break;
-                case 'a' : page.push({a:content});
-                           break;
-            }
-            Group.findByIdAndUpdate(
-                dados[0]._id,
-                {page : page},
-                {new : true},
-                (err,d) => {
-                    if(!err){
-                        page = page.map(remove_id)
-                        res.jsonp(page);
-                    }else{
-                        res.jsonp({ok : -2})
-                    }
-                })
+Groups.add_element = (res,path,type,content) => {
+    console.log("path: " + path);
+    console.log("type: " + type);
+    console.log("content: " + content);
+    Groups.page(path)
+        .then(dados =>{ 
+        page = (dados[0].page);
+        switch(type){
+            case 'p' : page.push({p:content});
+               break;
+            case 'h1' : page.push({h1:content});
+               break;
+            case 'h2' : page.push({h2:content});
+               break;
+            case 'h3' : page.push({h3:content});
+               break;
+            case 'a' : page.push({a:content});
+               break;
+        }
+        Group.findByIdAndUpdate(
+            dados[0]._id,
+            {page : page},
+            {new : true},
+            (err,d) => {
+                if(!err){
+                    page = page.map(remove_id)
+                    res.jsonp(page);
+                }else{
+                    res.jsonp({ok : -2})
+                }
             })
-            .catch(err => res.jsonp({ok : -1}))
+        })
+        .catch(err => res.jsonp({ok : -1}))
 }
 
 
 
 
-Groups.swap_elements = (res,id,i,j) => {
-    Groups.page(id)
-            .then(dados =>{ 
-            page = (dados[0].page);
-            aux = page[i];
+Groups.swap_elements = (res,path,i,j) => {
+    Groups.page(path)
+        .then(dados =>{ 
+            var page = (dados[0].page);
+            var aux = page[i];
             page[i] = page[j];
             page[j] = aux;
             Group.findByIdAndUpdate(
@@ -130,7 +138,7 @@ Groups.swap_elements = (res,id,i,j) => {
                     }
                 })
             })
-            .catch(err => res.jsonp({ok : -1}))
+        .catch(err => res.jsonp({ok : -1}))
 }
 
 var remove_list = (arr,l) =>{
@@ -145,48 +153,52 @@ var remove_list = (arr,l) =>{
 
 }
 
-Groups.delete_elements = (res,id,l) => {
-    Groups.page(id)
-            .then(dados =>{ 
-            page = (dados[0].page);
-            page = remove_list(page,l);
-            Group.findByIdAndUpdate(
-                dados[0]._id,
-                {page : page},
-                {new : true},
-                (err,d) => {
-                    if(!err){
-                        page = page.map(remove_id)
-                        res.jsonp(page);
-                    }else{
-                        res.jsonp({ok : -2})
-                    }
-                })
+Groups.delete_elements = (res,path,l) => {
+    Groups.page(path)
+        .then(dados =>{ 
+        page = (dados[0].page);
+        page = remove_list(page,l);
+        Group.findByIdAndUpdate(
+            dados[0]._id,
+            {page : page},
+            {new : true},
+            (err,d) => {
+                if(!err){
+                    page = page.map(remove_id)
+                    res.jsonp(page);
+                }else{
+                    res.jsonp({ok : -2})
+                }
             })
-            .catch(err => res.jsonp({ok : -1}))
+        })
+        .catch(err => res.jsonp({ok : -1}))
 }
 
-Groups.page = id => {
+Groups.page = path => {
+    path = '/' + path;
     return Group
-        .find({path : id},{page : 1})
+        .find({path : path},{page : 1})
         .exec();
 }
 
-Groups.read_perm = id => {
+Groups.read_perm = path => {
+    path = '/' + path;
     return Group
-        .find({path : id},{read_perm : 1})
+        .find({path : path},{read_perm : 1})
         .exec();
 }
 
-Groups.write_perm = id => {
+Groups.write_perm = path => {
+    path = '/' + path;
     return Group
-        .find({path : id},{write_perm : 1})
+        .find({path : path},{write_perm : 1})
         .exec();
 }
 
-Groups.sub_groups = id => {
+Groups.sub_groups = path => {
+    path = '/' + path;
     return Group
-        .find({path : id},{sub_groups : 1})
+        .find({path : path},{sub_groups : 1})
         .exec();
 }
 
@@ -199,7 +211,7 @@ var sub_tree_list = groups => ((groups.length >0)
 
 var sub_tree = path => { path : sub_tree_list(Groups.sub_groups(path))}
 
-Groups.tree = id => sub_tree_list (id);
+Groups.tree = path => sub_tree_list (path);
 
 /*
     

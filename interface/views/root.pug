@@ -16,22 +16,40 @@ block content
                                         li 
                                             a(href="/root"+path+"/" + sub_group)= sub_group
                             center
-                                button(onclick="addGroup('" + path + "')") +
+                                button(onclick="add_group('" + path + "')") +
                     tr(style='vertical-align: bottom; height: 50%')
                         td
                             hr
                             a(href="/") Logout
             td(style='width: 85%')
                 table
+                    tr
+                        button(onclick="swap_elements('" + path + "')") Swap
+                        button(onclick="delete_elements('" + path + "')") Delete
+                        button(onclick="add_card('" + path + "')") Cria Nota
                     if group.page
                         each card in group.page
                             tr
                                 td
                                     case Object.keys(card)[0]
+                                        when '_id'
+                                            case Object.keys(card)[1]
+                                                when 'p'
+                                                    p= card.p
+                                                when 'h1'
+                                                    h1= card.h1
+                                                when 'h2'
+                                                    h2= card.h2
+                                                when 'img'
+                                                    img(src=card.img)
+                                                default
+                                                    p better luck next time
                                         when 'p'
                                             p= card.p
                                         when 'h1'
                                             h1= card.h1
+                                        when 'h2'
+                                            h2= card.h2
                                         when 'img'
                                             img(src=card.img)
                                         default
