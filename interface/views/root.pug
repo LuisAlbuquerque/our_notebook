@@ -22,7 +22,7 @@ block content
                             hr
                             a(href="/") Logout
             td(style='width: 85%')
-                table
+                table(style='width: 100%')
                     tr
                         button(onclick="swap_elements('" + path + "')") Swap
                         button(onclick="delete_elements('" + path + "')") Delete
@@ -40,17 +40,17 @@ block content
                                         when '_id'
                                             case Object.keys(card)[1]
                                                 when 'p'
-                                                    p= card.p
+                                                    p(align="center")= card.p
                                                 when 'h1'
-                                                    h1= card.h1
+                                                    h1(align="center")= card.h1
                                                 when 'h2'
-                                                    h2= card.h2
+                                                    h2(align="center")= card.h2
                                                 when 'img'
-                                                    img(src=card.img)
+                                                    img(src=card.img align="center" height="50%" )
                                                 when 'pdf'
                                                     embed(src=card.pdf)
                                                 when 'file'
-                                                    a(href=card.file)= card.file
+                                                    a(href=card.file download class="download")= card.file.split("/").reverse()[0]
                                                 default
                                                     p better luck next time
                                         when 'p'
@@ -63,5 +63,5 @@ block content
                                             img(src=card.img)
                                         default
                                             p better luck next time
-                                td
+                                td(id="checkbox")
                                     input(type="CheckBox" class="check-box")

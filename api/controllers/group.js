@@ -16,7 +16,8 @@ Groups.names = () => {
         .exec();
 }
 
-Groups.add_group = (res,path,name,mail) => {
+Groups.add_group = (res,dad,name,mail) => {
+    var path = (dad=="")?name:(dad + "/" + name);
     path = "/" + path;
     var group = {
         path : path,
@@ -32,7 +33,7 @@ Groups.add_group = (res,path,name,mail) => {
     object_group.save(err =>{
         if(!err){
             Group.updateOne(
-                {path : path.replace(/\/[^\/]*$/, '')}, 
+                {path : "/" + dad}, 
                 {$push: {sub_groups: name}}).exec();
             res.jsonp({ok : 1});
         }

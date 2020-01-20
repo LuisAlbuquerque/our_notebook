@@ -2,6 +2,8 @@ var express = require('express');
 var fs = require('fs');
 var router  = express.Router();
 var Groups  = require('../controllers/group');
+var Group = require('../models/groups');
+
 const multer = require('multer');
 const multerConfig = require('./config/multer');
 
@@ -32,14 +34,15 @@ const add_element = (res,path,type,content) => {
                 {new : true},
                 (err,d) => {
                     if(!err){
-                        page = page.map(remove_id)
-                        console.log(page);
+                        console.log(d)
+                        //page = page.map(remove_id)
+                        //console.log(page);
                     }else{
                         console.log({ok : -2})
                     }
                 })
             })
-        .catch(err => console.log({ok : -1}))
+        .catch(err => console.log(err))
 }
 
 
@@ -73,14 +76,17 @@ router.post('/*', upload.single('file'), (req, res) => {
         res.redirect('http://localhost:5877/root/' + path);
         console.log(req.file);
     }else{
-        Groups.add_group(res,path+"/"+name,name,email);
+        Groups.add_group(res,path,name,email);
     }
 });
 
 var movefile = (req,res,path) => {
     let oldpath = __dirname + '/../' + req.file.path;
     let newfolder = __dirname + '/../public/uploads/'+ path +'/';
-    let newpath = newfolder + req.file.originalname;
+    let nameFile = req.file.originalname;
+    let nameFile_list = (nameFile.split("."))
+    nameFile = (nameFile_list[nameFile_list.length -1] == "html")?nameFile_list.slice(0,nameFile_list.length -1).join("."): nameFile
+    let newpath = newfolder + nameFile;
     console.log(oldpath);
     console.log(newpath);
     console.log(path);
@@ -89,7 +95,7 @@ var movefile = (req,res,path) => {
         if(err) res.jsonp(err)
         //res.jsonp(newpath);
         //
-        var servepath = "http://localhost:4877/uploads/" + path + "/" + req.file.originalname;
+        var servepath = "http://localhost:4877/uploads/" + path + "/" + nameFile;
         console.log("servepath: " + servepath);
         console.log(req.file.mimetype)
         switch(req.file.mimetype){
