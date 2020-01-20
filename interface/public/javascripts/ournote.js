@@ -1,13 +1,29 @@
 //const api_link = 'http://localhost:4877/root'
-const interface_link = 'http://localhost:5877/root'
+const interface_link = 'http://localhost:5877/root';
+const api_link = 'http://localhost:4877/root';
+
+const add_file = (path) => {
+    var form = $('<form class="w3-container" action="' 
+                    + api_link + path + 
+                    '" method="post" width="80%">' +
+                    //TODO remove type have a cascade
+                    '<input id="file" type="file" name="file" />' +
+                    '<input type="submit" value="Enviar"/>' +
+                    '</form>'
+                )
+    var coisas = $('<div><p>Coisas</p></div>')
+    $('#display').empty()
+    $('#display').append(form, coisas)
+    $('#display').modal()
+}
 
 const add_card = (path) => {
     var form = $('<form class="w3-container" action="' 
                     + interface_link + path + 
-                    '" method="post" width="80%">' +
+                    '" method="post" width="100">' +
                     //TODO remove type have a cascade
                     '<input type="text" name="type" placeholder="Type"/>' +
-                    '<input type="text" name="text" placeholder="Texto"/>' +
+                    '<textarea  rows = "30" cols="40"  name="text" placeholder="Texto"/>' +
                     '<input type="submit" value="Criar"/>' +
                     '</form>'
                 )
