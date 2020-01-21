@@ -24,6 +24,7 @@ const add_card = (path) => {
                     //TODO remove type have a cascade
                     '<input type="text" name="type" placeholder="Type"/>' +
                     '<textarea  rows = "30" cols="40"  name="text" placeholder="Texto"/>' +
+
                     '<input type="submit" value="Criar"/>' +
                     '</form>'
                 )

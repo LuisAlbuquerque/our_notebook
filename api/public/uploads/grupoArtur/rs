@@ -1,3 +1,0 @@
-import sys, os
-if(len(sys.argv)>1):
-    os.system("curl --data-binary @"+sys.argv[1]+" https://paste.rs")
