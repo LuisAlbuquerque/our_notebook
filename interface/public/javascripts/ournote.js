@@ -16,6 +16,102 @@ const add_file = (path) => {
     $('#display').append(form, coisas)
     $('#display').modal()
 }
+const addP = (path) => {
+    var form = $('<form class="w3-container" action="' 
+                    + interface_link + path + 
+                    '" method="post" width="100">' +
+                    //TODO remove type have a cascade
+                    '<input type="text" name="type" placeholder="Type"/>' +
+                    '<textarea  rows = "30" cols="40"  name="text" placeholder="Texto"/>' +
+
+                    '<input type="submit" value="Criar"/>' +
+                    '</form>'
+                )
+    var coisas = $('<p>paragrafo</p>')
+    $('#display').empty()
+    $('#display').append(coisas,form) 
+    $('#display').modal()
+}
+
+const addH1 = (path) => {
+    var form = $('<form class="w3-container" action="' 
+                    + interface_link + path + 
+                    '" method="post" width="100">' +
+                    //TODO remove type have a cascade
+                    '<input type="text" name="type" placeholder="Type"/>' +
+                    '<textarea  rows = "30" cols="40"  name="text" placeholder="Texto"/>' +
+
+                    '<input type="submit" value="Criar"/>' +
+                    '</form>'
+                )
+    var coisas = $('<div><p class="modaltext">Titulo</p></div>')
+    $('#display').empty()
+    $('#display').append(coisas,form) 
+    $('#display').modal()
+}
+
+const addH2 = (path) => {
+    var form = $('<form class="w3-container" action="' 
+                    + interface_link + path + 
+                    '" method="post" width="100">' +
+                    //TODO remove type have a cascade
+                    '<input type="text" name="type" placeholder="Type"/>' +
+                    '<textarea  rows = "30" cols="40"  name="text" placeholder="Texto"/>' +
+
+                    '<input type="submit" value="Criar"/>' +
+                    '</form>'
+                )
+    var coisas = $('<p class="modaltext">Subtitulo</p>')
+    $('#display').empty()
+    $('#display').append(coisas,form) 
+    $('#display').modal()
+}
+
+const addH3 = (path) => {
+    var form = $('<form class="w3-container" action="' 
+                    + interface_link + path + 
+                    '" method="post" width="100">' +
+                    //TODO remove type have a cascade
+                    '<input type="text" name="type" placeholder="Type"/>' +
+                    '<textarea  rows = "30" cols="40"  name="text" placeholder="Texto"/>' +
+
+                    '<input type="submit" value="Criar"/>' +
+                    '</form>'
+                )
+    var coisas = $('<div><p class="modaltext">SubSubtitulo</p></div>')
+    $('#display').empty()
+    $('#display').append(coisas,form) 
+    $('#display').modal()
+}
+
+const addFile = (path) => {
+    var form = $('<form class="w3-container" action="' 
+                    + api_link + path + 
+                    '" method="post" enctype="multipart/form-data">' +
+                    //TODO remove type have a cascade
+                    '<input type="file" name="file" />' +
+                    '<input type="submit" value="Criar"/>' +
+                    '</form>'
+                )
+    var coisas = $('<div><p class="modaltext">Ficheiro</p></div>')
+    $('#display').empty()
+    $('#display').append(coisas,form) 
+    $('#display').modal()
+}
+
+const add_note = (path) => {
+    var title = $('<div><h1 class="modaltext">Adicionar uma nota</h1></div>')
+    var options = $('<div class="modaloptions">'+
+                        '<a onClick="addP(\''+path+'\')"> P </a>'+
+                        '<a onClick="addH1(\''+path+'\')"> H1 </a>'+
+                        '<a onClick="addH2(\''+path+'\')"> H2 </a>'+
+                        '<a onClick="addH3(\''+path+'\')"> H3 </a>'+
+                        '<a onClick="addFile(\''+path+'\')"> Ficheiro </a>'+
+                  '</div>')
+    $('#display').empty()
+    $('#display').append(title, options)
+    $('#display').modal()
+}
 
 const add_card = (path) => {
     var form = $('<form class="w3-container" action="' 
@@ -84,3 +180,5 @@ const swap_elements = (path) => {
         .catch(err => console.log(err));
     }
 }
+
+

@@ -17,14 +17,19 @@ block content
       div(class="foot")
           a(href="/") Logout
 
-
+  
     div(class="main")
       section(class="buttons")
           div(class="navbar" style="height:7%")
                 a(class="btn btn-1" onclick="swap_elements('" + path + "')") Trocar
                 a(class="btn btn-1" onclick="delete_elements('" + path + "')") Eliminar
-                a(class="btn btn-1" onclick="add_card('" + path + "')") Cria Nota
-                a(class="btn btn-1" onclick="add_file('" + path + "')") Adicionar ficheiro
+                //a(class="btn btn-1" onclick="add_card('" + path + "')") Cria Nota
+                a(class="btn btn-1" onclick="add_note('" + path + "')") Cria Nota
+                //a(class="btn btn-1" onclick="add_file('" + path + "')") Adicionar ficheiro
+                //form.w3-container(action="http://localhost:4877/root"+path method="post" enctype="multipart/form-data")
+                //    input(id="file" type="file" name="file") 
+                //    input(type="submit" value="Enviar") 
+
       div(class="content")
           table(style='width: 100%;')
               if group.page
