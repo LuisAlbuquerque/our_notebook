@@ -11,8 +11,30 @@ def writepage(content,page_html):
 
 printPage = lambda page_list : lambda name : writepage("["+ ",".join(page_list) +"]",name)
 
+pages_html = [
+    "Bill_Gates",
+    "Braga",
+    "Common_Lisp",
+    "IBM",
+    "index.html",
+    "Informática",
+    "JavaScript",
+    "Linguagem_assembly",
+    "Linus_Torvalds",
+    "Linux",
+    "Lisp",
+    "Node.js",
+    "Portugal",
+    "Programação_de_computadores",
+    "Python",
+    "Scheme",
+    "Steve_Jobs",
+    "Universidade_de_Lisboa",
+    "Universidade_do_Minho",
+    "Universidade_do_Porto"]
+
 def main():
-    for page_html in ["Universidade_do_Porto","Universidade_de_Lisboa"]:
+    for page_html in pages_html:
         with open('pagesHTML/'+ page_html) as fd:
             page = fd.read()
         soup = BeautifulSoup(page, 'html.parser')
