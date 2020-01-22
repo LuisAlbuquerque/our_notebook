@@ -1,13 +1,13 @@
 from bs4 import BeautifulSoup
 import sys
 
-simplehtml_aux = lambda type : lambda string : "{"+ type+' : "'+ string.get_text() +'"}'
-simplehtml_img = lambda string : '{ img : "'+ 'http:'+string +'"}'
+simplehtml_aux = lambda type : lambda string : '{"'+ type+'" : "'+ string.get_text() +'"}'
+simplehtml_img = lambda string : '{ "img" : "'+ 'http:'+string +'"}'
 simplehtml = lambda type : lambda string : simplehtml_aux (type) (string) if(type != 'img') else simplehtml_img (string)
 
 def writepage(content,page_html):
     with open('pagesSimpleHTML/'+page_html,'w') as fd:
-        fd.write(content)
+        fd.write(content.replace("\n",""))
 
 printPage = lambda page_list : lambda name : writepage("["+ ",".join(page_list) +"]",name)
 
