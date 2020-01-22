@@ -1,0 +1,117 @@
+Desenvolvimento de Aplicações Web$
+Álgebra Linear EI
+Tópicos de Matemática Discreta
+Elementos de Engenharia de Sistemas
+Laboratórios de Informática I
+Tópicos de Física Moderna
+Lógica EI
+Laboratórios de Informática II
+Introdução aos Sistemas Dinâmicos
+Estatística Aplicada
+Engenharia Económica
+Arquitetura de Computadores
+Comunicação de Dados
+Eletromagnetismo EE
+Desenvolvimento de Sistemas de Software
+Modelos Determinísticos de Investigação Operacional
+Sistemas Distribuídos
+Redes de Computadores
+Métodos Numéricos e Otimização não Linear
+Sistemas de Representação de Conhecimento e Raciocínio
+Modelos Estocásticos de Investigação Operacional
+Comunicações por Computador
+Processamento de Linguagens
+Laboratórios de Informática IV
+Laboratório de Engenharia Informática
+Projeto de Engenharia Informática
+Dissertação em Engenharia Informática
+Visualização e Iluminação I
+Visão por Computador
+Visualização e Iluminação II
+Tecnologias e Aplicações
+Arquiteturas Avançadas
+Paradigmas de Computação Paralela
+Algoritmos Paralelos
+Engenharia dos Sistemas de Computação
+Tecnologia Criptográfica
+Tecnologia da Segurança
+Estruturas Criptográficas
+Engenharia de Segurança
+Infraestruturas de Centro de Dados
+Administração de Base de Dados
+Arquiteturas Aplicacionais
+Sistemas Interativos
+Engenharia de Requisitos
+Arquiteturas de Software
+Gestão do Processo de Software
+Engenharia Web
+Tecnologias e Protocolos Internet
+Redes Móveis
+Qualidade de Serviço na Internet
+Aplicações Multimedia e Ubíquas
+Administração e Exploração de Bases de Dados
+Análise de Dados
+Interoperabilidade Semântica
+Descoberta do Conhecimento
+Gestão de Redes
+Segurança em Redes
+Virtualização de Redes
+Arquiteturas Emergentes de Rede
+Especificação e Modelação
+Cálculo de Sistemas de Informação
+Arquitetura e Cálculo
+Verificaçao Formal
+Gramáticas na Compreensão de Software
+Processamento e Representação de Informação
+Scripting no Processamento de Linguagem Natural
+Processamento e Representação de Conhecimento
+Paradigmas de Sistemas Distribuídos
+Fundamentos de Sistemas Distribuídos
+Tolerância a Faltas
+Sistemas Distribuídos em Larga Escala
+Agentes Inteligentes
+Aprendizaem e Extração de Conhecimento
+Computação Natural
+Sistemas Autónomos
+Aprendizagem Automática I
+Computação Avançada
+Aprendizagem Automática II
+Gestão de Grandes Conjuntos de Dados
+Métricas em Machine Learning / Metrics for Machine Learning
+Sistemas Baseados em Similaridade/Similarity Based Systems
+Otimização em Machine Learning / Optimization for Machine Learning
+Classificadores e Sistemas Conexionistas / Connective Systems and Classifiers
+Álgebra Linear CC
+Cálculo
+Tópicos de Matemática
+Programação Funcional
+Análise
+Geometria
+Matemática Discreta
+Programação Imperativa
+Sistemas de Computação
+Laboratório de Algoritmia I
+Álgebra
+Análise Numérica
+Algoritmos e Complexidade
+Sistemas de Comunicação e Redes
+Lógica CC
+Laboratório de Algoritmia II
+Autómatos e Linguagens Formais
+Cálculo de Programas
+Programação Orientada aos Objetos
+Sistemas Operativos
+Álgebra Universal e Categorias
+Computabilidade e Complexidade
+Lógica Computacional
+Probabilidades e Aplicações
+Bases de Dados
+Processamento de Linguagens e Compiladores
+Computação Gráfica
+Programação Concorrente
+Interação e Concorrência
+Semântica das Linguagens de Programação
+Projeto
+Lógica da Programação
+Teoria de Números Computacional
+Complexidade

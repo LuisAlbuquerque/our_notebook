@@ -10,7 +10,7 @@ import Data.List
  -}
 
 type Name = String
-data Email = Email String
+data Email = Email {unEmail :: String}
 
 instance Show Email where
     show (Email s) = show s
@@ -21,7 +21,7 @@ instance Arbitrary Email where
         return $ Email s
 
 type Password = String
-data GroupName = GroupName String
+data GroupName = GroupName {unGroupName :: String}
     deriving Eq
 
 instance Show GroupName where
@@ -46,6 +46,14 @@ data User = User
     , favourite :: [GroupName]
     }
 
+show_list :: [String] -> String
+show_list l = "["++ s ++"]"
+    where
+        s = foldr (\a b-> if b == "" then cover_str a else (cover_str a)++","++b) "" l
+
+cover_str :: String -> String
+cover_str s = "\"" ++ s ++ "\"" 
+
 instance Show User where
     show (User n e p f) = 
         "{" ++ na ++ "," 
@@ -53,10 +61,10 @@ instance Show User where
             ++ pa ++ ","
             ++ fa ++ "}"
         where 
-            na = "\"name\": " ++ show n
-            em = "\"email\": " ++ show e
-            pa = "\"password\": " ++ show p
-            fa = "\"favourite\": " ++ show f
+            na = "\"name\": " ++ cover_str n 
+            em = "\"email\": " ++ (cover_str $ unEmail e )
+            pa = "\"password\": " ++ cover_str p
+            fa = "\"favourite\": " ++ (show_list $ map unGroupName f)
 
 instance Arbitrary GroupName where
     arbitrary = do
@@ -71,10 +79,7 @@ instance Arbitrary User where
         f <- arbitrary :: Gen [GroupName]
         return $ User n e p (nub f)
 
-data Path = Path [GroupName]
-
-unGroupName :: GroupName -> String
-unGroupName (GroupName s) = s
+data Path = Path {unPath :: [GroupName]}
 
 instance Arbitrary Path where
     arbitrary = do
@@ -82,9 +87,13 @@ instance Arbitrary Path where
         return $ Path l
 
 instance Show Path where
-    show (Path l) = foldr ((++) . (++ "/")) "" $ map unGroupName l
+    show (Path l) = cover_str path
+        where
+            path = foldl (\b a -> if b == "/" then b ++ a else b ++ "/" ++ a) "/" $ map unGroupName l
 
-data Card = Card String String
+data Card = Card {
+    ctype :: String,
+    value :: String}
 
 instance Arbitrary Card where
     arbitrary = do
@@ -94,7 +103,7 @@ instance Arbitrary Card where
 
 instance Show Card where
     show (Card k v) = 
-        "{" ++ (show k) ++ ": " ++ (show v) ++ "}"
+        "{" ++ cover_str k ++ ": " ++ cover_str v ++ "}"
 
 type Key = String
 type Value = String
@@ -126,12 +135,12 @@ instance Show Group where
             ++ pe ++ "}"
         where 
             pa = "\"path\": " ++ show pt
-            id = "\"id_creator\": " ++ show i
-            na = "\"name\": " ++ show g
-            su = "\"sub_groups\": " ++ show s
-            re = "\"read_perm\": " ++ show r
-            wr = "\"write_perm\": " ++ show w
-            pe = "\"page\": " ++ show pg
+            id = "\"id_creator\": " ++ (cover_str $ unEmail i)
+            na = "\"name\": " ++ (cover_str $ unGroupName g)
+            su = "\"sub_groups\": " ++ (show_list $ map unGroupName s)
+            re = "\"read_perm\": " ++ (show_list $ map unEmail r)
+            wr = "\"write_perm\": " ++ (show_list $ map unEmail w)
+            pe = "\"page\": " ++ (show_list $ map show pg)
 
 instance Arbitrary Group where
     arbitrary = do
