@@ -46,16 +46,19 @@ router.post('/*', function(req, res, next) {
     let path = req.params['0'].replace(/\/+$/, '');
     let path_list = path.split("/");
 
-    
+         
     if(req.body.name!=undefined){
         api_create_group (path) (req.body) (res)
             (dados => {
                 res.redirect(interface_link + "/root/" + path);
             });
     } else {
-        axios.put(api_link + '/root/' + path, req.body)
+        console.log("type: "+ req.query.type)
+        console.log("--body--")
+        console.log(req.body)
+        axios.put(api_link + '/root/' + path + "?type=" + req.query.type, req.body)
             .then(dados => {
-                res.redirect(interface_link + '/root/' + path)
+                res.redirect(interface_link + '/root/' + path )
             })
             .catch(err => res.render('error', {error: err}));
     }

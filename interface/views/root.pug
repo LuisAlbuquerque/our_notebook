@@ -36,9 +36,9 @@ block content
                   each card in group.page
                       tr
                           td
-                              case Object.keys(card)[0]
+                              case Object.keys(card)[1]
                                   when '_id'
-                                      case Object.keys(card)[1]
+                                      case Object.keys(card)[2]
                                           when 'p'
                                               p(align="center")= card.p
                                           when 'h1'
