@@ -17,18 +17,65 @@ block content
       div(class="foot")
           a(href="/") Logout
 
+    div.w3-sidebar.w3-bar-block.w3-collapse(id="mySidebar" style='width:20%;right:0')
+        //button(onclick='w3_close()').w3-bar-item.w3-button.w3-hide-large Close
+        h1(style="color:black")= path.split("/").reverse()[0]
+        ul.weekdays
+            li Mo
+            li Tu
+            li We
+            li Th
+            li Fr
+            li Sa
+            li Su
+        ul.days
+            li 1
+            li 2
+            li 3
+            li 4
+            li 5
+            li 6
+            li 7
+            li 8
+            li 9
+            li
+                span.active 10
+            li 11
+        h3(style="color:black") Eventos:
+
+        a.w3-bar-item.w3-button(href='#') Procurar por tag
+        a.w3-bar-item.w3-button(href='#') Adicionar um evento
+        a.w3-bar-item.w3-button(href='#') Adicionar uma pessoa ao grupo
+
+        h3(style="color:black") Ficheiros:
+        ul
+        each card in group.page
+          if card.file != undefined
+            li
+              a(href=card.file download class="download")= card.file.split("/").reverse()[0]
+          if card.pdf != undefined
+            li
+              a(href=card.pdf download class="download")= card.pdf.split("/").reverse()[0]
+
+        h3(style="color:black") Imagens:
+        ul
+        each card in group.page
+          if card.img!= undefined
+            img(src=card.img align="center" height="50px" )
+
+        //button(onclick='w3_close()') close
+    div(style='margin-right:200px').w3-main
+        div()
+            div().w3-container
+                h2 My Page
   
     div(class="main")
       section(class="buttons")
-          div(class="navbar" style="height:7%")
+          div(class="navbar" style="height:10%")
                 a(class="btn btn-1" onclick="swap_elements('" + path + "')") Trocar
                 a(class="btn btn-1" onclick="delete_elements('" + path + "')") Eliminar
-                //a(class="btn btn-1" onclick="add_card('" + path + "')") Cria Nota
                 a(class="btn btn-1" onclick="add_note('" + path + "')") Cria Nota
-                //a(class="btn btn-1" onclick="add_file('" + path + "')") Adicionar ficheiro
-                //form.w3-container(action="http://localhost:4877/root"+path method="post" enctype="multipart/form-data")
-                //    input(id="file" type="file" name="file") 
-                //    input(type="submit" value="Enviar") 
+                button(onclick='w3_open()').w3-button.w3-teal.w3-xlarge.w3-right.w3-hide-large &#x2630;
 
       div(class="content")
           table(style='width: 100%;')
