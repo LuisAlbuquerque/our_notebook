@@ -36,37 +36,25 @@ block content
                   each card in group.page
                       tr
                           td
-                              case Object.keys(card)[1]
-                                  when '_id'
-                                      case Object.keys(card)[2]
-                                          when 'p'
-                                              p(align="center")= card.p
-                                          when 'h1'
-                                              h1(align="center")= card.h1
-                                          when 'list'
-                                               ul
-                                               each l in card.list
-                                                    li= card.lisl[l]
-                                          when 'h2'
-                                              h2(align="center")= card.h2
-                                          when 'img'
-                                              img(src=card.img align="center" height="50%" )
-                                          when 'pdf'
-                                              div(style="width: 100% height: 100%")
-                                                  embed(src=card.pdf height="800px" width="100%" )
-                                          when 'file'
-                                              a(href=card.file download class="download")= card.file.split("/").reverse()[0]
-                                          default
-                                              p better luck next time
-                                  when 'p'
-                                      p= card.p
-                                  when 'h1'
-                                      h1= card.h1
-                                  when 'h2'
-                                      h2= card.h2
-                                  when 'img'
-                                      img(src=card.img)
-                                  default
-                                      p better luck next time
+                            if card.p != undefined
+                               p(align="center")= card.p
+                            if card.h1 != undefined
+                               h1(align="center")= card.h1
+                            if card.h2 != undefined
+                               h2(align="center")= card.h2
+                            if card.h3 != undefined
+                               h3(align="center")= card.h3
+                            if card.img != undefined
+                               img(src=card.img align="center" height="50%" )
+                            if card.pdf != undefined
+                               div(style="width: 100% height: 100%")
+                                  embed(src=card.pdf height="800px" width="100%" )
+                            if card.file != undefined
+                               a(href=card.file download class="download")= card.file.split("/").reverse()[0]
+                            if card.list != undefined
+                               ul
+                                each item in card.list
+                                     li(align="center")= item
+
                           td(id="checkbox")
                               input(type="CheckBox" class="check-box")

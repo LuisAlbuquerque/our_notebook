@@ -6,6 +6,8 @@
     font-size: 70px;
 }
 
+/*
+
 * {
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
@@ -51,6 +53,7 @@ p {
   margin-bottom: 2em;
   color: #666;
 }
+*/
 
 .btn-open {
   display: none;
@@ -70,7 +73,6 @@ button {
   transition: background .4s ease, color .4s ease;
   
 }
-
 
 //-----------------
 /* config.css */
@@ -364,6 +366,7 @@ body {
   margin-left: 15%; /* Same as the width of the sidenav */
   font-size: 28px; /* Increased text to enable scrolling */
   height:100%;
+  width: 100%;
 }
 
 @media screen and (max-height: 450px) {
