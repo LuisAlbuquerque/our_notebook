@@ -53,5 +53,25 @@ def main():
         simplepage = ( h1 + img +p )
         printPage (simplepage) (page_html)
 
-main()
+def main2():
+    page_html = "imagens"
+    with open(page_html) as fd:
+        page = fd.read()
+    soup = BeautifulSoup(page, 'html.parser')
+
+
+    #h1 =  [simplehtml ('h1') (soup.h1)]
+
+    img = [simplehtml ('img') (soup.img['src'])]
+
+
+    #p
+    #allp = soup.find_all('p')
+    #p = list(map(lambda p: simplehtml ('p') (p), allp))
+
+
+    simplepage = ( img)
+    printPage (simplepage) (page_html)
+
+main2()
 

@@ -3,6 +3,8 @@ module Main where
 import Generate
 import Data.List
 import Test.QuickCheck
+import System.IO
+import Control.DeepSeq
 
 data Tree = Tree {
     node :: String,
@@ -48,32 +50,30 @@ generate_one_layer n r (Tree s l) =
     (sequence $ map (generate_one_layer n r) l) 
         >>= return . Tree s
 
-tree2group :: Tree -> [Group]
-tree2group (Tree s []) = let
-    pt = Path [GroupName s]
-    i  = Email $ head emails
-    n  = GroupName s
-    su = []
-    r  = map Email emails
-    w  = map Email emails
-    pg = []
-    in
-        [Group pt i n su r w pg]
-tree2group (Tree s l) = let
-    lg = concat $ map tree2group l
-    pt = Path [GroupName s]
-    i  = Email $ head emails
-    n  = GroupName s
-    su = map (GroupName . node) l
-    r  = map Email emails
-    w  = map Email emails
-    pg = []
-    g  = Group pt i n su r w pg
-    in
-        g : (map 
+tree2group :: [Email] -> [String] -> Tree -> IO [Group]
+tree2group ems pgs (Tree s []) = do
+    let pt = Path [GroupName s]
+    i <- generate $ elements ems
+    let n  = GroupName s
+    let su = []
+    r <- generate $ sublistOf ems
+    w <- generate $ sublistOf ems
+    pg <- generate $ elements pgs
+    return [Group pt i n su (r++w) w pg]
+tree2group ems pgs (Tree s l) = do
+    lg <- sequence $ map (tree2group ems pgs) l
+    let pt = Path [GroupName s]
+    i <- generate $ elements ems
+    let n  = GroupName s
+    let su = map (GroupName . node) l
+    r <- generate $ sublistOf ems
+    w <- generate $ sublistOf ems
+    pg <- generate $ elements pgs
+    let g  = Group pt i n su (r++w) w pg
+    return $ g : (map 
                 (\(Group (Path pt') i' n' su' r' w' pg') ->
                     Group (Path (n: pt')) i' n' su' r' w' pg')
-                lg)
+                $ concat lg)
 
 create_tree :: [([String], Int)] -> IO Tree
 create_tree l = create_tree_aux (reverse l)
@@ -102,11 +102,19 @@ main = do
     universidades   <- return . lines =<< readFile "universidades.txt"
     cursos          <- return . lines =<< readFile "cursos.txt"
     disciplinas     <- return . lines =<< readFile "disciplinas.txt"
-    pages           <- return . lines =<< readFile "pages.txt"
+    pages <- sequence . map (readFile . ("pagesSimpleHTML/" ++ )) . lines 
+                =<< readFile "pages.txt"
+
+    let emails = [Email $ n ++ "_" ++ a ++ "@mail.com"| 
+                    n <- nomes_próprios, a <- apelidos]
 
     tucd <- create_tree 
                 [(universidades, 10)
                 ,(cursos, 10)
                 ,(disciplinas, 10)]
 
-    writeFile "groups.json" $ show $ tree2group $ union_tree exception tucd
+    groups <- tree2group emails pages
+                $ union_tree exception tucd
+    
+
+    writeFile "groups.json" $ show groups

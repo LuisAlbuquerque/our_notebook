@@ -121,7 +121,7 @@ data Group = Group
     , sub_groups :: [GroupName]
     , read_perm :: [Email]
     , write_perm :: [Email]
-    , page :: [Card]
+    , page :: String
     }
 
 instance Show Group where
@@ -140,16 +140,16 @@ instance Show Group where
             su = "\"sub_groups\": " ++ (show_list $ map unGroupName s)
             re = "\"read_perm\": " ++ (show_list $ map unEmail r)
             wr = "\"write_perm\": " ++ (show_list $ map unEmail w)
-            pe = "\"page\": " ++ (show_list $ map show pg)
+            pe = "\"page\": " ++ pg
 
-instance Arbitrary Group where
-    arbitrary = do
-        pt <- arbitrary :: Gen Path
-        i  <- arbitrary :: Gen Email
-        g  <- arbitrary :: Gen GroupName
-        s  <- arbitrary :: Gen [GroupName]
-        r  <- arbitrary :: Gen [Email]
-        w  <- arbitrary :: Gen [Email]
-        pg <- arbitrary :: Gen [Card]
-        return $ Group pt i g s r w pg
+--instance Arbitrary Group where
+--    arbitrary = do
+--        pt <- arbitrary :: Gen Path
+--        i  <- arbitrary :: Gen Email
+--        g  <- arbitrary :: Gen GroupName
+--        s  <- arbitrary :: Gen [GroupName]
+--        r  <- arbitrary :: Gen [Email]
+--        w  <- arbitrary :: Gen [Email]
+--        pg <- arbitrary :: Gen [String]
+--        return $ Group pt i g s r w pg
 

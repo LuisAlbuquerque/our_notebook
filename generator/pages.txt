@@ -2,9 +2,9 @@ Bill_Gates
 Braga
 Common_Lisp
 IBM
+index.html
 Informática
 JavaScript
-JCR
 Linguagem_assembly
 Linus_Torvalds
 Linux
@@ -15,4 +15,6 @@ Programação_de_computadores
 Python
 Scheme
 Steve_Jobs
+Universidade_de_Lisboa
 Universidade_do_Minho
+Universidade_do_Porto
