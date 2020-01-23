@@ -53,9 +53,9 @@ def main():
         simplepage = ( h1 + img +p )
         printPage (simplepage) (page_html)
 
+
 def main2():
-    page_html = "imagens"
-    with open(page_html) as fd:
+    with open('pagesHTML/'+ "imagens") as fd:
         page = fd.read()
     soup = BeautifulSoup(page, 'html.parser')
 
@@ -63,15 +63,16 @@ def main2():
     #h1 =  [simplehtml ('h1') (soup.h1)]
 
     img = [simplehtml ('img') (soup.img['src'])]
+    imgs = soup.findAll('img')
+    images_res = []
+    print("[",end="")
+    for image in imgs:
+        try:
+            print('{ "img" : "' + image['data-lazy-src'] + '"}',end="")
+        except:
+            None
 
-
-    #p
-    #allp = soup.find_all('p')
-    #p = list(map(lambda p: simplehtml ('p') (p), allp))
-
-
-    simplepage = ( img)
-    printPage (simplepage) (page_html)
+    print("]",end="")
 
 main2()
 
