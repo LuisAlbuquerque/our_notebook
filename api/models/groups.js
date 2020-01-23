@@ -10,6 +10,7 @@ var card_Schema = new mongoose.Schema({
     h3: String,
     a: String,
     file : String,
+    list : [String],
     tags : [String]
 
 });

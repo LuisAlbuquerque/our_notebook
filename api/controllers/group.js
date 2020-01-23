@@ -53,7 +53,7 @@ Groups.group_id = path => {
 }
 
 var remove_id = (object) => {
-    let simplehtml = ["h1","h2","h3","p","img","pdf","file","a"]
+    let simplehtml = ["h1","list","h2","h3","p","img","pdf","file","a"]
     res = {}
     type = ""
     simplehtml.forEach((e)=>{

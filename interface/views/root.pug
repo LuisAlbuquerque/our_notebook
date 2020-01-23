@@ -43,6 +43,10 @@ block content
                                               p(align="center")= card.p
                                           when 'h1'
                                               h1(align="center")= card.h1
+                                          when 'list'
+                                               ul
+                                               each l in card.list
+                                                    li= card.lisl[l]
                                           when 'h2'
                                               h2(align="center")= card.h2
                                           when 'img'

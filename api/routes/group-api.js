@@ -15,6 +15,8 @@ const add_element = (res,path,type,content,tags) => {
             switch(type){
                 case 'p' : page.push({p:content, tags: tags.split(";")});
                    break;
+                case 'list' : page.push({list:content, tags: tags.split(";")});
+                   break;
                 case 'pdf' : page.push({pdf:content, tags: tags.split(";")});
                    break;
                 case 'img' : page.push({img:content, tags: tags.split(";")});

@@ -31,6 +31,30 @@ const add = (path,type) => {
     $('#display').modal()
 }
 
+
+
+var add_to_list = () => {
+    document.getElementById("ul").innerHTML += '<input id="text" type="text" name="text" placeholder="Texto"/>'
+}
+const addList = (path,type) => {
+
+    var add = $('<button onclick="(add_to_list())" > + </button>');
+    var form = $('<form class="w3-container" action="'
+                    + interface_link + path +"?type=list" +
+                    '" method="post" width="100">' +
+                    //TODO remove type have a cascade
+                    '<input id="text" type="text" name="text" placeholder="Texto"/>' +
+                    '<div id="ul"></div>' +
+                    '<input id="tags" type="text" name="tags" placeholder="tag1;tag2..."/>' +
+                    '<input type="submit" value="Criar"/>' +
+                    '</form>'
+                );
+    $('#display').empty()
+    $('#display').append(form,add)
+    $('#display').modal()
+
+}
+
 const addFile = (path) => {
     var form = $('<form class="w3-container" action="' 
                     + api_link + path +"?type=file"+ 
@@ -53,6 +77,7 @@ const add_note = (path) => {
                         '<a onClick="add(\''+path+'\',\'h1\')"> H1 </a>'+
                         '<a onClick="add(\''+path+'\',\'h2\')"> H2 </a>'+
                         '<a onClick="add(\''+path+'\',\'h3\')"> H3 </a>'+
+                        '<a onClick="addList(\''+path+'\')"> List </a>'+
                         '<a onClick="addFile(\''+path+'\')"> Ficheiro </a>'+
                   '</div>')
     $('#display').empty()
