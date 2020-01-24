@@ -11,6 +11,7 @@ import Data.List
 
 type Name = String
 data Email = Email {unEmail :: String}
+    deriving Eq
 
 instance Show Email where
     show (Email s) = show s
@@ -43,13 +44,21 @@ data User = User
     { name :: Name
     , email :: Email
     , password :: String
-    , favourite :: [GroupName]
+    , favourite :: [Path]
     }
+
+instance Eq User where
+    u1 == u2 = (email u1) == (email u2)
 
 show_list :: [String] -> String
 show_list l = "["++ s ++"]"
     where
         s = foldr (\a b-> if b == "" then cover_str a else (cover_str a)++","++b) "" l
+
+show_list_ncover :: [String] -> String
+show_list_ncover l = "["++ s ++"]"
+    where
+        s = foldr (\a b-> if b == "" then a else (a++","++b)) "" l
 
 cover_str :: String -> String
 cover_str s = "\"" ++ s ++ "\"" 
@@ -64,7 +73,7 @@ instance Show User where
             na = "\"name\": " ++ cover_str n 
             em = "\"email\": " ++ (cover_str $ unEmail e )
             pa = "\"password\": " ++ cover_str p
-            fa = "\"favourite\": " ++ (show_list $ map unGroupName f)
+            fa = "\"favourite\": " ++ (show_list_ncover $ map show f)
 
 instance Arbitrary GroupName where
     arbitrary = do
@@ -76,10 +85,11 @@ instance Arbitrary User where
         n <- elements names
         e <- arbitrary :: Gen Email
         p <- elements passwords
-        f <- arbitrary :: Gen [GroupName]
+        f <- arbitrary :: Gen [Path]
         return $ User n e p (nub f)
 
 data Path = Path {unPath :: [GroupName]}
+    deriving Eq
 
 instance Arbitrary Path where
     arbitrary = do
@@ -121,7 +131,7 @@ data Group = Group
     , sub_groups :: [GroupName]
     , read_perm :: [Email]
     , write_perm :: [Email]
-    , page :: String
+    , page :: [Card]
     }
 
 instance Show Group where
@@ -140,7 +150,7 @@ instance Show Group where
             su = "\"sub_groups\": " ++ (show_list $ map unGroupName s)
             re = "\"read_perm\": " ++ (show_list $ map unEmail r)
             wr = "\"write_perm\": " ++ (show_list $ map unEmail w)
-            pe = "\"page\": " ++ pg
+            pe = "\"page\": " ++ (show_list_ncover $ map show pg)
 
 --instance Arbitrary Group where
 --    arbitrary = do
