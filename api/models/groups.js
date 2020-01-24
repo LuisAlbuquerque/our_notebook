@@ -1,5 +1,9 @@
 var mongoose = require('mongoose');
 
+var eventSchema = new mongoose.Schema({
+    title : String,
+    data  : String
+});
 // only the first functions
 var card_Schema = new mongoose.Schema({
     p: String,
@@ -11,6 +15,7 @@ var card_Schema = new mongoose.Schema({
     a: String,
     file : String,
     list : [String],
+    event : eventSchema,
     tags : [String]
 
 });

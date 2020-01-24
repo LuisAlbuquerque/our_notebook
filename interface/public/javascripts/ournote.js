@@ -2,27 +2,43 @@
 const interface_link = 'http://localhost:5877/root';
 const api_link = 'http://localhost:4877/root';
 
-const add_file = (path) => {
-    var form = $('<form class="w3-container" action="' 
-                    + api_link + path + 
-                    '" method="post" width="80%">' +
-                    //TODO remove type have a cascade
-                    '<input id="file" type="file" name="file" />' +
-                    '<input type="submit" value="Enviar"/>' +
-                    '</form>'
-                )
-    var coisas = $('<div><p>Coisas</p></div>')
-    $('#display').empty()
-    $('#display').append(form, coisas)
-    $('#display').modal()
-}
+//const add_file = (path) => {
+//    var form = $('<form class="w3-container" action="' 
+//                    + api_link + path + 
+//                    '" method="post" width="80%">' +
+//                    //TODO remove type have a cascade
+//                    '<input id="file" type="file" name="file" />' +
+//                    '<input type="submit" value="Enviar"/>' +
+//                    '</form>'
+//                )
+//    var coisas = $('<div><p>Coisas</p></div>')
+//    $('#display').empty()
+//    $('#display').append(form, coisas)
+//    $('#display').modal()
+//}
 const add = (path,type) => {
     var form = $('<form class="w3-container" action="' 
                     + interface_link + path +"?type="+type +
                     '" method="post" width="100">' +
                     //TODO remove type have a cascade
-                    '<textarea  rows = "30" cols="40"  name="text" placeholder="Texto"/>' +
-                    '<input id="tags" type="text" name="tags" placeholder="tag1;tag2..."/>' +
+                    '<textarea  rows = "5" cols="40"  name="text" placeholder="Texto" style="font-size: 30px"/>' +
+                    '<input id="tags" type="text" name="tags" placeholder="tag1;tag2..." style="font-size: 30px"/>' +
+                    '<input type="submit" value="Criar"/>' +
+                    '</form>'
+                )
+    $('#display').empty()
+    $('#display').append(form) 
+    $('#display').modal()
+}
+
+const add_event = (path) => {
+    var form = $('<form class="w3-container" action="' 
+                    + interface_link + path +"?type=event" +
+                    '" method="post" width="100">' +
+                    //TODO remove type have a cascade
+                    '<input id="text" type="text" name="text" placeholder="Titulo do evento" style="font-size: 30px"/>' +
+                    '<input id="data" type="date" name="data" placeholder="data" style="font-size: 30px"/>' +
+                    '<input id="tags" type="text" name="tags" placeholder="tag1;tag2..." style="font-size: 30px"/>' +
                     '<input type="submit" value="Criar"/>' +
                     '</form>'
                 )
@@ -34,7 +50,7 @@ const add = (path,type) => {
 
 
 var add_to_list = () => {
-    document.getElementById("ul").innerHTML += '<input id="text" type="text" name="text" placeholder="Texto"/>'
+    document.getElementById("ul").innerHTML += '<input id="text" type="text" name="text" placeholder="Texto" style="font-size: 30px"/>'
 }
 const addList = (path,type) => {
 
@@ -43,9 +59,9 @@ const addList = (path,type) => {
                     + interface_link + path +"?type=list" +
                     '" method="post" width="100">' +
                     //TODO remove type have a cascade
-                    '<input id="text" type="text" name="text" placeholder="Texto"/>' +
+                    '<input id="text" type="text" name="text" placeholder="Texto" style="font-size: 30px"/>' +
                     '<div id="ul"></div>' +
-                    '<input id="tags" type="text" name="tags" placeholder="tag1;tag2..."/>' +
+                    '<input id="tags" type="text" name="tags" placeholder="tag1;tag2..." style="font-size: 30px"/>' +
                     '<input type="submit" value="Criar"/>' +
                     '</form>'
                 );
@@ -61,7 +77,7 @@ const addFile = (path) => {
                     '" method="post" enctype="multipart/form-data">' +
                     //TODO remove type have a cascade
                     '<input type="file" name="file" />' +
-                    '<input id="tags" type="text" name="tags" placeholder="tag1;tag2..."/>' +
+                    '<input id="tags" type="text" name="tags" placeholder="tag1;tag2..." style="font-size: 30px"/>' +
                     '<input type="submit" value="Criar"/>' +
                     '</form>'
                 )
@@ -71,14 +87,42 @@ const addFile = (path) => {
 }
 
 const add_note = (path) => {
+
     var title = $('<div><h1 class="modaltext">Adicionar uma nota</h1></div>')
     var options = $('<div class="modaloptions">'+
-                        '<a onClick="add(\''+path+'\',\'p\')"> P </a>'+
-                        '<a onClick="add(\''+path+'\',\'h1\')"> H1 </a>'+
-                        '<a onClick="add(\''+path+'\',\'h2\')"> H2 </a>'+
-                        '<a onClick="add(\''+path+'\',\'h3\')"> H3 </a>'+
-                        '<a onClick="addList(\''+path+'\')"> List </a>'+
-                        '<a onClick="addFile(\''+path+'\')"> Ficheiro </a>'+
+                        '<table>' +
+                        '<tr>' +
+                            '<td>' +
+                                '<a onClick="add(\''+path+'\',\'p\')"> <img width="60px" src="https://image.flaticon.com/icons/svg/847/847497.svg"/> </a>'+
+                            '<td>' +
+                                '<a onClick="add(\''+path+'\',\'p\')" style="color:black"> Paragrafo <a>' +
+                        '<tr>' +
+                            '<td>' +
+                                '<a onClick="add(\''+path+'\',\'h1\')"> <img width= "60px" src="https://image.flaticon.com/icons/svg/587/587367.svg"/> </a>'+
+                            '<td>' +
+                                '<a onClick="add(\''+path+'\',\'h1\')" style="color:black"> Titulo <a>' +
+                        '<tr>' +
+                            '<td>' +
+                                '<a onClick="add(\''+path+'\',\'h2\')"> <img width= "40px" src="https://image.flaticon.com/icons/svg/587/587367.svg"/> </a>'+
+                            '<td>' +
+                                '<a onClick="add(\''+path+'\',\'h2\')" style="color:black"> Subtitulo <a>' +
+                        '<tr>' +
+                            '<td>' +
+                                '<a onClick="add(\''+path+'\',\'h3\')"> <img width= "20px" src="https://image.flaticon.com/icons/svg/587/587367.svg"/> </a>'+
+                            '<td>' +
+                                '<a onClick="add(\''+path+'\',\'h3\')" style="color:black, font-size:10px"> Subsubtitulo <a>' +
+                        '<tr>' +
+                            '<td>' +
+                                '<a onClick="addList(\''+path+'\')"> <img width="60px" src="https://image.flaticon.com/icons/svg/847/847476.svg" </a>'+
+                            '<td>' +
+                                '<a onClick="addList(\''+path+'\')" style="color:black"> Lista <a>' +
+                        '<tr>' +
+                            '<td>' +
+                                '<a onClick="addFile(\''+path+'\')"> <img width="60px" src="https://image.flaticon.com/icons/svg/25/25635.svg"/> </a>'+
+                            '<td>' +
+                                '<a onClick="addFile(\''+path+'\')" style="color:black"> Ficheiro <a>' +
+                        '</table>' +
+                    
                   '</div>')
     $('#display').empty()
     $('#display').append(title, options)
@@ -106,8 +150,8 @@ const add_group = (path) => {
     var form = $('<form class="w3-container" action="' 
                     + interface_link + path + 
                     '" method="post" width="80%">' +
-                    '<input type="text" name="mail" placeholder="Email"/>' +
-                    '<input type="text" name="name" placeholder="Nome do Grupo"/>' +
+                    '<input type="text" name="mail" placeholder="Email" style="font-size: 30px"/>' +
+                    '<input type="text" name="name" placeholder="Nome do Grupo" style="font-size: 30px"/>' +
                     '<input type="submit" value="Criar"/>' +
                     '</form>'
                 )

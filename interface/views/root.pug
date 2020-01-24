@@ -11,15 +11,18 @@ block content
                   a(href="/root"+path+"/" + sub_group)= sub_group
 
       center
-          button(onclick="add_group('" + path + "')") +
+          button(onclick="add_group('" + path + "')" style="background-color: #1abc9c") +
 
 
       div(class="foot")
           a(href="/") Logout
 
-    div.w3-sidebar.w3-bar-block.w3-collapse(id="mySidebar" style='width:20%;right:0')
+    div.w3-sidebar.w3-bar-block.w3-collapse(id="mySidebar" style='width:15%;right:0; padding: 10px; background-color: #f2f2f2')
         //button(onclick='w3_close()').w3-bar-item.w3-button.w3-hide-large Close
         h1(style="color:black")= path.split("/").reverse()[0]
+        button.w3-bar-item.w3-button(onclick="" style="margin: 5px") Procurar por tag
+        button.w3-bar-item.w3-button(onclick="add_event('" + path + "')" style="margin: 5px") Adicionar um evento
+        button.w3-bar-item.w3-button(onclick="" style="margin: 5px") Adicionar uma pessoa ao grupo
         ul.weekdays
             li Mo
             li Tu
@@ -41,27 +44,40 @@ block content
             li
                 span.active 10
             li 11
-        h3(style="color:black") Eventos:
 
-        a.w3-bar-item.w3-button(href='#') Procurar por tag
-        a.w3-bar-item.w3-button(href='#') Adicionar um evento
-        a.w3-bar-item.w3-button(href='#') Adicionar uma pessoa ao grupo
+        h3(style="color:black; background-color:#ddd;") Eventos:
+        div(style="overflow: scroll;width: 100%; height: 210px;")
+            ul
+            each card in group.page
+              if card.event != undefined
+                li
+                    table
+                        tr
+                            td
+                                b
+                                    p(style="color:black")= card.event.title
+                            td
+                                p(style="color:black")= card.event.data
 
-        h3(style="color:black") Ficheiros:
-        ul
+
+        h3(style="color:black; background-color:#ddd;") Ficheiros:
         each card in group.page
           if card.file != undefined
-            li
               a(href=card.file download class="download")= card.file.split("/").reverse()[0]
           if card.pdf != undefined
-            li
               a(href=card.pdf download class="download")= card.pdf.split("/").reverse()[0]
 
-        h3(style="color:black") Imagens:
-        ul
-        each card in group.page
-          if card.img!= undefined
-            img(src=card.img align="center" height="50px" )
+        h3(style="color:black; background-color:#ddd;") Imagens:
+        center
+           each card in group.page
+             if card.img!= undefined
+               img(src=card.img align="center" height="140px")
+            
+
+            
+                    
+                
+
 
         //button(onclick='w3_close()') close
     div(style='margin-right:200px').w3-main
@@ -72,36 +88,70 @@ block content
     div(class="main")
       section(class="buttons")
           div(class="navbar" style="height:10%")
-                a(class="btn btn-1" onclick="swap_elements('" + path + "')") Trocar
-                a(class="btn btn-1" onclick="delete_elements('" + path + "')") Eliminar
-                a(class="btn btn-1" onclick="add_note('" + path + "')") Cria Nota
+                a(class="btn btn-1" onclick="swap_elements('" + path + "')") 
+                    img(width="60px" src="https://image.flaticon.com/icons/svg/140/140866.svg")
+                a(class="btn btn-1" onclick="delete_elements('" + path + "')") 
+                    img(width="60px" src="https://image.flaticon.com/icons/svg/1345/1345925.svg")
+                a(class="btn btn-1" onclick="add_note('" + path + "')") 
+                    img(width="60px" src="https://image.flaticon.com/icons/svg/2312/2312340.svg")
+
                 button(onclick='w3_open()').w3-button.w3-teal.w3-xlarge.w3-right.w3-hide-large &#x2630;
 
       div(class="content")
-          table(style='width: 100%;')
+          table(style='width: 100%; padding-left: 2%')
               if group.page
                   each card in group.page
                       tr
                           td
                             if card.p != undefined
-                               p(align="center")= card.p
+                               p()= card.p
                             if card.h1 != undefined
-                               h1(align="center")= card.h1
+                               h1(align="center" style="font-size:100px")= card.h1
                             if card.h2 != undefined
                                h2(align="center")= card.h2
                             if card.h3 != undefined
                                h3(align="center")= card.h3
                             if card.img != undefined
-                               img(src=card.img align="center" height="50%" )
+                               img(src=card.img align="center"  style="max-height : 500px; max-width: auto")
+                            if card.event != undefimed
+                                div.w3-card.w3-round-large(style="background-color: #f2f2f2; padding: 10px")
+                                    h2(style="color:black")= card.event.title
+                                    p(style="font-size: 20px; color:black")= card.event.data
+                                    ul.weekdays
+                                        li Mo
+                                        li Tu
+                                        li We
+                                        li Th
+                                        li Fr
+                                        li Sa
+                                        li Su
+                                    ul.days
+                                        li 1
+                                        li 2
+                                        li 3
+                                        li 4
+                                        li 5
+                                        li 6
+                                        li 7
+                                        li 8
+                                        li 9
+                                        li
+                                            span.active 10
+                                        li 11
+                               
                             if card.pdf != undefined
                                div(style="width: 100% height: 100%")
                                   embed(src=card.pdf height="800px" width="100%" )
                             if card.file != undefined
-                               a(href=card.file download class="download")= card.file.split("/").reverse()[0]
+                               div(style="height: 150px; color:black; background-color: #f2f2f2").w3-card.w3-round-large
+                                center
+                                   h2(style="color:black")= card.file.split("/").reverse()[0]
+                                   a(href=card.file download class="download" style="background-color: #1abc9c").w3-button.w3-card.w3-round-large Download   
+
                             if card.list != undefined
                                ul
                                 each item in card.list
-                                     li(align="center")= item
-
+                                     li(align="center" style="color:white")= item
+                            
                           td(id="checkbox")
                               input(type="CheckBox" class="check-box")

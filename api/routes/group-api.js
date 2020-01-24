@@ -15,6 +15,8 @@ const add_element = (res,path,type,content,tags) => {
             switch(type){
                 case 'p' : page.push({p:content, tags: tags.split(";")});
                    break;
+                case 'event' : page.push({event:content, tags: tags.split(";")});
+                   break;
                 case 'list' : page.push({list:content, tags: tags.split(";")});
                    break;
                 case 'pdf' : page.push({pdf:content, tags: tags.split(";")});
@@ -148,8 +150,14 @@ router.put('/*', (req, res) => {
     console.log("type: "+type)
     if(text!= undefined && type!= undefined){
         console.log("add text")
+        if(type=="event"){
+        add_element(res,path,type,{title : text, data: req.body.data},tags);
+        console.log("add event : " + text + " " + req.body.data)
+        }else{
         add_element(res,path,type,text,tags);
+        }
         res.jsonp({ok:1})
+        
     }else{
         Groups.swap_elements(res,path,i,j);
     }
