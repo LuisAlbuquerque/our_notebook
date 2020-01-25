@@ -170,7 +170,6 @@ router.delete('/*', (req, res) => {
     console.log(l);
     console.log(path);
     Groups.delete_elements(res,path,l);
-
 });
 
 module.exports = router;

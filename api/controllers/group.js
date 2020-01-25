@@ -171,11 +171,11 @@ Groups.delete_elements = (res,path,l) => {
                     page = page.map(remove_id)
                     res.jsonp(page);
                 }else{
-                    res.jsonp({ok : -2})
+                    res.jsonp({erro : "nao conseguiu fazer update"})
                 }
             })
         })
-        .catch(err => res.jsonp({ok : -1}))
+        .catch(err => res.jsonp({erro : "nao encontrou pagina"}))
 }
 
 Groups.page = path => {
