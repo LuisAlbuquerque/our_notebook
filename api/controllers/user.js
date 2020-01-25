@@ -33,4 +33,10 @@ Users.favourite_id = id=> {
         .exec();
 }
 
+Users.favourite_add = (id,group) => {
+    return User
+        ({email: id},{$push : {favourite : group}})
+        .exec();
+}
+
 
