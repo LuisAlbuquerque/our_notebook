@@ -1,6 +1,7 @@
 module Main where
 
 import Generate
+import Data.Char
 import Data.List
 import Test.QuickCheck
 import System.IO
@@ -107,19 +108,20 @@ create_user :: [String] -> [String] -> [(String, String)] -> Tree -> IO (ClearUs
 create_user ln la lp tr = do
     n <- generate $ elements ln
     a <- generate $ elements la
-    let e = Email $ n ++ a ++ "@mail.com"
+    let e = Email $ (map toLower n) ++ (map toLower a) ++ "@mail.com"
     (p, ep) <- generate $ elements lp
     rp <- sequence $ map (const $ random_path tr) [1..10]
 
     return $ (ClearUser e p, User (n ++ " " ++ a) e ep rp)
 
 admin :: (ClearUser, User)
-admin = (ClearUser e p, User n e ep [])
+admin = (ClearUser e p, User n e ep f)
     where
         n = "admin"
         e = Email "admin@mail.com"
         p = "admin"
         ep = "$2a$10$yIDWnjv.TMov0XtqMHt2IOnpFAlhI0bK.NZG8i/r9UrWUPo2Klsgm"
+        f = [Path $ [GroupName "Universidade do Minho"]]
 
 create_users :: Int -> [String] -> [String] -> [(String, String)] -> Tree -> IO [(ClearUser, User)]
 create_users num ln la lp tr

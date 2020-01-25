@@ -79,7 +79,7 @@ instance Show User where
         "{" ++ na ++ "," 
             ++ em ++ ","
             ++ pa ++ ","
-            ++ fa ++ ", \"__v\":0}"
+            ++ fa ++ "}"
         where 
             na = "\"name\": " ++ cover_str n 
             em = "\"email\": " ++ (cover_str $ unEmail e )
