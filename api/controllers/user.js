@@ -9,6 +9,7 @@ Users.lista_user = () => {
 }
 
 Users.user_id = id => {
+    console.log({email: id})
     return User
         .find({email : id})
         .exec();

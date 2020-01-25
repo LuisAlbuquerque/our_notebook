@@ -40,6 +40,17 @@ passwords = ["password"]
 groupNames :: [String]
 groupNames = ["grupoArtur"]
 
+data ClearUser = ClearUser
+    { cemail :: Email
+    , cpassword :: String
+    }
+
+instance Eq ClearUser where
+    u1 == u2 = (cemail u1) == (cemail u2)
+
+instance Show ClearUser where
+    show (ClearUser e p) = (unEmail e) ++ "\t" ++ p
+
 data User = User
     { name :: Name
     , email :: Email
@@ -68,7 +79,7 @@ instance Show User where
         "{" ++ na ++ "," 
             ++ em ++ ","
             ++ pa ++ ","
-            ++ fa ++ "}"
+            ++ fa ++ ", \"__v\":0}"
         where 
             na = "\"name\": " ++ cover_str n 
             em = "\"email\": " ++ (cover_str $ unEmail e )

@@ -5,6 +5,7 @@ import Data.List
 import Test.QuickCheck
 import System.IO
 import Control.DeepSeq
+import System.Process (callCommand)
 
 data Tree = Tree {
     node :: String,
@@ -52,24 +53,26 @@ generate_one_layer n r (Tree s l) =
 
 tree2group :: [Email] -> [String] -> [String] -> Tree -> IO [Group]
 tree2group ems fs is (Tree s []) = do
+    let admin_email = email $ snd admin
     let pt = Path [GroupName s]
     i <- generate $ elements ems
     let n  = GroupName s
     let su = []
     r <- random_sub 10 ems
-    w <- random_sub 10 ems
+    w <- return . (admin_email:) =<< random_sub 10 ems
     pg <- create_page s fs is
-    return [Group pt i n su (r++w) w pg]
+    return [Group pt i n su (nub $ r++w) w pg]
 tree2group ems fs is (Tree s l) = do
+    let admin_email = email $ snd admin
     lg <- sequence $ map (tree2group ems fs is) l
     let pt = Path [GroupName s]
     i <- generate $ elements ems
     let n  = GroupName s
     let su = map (GroupName . node) l
     r <- random_sub 10 ems
-    w <- random_sub 10 ems
+    w <- return . (admin_email:) =<< random_sub 10 ems
     pg <- create_page s fs is
-    let g  = Group pt i n su (r++w) w pg
+    let g  = Group pt i n su (nub $ r++w) w pg
     return $ g : (map 
                 (\(Group (Path pt') i' n' su' r' w' pg') ->
                     Group (Path (n: pt')) i' n' su' r' w' pg')
@@ -100,23 +103,31 @@ random_path (Tree s l) = do
     p <- random_path $ l!!r
     return $ Path $ ((GroupName s) :) $ unPath p
 
-create_user :: [String] -> [String] -> [String] -> Tree -> IO User
+create_user :: [String] -> [String] -> [(String, String)] -> Tree -> IO (ClearUser, User)
 create_user ln la lp tr = do
     n <- generate $ elements ln
     a <- generate $ elements la
-    let e = Email $ n ++ "_" ++ a ++ "@mail.com"
-    p <- generate $ elements lp
+    let e = Email $ n ++ a ++ "@mail.com"
+    (p, ep) <- generate $ elements lp
     rp <- sequence $ map (const $ random_path tr) [1..10]
 
-    return $ User (n ++ " " ++ a) e p rp
+    return $ (ClearUser e p, User (n ++ " " ++ a) e ep rp)
 
-create_users :: Int -> [String] -> [String] -> [String] -> Tree -> IO [User]
+admin :: (ClearUser, User)
+admin = (ClearUser e p, User n e ep [])
+    where
+        n = "admin"
+        e = Email "admin@mail.com"
+        p = "admin"
+        ep = "$2a$10$yIDWnjv.TMov0XtqMHt2IOnpFAlhI0bK.NZG8i/r9UrWUPo2Klsgm"
+
+create_users :: Int -> [String] -> [String] -> [(String, String)] -> Tree -> IO [(ClearUser, User)]
 create_users num ln la lp tr
     | num <= 1 = sequence [create_user ln la lp tr]
     | otherwise = do
         users <- create_users (num-1) ln la lp tr
         user <- create_user ln la lp tr
-        return $ user : users
+        return $ admin : user : users
 
 create_page :: String -> [String] -> [String] -> IO [Card]
 create_page n fs is = do
@@ -133,6 +144,7 @@ main = do
     nomes_próprios  <- return . lines =<< readFile "nomes_próprios.txt"
     apelidos        <- return . lines =<< readFile "apelidos.txt"
     passwords       <- return . lines =<< readFile "passwords.txt"
+    enc_passwords   <- return . lines =<< readFile "enc_passwords.txt"
     universidades   <- return . lines =<< readFile "universidades.txt"
     cursos          <- return . lines =<< readFile "cursos.txt"
     disciplinas     <- return . lines =<< readFile "disciplinas.txt"
@@ -154,10 +166,18 @@ main = do
                 , (grupos, 7)
                 ]
 
-    users <- return . nub =<< (create_users 1000 nomes_próprios apelidos passwords tree)
+    (clear_users, users) <- 
+                return . unzip . nub 
+                =<< (create_users 
+                        1000 
+                        nomes_próprios 
+                        apelidos 
+                        (zip passwords enc_passwords) 
+                        tree)
 
     groups <- tree2group (map email users) factos imagens
                 $ union_tree exception tree
     
     writeFile "groups.json" $ show groups
     writeFile "users.json" $ show users
+    writeFile "clear_users.txt" $ foldr (\a b-> (show a)++"\n"++b) "" clear_users
