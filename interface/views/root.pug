@@ -4,7 +4,8 @@ block content
     .w3-card-4.modal(id='display')
 
     div(class="sidenav")
-      a(href="/root"+path.replace(/\/[^\/]*$/,'')) ..
+      if path.replace(/\/[^\/]*$/,'') != ''
+        a(href="/root"+path.replace(/\/[^\/]*$/,'')) ..
       if group.sub_groups
           each sub_group in group.sub_groups
               li 
@@ -12,10 +13,9 @@ block content
 
       center
           button(onclick="add_group('" + path + "')" style="background-color: #1abc9c") +
-
-
-      div(class="foot")
-          a(href="/") Logout
+      div(class="footer")
+        a(class="btn btn-1" href="/logout")
+          img(width="60px" src="https://image.flaticon.com/icons/svg/450/450387.svg")
 
     div.w3-sidebar.w3-bar-block.w3-collapse(id="mySidebar" style='width:15%;right:0; padding: 10px; background-color: #f2f2f2')
         //button(onclick='w3_close()').w3-bar-item.w3-button.w3-hide-large Close

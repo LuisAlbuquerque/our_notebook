@@ -12,6 +12,11 @@ router.get('/register', function(req, res, next) {
   res.render('register');
 });
 
+router.get('/logout', verificaAutenticacao, function(req, res, next) {
+  req.logout()
+  res.redirect('/')
+});
+
 router.post('/register', function(req,res){
     var hash = bcrypt.hashSync(req.body.password, 10);
     console.log("hash");
@@ -33,5 +38,12 @@ router.post('/login', passport.authenticate('local',
   })
 )
 
+function verificaAutenticacao(req,res,next){
+  if(req.isAuthenticated()){
+  //req.isAuthenticated() will return true if user is logged in
+    next();
+  } else{
+    res.redirect("/login");}
+}
 
 module.exports = router;

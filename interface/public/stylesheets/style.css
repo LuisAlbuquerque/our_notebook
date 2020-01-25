@@ -141,7 +141,6 @@ button {
   border-radius: .25em;
   cursor: pointer;
   transition: background .4s ease, color .4s ease;
-  
 }
 
 //-----------------
@@ -376,13 +375,13 @@ body {
 }
 
 .foot{
-    position:absolute;
+    /*position:absolute;*/
     bottom: 20px;
-
 }
 .content{
     margin-top: 10%;
 }
+
 .navbar {
   overflow: hidden;
   /* background-color: #333;*/
@@ -404,7 +403,7 @@ body {
 
 /* Change background on mouse-over */
 .navbar a:hover {
-  background: #ddd;
+  background: #dddddd;
   color: black;
 }
 
