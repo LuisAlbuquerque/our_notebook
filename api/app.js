@@ -10,11 +10,42 @@ mongoose.connect('mongodb://127.0.0.1:27017/ournote', {useNewUrlParser: true, us
 var userApiRouter = require('./routes/user-api');
 var groupApiRouter = require('./routes/group-api');
 
+// Autenticação com JWT
+var passport = require('passport')
+var JWTStrategy = require('passport-jwt').Strategy
+var ExtractJWT = require('passport-jwt').ExtractJwt
+
+var extractFromBody = function(req){
+  var token = null
+  if(req.body && req.body.token) token = req.body.token;
+  return token
+}
+
+var extractFromQS = function(req){
+  var token = null
+  if(req.query && req.query.token) token = req.query.token;
+  return token
+}
+
+passport.use(new JWTStrategy({
+  secretOrKey: 'passsword',
+  jwtFromRequest: ExtractJWT.fromExtractors([extractFromQS, extractFromBody])
+}, async (payload, done) => {
+  try{
+    return done(null, payload)
+  }
+  catch(error){
+    return done(error)
+  }
+}))
+
 var app = express();
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');
+
+app.use(passport.initialize());
 
 app.use(logger('dev'));
 app.use(express.json());

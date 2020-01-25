@@ -2,13 +2,13 @@ extends layout
 
 block content
     .grid(style="margin-top : 20%")
-      form.form.login(action='/login' method='POST')
+      form.form.login(action='https://httpbin.org/post' method='POST')
         .form__field
           label(for='login__username')
             svg.icon
               use(xmlns:xlink='http://www.w3.org/1999/xlink' xlink:href='#user')
             span.hidden Username
-          input#login__username.form__input(type='text' name='email' placeholder='Email' required='')
+          input#login__username.form__input(type='text' name='username' placeholder='Username' required='')
         .form__field
           label(for='login__password')
             svg.icon

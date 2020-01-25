@@ -1,18 +1,11 @@
 var express = require('express');
 var axios = require('axios');
 var router = express.Router();
+var passport = require('passport')
+var bcrypt = require('bcryptjs')
 
 const api_link = "http://localhost:4877"
 const interface_link = "http://localhost:5877"
-
-//TODO nao devia ser um get?
-//var api_post = email => body => res => result => {
-//    axios.post(api_link + "/login?user=" + email, body)
-//        .then(result)
-//        .catch(erro => {
-//            res.render("error", {error : erro});
-//        })
-//}
 
 var api_create_group = path => body => res => result => {
     axios.post(api_link + "/root/" + path, body)
@@ -30,7 +23,7 @@ var api_get = path => res => result => {
         })
 }
 
-router.get('/*', function(req, res, next) {
+router.get('/*', verifyAuthentication, function(req, res, next) {
     let path = req.params['0'].replace(/\/+$/, '');
     let path_list = path.split("/");
 
@@ -42,7 +35,7 @@ router.get('/*', function(req, res, next) {
         });
 });
 
-router.post('/*', function(req, res, next) {
+router.post('/*', verifyAuthentication, function(req, res, next) {
     let path = req.params['0'].replace(/\/+$/, '');
     let path_list = path.split("/");
 
@@ -64,7 +57,7 @@ router.post('/*', function(req, res, next) {
     }
 });
 
-router.put('/*', function(req, res, next) {
+router.put('/*', verifyAuthentication, function(req, res, next) {
     let path = req.params['0'].replace(/\/+$/, '');
     let path_list = path.split("/");
     console.dir(req.body)
@@ -77,7 +70,7 @@ router.put('/*', function(req, res, next) {
         .catch(err => res.render('error', {error: err}));
 });
 
-router.delete('/*', function(req, res, next) {
+router.delete('/*', verifyAuthentication, function(req, res, next) {
     let path = req.params['0'].replace(/\/+$/, '');
     let path_list = path.split("/");
     console.dir(req.body);
@@ -89,5 +82,13 @@ router.delete('/*', function(req, res, next) {
         })
         .catch(err => res.render('error', {error: err}));
 });
+
+function verifyAuthentication(req,res,next){
+  if(req.isAuthenticated()){
+  //req.isAuthenticated() will return true if user is logged in
+    next();
+  } else{
+    res.redirect("/");}
+}
 
 module.exports = router;
