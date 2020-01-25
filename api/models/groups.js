@@ -17,17 +17,10 @@ var card_Schema = new mongoose.Schema({
     list : [String],
     event : eventSchema,
     tags : [String]
-
 });
 
 var PATH  = String;
 var EMAIL = String;
-
-/*
-var cards_Schema = new mongoose.Schema([ 
-    card_Schema
-]);
-*/
 
 var groupSchema = new mongoose.Schema({
     path : { //id
@@ -40,6 +33,7 @@ var groupSchema = new mongoose.Schema({
              type: String,
              required: true 
            },
+    tags : [String],
     sub_groups : [ PATH ],
     read_perm  : [ EMAIL ],
     write_perm : [ EMAIL ],

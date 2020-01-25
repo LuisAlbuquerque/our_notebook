@@ -112,19 +112,22 @@ instance Show Path where
         where
             path = foldl (\b a -> if b == "/" then b ++ a else b ++ "/" ++ a) "/" $ map unGroupName l
 
-data Card = Card {
-    ctype :: String,
-    value :: String}
+data Card = Card 
+    { ctype :: String
+    , value :: String
+    , ctags :: [Tag]
+    }
 
-instance Arbitrary Card where
-    arbitrary = do
-        k <- elements keys
-        v <- elements values
-        return $ Card k v
+--instance Arbitrary Card where
+--    arbitrary = do
+--        k <- elements keys
+--        v <- elements values
+--        return $ Card k v
 
 instance Show Card where
-    show (Card k v) = 
-        "{" ++ cover_str k ++ ": " ++ cover_str v ++ "}"
+    show (Card k v t) = 
+        "{" ++ cover_str k ++ ": " ++ cover_str v ++ 
+        ",\"tags\": " ++ (show_list $ map unTag t) ++ "}"
 
 type Key = String
 type Value = String
@@ -139,6 +142,7 @@ data Group = Group
     { path :: Path
     , id_creator :: Email
     , gname :: GroupName
+    , tags :: [Tag]
     , sub_groups :: [GroupName]
     , read_perm :: [Email]
     , write_perm :: [Email]
@@ -146,10 +150,11 @@ data Group = Group
     }
 
 instance Show Group where
-    show (Group pt i g s r w pg) = 
+    show (Group pt i g t s r w pg) = 
         "{" ++ pa ++ "," 
             ++ id ++ ","
             ++ na ++ ","
+            ++ tg ++ ","
             ++ su ++ ","
             ++ re ++ ","
             ++ wr ++ ","
@@ -158,6 +163,7 @@ instance Show Group where
             pa = "\"path\": " ++ show pt
             id = "\"id_creator\": " ++ (cover_str $ unEmail i)
             na = "\"name\": " ++ (cover_str $ unGroupName g)
+            tg = "\"tags\": " ++ (show_list $ map unTag t)
             su = "\"sub_groups\": " ++ (show_list $ map unGroupName s)
             re = "\"read_perm\": " ++ (show_list $ map unEmail r)
             wr = "\"write_perm\": " ++ (show_list $ map unEmail w)
@@ -173,4 +179,10 @@ instance Show Group where
 --        w  <- arbitrary :: Gen [Email]
 --        pg <- arbitrary :: Gen [String]
 --        return $ Group pt i g s r w pg
+
+data Tag = Tag {unTag :: String}
+    deriving Eq
+
+instance Show Tag where
+    show (Tag s) = s
 

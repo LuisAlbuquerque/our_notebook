@@ -52,31 +52,33 @@ generate_one_layer n r (Tree s l) =
     (sequence $ map (generate_one_layer n r) l) 
         >>= return . Tree s
 
-tree2group :: [Email] -> [String] -> [String] -> Tree -> IO [Group]
-tree2group ems fs is (Tree s []) = do
+tree2group :: [String] -> [Email] -> [String] -> [String] -> Tree -> IO [Group]
+tree2group tgs ems fs is (Tree s []) = do
     let admin_email = email $ snd admin
     let pt = Path [GroupName s]
     i <- generate $ elements ems
     let n  = GroupName s
+    t <- random_sub 3 tgs
     let su = []
     r <- random_sub 10 ems
     w <- return . (admin_email:) =<< random_sub 10 ems
-    pg <- create_page s fs is
-    return [Group pt i n su (nub $ r++w) w pg]
-tree2group ems fs is (Tree s l) = do
+    pg <- create_page tgs s fs is
+    return [Group pt i n (map Tag t) su (nub $ r++w) w pg]
+tree2group tgs ems fs is (Tree s l) = do
     let admin_email = email $ snd admin
-    lg <- sequence $ map (tree2group ems fs is) l
+    lg <- sequence $ map (tree2group tgs ems fs is) l
     let pt = Path [GroupName s]
     i <- generate $ elements ems
     let n  = GroupName s
+    t <- random_sub 3 tgs
     let su = map (GroupName . node) l
     r <- random_sub 10 ems
     w <- return . (admin_email:) =<< random_sub 10 ems
-    pg <- create_page s fs is
-    let g  = Group pt i n su (nub $ r++w) w pg
+    pg <- create_page tgs s fs is
+    let g  = Group pt i n (map Tag t) su (nub $ r++w) w pg
     return $ g : (map 
-                (\(Group (Path pt') i' n' su' r' w' pg') ->
-                    Group (Path (n: pt')) i' n' su' r' w' pg')
+                (\(Group (Path pt') i' n' t' su' r' w' pg') ->
+                    Group (Path (n: pt')) i' n' t' su' r' w' pg')
                 $ concat lg)
 
 create_tree :: [([String], Int)] -> IO Tree
@@ -131,14 +133,17 @@ create_users num ln la lp tr
         user <- create_user ln la lp tr
         return $ admin : user : users
 
-create_page :: String -> [String] -> [String] -> IO [Card]
-create_page n fs is = do
+create_page :: [String] -> String -> [String] -> [String] -> IO [Card]
+create_page tgs n fs is = do
     f <- generate $ elements fs
     i <- generate $ elements is
+    t1 <- random_sub 1 tgs
+    t2 <- random_sub 1 tgs
+    t3 <- random_sub 1 tgs
     return $
-        [ Card "h1" n
-        , Card "p" f
-        , Card "img" i
+        [ Card "h1" n $ map Tag t1
+        , Card "p" f $ map Tag t2
+        , Card "img" i $ map Tag t3
         ]
 
 main :: IO ()
@@ -152,6 +157,7 @@ main = do
     disciplinas     <- return . lines =<< readFile "disciplinas.txt"
     imagens         <- return . lines =<< readFile "imagens.txt"
     factos          <- return . lines =<< readFile "factos.txt"
+    tags            <- return . lines =<< readFile "tags.txt"
     pages <- sequence . map (readFile . ("pagesSimpleHTML/" ++ )) . lines 
                 =<< readFile "pages.txt"
     let grupos = [ "grupo" ++ (show i) | i <- [1..10]]
@@ -177,7 +183,7 @@ main = do
                         (zip passwords enc_passwords) 
                         tree)
 
-    groups <- tree2group (map email users) factos imagens
+    groups <- tree2group tags (map email users) factos imagens
                 $ union_tree exception tree
     
     writeFile "groups.json" $ show groups
