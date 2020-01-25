@@ -44,6 +44,15 @@ Groups.add_group = (res,dad,name,mail) => {
         
 }
 
+Groups.tags = tag => {
+    Group.aggregate([
+        {$unwind : "$page"},
+        {$match : {"page.tag" : tag}},
+        {$group : {_id : "$path"}}
+    ])
+    .exec()
+}
+
 Groups.group_id = path => {
     path = "/" + path
     console.log("group_path : " + path)

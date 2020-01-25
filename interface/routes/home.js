@@ -12,6 +12,17 @@ router.get('/register', function(req, res, next) {
   res.render('register');
 });
 
+router.get('/profile', function(req, res, next) {
+  axios.get('http://localhost:4877/profile?email=' + req.user.email)
+    .then(dados =>
+      res.render('user',{books : dados.data.favourite})
+    )
+    .catch(err =>
+      res.render('user',{books : []})
+    )
+
+});
+
 router.get('/logout', verificaAutenticacao, function(req, res, next) {
   req.logout()
   res.redirect('/')
