@@ -12,6 +12,17 @@ router.get('/register', function(req, res, next) {
   res.render('register');
 });
 
+router.post('/add_favourite', function(req, res, next) {
+  axios.post('http://localhost:4877/favourite?email=' + req.user.email+"&path="+req.query.path)
+    .then(dados => 
+        res.jsonp({ok : 1})
+    )
+    .catch(err =>
+        res.jsonp({ok : -1})
+    )
+
+});
+
 router.get('/profile', function(req, res, next) {
   axios.get('http://localhost:4877/profile?email=' + req.user.email)
     .then(dados => 

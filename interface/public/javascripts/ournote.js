@@ -2,6 +2,12 @@
 const interface_link = 'http://localhost:5877/root';
 const api_link = 'http://localhost:4877/root';
 
+const add_favourite = (path) => {
+    axios.post('http://localhost:5877/add_favourite?path=' + path)
+        .then(dados => alert("Grupo adicionado aos favoritos"))
+        .catch(err => alert("Erro ao adicionar aos favoritos"))
+}
+
 //const add_file = (path) => {
 //    var form = $('<form class="w3-container" action="' 
 //                    + api_link + path + 

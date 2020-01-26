@@ -2,25 +2,25 @@ extends layout
 
 block content
     .grid(style="margin-top : 20%")
-      form(action='/register' method='POST')
+      form.form.login(action='/register' method='POST')
         .form__field
           label(for='login__username')
             svg.icon
               use(xmlns:xlink='http://www.w3.org/1999/xlink' xlink:href='#user')
             span.hidden Username
-          input(type='text' name='name' placeholder='Name') 
+          input#login__username.form__input(type='text' name='name' placeholder='Name') 
         .form__field
           label(for='login__username')
             svg.icon
               use(xmlns:xlink='http://www.w3.org/1999/xlink' xlink:href='#user')
             span.hidden Username
-          input(type='text' name='email' placeholder='Email') 
+          input#login__username.form__input(type='text' name='email' placeholder='Email') 
         .form__field
           label(for='login__password')
             svg.icon
               use(xmlns:xlink='http://www.w3.org/1999/xlink' xlink:href='#lock')
             span.hidden Password
-          input(type='password' name='password' placeholder='Password')
+          input#login__password.form__input(type='password' name='password' placeholder='Password')
         .form__field
           input(type='submit' value='Sign In')
     svg.icons(xmlns='http://www.w3.org/2000/svg')

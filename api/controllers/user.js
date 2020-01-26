@@ -35,8 +35,9 @@ Users.favourite_id = id=> {
 }
 
 Users.favourite_add = (id,group) => {
+    console.log("path : " +group)
     return User
-        ({email: id},{$push : {favourite : group}})
+        .findOneAndUpdate({email: id},{$push : {favourite : group}})
         .exec();
 }
 

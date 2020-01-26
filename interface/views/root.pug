@@ -20,6 +20,7 @@ block content
     div.w3-sidebar.w3-bar-block.w3-collapse(id="mySidebar" style='width:15%;right:0; padding: 10px; background-color: #f2f2f2')
         //button(onclick='w3_close()').w3-bar-item.w3-button.w3-hide-large Close
         h1(style="color:black")= path.split("/").reverse()[0]
+        button.w3-bar-item.w3-button(onclick="add_favourite('" + path + "')" style="margin: 5px") Adicionar aos favoritos
         button.w3-bar-item.w3-button(onclick="" style="margin: 5px") Procurar por tag
         button.w3-bar-item.w3-button(onclick="add_event('" + path + "')" style="margin: 5px") Adicionar um evento
         button.w3-bar-item.w3-button(onclick="" style="margin: 5px") Adicionar uma pessoa ao grupo

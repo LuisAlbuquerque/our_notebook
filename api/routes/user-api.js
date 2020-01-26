@@ -17,8 +17,10 @@ router.get('/profile', /*passport.authenticate('jwt', {session: false}), */(req,
         .catch(err => res.status(500).jsonp(err))
 });
 
-router.post('/favourite', passport.authenticate('jwt', {session: false}), (req, res) => {
-    Users.favourite_add(req.query.email,req.body.group)  
+router.post('/favourite',  (req, res) => {
+    console.log("add favoritos")
+    console.log("path " + req.query.path)
+    Users.favourite_add(req.query.email,req.query.path)  
         .then(dados => res.jsonp(dados))
         .catch(err => res.status(500).jsonp(err))
 });
