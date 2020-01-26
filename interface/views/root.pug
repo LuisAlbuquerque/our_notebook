@@ -154,39 +154,18 @@ block content
                                 div.w3-card.w3-round-large(style="background-color: #f2f2f2; padding: 10px")
                                     h2(id=card._id style="color:black")= card.event.title
                                     p(style="font-size: 20px; color:black")= card.event.data
-                                    ul.weekdays
-                                        li Mo
-                                        li Tu
-                                        li We
-                                        li Th
-                                        li Fr
-                                        li Sa
-                                        li Su
-                                    ul.days
-                                        li 1
-                                        li 2
-                                        li 3
-                                        li 4
-                                        li 5
-                                        li 6
-                                        li 7
-                                        li 8
-                                        li 9
-                                        li
-                                            span.active 10
-                                        li 11
                                
                             if card.pdf != undefined
-                               div(style="width: 100% height: 100%")
+                               div(id=card._id style="width: 100% height: 100%")
                                   embed(src=card.pdf height="800px" width="100%" )
                             if card.file != undefined
-                               div(style="height: 150px; color:black; background-color: #f2f2f2").w3-card.w3-round-large
+                               div(id=card._id style="height: 150px; color:black; background-color: #f2f2f2").w3-card.w3-round-large
                                 center
                                    h2(style="color:black")= card.file.split("/").reverse()[0]
                                    a(href=card.file download class="download" style="background-color: #1abc9c").w3-button.w3-card.w3-round-large Download   
 
                             if card.list != undefined
-                               ul
+                               ul(id=card._id)
                                 each item in card.list
                                      li(align="center" style="color:white")= item
                             

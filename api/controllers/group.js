@@ -16,16 +16,17 @@ Groups.names = () => {
         .exec();
 }
 
-Groups.add_group = (res,dad,name,mail) => {
+Groups.add_group = (res,dad,name,mail,read_perm,write_perm) => {
     var path = (dad=="")?name:(dad + "/" + name);
     path = "/" + path;
+
     var group = {
         path : path,
         id_creator : mail,
         name : name,
         sub_groups : [ ],
-        read_perm  : [ mail ],
-        write_perm : [ mail ],
+        read_perm  : read_perm.split(";").concat( mail ),
+        write_perm : write_perm.split(";").concat( mail ),
         page       : [ {"h1" : name} ]
     }
     console.log(group)
@@ -44,12 +45,14 @@ Groups.add_group = (res,dad,name,mail) => {
         
 }
 
-Groups.tags = tag => {
-    Group.aggregate([
+Groups.tags = (tag,email) => {
+    return Group.aggregate([
+        {$unwind    : "$read_perm"},
+        {$match     : {"read_perm": email}},
         {$unwind    : "$page"},
         {$unwind    : "$page.tags"},
         {$match     : {"page.tags": tag}},
-        {$project   : {"path":1, "page":1}}
+        {$group     : {"_id" : "$path" ,"path": {$first : "$path"}, "page":{$first : "$page"}}}
     ])
     .exec()
 }

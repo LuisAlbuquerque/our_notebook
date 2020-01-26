@@ -142,8 +142,9 @@ const add_group = (path) => {
     var form = $('<form class="w3-container" action="' 
                     + interface_link + path + 
                     '" method="post" width="80%">' +
-                    '<input type="text" name="mail" placeholder="Email" style="font-size: 30px"/>' +
                     '<input type="text" name="name" placeholder="Nome do Grupo" style="font-size: 30px"/>' +
+                    '<input type="text" name="read_perm" placeholder="email1;email2;..." style="font-size: 30px"/>' +
+                    '<input type="text" name="write_perm" placeholder="email1;email2;..." style="font-size: 30px"/>' +
                     '<input type="submit" value="Criar"/>' +
                     '</form>'
                 )

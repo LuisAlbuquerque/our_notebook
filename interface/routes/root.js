@@ -52,7 +52,13 @@ router.post('/*', verifyAuthentication_write, function(req, res, next) {
 
          
     if(req.body.name!=undefined){
-        api_create_group (path) (req.body) (res)
+        var body = {
+            name : req.body.name,
+            email: req.user.email,
+            read_perm : req.body.read_perm,
+            write_perm : req.body.write_perm
+        }
+        api_create_group (path) (body) (res)
             (dados => {
                 res.redirect(interface_link + "/root/" + path);
             });

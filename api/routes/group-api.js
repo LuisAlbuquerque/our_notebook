@@ -80,9 +80,11 @@ router.post('/*', upload.single('file'), (req, res) => {
         res.redirect('http://localhost:5877/root/' + path);
         console.log(req.file);
     }else{
-        let email = req.body["mail"];
+        let email = req.body["email"];
         let name = req.body["name"];
-        Groups.add_group(res,path,name,email);
+        let read_perm = req.body["read_perm"];
+        let write_perm = req.body["write_perm"];
+        Groups.add_group(res,path,name,email,read_perm,write_perm);
     }
 });
 

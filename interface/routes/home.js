@@ -38,18 +38,24 @@ router.get('/profile', verificaAutenticacao, function(req, res, next) {
   axios.get('http://localhost:4877/profile?email=' + req.user.email +
                                             '&token='+ token)
     .then(favs => {
-        axios.get('http://localhost:4877/profile?tag='+ tag +
-                                                  '&token='+ token)
-          .then(tags => 
-              res.render('user',{books : dados.data.favourite, 
-                                tags : tags})
-          )
+        axios.get('http://localhost:4877/profile?email=' + req.user.email 
+                                                         +'&tag='+ tag +
+                                                          '&token='+ token)
+          .then(tags => {
+              if(tag==""){
+                res.render('user',{books : favs.data.favourite, 
+                                tags : []})
+              }else{
+                res.render('user',{books : favs.data.favourite, 
+                                tags : tags.data})
+              }
+          })
           .catch(err =>
-            res.render('user',{books : dados.data.favourite})
+            res.render('user',{books : favs.data.favourite, tags: []})
           )
     })
     .catch(err =>
-      res.render('user',{books : []})
+      res.render('user',{books : [], tags:[]})
     )
 });
 

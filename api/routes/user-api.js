@@ -11,14 +11,16 @@ router.post('/login', passport.authenticate('jwt', {session: false}), (req, res)
             .catch(erro => res.status(500).jsonp(erro))
 });
 
-router.get('/profile', passport.authenticate('jwt', {session: false}), (req, res) => {
-    tag = res.query.tag;
+router.get('/profile',/* passport.authenticate('jwt', {session: false}),*/ (req, res) => {
+    tag = req.query.tag;
+    console.log("esta autenticado")
     if(tag == undefined || tag==""){
+        console.log("tag " + tag)
         Users.favourite_id(req.query.email)
             .then(dados => res.jsonp(dados[0]))
             .catch(err => res.status(500).jsonp(err))
     } else {
-        Groups.tags(tag)
+        Groups.tags(tag,req.query.email)
             .then(dados => res.jsonp(dados))
             .catch(err => res.status(500).jsonp(err))
     }
