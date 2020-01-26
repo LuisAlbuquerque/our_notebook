@@ -68,7 +68,7 @@ router.get('/*', passport.authenticate('jwt', {session: false}), (req, res) => {
             .catch(erro => res.status(500).jsonp(erro));
 });
 
-router.post('/*', passport.authenticate('jwt', {session: false}), upload.single('file'), (req, res) => {
+router.post('/*', /*passport.authenticate('jwt', {session: false}), */upload.single('file'), (req, res) => {
     let path = req.params['0'].replace(/\/+$/, '');
     console.log(path)
     console.log("type :" + req.query.type)

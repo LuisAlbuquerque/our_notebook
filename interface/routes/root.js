@@ -4,6 +4,8 @@ var router = express.Router();
 var passport = require('passport')
 var bcrypt = require('bcryptjs')
 var jwt = require('jsonwebtoken')
+var fs = require("fs")
+const formdata = require('form-data')
 
 const api_link = "http://localhost:4877"
 const interface_link = "http://localhost:5877"
@@ -55,16 +57,37 @@ router.post('/*', verifyAuthentication_write, function(req, res, next) {
                 res.redirect(interface_link + "/root/" + path);
             });
     } else {
-        console.log("type: "+ req.query.type)
-        console.log("--body--")
-        console.log(req.body)
-        axios.put(api_link + '/root/' + path + "?type=" + req.query.type 
-                                            + "&token=" + token, req.body)
+        if(req.query.type == 'file'){
 
-            .then(dados => {
-                res.redirect(interface_link + '/root/' + path )
+            var name = "../GotIt.png"
+            let form_data = new formdata()      
+            form_data.append('name', name)
+            const file = fs.createReadStream(name)
+            form_data.append('content', file, name)
+
+            axios.post(api_link + "/root/" + path + "?type=file&token="
+                                                  + token, form_data, {
+                       headers: {
+                                  "Content-Type": "multipart/form-data"
+                                  }, responseType: "json"
             })
-            .catch(err => res.render('error', {error: err}));
+                .then(dados => {
+                    res.redirect('/' + path);
+                })
+                .catch(err => res.render('error', {error: err}))
+            //console.dir(req);
+        } else {
+            console.log("type: "+ req.query.type)
+            console.log("--body--")
+            console.log(req.body)
+            axios.put(api_link + '/root/' + path + "?type=" + req.query.type 
+                                                 + "&token=" + token, req.body)
+
+                .then(dados => {
+                    res.redirect(interface_link + '/root/' + path )
+                })
+                .catch(err => res.render('error', {error: err}));
+        }
     }
 });
 
