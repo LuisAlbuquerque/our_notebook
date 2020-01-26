@@ -8,20 +8,6 @@ const add_favourite = (path) => {
         .catch(err => alert("Erro ao adicionar aos favoritos"))
 }
 
-//const add_file = (path) => {
-//    var form = $('<form class="w3-container" action="' 
-//                    + api_link + path + 
-//                    '" method="post" width="80%">' +
-//                    //TODO remove type have a cascade
-//                    '<input id="file" type="file" name="file" />' +
-//                    '<input type="submit" value="Enviar"/>' +
-//                    '</form>'
-//                )
-//    var coisas = $('<div><p>Coisas</p></div>')
-//    $('#display').empty()
-//    $('#display').append(form, coisas)
-//    $('#display').modal()
-//}
 const add = (path,type) => {
     var form = $('<form class="w3-container" action="' 
                     + interface_link + path +"?type="+type +

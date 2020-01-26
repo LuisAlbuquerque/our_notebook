@@ -3,6 +3,7 @@ var fs = require('fs');
 var router  = express.Router();
 var Groups  = require('../controllers/group');
 var Group = require('../models/groups');
+var passport = require('passport');
 
 const multer = require('multer');
 const multerConfig = require('./config/multer');
@@ -60,14 +61,14 @@ var upload = multer({dest: 'uploads'})
                 .then(dados => res.jsonp(dados))
                 .catch(erro => res.status(500).jsonp(erro));
  */
-router.get('/*', (req, res) => {
+router.get('/*', passport.authenticate('jwt', {session: false}), (req, res) => {
     let path = req.params['0'].replace(/\/+$/, '');
     Groups.group_id(path)
             .then(dados => res.jsonp(dados[0]))
             .catch(erro => res.status(500).jsonp(erro));
 });
 
-router.post('/*', upload.single('file'), (req, res) => {
+router.post('/*', passport.authenticate('jwt', {session: false}), upload.single('file'), (req, res) => {
     let path = req.params['0'].replace(/\/+$/, '');
     console.log(path)
     console.log("type :" + req.query.type)
@@ -136,7 +137,7 @@ var movefile = (req,res,path,tags) => {
     });
 }
 
-router.put('/*', (req, res) => {
+router.put('/*', passport.authenticate('jwt', {session: false}), (req, res) => {
     let path = req.params['0'].replace(/\/+$/, '');
     let i    = req.body.i;
     let j    = req.body.j;
@@ -164,7 +165,7 @@ router.put('/*', (req, res) => {
 
 });
 
-router.delete('/*', (req, res) => {
+router.delete('/*', passport.authenticate('jwt', {session: false}), (req, res) => {
     let path = req.params['0'].replace(/\/+$/, '');
     let l = req.body.l;
     console.log(l);

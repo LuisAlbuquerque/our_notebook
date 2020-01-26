@@ -21,8 +21,8 @@ router.get('/register', function(req, res, next) {
   res.render('register');
 });
 
-router.post('/add_favourite', function(req, res, next) {
-  axios.post('http://localhost:4877/favourite?email=' + req.user.email+"&path="+req.query.path +"&toke=" + token)
+router.post('/add_favourite', verificaAutenticacao, function(req, res, next) {
+  axios.post('http://localhost:4877/favourite?email=' + req.user.email+"&path="+req.query.path +"&token=" + token)
     .then(dados => 
         res.jsonp({ok : 1})
     )
