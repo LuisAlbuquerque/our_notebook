@@ -375,7 +375,7 @@ body {
 }
 
 .foot{
-    /*position:absolute;*/
+    position:absolute;
     bottom: 20px;
 }
 .content{
