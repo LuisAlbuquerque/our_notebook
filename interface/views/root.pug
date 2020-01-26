@@ -4,7 +4,7 @@ block content
     .w3-card-4.modal(id='display')
 
     div(class="sidenav")
-      if path.replace(/\/[^\/]*$/,'') != ''
+      if path != ''
         a(href="/root"+path.replace(/\/[^\/]*$/,'')) ..
       if group.sub_groups
           each sub_group in group.sub_groups

@@ -52,8 +52,9 @@ generate_one_layer n r (Tree s l) =
     (sequence $ map (generate_one_layer n r) l) 
         >>= return . Tree s
 
-tree2group :: [String] -> [Email] -> [String] -> [String] -> Tree -> IO [Group]
-tree2group tgs ems fs is (Tree s []) = do
+tree2group :: [String] -> [User] -> [String] -> [String] -> Tree -> IO [Group]
+tree2group tgs us fs is (Tree s []) = do
+    let ems = map email us
     let admin_email = email $ snd admin
     let pt = Path [GroupName s]
     i <- generate $ elements ems
@@ -64,9 +65,13 @@ tree2group tgs ems fs is (Tree s []) = do
     w <- return . (admin_email:) =<< random_sub 10 ems
     pg <- create_page tgs s fs is
     return [Group pt i n (map Tag t) su (nub $ r++w) w pg]
-tree2group tgs ems fs is (Tree s l) = do
+tree2group tgs us fs is (Tree s l) = do
+    let ems = map email us
+    let next_us = if us==[] 
+                    then [] 
+                    else () $ filter (\User n e p (h:t) -> User n e p ) us
     let admin_email = email $ snd admin
-    lg <- sequence $ map (tree2group tgs ems fs is) l
+    lg <- sequence $ map (tree2group tgs () fs is) l
     let pt = Path [GroupName s]
     i <- generate $ elements ems
     let n  = GroupName s
@@ -183,7 +188,7 @@ main = do
                         (zip passwords enc_passwords) 
                         tree)
 
-    groups <- tree2group tags (map email users) factos imagens
+    groups <- tree2group tags users factos imagens
                 $ union_tree exception tree
     
     writeFile "groups.json" $ show groups

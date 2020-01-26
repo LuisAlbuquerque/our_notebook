@@ -10,7 +10,7 @@ router.post('/login', passport.authenticate('jwt', {session: false}), (req, res)
             .catch(erro => res.status(500).jsonp(erro))
 });
 
-router.get('/profile', /*passport.authenticate('jwt', {session: false}), */(req, res) => {
+router.get('/profile', passport.authenticate('jwt', {session: false}), (req, res) => {
     console.log("no profile")
     Users.favourite_id(req.query.email)
         .then(dados => res.jsonp(dados[0]))

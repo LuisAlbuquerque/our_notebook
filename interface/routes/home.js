@@ -3,6 +3,15 @@ var router = express.Router();
 var axios = require('axios')
 var bcrypt = require('bcryptjs')
 var passport = require('passport')
+var jwt = require('jsonwebtoken')
+
+var token = jwt.sign(
+                    {}, 
+                    'passsword', 
+                    {
+                        expiresIn: 3000, 
+                        issuer:'Interface Ournote'
+                    });
 
 router.get('/', function(req, res, next) {
   res.render('home');
@@ -23,15 +32,15 @@ router.post('/add_favourite', function(req, res, next) {
 
 });
 
-router.get('/profile', function(req, res, next) {
-  axios.get('http://localhost:4877/profile?email=' + req.user.email)
+router.get('/profile', verificaAutenticacao, function(req, res, next) {
+  axios.get('http://localhost:4877/profile?email=' + req.user.email +
+                                            '&token='+ token)
     .then(dados => 
         res.render('user',{books : dados.data.favourite})
     )
     .catch(err =>
       res.render('user',{books : []})
     )
-
 });
 
 router.get('/logout', verificaAutenticacao, function(req, res, next) {
