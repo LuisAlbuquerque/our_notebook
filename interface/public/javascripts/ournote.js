@@ -65,7 +65,7 @@ const addList = (path,type) => {
 
 const addFile = (path) => {
     var form = $('<form class="w3-container" action="' 
-                    + interface_link + path +"?type=file"+ 
+                    + api_link + path +"?type=file"+ 
                     '" method="post" enctype="multipart/form-data">' +
                     //TODO remove type have a cascade
                     '<input type="file" name="file" />' +

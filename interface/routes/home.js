@@ -33,11 +33,21 @@ router.post('/add_favourite', verificaAutenticacao, function(req, res, next) {
 });
 
 router.get('/profile', verificaAutenticacao, function(req, res, next) {
+    tag = req.query.tag;
+    tag = tag!=undefined? tag: ""
   axios.get('http://localhost:4877/profile?email=' + req.user.email +
                                             '&token='+ token)
-    .then(dados => 
-        res.render('user',{books : dados.data.favourite})
-    )
+    .then(favs => {
+        axios.get('http://localhost:4877/profile?tag='+ tag +
+                                                  '&token='+ token)
+          .then(tags => 
+              res.render('user',{books : dados.data.favourite, 
+                                tags : tags})
+          )
+          .catch(err =>
+            res.render('user',{books : dados.data.favourite})
+          )
+    })
     .catch(err =>
       res.render('user',{books : []})
     )

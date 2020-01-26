@@ -46,9 +46,10 @@ Groups.add_group = (res,dad,name,mail) => {
 
 Groups.tags = tag => {
     Group.aggregate([
-        {$unwind : "$page"},
-        {$match : {"page.tag" : tag}},
-        {$group : {_id : "$path"}}
+        {$unwind    : "$page"},
+        {$unwind    : "$page.tags"},
+        {$match     : {"page.tags": tag}},
+        {$project   : {"path":1, "page":1}}
     ])
     .exec()
 }
