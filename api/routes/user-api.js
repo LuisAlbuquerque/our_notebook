@@ -1,6 +1,7 @@
 var express = require('express');
 var router  = express.Router();
 var Users   = require('../controllers/user');
+var Groups  = require('../controllers/group');
 var passport = require('passport');
 
 //TODO : Login
@@ -11,10 +12,17 @@ router.post('/login', passport.authenticate('jwt', {session: false}), (req, res)
 });
 
 router.get('/profile', passport.authenticate('jwt', {session: false}), (req, res) => {
-    console.log("no profile")
-    Users.favourite_id(req.query.email)
-        .then(dados => res.jsonp(dados[0]))
-        .catch(err => res.status(500).jsonp(err))
+    tag = res.query.tag;
+    if(tag == undefined || tag==""){
+        Users.favourite_id(req.query.email)
+            .then(dados => res.jsonp(dados[0]))
+            .catch(err => res.status(500).jsonp(err))
+    } else {
+        Groups.tags(tag)
+            .then(dados => res.jsonp(dados))
+            .catch(err => res.status(500).jsonp(err))
+    }
+
 });
 
 router.post('/favourite', passport.authenticate('jwt', {session: false}), (req, res) => {
