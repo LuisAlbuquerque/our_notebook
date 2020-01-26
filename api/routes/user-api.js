@@ -17,7 +17,7 @@ router.get('/profile', passport.authenticate('jwt', {session: false}), (req, res
         .catch(err => res.status(500).jsonp(err))
 });
 
-router.post('/favourite',  (req, res) => {
+router.post('/favourite', passport.authenticate('jwt', {session: false}), (req, res) => {
     console.log("add favoritos")
     console.log("path " + req.query.path)
     Users.favourite_add(req.query.email,req.query.path)  
