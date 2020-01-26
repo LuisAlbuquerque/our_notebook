@@ -56,10 +56,31 @@ block content
                         tr
                             td
                                 b
-                                    p(style="color:black")= card.event.title
+
+                                    a(href="#"+card._id)
+                                        p(style="color:black")= card.event.title
                             td
                                 p(style="color:black")= card.event.data
 
+
+        h3(style="color:black; background-color:#ddd;") Índice:
+        ul(style="list-style-type:none;")
+        each card in group.page
+          if card.h1 != undefined
+            li(style="list-style-type:none;")
+                a(href="#"+card._id)= card.h1
+          if card.h2 != undefined
+            li(style="list-style-type:none;")
+                ul(style="list-style-type:none;")
+                    li(style="list-style-type:none;")
+                        a(href="#"+card._id)= card.h2
+          if card.h3 != undefined
+            li(style="list-style-type:none;")
+                ul(style="list-style-type:none;")
+                    li(style="list-style-type:none;")
+                        ul(style="list-style-type:none;")
+                            li(style="list-style-type:none;")
+                                a(href="#"+card._id)= card.h3
 
         h3(style="color:black; background-color:#ddd;") Ficheiros:
         each card in group.page
@@ -72,7 +93,8 @@ block content
         center
            each card in group.page
              if card.img!= undefined
-               img(src=card.img align="center" height="140px")
+               a(href="#"+card._id)
+                   img(src=card.img align="center" height="140px")
             
 
             
@@ -105,18 +127,18 @@ block content
                       tr
                           td
                             if card.p != undefined
-                               p= card.p
+                               p(id=card._id)= card.p
                             if card.h1 != undefined
-                               h1(align="center" style="font-size:100px")= card.h1
+                               h1(id=card._id align="center" style="font-size:100px")= card.h1
                             if card.h2 != undefined
-                               h2(align="center")= card.h2
+                               h2(id=card._id align="center" style="font-size:60px")= card.h2
                             if card.h3 != undefined
-                               h3(align="center")= card.h3
+                               h3(id=card._id align="center" style="font-size:40px")= card.h3
                             if card.img != undefined
-                               img(src=card.img align="center"  style="max-height : 500px; max-width: auto")
+                               img(id=card._id src=card.img align="center"  style="max-height : 500px; max-width: auto")
                             if card.event != undefimed
                                 div.w3-card.w3-round-large(style="background-color: #f2f2f2; padding: 10px")
-                                    h2(style="color:black")= card.event.title
+                                    h2(id=card._id style="color:black")= card.event.title
                                     p(style="font-size: 20px; color:black")= card.event.data
                                     ul.weekdays
                                         li Mo
