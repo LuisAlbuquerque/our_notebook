@@ -10,23 +10,24 @@ router.post('/login', passport.authenticate('jwt', {session: false}), (req, res)
             .catch(erro => res.status(500).jsonp(erro))
 });
 
-router.get('/profile', passport.authenticate('jwt', {session: false}), (req, res) => {
+router.get('/profile', /*passport.authenticate('jwt', {session: false}), */(req, res) => {
+    console.log("no profile")
     Users.favourite_id(req.query.email)
-        .then(dados => jsonp(dados))
-        .catch(err => jsonp(err))
+        .then(dados => res.jsonp(dados[0]))
+        .catch(err => res.status(500).jsonp(err))
 });
 
 router.post('/favourite', passport.authenticate('jwt', {session: false}), (req, res) => {
     Users.favourite_add(req.query.email,req.body.group)  
-        .then(dados => jsonp(dados))
-        .catch(err => jsonp(err))
+        .then(dados => res.jsonp(dados))
+        .catch(err => res.status(500).jsonp(err))
 });
 
 router.get('/user/:email', passport.authenticate('jwt', {session: false}), (req, res) => {
     console.log("entrou!")
     console.log(req.params.email)
     Users.user_id(req.params.email)
-            .then(dados => {res.jsonp(dados[0]); console.log(dados)})
+            .then(dados => res.jsonp(dados[0]))
             .catch(erro => res.status(500).jsonp(erro))
 });
 

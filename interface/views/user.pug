@@ -12,13 +12,13 @@ block content
             .notebook-page.ruled
           h4 Raiz
         
-      each title in books
-        a(href="/root/" + Book ,style="text-decoration: none; color: white")
+      each book in books
+        a(href="/root" + book ,style="text-decoration: none; color: white")
           .moleskine-wrapper
             .moleskine-notebook
               .notebook-cover
-                .notebook-skin= Book.split("/").reverse()[0]
+                .notebook-skin= book.split("/").reverse()[0]
               .notebook-page.ruled
-            h4= Book
+            h4= book
 
       

@@ -14,8 +14,8 @@ router.get('/register', function(req, res, next) {
 
 router.get('/profile', function(req, res, next) {
   axios.get('http://localhost:4877/profile?email=' + req.user.email)
-    .then(dados =>
-      res.render('user',{books : dados.data.favourite})
+    .then(dados => 
+        res.render('user',{books : dados.data.favourite})
     )
     .catch(err =>
       res.render('user',{books : []})
