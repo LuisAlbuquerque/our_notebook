@@ -170,6 +170,60 @@ var remove_list = (arr,l) =>{
 
 }
 
+Groups.add_perm = (res,path,read_perm,write_perm) => {
+    console.log("adicionar no controller")
+    console.log("----------------------nao chega aqui-----------------")
+    console.log("readpem " + read_perm)
+    console.log("write_perm " + write_perm)
+    Groups.page(path)
+        .then(dados =>{ 
+        Group.findByIdAndUpdate(
+            dados[0]._id,
+            {
+              read_perm: dados[0].read_perm.concat( read_perm.split(";") ),
+              write_perm: dados[0].write_perm.concat( write_perm.split(";") ),
+            },
+            {new : true},
+            (err,d) => {
+                if(!err){
+                    res.jsonp({ok : 1});
+                }else{
+                    res.jsonp({erro : "nao conseguiu fazer update"})
+                }
+            })
+        })
+        .catch(err => res.jsonp({erro : err}))
+};
+
+Groups.remove_perm = (res,path,read_perm,write_perm) => {
+    Groups.page(path)
+        .then(dados =>{ 
+        Group.findByIdAndUpdate(
+            dados[0]._id,
+            {
+              read_perm: dados[0].read_perm.filter(
+                  (e)=> !read_perm
+                            .split(";")
+                            .include(e) 
+                    ),
+              write_perm: dados[0].write_perm.filter(
+                  (e)=> !write_perm
+                            .split(";")
+                            .include(e) 
+                    ),
+            },
+            {new : true},
+            (err,d) => {
+                if(!err){
+                    res.jsonp(page);
+                }else{
+                    res.jsonp({erro : "nao conseguiu fazer update"})
+                }
+            })
+        })
+        .catch(err => res.jsonp({erro : "nao encontrou pagina"}))
+};
+
 Groups.delete_elements = (res,path,l) => {
     Groups.page(path)
         .then(dados =>{ 

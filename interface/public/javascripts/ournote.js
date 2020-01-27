@@ -39,6 +39,41 @@ const add_event = (path) => {
     $('#display').modal()
 }
 
+const add_perm = (path) => {
+    var form = $('<form class="w3-container" action="' 
+                    + interface_link + path +"?update=add" +
+                    '" method="post" width="100">' +
+                    //TODO remove type have a cascade
+                    '<label>Adicionar permissões de leitura </label>' +
+                    '<input id="text" type="text" name="read_perm" placeholder="mail1;mail2;..." style="font-size: 30px"/>' +
+                    '<label>Adicionar permissões de escrita</label>' +
+                    '<input id="text" type="text" name="write_perm" placeholder="mail1;mail2;..." style="font-size: 30px"/>' +
+
+                    '<input type="submit" value="Criar"/>' +
+                    '</form>'
+                )
+    $('#display').empty()
+    $('#display').append(form) 
+    $('#display').modal()
+}
+
+const remove_perm = (path) => {
+    var form = $('<form class="w3-container" action="' 
+                    + interface_link + path +"?update=remove" +
+                    '" method="post" width="100">' +
+                    //TODO remove type have a cascade
+                    '<label>Adicionar permissões de leitura </label>' +
+                    '<input id="text" type="text" name="read_perm" placeholder="mail1;mail2;..." style="font-size: 30px"/>' +
+                    '<label>Adicionar permissões de escrita</label>' +
+                    '<input id="text" type="text" name="write_perm" placeholder="mail1;mail2;..." style="font-size: 30px"/>' +
+
+                    '<input type="submit" value="Criar"/>' +
+                    '</form>'
+                )
+    $('#display').empty()
+    $('#display').append(form) 
+    $('#display').modal()
+}
 
 
 var add_to_list = () => {

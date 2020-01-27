@@ -72,7 +72,20 @@ router.post('/*', upload.single('file'), (req, res) => {
     let path = req.params['0'].replace(/\/+$/, '');
     console.log(path)
     console.log("type :" + req.query.type)
-    if(req.query.type== "file" && req.file != undefined){
+    if(req.query.update == "add"){
+        //passport.authenticate('jwt', {session: false})
+
+        console.log("----------------------chega aqui-----------------")
+        Groups.add_perm(res,path,req.body.read_perm,req.body.write_perm)
+            //.then(dados => res.jsonp(dados))
+            //.catch(err => res.jsonp(err))
+    }else if(req.query.update == "remove"){
+        passport.authenticate('jwt', {session: false})
+        Groups.remove_perm(res,path,req.body.read_perm,req.body.write_perm)
+            //.then(dados => res.jsonp(dados))
+            //.catch(err => res.jsonp(err))
+
+    }else if(req.query.type== "file" && req.file != undefined){
         console.log("path: " + path)
         let tags = req.body.tags;
         tags = (tags!=undefined)?tags:"";
@@ -80,6 +93,7 @@ router.post('/*', upload.single('file'), (req, res) => {
         res.redirect('http://localhost:5877/root/' + path);
         console.log(req.file);
     }else{
+        passport.authenticate('jwt', {session: false})
         let email = req.body["email"];
         let name = req.body["name"];
         let read_perm = req.body["read_perm"];

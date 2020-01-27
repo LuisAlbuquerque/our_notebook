@@ -50,8 +50,27 @@ router.post('/*', verifyAuthentication_write, function(req, res, next) {
     let path = req.params['0'].replace(/\/+$/, '');
     let path_list = path.split("/");
 
-         
-    if(req.body.name!=undefined){
+    if(req.query.update == "add"){
+
+        axios.post(api_link + "/root/" + path + "?update=add"
+                                              + "&token=" + token
+            )
+            .then(dados => {
+                    res.redirect('/' + path);
+                })
+            .catch(err => res.render('error', {error: err}))
+
+    }else if(req.query.update == "remove"){
+
+        axios.post(api_link + "/root/" + path + "?update=remove"
+                                              + "&token=" + token
+            )
+            .then(dados => {
+                    res.redirect('/' + path);
+                })
+            .catch(err => res.render('error', {error: err}))
+        
+    }else if(req.body.name!=undefined){
         var body = {
             name : req.body.name,
             email: req.user.email,
