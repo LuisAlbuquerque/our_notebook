@@ -54,19 +54,19 @@ router.post('/*', verifyAuthentication_write, function(req, res, next) {
        var id = req.body.id ;
        if(id != undefined){
 
-        //axios.post(api_link + "/root/" + path + "?update=comment"
-        //                                      + "&id=" + id 
-        //                                      + "&token=" + token
-        //    , req.body
-        //    )
+        axios.post(api_link + "/root/" + path + "?update=comment"
+                                              + "&id=" + id 
+                                              + "&token=" + token
+            , req.body
+            )
 
-        //    .then(dados) => {
-        //            res.jsonp(dados);
-        //        })
-        //    .catch(err => res.render('error', {error: err}))
+            .then(dados) => {
+                    res.jsonp(dados);
+                })
+            .catch(err => res.render('error', {error: err}))
             
        }else{
-            res.render('error', {error: err})
+            res.render('error', {error: "erro ao adicionar o comentario" })
        }
 
     }else if(req.query.update == "add"){

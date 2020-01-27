@@ -12,30 +12,30 @@ const add_comment = (path,id) => {
     console.log("aqui")
     console.log(path)
     console.log(id)
-    //axios.get(interface_link + path)
-    //    .then(dados =>{
-    //        comments = '<ul>'
-    //        for(card in dados.data.page)
-    //            if(card._id == id){ 
-    //                for( c in card.comment)
-    //                    comments += '<li>' + c + '</li>'
-    //            }
-    //        comments += '</ul>'
-    //        var comments = $(comments)
+    axios.get(interface_link + path)
+        .then(dados =>{
+            comments = '<ul>'
+            for(card in dados.data.page)
+                if(card._id == id){ 
+                    for( c in card.comment)
+                        comments += '<li>' + c + '</li>'
+                }
+            comments += '</ul>'
+            var comments = $(comments)
 
-    //        var form = $('<form class="w3-container" action="' 
-    //                        + interface_link + path +"?update=comment&id="+id +
-    //                        '" method="post" width="100">' +
-    //                        //TODO remove type have a cascade
-    //                        '<textarea  rows = "3" cols="40"  name="text" placeholder="Comentario" style="font-size: 30px"/>' +
-    //                        '<input type="submit" value="Adicionar"/>' +
-    //                        '</form>'
-    //                    )
-    //        $('#display').empty()
-    //        $('#display').append(comments,form) 
-    //        $('#display').modal()
-    //    })
-    //    .catch(err => console.log(err))
+            var form = $('<form class="w3-container" action="' 
+                            + interface_link + path +"?update=comment&id="+id +
+                            '" method="post" width="100">' +
+                            //TODO remove type have a cascade
+                            '<textarea  rows = "3" cols="40"  name="text" placeholder="Comentario" style="font-size: 30px"/>' +
+                            '<input type="submit" value="Adicionar"/>' +
+                            '</form>'
+                        )
+            $('#display').empty()
+            $('#display').append(comments,form) 
+            $('#display').modal()
+        })
+        .catch(err => console.log(err))
 }
 
 const add = (path,type) => {

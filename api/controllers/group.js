@@ -178,22 +178,45 @@ Groups.add_comment = (res,path,id,comment) => {
             //console.log(dados[0])
             console.log(dados[0].page)
 
+            console.log(dados[0].page[0].h1)
             //page = dados[0].page
-            //res = []
+            ret = []
             //console.dir(page)
-            dados[0].page.forEach(card => {
-                console.dir(card)
-                //if(card._id == undefined || card._id != id){
-                //    res.psuh(card)
-                //}else{
-                //    var newcard = card;
-                //    if(newcard.comment == undefined){
-                //        newcard.comment = [];
-                //    }
-                //    newcard[comment].push(comment);
-                //    res.push(newcard)
-                //}
-            })
+            for( i in dados[0].page){
+                card = (dados[0].page[i])
+                console.log("---card---")
+                console.log(card)
+
+                if(card._id == undefined || card._id != id){
+                    ret.push(card)
+                }else{
+                    if(card.comment == undefined){
+                        card.comment = [];
+                    }
+                    console.log("aqui")
+                    console.log(card)
+                    card.comment.push(comment);
+                    console.log(card)
+                    ret.push(card)
+                }
+            }
+            console.log("--ret--")
+            console.log(ret)
+
+
+            //dados[0].page.forEach(card => {
+            //    console.dir(card)
+            //    //if(card._id == undefined || card._id != id){
+            //    //    res.psuh(card)
+            //    //}else{
+            //    //    var newcard = card;
+            //    //    if(newcard.comment == undefined){
+            //    //        newcard.comment = [];
+            //    //    }
+            //    //    newcard[comment].push(comment);
+            //    //    res.push(newcard)
+            //    //}
+            //})
             //console.dir(res)
 
         Group.findByIdAndUpdate(
