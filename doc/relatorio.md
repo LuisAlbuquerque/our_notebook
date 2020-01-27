@@ -96,7 +96,7 @@ Nós dividimos o trabalho em dois servidores (API e Interface) e clientes.
 ### GET
 
 
-    /*?token=TOKEN
+    /root/*?token=TOKEN
     /profile?token=TOKEN&email=EMAIL
     /profile?token=TOKEN&email=EMAIL&tag=TAG
     /user/:email?token=TOKEN
@@ -105,13 +105,13 @@ Nós dividimos o trabalho em dois servidores (API e Interface) e clientes.
 ### POST
 
 
-    /*?token=TOKEN&update=comment
-    /*?token=TOKEN&update=add
-    /*?token=TOKEN&update=remove
-    /*?token=TOKEN&type=file
-    /*?token=TOKEN // add group
+    /root/*?token=TOKEN&update=comment
+    /root/*?token=TOKEN&update=add
+    /root/*?token=TOKEN&update=remove
+    /root/*?token=TOKEN&type=file
+    /root/*?token=TOKEN // add group
 
-    /login?token=TOKEN&email=EMAIL
+    /login?token=TOKEN&user=USER
     /favourite?token=TOKEN&email=EMAIL&path=PATH
     /register
 
@@ -120,12 +120,12 @@ Nós dividimos o trabalho em dois servidores (API e Interface) e clientes.
 ### PUT
 
 
-    /*?token=TOKEN&type=TYPE
+    /root/*?token=TOKEN&type=TYPE
 
 ### DELETE
 
 
-    /*?token=TOKEN
+    /root/*?token=TOKEN
 
 
 
@@ -139,7 +139,7 @@ Nós dividimos o trabalho em dois servidores (API e Interface) e clientes.
     /register 
     /profile?tag=TAG
     /logout
-    /* 
+    /root/* 
 
     
 
@@ -173,7 +173,7 @@ Nós dividimos o trabalho em dois servidores (API e Interface) e clientes.
 
 ## Cliente
 
-# Niveis de premissão
+# Niveis de permissão
 
 # Conclusão
 Ao longo desta jornada, encontramos diversos desafios, quer na discucão e esquematização da solução, como na própria 
@@ -192,5 +192,3 @@ fulcral para um bom funcionamento da aplicação.
 Outra coisa, menos importante, mas que seria mais conveniente para o utilizador, era ocultarmos as páginas que o utilizador não tem premissão
 de leitura.
 Neste momento, é possivel acrescentar favoritos, mas não elimina-los, isso seria uma boa adição.
-
-

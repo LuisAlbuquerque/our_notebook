@@ -71,13 +71,13 @@ router.get('/*', passport.authenticate('jwt', {session: false}), (req, res) => {
 router.post('/*', upload.single('file'), (req, res) => {
     let path = req.params['0'].replace(/\/+$/, '');
     console.log(path)
-    console.log("type :" + req.query.type)
+    console.log("type :" + req.query.update)
 
     if(req.query.update == "comment"){
         var id = req.query.id
         var comment = req.body.comment
         if(id != undefined && comment != undefined){
-           Groups.add_comment(res,path,id) 
+           Groups.add_comment(res,path,id, comment) 
         }else{
             res.status(500).jsonp([]);
         }

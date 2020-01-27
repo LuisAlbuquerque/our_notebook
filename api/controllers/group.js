@@ -173,6 +173,8 @@ var remove_list = (arr,l) =>{
 Groups.add_comment = (res,path,id,comment) => {
     console.log("add comment")
     console.log(path)
+    console.log(id)
+    console.log(comment)
     Groups.group_id(path) 
         .then(dados =>{ 
             //console.log(dados[0])
