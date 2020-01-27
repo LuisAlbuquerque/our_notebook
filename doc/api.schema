@@ -1,0 +1,39 @@
+router.get('/*', passport.authenticate('jwt', {session: false}), (req, res) => {
+router.post('/*', upload.single('file'), (req, res) => {
+    if(req.query.update == "comment"){
+        if(id != undefined && comment != undefined){
+           Groups.add_comment(res,path,id) 
+
+    }else if(req.query.update == "add"){
+        Groups.add_perm(res,path,req.body.read_perm,req.body.write_perm)
+    }else if(req.query.update == "remove"){
+        Groups.remove_perm(res,path,req.body.read_perm,req.body.write_perm)
+
+    }else if(req.query.type== "file" && req.file != undefined){
+    }else{
+        Groups.add_group(res,path,name,email,read_perm,write_perm);
+
+router.put('/*', passport.authenticate('jwt', {session: false}), (req, res) => {
+    if(text!= undefined && type!= undefined){
+        add_element(res,path,type,{title : text, data: req.body.data},tags);
+        }else{
+        add_element(res,path,type,text,tags);
+    }else{
+        Groups.swap_elements(res,path,i,j);
+router.delete('/*', passport.authenticate('jwt', {session: false}), (req, res) => {
+    Groups.delete_elements(res,path,l);
+router.post('/login', passport.authenticate('jwt', {session: false}), (req, res) => {
+    Users.user_id(req.query.user)
+
+router.get('/profile',/* passport.authenticate('jwt', {session: false}),*/ (req, res) => {
+    if(tag == undefined || tag==""){
+        Users.favourite_id(req.query.email)
+    } else {
+        Groups.tags(tag,req.query.email)
+router.post('/favourite', passport.authenticate('jwt', {session: false}), (req, res) => {
+    Users.favourite_add(req.query.email,req.query.path)  
+router.get('/user/:email', passport.authenticate('jwt', {session: false}), (req, res) => {
+    Users.user_id(req.params.email)
+router.post('/register', function(req,res){
+    if(req.body.name != undefined && req.body.email != undefined && req.body.password != undefined){
+        Users.user_insert(req.body)

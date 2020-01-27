@@ -1,0 +1,60 @@
+router.get('/', function(req, res, next) {
+router.get('/register', function(req, res, next) {
+router.post('/add_favourite', verificaAutenticacao, function(req, res, next) {
+  axios.post('http://localhost:4877/favourite?email=' + req.user.email+"&path="+req.query.path +"&token=" + token)
+router.get('/profile', verificaAutenticacao, function(req, res, next) {
+    tag = req.query.tag;
+  axios.get('http://localhost:4877/profile?email=' + req.user.email +
+                                            '&token='+ token)
+    .then(favs => {
+        axios.get('http://localhost:4877/profile?email=' + req.user.email 
+                                                         +'&tag='+ tag +
+                                                          '&token='+ token)
+router.get('/logout', verificaAutenticacao, function(req, res, next) {
+router.post('/register', function(req,res){
+    axios.post('http://localhost:4877/register', {
+        email: req.body.email,
+        name: req.body.name,
+        password: hash
+    })
+router.post('/login', passport.authenticate('local', 
+var api_get = path => res => result => {
+    axios.get(api_link + "/root/" + path + '?token=' + token)
+router.get('/*', verifyAuthentication_read, function(req, res, next) {
+    api_get (path) (res) 
+        (dados => {
+            console.log("group: " + dados.data);
+            res.render("root", {path: path?"/"+path:"", 
+                               group: dados.data});
+router.post('/*', verifyAuthentication_write, function(req, res, next) {
+    if(req.query.update == "comment"){
+       }else{
+            res.render('error', {error: err})
+    }else if(req.query.update == "add"){
+        axios.post(api_link + "/root/" + path + "?update=add"
+                                              + "&token=" + token
+    }else if(req.query.update == "remove"){
+
+        axios.post(api_link + "/root/" + path + "?update=remove"
+                                              + "&token=" + token
+    }else if(req.body.name!=undefined){
+        var body = {
+            name : req.body.name,
+            email: req.user.email,
+            read_perm : req.body.read_perm,
+            write_perm : req.body.write_perm
+        }
+        api_create_group (path) (body) (res)
+            (dados => {
+                res.redirect(interface_link + "/root/" + path);
+            });
+        if(req.query.type == 'file'){
+
+        } else {
+            axios.put(api_link + '/root/' + path + "?type=" + req.query.type 
+                                                 + "&token=" + token, req.body)
+
+router.put('/*', verifyAuthentication_write, function(req, res, next) {
+    axios.put(api_link + '/root/' + path + '?token=' + token, req.body)
+router.delete('/*', verifyAuthentication_write, function(req, res, next) {
+    axios.delete(api_link + '/root/' + path + '?token=' + token, {data: req.body})
