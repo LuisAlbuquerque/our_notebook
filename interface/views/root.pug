@@ -35,7 +35,7 @@ block content
         //button(onclick='w3_close()').w3-bar-item.w3-button.w3-hide-large Close
         h1(style="color:black")= path.split("/").reverse()[0]
         //button.w3-bar-item.w3-button(onclick="add_favourite('" + path + "')" style="margin: 5px") Adicionar aos favoritos
-        button.w3-bar-item.w3-button(onclick="" style="margin: 5px") Procurar por tag
+        //button.w3-bar-item.w3-button(onclick="" style="margin: 5px") Procurar por tag
         button.w3-bar-item.w3-button(onclick="add_event('" + path + "')" style="margin: 5px") Adicionar um evento
         button.w3-bar-item.w3-button(onclick="add_perm('" + path + "')" style="margin: 5px") Adicionar pessoas ao grupo
         button.w3-bar-item.w3-button(onclick="remove_perm('" + path + "')" style="margin: 5px") Remover pessoas do grupo
@@ -121,7 +121,7 @@ block content
     div(style='margin-right:200px').w3-main
         div()
             div().w3-container
-                h2 My Page
+                //h2 My Page
   
     div(class="main")
       section(class="buttons")
@@ -172,3 +172,8 @@ block content
                             
                           td(id="checkbox")
                               input(type="CheckBox" class="check-box")
+
+                          td(id="checkbox")
+                            a(href="#", onclick="add_comment('" + path + "','" + card._id + "')")
+                                img(width="20px" src="https://image.flaticon.com/icons/svg/1230/1230152.svg")
+

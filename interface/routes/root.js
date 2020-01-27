@@ -50,7 +50,26 @@ router.post('/*', verifyAuthentication_write, function(req, res, next) {
     let path = req.params['0'].replace(/\/+$/, '');
     let path_list = path.split("/");
 
-    if(req.query.update == "add"){
+    if(req.query.update == "comment"){
+       var id = req.body.id ;
+       if(id != undefined){
+
+        //axios.post(api_link + "/root/" + path + "?update=comment"
+        //                                      + "&id=" + id 
+        //                                      + "&token=" + token
+        //    , req.body
+        //    )
+
+        //    .then(dados) => {
+        //            res.jsonp(dados);
+        //        })
+        //    .catch(err => res.render('error', {error: err}))
+            
+       }else{
+            res.render('error', {error: err})
+       }
+
+    }else if(req.query.update == "add"){
 
         axios.post(api_link + "/root/" + path + "?update=add"
                                               + "&token=" + token

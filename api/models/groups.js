@@ -15,6 +15,7 @@ var card_Schema = new mongoose.Schema({
     a: String,
     file : String,
     list : [String],
+    comment : [String],
     event : eventSchema,
     tags : [String]
 });

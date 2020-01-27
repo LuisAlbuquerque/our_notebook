@@ -14,25 +14,25 @@ const add_element = (res,path,type,content,tags) => {
         .then(dados =>{ 
             page = (dados[0].page);
             switch(type){
-                case 'p' : page.push({p:content, tags: tags.split(";")});
+                case 'p' : page.push({p:content, comment : [],  tags: tags.split(";")});
                    break;
-                case 'event' : page.push({event:content, tags: tags.split(";")});
+                case 'event' : page.push({event:content, comment : [],  tags: tags.split(";")});
                    break;
-                case 'list' : page.push({list:content, tags: tags.split(";")});
+                case 'list' : page.push({list:content, comment : [],  tags: tags.split(";")});
                    break;
-                case 'pdf' : page.push({pdf:content, tags: tags.split(";")});
+                case 'pdf' : page.push({pdf:content, comment : [],  tags: tags.split(";")});
                    break;
-                case 'img' : page.push({img:content, tags: tags.split(";")});
+                case 'img' : page.push({img:content, comment : [],  tags: tags.split(";")});
                    break;
-                case 'h1' : page.push({h1:content, tags: tags.split(";")});
+                case 'h1' : page.push({h1:content, comment : [],  tags: tags.split(";")});
                    break;
-                case 'h2' : page.push({h2:content, tags: tags.split(";")});
+                case 'h2' : page.push({h2:content, comment : [],  tags: tags.split(";")});
                    break;
-                case 'h3' : page.push({h3:content, tags: tags.split(";")});
+                case 'h3' : page.push({h3:content, comment : [],  tags: tags.split(";")});
                    break;
-                case 'a' : page.push({a:content, tags: tags.split(";")});
+                case 'a' : page.push({a:content, comment : [],  tags: tags.split(";")});
                    break;
-                default: page.push({file:content, tags: tags.split(";")});
+                default: page.push({file:content, comment : [],  tags: tags.split(";")});
             }
             Group.findByIdAndUpdate(
                 dados[0]._id,
@@ -72,7 +72,18 @@ router.post('/*', upload.single('file'), (req, res) => {
     let path = req.params['0'].replace(/\/+$/, '');
     console.log(path)
     console.log("type :" + req.query.type)
-    if(req.query.update == "add"){
+
+    if(req.query.update == "comment"){
+        var id = req.query.id
+        var comment = req.body.comment
+        if(id != undefined && comment != undefined){
+           Groups.add_comment(res,path,id) 
+        }else{
+            res.status(500).jsonp([]);
+        }
+
+
+    }else if(req.query.update == "add"){
         //passport.authenticate('jwt', {session: false})
 
         console.log("----------------------chega aqui-----------------")

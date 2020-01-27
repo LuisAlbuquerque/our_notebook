@@ -66,7 +66,7 @@ Groups.group_id = path => {
 }
 
 var remove_id = (object) => {
-    let simplehtml = ["h1","list","h2","h3","p","img","pdf","file","a"]
+    let simplehtml = ["h1","comment","list","h2","h3","p","img","pdf","file","a"]
     res = {}
     type = ""
     simplehtml.forEach((e)=>{
@@ -169,6 +169,49 @@ var remove_list = (arr,l) =>{
 
 
 }
+
+Groups.add_comment = (res,path,id,comment) => {
+    console.log("add comment")
+    console.log(path)
+    Groups.group_id(path) 
+        .then(dados =>{ 
+            //console.log(dados[0])
+            console.log(dados[0].page)
+
+            //page = dados[0].page
+            //res = []
+            //console.dir(page)
+            dados[0].page.forEach(card => {
+                console.dir(card)
+                //if(card._id == undefined || card._id != id){
+                //    res.psuh(card)
+                //}else{
+                //    var newcard = card;
+                //    if(newcard.comment == undefined){
+                //        newcard.comment = [];
+                //    }
+                //    newcard[comment].push(comment);
+                //    res.push(newcard)
+                //}
+            })
+            //console.dir(res)
+
+        Group.findByIdAndUpdate(
+            dados[0]._id,
+            {
+              page : dados[0].page,
+            },
+            {new : true},
+            (err,d) => {
+                if(!err){
+                    res.jsonp(d);
+                }else{
+                    res.status(500).jsonp({erro : "nao conseguiu adicionar o comentario"})
+                }
+            })
+        })
+        .catch(err => res.jsonp({erro : err}))
+};
 
 Groups.add_perm = (res,path,read_perm,write_perm) => {
 
