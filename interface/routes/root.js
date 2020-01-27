@@ -51,6 +51,7 @@ router.get('/*', verifyAuthentication_read, function(req, res, next) {
 });
 
 router.post('/*', verifyAuthentication_write, function(req, res, next) {
+
     let path = req.params['0'].replace(/\/+$/, '');
     let path_list = path.split("/");
 
@@ -75,27 +76,27 @@ router.post('/*', verifyAuthentication_write, function(req, res, next) {
        }
 
     }else if(req.query.update == "add"){
-
-        axios.post(api_link + "/root/" + path + "?update=add"
-                                              + "&token=" + token
-            , req.body
-            )
-            .then(dados => {
-                    res.redirect('/root/' + path);
-                })
-            .catch(err => res.render('error', {error: err}))
-
+        verifyAuthentication_creator(req,res,()=>{
+            axios.post(api_link + "/root/" + path + "?update=add"
+                                                  + "&token=" + token
+                , req.body
+                )
+                .then(dados => {
+                        res.redirect('/root/' + path);
+                    })
+                .catch(err => res.render('error', {error: err}))
+        })
     }else if(req.query.update == "remove"){
-
-        axios.post(api_link + "/root/" + path + "?update=remove"
-                                              + "&token=" + token
-            , req.body
-            )
-            .then(dados => {
-                    res.redirect('/root/' + path);
-                })
-            .catch(err => res.render('error', {error: err}))
-        
+        verifyAuthentication_creator(req,res,()=>{
+            axios.post(api_link + "/root/" + path + "?update=remove"
+                                                  + "&token=" + token
+                , req.body
+                )
+                .then(dados => {
+                        res.redirect('/root/' + path);
+                    })
+                .catch(err => res.render('error', {error: err}))
+        })
     }else if(req.body.name!=undefined){
         var body = {
             name : req.body.name,
@@ -191,7 +192,24 @@ function verifyAuthentication_write(req,res,next){
     let path = req.params['0'].replace(/\/+$/, '');
     axios.get(api_link + '/root/' + path + '?token=' + token)
       .then(dados => {
-          if(dados.data.write_perm.includes(req.user.email) || req.body.name != undefined){
+          if(dados.data.write_perm.includes(req.user.email)){
+            next();
+          }
+          else{
+            res.redirect(interface_link + '/root/' + path);
+          }
+      })
+  } else{
+    res.redirect("/");}
+}
+
+function verifyAuthentication_creator(req,res,next){
+  if(req.isAuthenticated()){
+  //req.isAuthenticated() will return true if user is logged in
+    let path = req.params['0'].replace(/\/+$/, '');
+    axios.get(api_link + '/root/' + path + '?token=' + token)
+      .then(dados => {
+          if(dados.data.id_creator==req.user.email){
             next();
           }
           else{

@@ -27,8 +27,6 @@ títulos de difrentes importâncias, criar paragrafos, listas de paragrafos. ima
 No nosso modelo os nossos modelos foram distingidos em duas classes, users e groups.
 
 ## Users
-TODO: COMENTARIOS
-
 
 
     name: String, 
@@ -44,15 +42,21 @@ TODO: COMENTARIOS
             },
     favourite: [ String ],
 
+Os *favourites* são um conjunto de caminhos de grupos
+
 ## Groups
-TODO: COMENTARIOS
 
 
+Cada evento tem um título e uma data.
 
     var eventSchema = new mongoose.Schema({
         title : String,
         data  : String
     });
+
+Uma *card* é um elemento de uma página pode ser um parágrafo, 
+um título uma imagem, etc.
+
     var card_Schema = new mongoose.Schema({
         p: String,
         img: String,
@@ -63,16 +67,25 @@ TODO: COMENTARIOS
         a: String,
         file : String,
         list : [String],
-        comment : [String],
         event : eventSchema,
+
+Tudo acima, dentro de *card* são os elementos que uma página pode ter.
+
+        comment : [String],
         tags : [String]
+
+Lista de comentários e uma lista de *tags*.
+
     });
 
     var PATH  = String;
     var EMAIL = String;
 
+Um *group* é algo que tem uma página com várias *cards* e outros sub-grupos,
+com *tags* e umas permissões, tanto de leitura como de escrita.
+
     var groupSchema = new mongoose.Schema({
-        path : { //id
+        path : {
                 type :String, 
                 unique: true,
                 required: true
@@ -88,7 +101,6 @@ TODO: COMENTARIOS
         write_perm : [ EMAIL ],
         page       : [ card_Schema ],
       });
-
 
 # Esquema 
 Nós dividimos o trabalho em dois servidores (API e Interface) e clientes.
@@ -172,8 +184,7 @@ Nós dividimos o trabalho em dois servidores (API e Interface) e clientes.
 
 
 ## Cliente
-
-# Niveis de permissão
+Para fazer TODO...
 
 # Conclusão
 Ao longo desta jornada, encontramos diversos desafios, quer na discucão e esquematização da solução, como na própria 
