@@ -54,9 +54,10 @@ router.post('/*', verifyAuthentication_write, function(req, res, next) {
 
         axios.post(api_link + "/root/" + path + "?update=add"
                                               + "&token=" + token
+            , req.body
             )
             .then(dados => {
-                    res.redirect('/' + path);
+                    res.redirect('/root/' + path);
                 })
             .catch(err => res.render('error', {error: err}))
 
@@ -64,9 +65,10 @@ router.post('/*', verifyAuthentication_write, function(req, res, next) {
 
         axios.post(api_link + "/root/" + path + "?update=remove"
                                               + "&token=" + token
+            , req.body
             )
             .then(dados => {
-                    res.redirect('/' + path);
+                    res.redirect('/root/' + path);
                 })
             .catch(err => res.render('error', {error: err}))
         

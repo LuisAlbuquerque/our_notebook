@@ -171,22 +171,24 @@ var remove_list = (arr,l) =>{
 }
 
 Groups.add_perm = (res,path,read_perm,write_perm) => {
-    console.log("adicionar no controller")
-    console.log("----------------------nao chega aqui-----------------")
-    console.log("readpem " + read_perm)
-    console.log("write_perm " + write_perm)
-    Groups.page(path)
+
+    Groups.group_id(path) 
         .then(dados =>{ 
+            read_perm =  read_perm.split(";") 
+            res_read = dados[0].read_perm.concat( read_perm )
+
+            write_perm =  write_perm.split(";") 
+            res_write = dados[0].write_perm.concat( write_perm )
         Group.findByIdAndUpdate(
             dados[0]._id,
             {
-              read_perm: dados[0].read_perm.concat( read_perm.split(";") ),
-              write_perm: dados[0].write_perm.concat( write_perm.split(";") ),
+              read_perm: res_read,
+              write_perm: res_write
             },
             {new : true},
             (err,d) => {
                 if(!err){
-                    res.jsonp({ok : 1});
+                    res.jsonp(d);
                 }else{
                     res.jsonp({erro : "nao conseguiu fazer update"})
                 }
@@ -196,26 +198,32 @@ Groups.add_perm = (res,path,read_perm,write_perm) => {
 };
 
 Groups.remove_perm = (res,path,read_perm,write_perm) => {
-    Groups.page(path)
+
+    Groups.group_id(path) 
         .then(dados =>{ 
+
+            read_perm =  read_perm.split(";") 
+            res_read = dados[0].read_perm.filter(
+                            (e)=> !read_perm.includes(e) );
+
+
+            write_perm =  write_perm.split(";") 
+            res_write = dados[0].write_perm.filter(
+                            (e)=> !write_perm.includes(e) );
+
+            console.log(res_read)
+            console.log(res_write)
+
         Group.findByIdAndUpdate(
             dados[0]._id,
             {
-              read_perm: dados[0].read_perm.filter(
-                  (e)=> !read_perm
-                            .split(";")
-                            .include(e) 
-                    ),
-              write_perm: dados[0].write_perm.filter(
-                  (e)=> !write_perm
-                            .split(";")
-                            .include(e) 
-                    ),
+              read_perm: res_read,
+              write_perm: res_write
             },
             {new : true},
             (err,d) => {
                 if(!err){
-                    res.jsonp(page);
+                    res.jsonp(d);
                 }else{
                     res.jsonp({erro : "nao conseguiu fazer update"})
                 }
