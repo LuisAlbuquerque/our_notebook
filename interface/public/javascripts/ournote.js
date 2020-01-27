@@ -12,22 +12,23 @@ const add_comment = (path,id) => {
     console.log("aqui")
     console.log(path)
     console.log(id)
-    axios.get(interface_link + path)
+    axios.get(interface_link + path + "?json=true")
         .then(dados =>{
             comments = '<ul>'
             for(card in dados.data.page)
-                if(card._id == id){ 
-                    for( c in card.comment)
-                        comments += '<li>' + c + '</li>'
+                if(dados.data.page[card]._id == id){ 
+                    for( c in dados.data.page[card].comment)
+                        comments += '<li>' + dados.data.page[card].comment[c] + '</li>'
                 }
             comments += '</ul>'
+            console.dir(dados.data)
             var comments = $(comments)
 
             var form = $('<form class="w3-container" action="' 
                             + interface_link + path +"?update=comment&id="+id +
                             '" method="post" width="100">' +
                             //TODO remove type have a cascade
-                            '<textarea  rows = "3" cols="40"  name="text" placeholder="Comentario" style="font-size: 30px"/>' +
+                            '<textarea  rows = "3" cols="40"  name="comment" placeholder="Comentario" style="font-size: 30px"/>' +
                             '<input type="submit" value="Adicionar"/>' +
                             '</form>'
                         )
