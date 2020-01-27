@@ -51,6 +51,7 @@ router.post('/*', verifyAuthentication_write, function(req, res, next) {
     let path_list = path.split("/");
 
     if(req.query.update == "comment"){
+<<<<<<< HEAD
         console.log("entrou comment")
         var id = req.query.id;
         if(id != undefined){
@@ -65,6 +66,24 @@ router.post('/*', verifyAuthentication_write, function(req, res, next) {
                 .catch(err => res.render('error', {error: err}))
        }else{
             res.render('error', {error: "id undefined"})
+=======
+       var id = req.body.id ;
+       if(id != undefined){
+
+        axios.post(api_link + "/root/" + path + "?update=comment"
+                                              + "&id=" + id 
+                                              + "&token=" + token
+            , req.body
+            )
+
+            .then(dados) => {
+                    res.jsonp(dados);
+                })
+            .catch(err => res.render('error', {error: err}))
+            
+       }else{
+            res.render('error', {error: "erro ao adicionar o comentario" })
+>>>>>>> 7f200c830d054fbcc56a0f11bba38d8739ccd425
        }
 
     }else if(req.query.update == "add"){
