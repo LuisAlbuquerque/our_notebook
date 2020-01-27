@@ -34,6 +34,14 @@ var api_get = path => res => result => {
         })
 }
 
+var api_post = path => body => res => result => {
+    axios.post(api_link + "/root/" + path + '?token=' + token,body)
+        .then(result)
+        .catch(erro => {
+            res.render("error", {error : erro});
+        })
+}
+
 router.get('/*', verifyAuthentication_read, function(req, res, next) {
     let path = req.params['0'].replace(/\/+$/, '');
     let path_list = path.split("/");
@@ -54,16 +62,19 @@ router.post('/*', verifyAuthentication_write, function(req, res, next) {
        var id = req.body.id ;
        if(id != undefined){
 
-        axios.post(api_link + "/root/" + path + "?update=comment"
-                                              + "&id=" + id 
-                                              + "&token=" + token
-            , req.body
-            )
+        api_post (path) (req.body) (res) (
+            dados => res.jsonp(dados)
+        )
+        //axios.post(api_link + "/root/" + path + "?update=comment"
+        //                                      + "&id=" + id 
+        //                                      + "&token=" + token
+        //    , req.body
+        //    )
 
-            .then(dados) => {
-                    res.jsonp(dados);
-                })
-            .catch(err => res.render('error', {error: err}))
+        //    .then(dados) => {
+        //            res.jsonp(dados);
+        //        })
+        //    .catch(err => res.render('error', {error: err}))
             
        }else{
             res.render('error', {error: "erro ao adicionar o comentario" })

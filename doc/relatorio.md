@@ -96,36 +96,36 @@ Nós dividimos o trabalho em dois servidores (API e Interface) e clientes.
 ### GET
 
 
-    /*?token=TOKEN
-    /profile?token=TOKEN&email=EMAIL
-    /profile?token=TOKEN&email=EMAIL&tag=TAG
-    /user/:email?token=TOKEN
+    /*?token=TOKEN                           --- dados do grupo
+    /profile?token=TOKEN&email=EMAIL         --- favoritos de um utilizador
+    /profile?token=TOKEN&email=EMAIL&tag=TAG --- Sitios que têm associado uma determinada tag
+    /user/:email?token=TOKEN                 --- dados de um utilizador
 
 
 ### POST
 
 
-    /*?token=TOKEN&update=comment
-    /*?token=TOKEN&update=add
-    /*?token=TOKEN&update=remove
-    /*?token=TOKEN&type=file
-    /*?token=TOKEN // add group
+    /*?token=TOKEN&update=comment         --- adiciona um comentario a um objeto
+    /*?token=TOKEN&update=add             --- adiciona premissões a um ou mais utilizadores
+    /*?token=TOKEN&update=remove          --- remove premissões a um ou mais utilizadores
+    /*?token=TOKEN&type=file              --- upload de um ficheiro
+    /*?token=TOKEN                        --- adiciona um novo grupo
 
-    /login?token=TOKEN&email=EMAIL
-    /favourite?token=TOKEN&email=EMAIL&path=PATH
-    /register
+    /login?token=TOKEN&email=EMAIL                 --- faz login
+    /favourite?token=TOKEN&email=EMAIL&path=PATH   --- adiciona uma página aos favoritos
+    /register                                      --- regista um utilizador
 
 
 
 ### PUT
 
 
-    /*?token=TOKEN&type=TYPE
+    /*?token=TOKEN&type=TYPE              --- acrescenta um objeto à página
 
 ### DELETE
 
 
-    /*?token=TOKEN
+    /*?token=TOKEN                        --- remove um objeto da página
 
 
 
@@ -135,11 +135,12 @@ Nós dividimos o trabalho em dois servidores (API e Interface) e clientes.
 ### GET
 
 
-    / 
-    /register 
-    /profile?tag=TAG
-    /logout
-    /* 
+    /                                     --- responde com a página de login
+    /register                             --- responde com a página para registar 
+    /profile?tag=TAG                      ---
+    /logout                               --- termina a sessão de um utilizador
+    /*                                    --- página de um grupo
+    /*?json=true                          --- grupo em json
 
     
 
@@ -148,13 +149,13 @@ Nós dividimos o trabalho em dois servidores (API e Interface) e clientes.
 ### POST
 
 
-    /add_favourite?path=PATH
-    /register
-    /login
-    root/*?update=add
-    root/*?update=remove
-    root/*?update=comment
-    root/*?type=TYPE
+    /add_favourite?path=PATH              --- adiciona aos favoritos
+    /register                             --- regista um utilizador
+    /login                                --- faz login
+    root/*?update=add                     --- acrescenta premissões
+    root/*?update=remove                  --- remove premissões
+    root/*?update=comment                 --- acrescenta um comentario
+    root/*?type=TYPE                      --- acrescenta um ficheiro
 
 
 
@@ -162,12 +163,12 @@ Nós dividimos o trabalho em dois servidores (API e Interface) e clientes.
 ### PUT
 
 
-    root/*
+    root/*                                --- acrescenta um objeto
 
 ### DELETE
 
 
-    root/*
+    root/*                                --- elimina um ou mais objetos
 
 
 
