@@ -108,33 +108,15 @@ Nós dividimos o trabalho em dois servidores (API e Interface) e clientes.
 ### GET
 
 
-<<<<<<< HEAD
-    /*?token=TOKEN                           --- dados do grupo
-    /profile?token=TOKEN&email=EMAIL         --- favoritos de um utilizador
-    /profile?token=TOKEN&email=EMAIL&tag=TAG --- Sitios que têm associado uma determinada tag
-    /user/:email?token=TOKEN                 --- dados de um utilizador
-=======
     /root/*?token=TOKEN
     /profile?token=TOKEN&email=EMAIL
     /profile?token=TOKEN&email=EMAIL&tag=TAG
     /user/:email?token=TOKEN
->>>>>>> 1a9966f67e2322c0a0fa9594d098873c151d2cf0
 
 
 ### POST
 
 
-<<<<<<< HEAD
-    /*?token=TOKEN&update=comment         --- adiciona um comentario a um objeto
-    /*?token=TOKEN&update=add             --- adiciona premissões a um ou mais utilizadores
-    /*?token=TOKEN&update=remove          --- remove premissões a um ou mais utilizadores
-    /*?token=TOKEN&type=file              --- upload de um ficheiro
-    /*?token=TOKEN                        --- adiciona um novo grupo
-
-    /login?token=TOKEN&email=EMAIL                 --- faz login
-    /favourite?token=TOKEN&email=EMAIL&path=PATH   --- adiciona uma página aos favoritos
-    /register                                      --- regista um utilizador
-=======
     /root/*?token=TOKEN&update=comment
     /root/*?token=TOKEN&update=add
     /root/*?token=TOKEN&update=remove
@@ -144,27 +126,18 @@ Nós dividimos o trabalho em dois servidores (API e Interface) e clientes.
     /login?token=TOKEN&user=USER
     /favourite?token=TOKEN&email=EMAIL&path=PATH
     /register
->>>>>>> 1a9966f67e2322c0a0fa9594d098873c151d2cf0
 
 
 
 ### PUT
 
 
-<<<<<<< HEAD
-    /*?token=TOKEN&type=TYPE              --- acrescenta um objeto à página
-=======
     /root/*?token=TOKEN&type=TYPE
->>>>>>> 1a9966f67e2322c0a0fa9594d098873c151d2cf0
 
 ### DELETE
 
 
-<<<<<<< HEAD
-    /*?token=TOKEN                        --- remove um objeto da página
-=======
     /root/*?token=TOKEN
->>>>>>> 1a9966f67e2322c0a0fa9594d098873c151d2cf0
 
 
 
@@ -174,20 +147,11 @@ Nós dividimos o trabalho em dois servidores (API e Interface) e clientes.
 ### GET
 
 
-<<<<<<< HEAD
-    /                                     --- responde com a página de login
-    /register                             --- responde com a página para registar 
-    /profile?tag=TAG                      ---
-    /logout                               --- termina a sessão de um utilizador
-    /*                                    --- página de um grupo
-    /*?json=true                          --- grupo em json
-=======
     / 
     /register 
     /profile?tag=TAG
     /logout
     /root/* 
->>>>>>> 1a9966f67e2322c0a0fa9594d098873c151d2cf0
 
     
 
@@ -196,13 +160,13 @@ Nós dividimos o trabalho em dois servidores (API e Interface) e clientes.
 ### POST
 
 
-    /add_favourite?path=PATH              --- adiciona aos favoritos
-    /register                             --- regista um utilizador
-    /login                                --- faz login
-    root/*?update=add                     --- acrescenta premissões
-    root/*?update=remove                  --- remove premissões
-    root/*?update=comment                 --- acrescenta um comentario
-    root/*?type=TYPE                      --- acrescenta um ficheiro
+    /add_favourite?path=PATH
+    /register
+    /login
+    root/*?update=add
+    root/*?update=remove
+    root/*?update=comment
+    root/*?type=TYPE
 
 
 
@@ -210,17 +174,17 @@ Nós dividimos o trabalho em dois servidores (API e Interface) e clientes.
 ### PUT
 
 
-    root/*                                --- acrescenta um objeto
+    root/*
 
 ### DELETE
 
 
-    root/*                                --- elimina um ou mais objetos
+    root/*
 
 
 
 ## Cliente
-Para fazer TODO....
+Para fazer TODO...
 
 # Conclusão
 Ao longo desta jornada, encontramos diversos desafios, quer na discucão e esquematização da solução, como na própria 
