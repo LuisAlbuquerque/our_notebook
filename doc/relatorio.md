@@ -184,7 +184,7 @@ Nós dividimos o trabalho em dois servidores (API e Interface) e clientes.
 
 
 ## Cliente
-Para fazer TODO...
+Para fazer TODO....
 
 # Conclusão
 Ao longo desta jornada, encontramos diversos desafios, quer na discucão e esquematização da solução, como na própria 
