@@ -4,7 +4,11 @@ var router = express.Router();
 var passport = require('passport')
 var bcrypt = require('bcryptjs')
 var jwt = require('jsonwebtoken')
+var request = require('request');
 var fs = require("fs")
+const multer = require('multer');
+
+var upload = multer({dest: 'uploads'})
 const formdata = require('form-data')
 
 const api_link = "http://localhost:4877"
@@ -50,7 +54,7 @@ router.get('/*', verifyAuthentication_read, function(req, res, next) {
         });
 });
 
-router.post('/*', verifyAuthentication_write, function(req, res, next) {
+router.post('/*', verifyAuthentication_write, upload.single('file'), function(req, res, next) {
 
     let path = req.params['0'].replace(/\/+$/, '');
     let path_list = path.split("/");
@@ -107,27 +111,33 @@ router.post('/*', verifyAuthentication_write, function(req, res, next) {
         api_create_group (path) (body) (res)
             (dados => {
                 res.redirect(interface_link + "/root/" + path);
+
             });
     } else {
-        if(req.query.type == 'file'){
+        if(req.query.type == 'file' && req.file != undefined){
+            console.log(req.file)
+            var r = request.post(api_link + "/root/" 
+                                          + path + "?type=file&token="
+                                          + token, 
+                (err) =>{ if(!err){
+                    res.redirect('/root/' + path)
+                    }else{
+                        res.jsonp(err)
+                    } 
+                }
+            ) 
 
-            var name = "../GotIt.png"
-            let form_data = new formdata()      
-            form_data.append('name', name)
-            const file = fs.createReadStream(name)
-            form_data.append('content', file, name)
+            var form = r.form();
+            var old_path =  __dirname + '/../' + req.file.path
+            var file_path = __dirname + '/../files/' + req.file.originalname
+            console.log(old_path)
+            console.log(file_path)
+            fs.renameSync(old_path,file_path)
 
-            axios.post(api_link + "/root/" + path + "?type=file&token="
-                                                  + token, form_data, {
-                       headers: {
-                                  "Content-Type": "multipart/form-data"
-                                  }, responseType: "json"
-            })
-                .then(dados => {
-                    res.redirect('/' + path);
-                })
-                .catch(err => res.render('error', {error: err}))
-            //console.dir(req);
+            //fs.createReadStream(file_path).pipe(request.post(api_link + "/root/" + path + "?type=file&token=" + token)) 
+
+            form.append('file',fs.createReadStream(file_path))
+
         } else {
             console.log("type: "+ req.query.type)
             console.log("--body--")

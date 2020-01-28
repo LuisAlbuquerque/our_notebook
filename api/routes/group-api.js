@@ -69,10 +69,11 @@ router.get('/*', passport.authenticate('jwt', {session: false}), (req, res) => {
             .catch(erro => res.status(500).jsonp(erro));
 });
 
-router.post('/*', upload.single('file'), (req, res) => {
+router.post('/*', passport.authenticate('jwt', {session: false}), upload.single('file'), (req, res) => {
     let path = req.params['0'].replace(/\/+$/, '');
     console.log(path)
-    console.log("type :" + req.query.update)
+    console.log("type :" + req.query.type)
+    console.dir(req.body)
 
     if(req.query.update == "comment"){
         var id = req.query.id
@@ -92,17 +93,19 @@ router.post('/*', upload.single('file'), (req, res) => {
             //.then(dados => res.jsonp(dados))
             //.catch(err => res.jsonp(err))
     }else if(req.query.update == "remove"){
-        passport.authenticate('jwt', {session: false})
+        
         Groups.remove_perm(res,path,req.body.read_perm,req.body.write_perm)
             //.then(dados => res.jsonp(dados))
             //.catch(err => res.jsonp(err))
 
     }else if(req.query.type== "file" && req.file != undefined){
+        console.log("-----chega aqui------")
         console.log("path: " + path)
         let tags = req.body.tags;
         tags = (tags!=undefined)?tags:"";
         movefile(req,res,path,tags);
-        res.redirect('http://localhost:5877/root/' + path);
+        //res.redirect('http://localhost:5877/root/' + path);
+        res.jsonp("sucesso")
         console.log(req.file);
     }else{
         passport.authenticate('jwt', {session: false})
