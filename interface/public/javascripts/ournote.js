@@ -75,9 +75,9 @@ const add_perm = (path) => {
                     + interface_link + path +"?update=add" +
                     '" method="post" width="100">' +
                     //TODO remove type have a cascade
-                    '<label>Adicionar permissões de leitura </label>' +
-                    '<input id="text" type="text" name="read_perm" placeholder="mail1;mail2;..." style="font-size: 30px"/>' +
-                    '<label>Adicionar permissões de escrita</label>' +
+                    '<label>Adicionar permissões de leitura </label><br/>' +
+                    '<input id="text" type="text" name="read_perm" placeholder="mail1;mail2;..." style="font-size: 30px"/><br/>' +
+                    '<label>Adicionar permissões de escrita</label><br/>' +
                     '<input id="text" type="text" name="write_perm" placeholder="mail1;mail2;..." style="font-size: 30px"/>' +
 
                     '<input type="submit" value="Criar"/>' +
@@ -93,9 +93,9 @@ const remove_perm = (path) => {
                     + interface_link + path +"?update=remove" +
                     '" method="post" width="100">' +
                     //TODO remove type have a cascade
-                    '<label>Adicionar permissões de leitura </label>' +
-                    '<input id="text" type="text" name="read_perm" placeholder="mail1;mail2;..." style="font-size: 30px"/>' +
-                    '<label>Adicionar permissões de escrita</label>' +
+                    '<label>Adicionar permissões de leitura </label><br/>' +
+                    '<input id="text" type="text" name="read_perm" placeholder="mail1;mail2;..." style="font-size: 30px"/><br/>' +
+                    '<label>Adicionar permissões de escrita</label><br/>' +
                     '<input id="text" type="text" name="write_perm" placeholder="mail1;mail2;..." style="font-size: 30px"/>' +
 
                     '<input type="submit" value="Criar"/>' +
@@ -208,8 +208,10 @@ const add_group = (path) => {
     var form = $('<form class="w3-container" action="' 
                     + interface_link + path + 
                     '" method="post" width="80%">' +
-                    '<input type="text" name="name" placeholder="Nome do Grupo" style="font-size: 30px"/>' +
-                    '<input type="text" name="read_perm" placeholder="email1;email2;..." style="font-size: 30px"/>' +
+                    '<input type="text" name="name" placeholder="Nome do Grupo" style="font-size: 30px"/><br/>' +
+                    '<label>Permissões de leitura </label><br/>' +
+                    '<input type="text" name="read_perm" placeholder="email1;email2;..." style="font-size: 30px"/><br/>' +
+                    '<label>Permissões de escrita </label><br/>' +
                     '<input type="text" name="write_perm" placeholder="email1;email2;..." style="font-size: 30px"/>' +
                     '<input type="submit" value="Criar"/>' +
                     '</form>'

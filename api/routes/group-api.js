@@ -13,26 +13,27 @@ const add_element = (res,path,type,content,tags) => {
     Groups.page(path)
         .then(dados =>{ 
             page = (dados[0].page);
+            tags = tags==""?[]:tags.split(";");
             switch(type){
-                case 'p' : page.push({p:content, comment : [],  tags: tags.split(";")});
+                case 'p' : page.push({p:content, comment : [],  tags: tags});
                    break;
-                case 'event' : page.push({event:content, comment : [],  tags: tags.split(";")});
+                case 'event' : page.push({event:content, comment : [],  tags: tags});
                    break;
-                case 'list' : page.push({list:content, comment : [],  tags: tags.split(";")});
+                case 'list' : page.push({list:content, comment : [],  tags: tags});
                    break;
-                case 'pdf' : page.push({pdf:content, comment : [],  tags: tags.split(";")});
+                case 'pdf' : page.push({pdf:content, comment : [],  tags: tags});
                    break;
-                case 'img' : page.push({img:content, comment : [],  tags: tags.split(";")});
+                case 'img' : page.push({img:content, comment : [],  tags: tags});
                    break;
-                case 'h1' : page.push({h1:content, comment : [],  tags: tags.split(";")});
+                case 'h1' : page.push({h1:content, comment : [],  tags: tags});
                    break;
-                case 'h2' : page.push({h2:content, comment : [],  tags: tags.split(";")});
+                case 'h2' : page.push({h2:content, comment : [],  tags: tags});
                    break;
-                case 'h3' : page.push({h3:content, comment : [],  tags: tags.split(";")});
+                case 'h3' : page.push({h3:content, comment : [],  tags: tags});
                    break;
-                case 'a' : page.push({a:content, comment : [],  tags: tags.split(";")});
+                case 'a' : page.push({a:content, comment : [],  tags: tags});
                    break;
-                default: page.push({file:content, comment : [],  tags: tags.split(";")});
+                default: page.push({file:content, comment : [],  tags: tags});
             }
             Group.findByIdAndUpdate(
                 dados[0]._id,

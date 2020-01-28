@@ -16,7 +16,7 @@ block content
                   each tag in tags
                       tr
                           td
-                             a(href="/root" + tag.path + "#" + tag.page._id)
+                             a(href="/root" + tag.path + "#" + tag.page._id style="width:100%; text-decoration:none; color:white")
                                 if tag.page.p != undefined
                                    p(id=tag.page._id)= tag.page.p
                                 if tag.page.h1 != undefined
@@ -31,27 +31,6 @@ block content
                                     div.w3-tag.page.w3-round-large(style="background-color: #f2f2f2; padding: 10px")
                                         h2(id=tag.page._id style="color:black")= tag.page.event.title
                                         p(style="font-size: 20px; color:black")= tag.page.event.data
-                                        ul.weekdays
-                                            li Mo
-                                            li Tu
-                                            li We
-                                            li Th
-                                            li Fr
-                                            li Sa
-                                            li Su
-                                        ul.days
-                                            li 1
-                                            li 2
-                                            li 3
-                                            li 4
-                                            li 5
-                                            li 6
-                                            li 7
-                                            li 8
-                                            li 9
-                                            li
-                                                span.active 10
-                                            li 11
                                    
                                 if tag.page.pdf != undefined
                                    div(style="width: 100% height: 100%")
@@ -73,7 +52,6 @@ block content
             .notebook-cover
               .notebook-skin Raiz
             .notebook-page.ruled
-          h4 Raiz
         
       each book in books
         a(href="/root/" + book ,style="text-decoration: none; color: white")
@@ -82,6 +60,5 @@ block content
               .notebook-cover
                 .notebook-skin= book.split("/").reverse()[0]
               .notebook-page.ruled
-            h4= book
 
       

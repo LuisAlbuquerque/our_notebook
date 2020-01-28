@@ -20,13 +20,15 @@ Groups.add_group = (res,dad,name,mail,read_perm,write_perm) => {
     var path = (dad=="")?name:(dad + "/" + name);
     path = "/" + path;
 
+    read_perm = read_perm==""?[mail]:read_perm.split(";").concat( mail );
+    write_perm =  write_perm==""?[mail]:write_perm.split(";").concat( mail );
     var group = {
         path : path,
         id_creator : mail,
         name : name,
         sub_groups : [ ],
-        read_perm  : read_perm.split(";").concat( mail ),
-        write_perm : write_perm.split(";").concat( mail ),
+        read_perm  : read_perm,
+        write_perm : write_perm,
         page       : [ {"h1" : name} ]
     }
     console.log(group)
@@ -239,13 +241,13 @@ Groups.add_comment = (res,path,id,comment) => {
 };
 
 Groups.add_perm = (res,path,read_perm,write_perm) => {
-
+    
     Groups.group_id(path) 
         .then(dados =>{ 
-            read_perm =  read_perm.split(";") 
+            read_perm =  read_perm==""?[]:read_perm.split(";") 
             res_read = dados[0].read_perm.concat( read_perm )
 
-            write_perm =  write_perm.split(";") 
+            write_perm =  write_perm==""?[]:write_perm.split(";") 
             res_write = dados[0].write_perm.concat( write_perm )
         Group.findByIdAndUpdate(
             dados[0]._id,
@@ -270,12 +272,12 @@ Groups.remove_perm = (res,path,read_perm,write_perm) => {
     Groups.group_id(path) 
         .then(dados =>{ 
 
-            read_perm =  read_perm.split(";") 
+            read_perm =  read_perm==""?[]:read_perm.split(";") 
             res_read = dados[0].read_perm.filter(
                             (e)=> !read_perm.includes(e) );
 
 
-            write_perm =  write_perm.split(";") 
+            write_perm =  write_perm==""?[]:write_perm.split(";") 
             res_write = dados[0].write_perm.filter(
                             (e)=> !write_perm.includes(e) );
 

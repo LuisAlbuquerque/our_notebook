@@ -78,7 +78,7 @@ router.post('/register', function(req,res){
 })
 
 router.post('/login', passport.authenticate('local', 
-  { successRedirect: '/root',
+  { successRedirect: '/profile',
     successFlash: 'Utilizador autenticado com sucesso!',
     failureRedirect: '/',
     failureFlash: 'Utilizador ou password inválido(s)...'

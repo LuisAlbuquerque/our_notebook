@@ -209,7 +209,10 @@ function verifyAuthentication_creator(req,res,next){
     let path = req.params['0'].replace(/\/+$/, '');
     axios.get(api_link + '/root/' + path + '?token=' + token)
       .then(dados => {
+          //console.log("dados");
+          //console.log(dados);
           if(dados.data.id_creator==req.user.email){
+            //console.log("permissões consebidas")
             next();
           }
           else{
