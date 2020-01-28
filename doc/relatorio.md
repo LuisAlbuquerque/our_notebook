@@ -54,7 +54,7 @@ Cada evento tem um título e uma data.
         data  : String
     });
 
-Uma *card* é um elemento de uma página pode ser um parágrafo, 
+Uma *card* é um objeto de uma página pode ser um parágrafo, 
 um título uma imagem, etc.
 
     var card_Schema = new mongoose.Schema({
@@ -69,7 +69,7 @@ um título uma imagem, etc.
         list : [String],
         event : eventSchema,
 
-Tudo acima, dentro de *card* são os elementos que uma página pode ter.
+Tudo acima, dentro de *card* são os objectos que uma página pode ter.
 
         comment : [String],
         tags : [String]
@@ -104,7 +104,9 @@ com *tags* e umas permissões, tanto de leitura como de escrita.
 
 # Esquema 
 Nós dividimos o trabalho em dois servidores (API e Interface) e clientes.
+
 ## API
+
 ### GET
 
 
@@ -149,7 +151,7 @@ Nós dividimos o trabalho em dois servidores (API e Interface) e clientes.
 
     /                                     --- responde com a página de login
     /register                             --- responde com a página para registar 
-    /profile?tag=TAG                      ---
+    /profile?tag=TAG                      --- procura objectos que tenham a tag TAG
     /logout                               --- termina a sessão de um utilizador
     /*                                    --- página de um grupo
     /*?json=true                          --- grupo em json
@@ -185,7 +187,16 @@ Nós dividimos o trabalho em dois servidores (API e Interface) e clientes.
 
 
 ## Cliente
-Para fazer TODO...
+A página de um grupo é constituida por 3 partes, a da esquerda é uma barra de navegação com a parte de baixo mais focada no utilizador 
+(logout, profile, adicionar favorito) e ao fim de todos os subgrupos existe um botão para acrescentar um grupo com as permissões desejadas. 
+Uma parte central com o contéudo da página, em que na parte de cima tem operações para
+trocar, eliminar e introduzir objectos, no lado direito de cada objecto encontra-se uma checkbox e um icon para ver os comentários daquele
+objecto. E por último uma parte direita que contém, um botão para adicionar um evento, para adicionar pessoas ao grupo, bem como remover 
+(estas operações são feitas apenas alterando as permissões de escrita e leitura do grupo), tem também uma área com todos os eventos de um grupo, 
+índice, ficheiros e imagens, onde se clicar em cada uma dessas vai para o sitio referido na página.
+A página do profile, contém todas as páginas adicionada como favoritas, e um campo onde é possivel fazer pesquisa de tags em todos os grupos
+que o utilizador tem permissão de leitura.
+
 
 # Conclusão
 Ao longo desta jornada, encontramos diversos desafios, quer na discucão e esquematização da solução, como na própria 
