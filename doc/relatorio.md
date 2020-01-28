@@ -4,10 +4,10 @@
  date: ""
  subject: "Trabalho prático de Desemvolvimento Web"
  keywords: [NodeJs, Pug, Rede Social, Grupos]
- subtitle: "Rede Social"
+ subtitle: "Trabalho prático de Desemvolvimento Web"
  lang: "pt"
  titlepage: true
- abstract: Trabalho prático de Desemvolvimento Web
+
 ---
 \newpage
 
@@ -210,8 +210,4 @@ para estudantes organizarem seus trabalhos, e a sua vida escolar.
 No nosso trabalho, usamos uma meta linguagem para representar as páginas dos grupos, uma boa adição, seria adicionarmos
 elementos recursivas e outras funcionalidades, como canvas e suporte de videos, etc.
 Podiamos criar um parser, e com ajuda do pandoc convertermos as páginas em pdf, powerpoint, word, epub, etc.
-Infelizmente, não conseguimos fazer autênticação de ficheiros, apesar de termos tentado de diversas formas, acrescentar isso, seria 
-fulcral para um bom funcionamento da aplicação.
-Outra coisa, menos importante, mas que seria mais conveniente para o utilizador, era ocultarmos as páginas que o utilizador não tem premissão
-de leitura.
 Neste momento, é possivel acrescentar favoritos, mas não elimina-los, isso seria uma boa adição.

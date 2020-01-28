@@ -189,7 +189,9 @@ function verifyAuthentication_read (req,res,next){
             next();
           }
           else{
-            res.redirect(interface_link + '/root');
+            dados.data.page = [{h2 : "Sem premissão"}]
+            res.render("root", {path: path?"/"+path:"", 
+                                   group: dados.data});
           }
       })
   } else{
