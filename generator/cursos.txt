@@ -1,57 +1,57 @@
-Licenciatura em Administração Pública
+Licenciatura em Administracao Publica
 Licenciatura em Arqueologia
 Licenciatura em Artes Visuais
 Licenciatura em Biologia Aplicada
 Licenciatura em Biologia e Geologia
-Licenciatura em Bioquímica
-Licenciatura em Ciência Política
-Licenciatura em Ciências da Computação
-Licenciatura em Ciências da Comunicação
-Licenciatura em Ciências do Ambiente
+Licenciatura em Bioquimica
+Licenciatura em Ciencia Politica
+Licenciatura em Ciencias da Computacao
+Licenciatura em Ciencias da Comunicacao
+Licenciatura em Ciencias do Ambiente
 Licenciatura em Contabilidade
-Licenciatura em Criminologia e Justiça Criminal
+Licenciatura em Criminologia e Justica Criminal
 Licenciatura em Design de Produto
 Licenciatura em Design e Marketing de Moda
 Licenciatura em Direito
 Licenciatura em Economia
-Licenciatura em Educação
-Licenciatura em Educação Básica
+Licenciatura em Educacao
+Licenciatura em Educacao Basica
 Licenciatura em Enfermagem
-Licenciatura em Estatística Aplicada
+Licenciatura em Estatistica Aplicada
 Licenciatura em Estudos Culturais
 Licenciatura em Estudos Orientais: Estudos Chineses e Japoneses
 Licenciatura em Estudos Portugueses
 Licenciatura em Filosofia
-Licenciatura em Física
+Licenciatura em Fisica
 Licenciatura em Geografia e Planeamento
 Licenciatura em Geologia
-Licenciatura em Gestão
-Licenciatura em História
-Licenciatura em Línguas Aplicadas
-Licenciatura em Línguas e Literaturas Europeias
+Licenciatura em Gestao
+Licenciatura em Historia
+Licenciatura em Linguas Aplicadas
+Licenciatura em Linguas e Literaturas Europeias
 Licenciatura em Marketing
-Licenciatura em Matemática
-Licenciatura em Música
-Licenciatura em Negócios Internacionais
-Licenciatura em Optometria e Ciências da Visão
-Licenciatura em Proteção Civil e Gestão do Território
-Licenciatura em Química
-Licenciatura em Relações Internacionais
+Licenciatura em Matematica
+Licenciatura em Musica
+Licenciatura em Negocios Internacionais
+Licenciatura em Optometria e Ciencias da Visao
+Licenciatura em Protecao Civil e Gestao do Territorio
+Licenciatura em Quimica
+Licenciatura em Relacoes Internacionais
 Licenciatura em Sociologia
 Licenciatura em Teatro
 Mestrado Integrado em Arquitetura
-Mestrado Integrado em Engenharia Biológica
-Mestrado Integrado em Engenharia Biomédica
+Mestrado Integrado em Engenharia Biologica
+Mestrado Integrado em Engenharia Biomedica
 Mestrado Integrado em Engenharia Civil
 Mestrado Integrado em Engenharia de Materiais
-Mestrado Integrado em Engenharia de Polímeros
-Mestrado Integrado em Engenharia de Telecomunicações e Informática
-Mestrado Integrado em Engenharia e Gestão de Sistemas de Informação
-Mestrado Integrado em Engenharia e Gestão Industrial
-Mestrado Integrado em Engenharia Eletrónica Industrial e Computadores
-Mestrado Integrado em Engenharia Física
-Mestrado Integrado em Engenharia Informática
-Mestrado Integrado em Engenharia Mecânica
-Mestrado Integrado em Engenharia Têxtil
+Mestrado Integrado em Engenharia de Polimeros
+Mestrado Integrado em Engenharia de Telecomunicacoes e Informatica
+Mestrado Integrado em Engenharia e Gestao de Sistemas de Informacao
+Mestrado Integrado em Engenharia e Gestao Industrial
+Mestrado Integrado em Engenharia Eletronica Industrial e Computadores
+Mestrado Integrado em Engenharia Fisica
+Mestrado Integrado em Engenharia Informatica
+Mestrado Integrado em Engenharia Mecanica
+Mestrado Integrado em Engenharia Textil
 Mestrado Integrado em Medicina
-Mestrado de Matemática e Computação
+Mestrado de Matematica e Computacao

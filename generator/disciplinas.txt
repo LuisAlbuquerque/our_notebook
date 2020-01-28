@@ -1,117 +1,117 @@
-Desenvolvimento de Aplicações Web
-Álgebra Linear EI
-Tópicos de Matemática Discreta
+Desenvolvimento de Aplicacoes Web
+Algebra Linear EI
+Topicos de Matematica Discreta
 Elementos de Engenharia de Sistemas
-Laboratórios de Informática I
-Tópicos de Física Moderna
-Lógica EI
-Laboratórios de Informática II
-Introdução aos Sistemas Dinâmicos
-Estatística Aplicada
-Engenharia Económica
+Laboratorios de Informatica I
+Topicos de Fisica Moderna
+Logica EI
+Laboratorios de Informatica II
+Introducao aos Sistemas Dinamicos
+Estatistica Aplicada
+Engenharia Economica
 Arquitetura de Computadores
-Comunicação de Dados
+Comunicacao de Dados
 Eletromagnetismo EE
 Desenvolvimento de Sistemas de Software
-Modelos Determinísticos de Investigação Operacional
-Sistemas Distribuídos
+Modelos Deterministicos de Investigacao Operacional
+Sistemas Distribuidos
 Redes de Computadores
-Métodos Numéricos e Otimização não Linear
-Sistemas de Representação de Conhecimento e Raciocínio
-Modelos Estocásticos de Investigação Operacional
-Comunicações por Computador
+Metodos Numericos e Otimizacao nao Linear
+Sistemas de Representacao de Conhecimento e Raciocinio
+Modelos Estocasticos de Investigacao Operacional
+Comunicacoes por Computador
 Processamento de Linguagens
-Laboratórios de Informática IV
-Laboratório de Engenharia Informática
-Projeto de Engenharia Informática
-Dissertação em Engenharia Informática
-Visualização e Iluminação I
-Visão por Computador
-Visualização e Iluminação II
-Tecnologias e Aplicações
-Arquiteturas Avançadas
-Paradigmas de Computação Paralela
+Laboratorios de Informatica IV
+Laboratorio de Engenharia Informatica
+Projeto de Engenharia Informatica
+Dissertacao em Engenharia Informatica
+Visualizacao e Iluminacao I
+Visao por Computador
+Visualizacao e Iluminacao II
+Tecnologias e Aplicacoes
+Arquiteturas Avancadas
+Paradigmas de Computacao Paralela
 Algoritmos Paralelos
-Engenharia dos Sistemas de Computação
-Tecnologia Criptográfica
-Tecnologia da Segurança
-Estruturas Criptográficas
-Engenharia de Segurança
+Engenharia dos Sistemas de Computacao
+Tecnologia Criptografica
+Tecnologia da Seguranca
+Estruturas Criptograficas
+Engenharia de Seguranca
 Infraestruturas de Centro de Dados
-Administração de Base de Dados
+Administracao de Base de Dados
 Arquiteturas Aplicacionais
 Sistemas Interativos
 Engenharia de Requisitos
 Arquiteturas de Software
-Gestão do Processo de Software
+Gestao do Processo de Software
 Engenharia Web
 Tecnologias e Protocolos Internet
-Redes Móveis
-Qualidade de Serviço na Internet
-Aplicações Multimedia e Ubíquas
-Administração e Exploração de Bases de Dados
-Análise de Dados
-Interoperabilidade Semântica
+Redes Moveis
+Qualidade de Servico na Internet
+Aplicacoes Multimedia e Ubiquas
+Administracao e Exploracao de Bases de Dados
+Analise de Dados
+Interoperabilidade Semantica
 Descoberta do Conhecimento
-Gestão de Redes
-Segurança em Redes
-Virtualização de Redes
+Gestao de Redes
+Seguranca em Redes
+Virtualizacao de Redes
 Arquiteturas Emergentes de Rede
-Especificação e Modelação
-Cálculo de Sistemas de Informação
-Arquitetura e Cálculo
-Verificaçao Formal
-Gramáticas na Compreensão de Software
-Processamento e Representação de Informação
+Especificacao e Modelacao
+Calculo de Sistemas de Informacao
+Arquitetura e Calculo
+Verificacao Formal
+Gramaticas na Compreensao de Software
+Processamento e Representacao de Informacao
 Scripting no Processamento de Linguagem Natural
-Processamento e Representação de Conhecimento
-Paradigmas de Sistemas Distribuídos
-Fundamentos de Sistemas Distribuídos
-Tolerância a Faltas
-Sistemas Distribuídos em Larga Escala
+Processamento e Representacao de Conhecimento
+Paradigmas de Sistemas Distribuidos
+Fundamentos de Sistemas Distribuidos
+Tolerancia a Faltas
+Sistemas Distribuidos em Larga Escala
 Agentes Inteligentes
-Aprendizaem e Extração de Conhecimento
-Computação Natural
-Sistemas Autónomos
-Aprendizagem Automática I
-Computação Avançada
-Aprendizagem Automática II
-Gestão de Grandes Conjuntos de Dados
-Métricas em Machine Learning / Metrics for Machine Learning
-Sistemas Baseados em Similaridade/Similarity Based Systems
-Otimização em Machine Learning / Optimization for Machine Learning
-Classificadores e Sistemas Conexionistas / Connective Systems and Classifiers
-Álgebra Linear CC
-Cálculo
-Tópicos de Matemática
-Programação Funcional
-Análise
+Aprendizaem e Extracao de Conhecimento
+Computacao Natural
+Sistemas Autonomos
+Aprendizagem Automatica I
+Computacao Avancada
+Aprendizagem Automatica II
+Gestao de Grandes Conjuntos de Dados
+Metricas em Machine Learning Metrics for Machine Learning
+Sistemas Baseados em Similaridade Similarity Based Systems
+Otimizacao em Machine Learning Optimization for Machine Learning
+Classificadores e Sistemas Conexionistas Connective Systems and Classifiers
+Algebra Linear CC
+Calculo
+Topicos de Matematica
+Programacao Funcional
+Analise
 Geometria
-Matemática Discreta
-Programação Imperativa
-Sistemas de Computação
-Laboratório de Algoritmia I
-Álgebra
-Análise Numérica
+Matematica Discreta
+Programacao Imperativa
+Sistemas de Computacao
+Laboratorio de Algoritmia I
+Algebra
+Analise Numerica
 Algoritmos e Complexidade
-Sistemas de Comunicação e Redes
-Lógica CC
-Laboratório de Algoritmia II
-Autómatos e Linguagens Formais
-Cálculo de Programas
-Programação Orientada aos Objetos
+Sistemas de Comunicacao e Redes
+Logica CC
+Laboratorio de Algoritmia II
+Automatos e Linguagens Formais
+Calculo de Programas
+Programacao Orientada aos Objetos
 Sistemas Operativos
-Álgebra Universal e Categorias
+Algebra Universal e Categorias
 Computabilidade e Complexidade
-Lógica Computacional
-Probabilidades e Aplicações
+Logica Computacional
+Probabilidades e Aplicacoes
 Bases de Dados
 Processamento de Linguagens e Compiladores
-Computação Gráfica
-Programação Concorrente
-Interação e Concorrência
-Semântica das Linguagens de Programação
+Computacao Grafica
+Programacao Concorrente
+Interacao e Concorrencia
+Semantica das Linguagens de Programacao
 Projeto
-Lógica da Programação
-Teoria de Números Computacional
+Logica da Programacao
+Teoria de Numeros Computacional
 Complexidade
