@@ -146,10 +146,10 @@ block content
                             if card.list != undefined
                                ul(id=card._id)
                                 each item in card.list
-                                     li(align="center" style="color:white")= item
+                                     li(style="color:white")= item
                             
                           td(id="checkbox")
-                              input(type="CheckBox" class="check-box")
+                              input(type="CheckBox" class="check-box" style="transform : scale(2); margin-left: 8px  ")
 
                           td(id="checkbox")
                             if(card._id!=undefined)
